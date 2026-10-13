@@ -1,0 +1,46 @@
+name: Maç kanallarını güncelle
+
+on:
+  schedule:
+    - cron: '7 * * * *'   # her saat başı (+7 dk)
+  workflow_dispatch:       # elle de çalıştırılabilir
+
+permissions:
+  contents: write
+
+concurrency:
+  group: guncelle
+  cancel-in-progress: false
+
+jobs:
+  guncelle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: EPG aracını indir (iptv-org/epg)
+        run: |
+          git clone --depth 1 https://github.com/iptv-org/epg.git epg
+          cd epg
+          npm ci --no-audit --no-fund
+
+      - name: Spor kanallarının yayın akışını çek
+        run: |
+          cd epg
+          npm run grab --- --channels=../channels.xml --output=../guide.xml --days=3 --maxConnections=4 || true
+          ls -la ../guide.xml || true
+
+      - name: Maçlarla eşleştir
+        run: python3 build.py
+
+      - name: Kaydet
+        run: |
+          git config user.name "ares-bot"
+          git config user.email "ares-bot@users.noreply.github.com"
+          git add mac_kanallari.json
+          git diff --cached --quiet || (git commit -m "Maç kanalları güncellendi" && git push)

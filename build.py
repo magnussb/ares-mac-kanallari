@@ -1,0 +1,207 @@
+#!/usr/bin/env python3
+"""Ares maç kanalları.
+
+1) ESPN'den (anahtarsız) önümüzdeki günlerin maçlarını alır.
+2) iptv-org/epg ile çekilen Türkiye spor kanallarının yayın akışını (guide.xml) okur.
+3) Programı, iki takım adı da başlıkta geçen ve saati maça uyan maçla eşleştirir.
+
+Çıktı: mac_kanallari.json
+{
+  "guncellendi": "2026-10-14T12:07:00Z",
+  "maclar": { "<espn_maç_id>": ["beIN SPORTS 1", "TRT 1"] }
+}
+Uygulama bu dosyayı okur; eşleşmeyen maçta kanal yazmaz (tahmin yok).
+"""
+from __future__ import annotations
+
+import json
+import re
+import sys
+import unicodedata
+import urllib.request
+import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta, timezone
+
+LEAGUES = [
+    'tur.1', 'tur.2', 'tur.cup',
+    'uefa.champions', 'uefa.europa', 'uefa.europa.conf', 'uefa.nations',
+    'eng.1', 'esp.1', 'ita.1', 'ger.1', 'fra.1', 'por.1', 'ned.1',
+    'fifa.worldq.uefa', 'fifa.friendly',
+]
+
+UA = ('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 '
+      '(KHTML, like Gecko) Chrome/124.0 Safari/537.36')
+TR = timezone(timedelta(hours=3))
+
+# Takım adlarında ayırt edici olmayan kelimeler.
+GENERIC = {
+    'fk', 'sk', 'fc', 'cf', 'sc', 'ac', 'as', 'afc', 'jk', 'bk', 'spor', 'kulubu',
+    'club', 'de', 'la', 'the', 'and', 'cd', 'ud', 'rc', 'sd', 'ss', 'us', 'bb',
+    'belediyespor', 'belediye', 'calcio', 'futbol', 'football', 'vfb', 'vfl', 'tsg',
+    'fsv', 'sv', 'rb', 'cp', 'sl', 'if', 'al', 'el', 'st', 'olympique', 'stade',
+    'real', 'atletico', 'athletic', 'sporting', 'united', 'city',
+}
+
+# ESPN (İngilizce) → Türkçe yayın akışında geçen yazım.
+ALIASES = {
+    'bayern munich': ['bayern'],
+    'inter milan': ['inter'],
+    'internazionale': ['inter'],
+    'ac milan': ['milan'],
+    'atletico madrid': ['atletico madrid', 'atletico'],
+    'manchester united': ['manchester united', 'man united', 'man utd'],
+    'manchester city': ['manchester city', 'man city'],
+    'paris saint-germain': ['psg', 'paris saint'],
+    'tottenham hotspur': ['tottenham'],
+    'wolverhampton wanderers': ['wolverhampton', 'wolves'],
+    'brighton & hove albion': ['brighton'],
+    'red star belgrade': ['kizilyildiz', 'crvena'],
+    'istanbul basaksehir': ['basaksehir'],
+    'turkiye': ['turkiye', 'turkey', 'a milli'],
+    'turkey': ['turkiye', 'turkey', 'a milli'],
+}
+
+
+def norm(s: str) -> str:
+    s = s.replace('İ', 'i').replace('I', 'ı').lower()
+    s = (s.replace('ı', 'i').replace('ş', 's').replace('ğ', 'g')
+         .replace('ç', 'c').replace('ö', 'o').replace('ü', 'u'))
+    s = unicodedata.normalize('NFKD', s)
+    s = ''.join(ch for ch in s if not unicodedata.combining(ch))
+    s = re.sub(r'[^a-z0-9& ]+', ' ', s)
+    return re.sub(r'\s+', ' ', s).strip()
+
+
+def team_keys(name: str) -> list[str]:
+    """Başlıkta aranacak anahtarlar (biri geçerse takım var sayılır)."""
+    n = norm(name)
+    keys = list(ALIASES.get(n, []))
+    words = [w for w in n.split() if len(w) >= 3 and w not in GENERIC]
+    if not words:
+        words = [w for w in n.split() if len(w) >= 3]
+    # Kelimenin ilk 4 harfi yeterli (Münih/Munich, Beşiktaş/Besiktas).
+    keys += [w if len(w) <= 5 else w[:4] for w in words]
+    return keys
+
+
+def has_team(title_words: list[str], title: str, team: str) -> bool:
+    for k in team_keys(team):
+        if ' ' in k:
+            if k in title:
+                return True
+        elif any(w.startswith(k) for w in title_words):
+            return True
+    return False
+
+
+def get_json(url: str):
+    req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': 'application/json'})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return json.loads(r.read().decode('utf-8'))
+
+
+def espn_matches() -> list[dict]:
+    today = datetime.now(TR).date()
+    out, seen = [], set()
+    for off in range(-1, 4):
+        ymd = (today + timedelta(days=off)).strftime('%Y%m%d')
+        for lg in LEAGUES:
+            url = (f'https://site.api.espn.com/apis/site/v2/sports/soccer/{lg}'
+                   f'/scoreboard?dates={ymd}')
+            try:
+                j = get_json(url)
+            except Exception as e:  # lig o gün yoksa / ağ hatası
+                print(f'ESPN {lg} {ymd}: {e}', file=sys.stderr)
+                continue
+            for ev in j.get('events', []):
+                try:
+                    comp = ev['competitions'][0]
+                    teams = {c['homeAway']: c['team'] for c in comp['competitors']}
+                    start = datetime.fromisoformat(ev['date'].replace('Z', '+00:00'))
+                    if ev['id'] in seen:
+                        continue
+                    seen.add(ev['id'])
+                    out.append({
+                        'id': ev['id'],
+                        'start': start,
+                        'home': teams['home'].get('displayName', ''),
+                        'away': teams['away'].get('displayName', ''),
+                    })
+                except Exception:
+                    continue
+    print(f'ESPN: {len(out)} maç')
+    return out
+
+
+def parse_time(s: str) -> datetime:
+    # XMLTV: 20261014180000 +0000
+    dt = datetime.strptime(s[:14], '%Y%m%d%H%M%S')
+    tz = s[15:].strip() if len(s) > 15 else '+0000'
+    sign = 1 if tz.startswith('+') else -1
+    off = timedelta(hours=int(tz[1:3]), minutes=int(tz[3:5])) * sign
+    return dt.replace(tzinfo=timezone(off))
+
+
+def epg_programs(path: str) -> list[dict]:
+    try:
+        root = ET.parse(path).getroot()
+    except Exception as e:
+        print(f'guide.xml okunamadı: {e}', file=sys.stderr)
+        return []
+    names = {}
+    for ch in root.findall('channel'):
+        dn = ch.find('display-name')
+        names[ch.get('id')] = (dn.text or '').strip() if dn is not None else ch.get('id')
+    progs = []
+    for p in root.findall('programme'):
+        t = p.find('title')
+        if t is None or not t.text:
+            continue
+        try:
+            progs.append({
+                'channel': names.get(p.get('channel'), p.get('channel')),
+                'title': t.text.strip(),
+                'start': parse_time(p.get('start')),
+                'stop': parse_time(p.get('stop')),
+            })
+        except Exception:
+            continue
+    print(f'EPG: {len(progs)} program, {len(names)} kanal')
+    return progs
+
+
+# Maç olmayan yayınlar (özet, stüdyo, tekrar).
+SKIP = re.compile(r'\b(ozet|ozetler|studyo|tekrar|analiz|magazin|haber|'
+                  r'programi|degerlendirme|roportaj|belgesel)\b')
+
+
+def main() -> None:
+    matches = espn_matches()
+    progs = epg_programs('guide.xml')
+    result: dict[str, list[str]] = {}
+    for p in progs:
+        title = norm(p['title'])
+        if SKIP.search(title):
+            continue
+        words = title.split()
+        for m in matches:
+            # Program başlangıcı maç saatine yakın olmalı (canlı yayın).
+            diff = (p['start'] - m['start']).total_seconds() / 60
+            if diff < -75 or diff > 20:
+                continue
+            if has_team(words, title, m['home']) and has_team(words, title, m['away']):
+                chans = result.setdefault(m['id'], [])
+                if p['channel'] not in chans:
+                    chans.append(p['channel'])
+    out = {
+        'guncellendi': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+        'kaynak': 'ESPN fikstür + Digiturk / TV+ / D-Smart yayın akışı',
+        'maclar': result,
+    }
+    with open('mac_kanallari.json', 'w', encoding='utf-8') as f:
+        json.dump(out, f, ensure_ascii=False, indent=1, sort_keys=True)
+    print(f'Eşleşen maç: {len(result)}')
+
+
+if __name__ == '__main__':
+    main()

@@ -17,6 +17,7 @@ from __future__ import annotations
 import glob
 import json
 import os
+import subprocess
 import re
 import sys
 import unicodedata
@@ -53,7 +54,12 @@ ALIASES = {
     'atletico madrid': ['atletico madrid', 'atletico'],
     'manchester united': ['manchester united', 'man united', 'man utd'],
     'manchester city': ['manchester city', 'man city'],
-    'paris saint-germain': ['psg', 'paris saint'],
+    'paris saint-germain': ['psg', 'paris saint', 'paris sg'],
+    'olympique lyonnais': ['lyon'],
+    'olympique de marseille': ['marseille'],
+    'sporting cp': ['sporting'],
+    'fc porto': ['porto'],
+    'sl benfica': ['benfica'],
     'tottenham hotspur': ['tottenham'],
     'wolverhampton wanderers': ['wolverhampton', 'wolves'],
     'brighton & hove albion': ['brighton'],
@@ -64,7 +70,7 @@ ALIASES = {
 }
 
 
-def norm(s: str) -> str:
+def norm(s: str) -> str:  # noqa: E302
     s = s.replace('İ', 'i').replace('I', 'ı').lower()
     s = (s.replace('ı', 'i').replace('ş', 's').replace('ğ', 'g')
          .replace('ç', 'c').replace('ö', 'o').replace('ü', 'u'))
@@ -74,10 +80,15 @@ def norm(s: str) -> str:
     return re.sub(r'\s+', ' ', s).strip()
 
 
+_ALIASES = {}
+
+
 def team_keys(name: str) -> list[str]:
     """Başlıkta aranacak anahtarlar (biri geçerse takım var sayılır)."""
     n = norm(name)
-    keys = list(ALIASES.get(n, []))
+    keys = list(_ALIASES.get(n, []))
+    if keys:
+        return keys  # bilinen takım: yalnız takma adlar (Man City ≠ Man United)
     words = [w for w in n.split() if len(w) >= 3 and w not in GENERIC]
     if not words:
         words = [w for w in n.split() if len(w) >= 3]
@@ -184,14 +195,17 @@ BEIN_DAYS = ['pazartesi', 'sali', 'carsamba', 'persembe', 'cuma', 'cumartesi', '
 
 
 def get_text(url: str) -> str:
-    req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': 'text/html'})
-    with urllib.request.urlopen(req, timeout=25) as r:
-        return r.read().decode('utf-8', 'replace')
+    # curl: site Python'un isteğine farklı yanıt veriyor.
+    r = subprocess.run(['curl', '-sL', '--compressed', '-m', '25', '-A', UA, url],
+                       capture_output=True, check=True)
+    return r.stdout.decode('utf-8', 'replace')
 
 
 def bein_page(path: str) -> dict:
     h = get_text(f'{BEIN}/{path}' if path else BEIN)
     m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', h, re.S)
+    if not m:
+        raise ValueError(f'veri yok ({len(h)} bayt)')
     return json.loads(m.group(1))['props']['pageProps']
 
 
@@ -336,6 +350,8 @@ def write_debug(matches, progs, result, matched_titles) -> None:
     with open('rapor.md', 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines) + '\n')
 
+
+_ALIASES.update({norm(k): [norm(x) for x in v] for k, v in ALIASES.items()})
 
 if __name__ == '__main__':
     main()

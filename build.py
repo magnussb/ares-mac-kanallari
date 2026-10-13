@@ -179,6 +179,7 @@ def main() -> None:
     matches = espn_matches()
     progs = epg_programs('guide.xml')
     result: dict[str, list[str]] = {}
+    matched_titles: set[str] = set()
     for p in progs:
         title = norm(p['title'])
         if SKIP.search(title):
@@ -190,6 +191,7 @@ def main() -> None:
             if diff < -75 or diff > 20:
                 continue
             if has_team(words, title, m['home']) and has_team(words, title, m['away']):
+                matched_titles.add(p['title'])
                 chans = result.setdefault(m['id'], [])
                 if p['channel'] not in chans:
                     chans.append(p['channel'])
@@ -201,6 +203,40 @@ def main() -> None:
     with open('mac_kanallari.json', 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=1, sort_keys=True)
     print(f'Eşleşen maç: {len(result)}')
+    write_debug(matches, progs, result, matched_titles)
+
+
+def write_debug(matches, progs, result, matched_titles) -> None:
+    """Eşleşmeyi iyileştirmek için rapor (repo'da durur)."""
+    now = datetime.now(timezone.utc)
+    lines = [f'# Rapor {now:%Y-%m-%d %H:%M} UTC', '',
+             f'ESPN maç: {len(matches)} · EPG program: {len(progs)} · eşleşen maç: {len(result)}', '']
+    per = {}
+    for p in progs:
+        per[p['channel']] = per.get(p['channel'], 0) + 1
+    lines.append('## Kanal başına program')
+    lines += [f'- {k}: {v}' for k, v in sorted(per.items())]
+    lines += ['', '## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)']
+    vs = re.compile(r'( - | – | vs\.? |\bx\b)', re.I)
+    seen = set()
+    for p in sorted(progs, key=lambda x: x['start']):
+        if p['start'] < now - timedelta(hours=3) or p['start'] > now + timedelta(hours=48):
+            continue
+        t = p['title']
+        if t in matched_titles or not vs.search(t) or SKIP.search(norm(t)):
+            continue
+        key = (p['channel'], t)
+        if key in seen:
+            continue
+        seen.add(key)
+        lines.append(f"- {p['start'].astimezone(TR):%d.%m %H:%M} {p['channel']}: {t}")
+    lines += ['', '## ESPN maçları (önümüzdeki 48 saat)']
+    for m in matches:
+        if now - timedelta(hours=3) <= m['start'] <= now + timedelta(hours=48):
+            ch = ', '.join(result.get(m['id'], [])) or '—'
+            lines.append(f"- {m['start'].astimezone(TR):%d.%m %H:%M} {m['home']} - {m['away']} → {ch}")
+    with open('rapor.md', 'w', encoding='utf-8') as f:
+        f.write('\n'.join(lines) + '\n')
 
 
 if __name__ == '__main__':

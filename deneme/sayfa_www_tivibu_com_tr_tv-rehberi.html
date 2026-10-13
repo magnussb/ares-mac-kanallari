@@ -1,0 +1,1137 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+        <script src="https://bundles.efilli.com/tivibu.com.tr.prod.js"></script>
+        <link rel="canonical" href="https://www.tivibu.com.tr/tv-rehberi" />
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Language" content="tr">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes" />
+
+    <title>Tivibu</title>
+    <meta property="og:title" content="Tivibu" />
+    <meta name="twitter:title" content="Tivibu" />
+
+
+    <meta name="description" />
+    <meta property="og:description" />
+    <meta name="twitter:description" />
+
+    <meta name="keywords" />
+
+    <meta property="og:image:width" content="640" />
+    <meta property="og:image:height" content="442" />
+    <meta property="og:site_name" content="https://www.tivibu.com.tr/" />
+    <meta name="twitter:site" content="https://www.tivibu.com.tr/" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:type" content="website" />
+
+    <meta name="og:image" content="/assets/sprite/tivibu.webp" />
+    <meta name="twitter:image" content="/assets/sprite/tivibu.webp" />
+
+    <meta name="author" content="Dreams&Bytes Digital Agency">
+    <meta name="theme-color" content="#0C1927" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/img/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon-96x96.png">
+
+    <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://www.tivibu.com.tr/"}]}
+</script>
+
+    <link rel="stylesheet" href=/assets/css/tivibu.min.v202610132255x.css>
+    <link rel="stylesheet" href=/assets/css/contact.min.v202610132255x.css>
+    <link rel="stylesheet" href=/assets/css/corporate.min.v202610132255x.css>
+    <link rel="stylesheet" href=/assets/css/channels.min.v202610132255x.css>
+    <link rel="stylesheet" href=/assets/css/support.min.v202610132255x.css>
+    <script>
+        function googleEventTag(eventAction, eventCategory, eventLabel) {
+        //
+        }
+    </script>
+    <style>
+        .loadingBox {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        background-color: #0C1927;
+        top: 0;
+        left: 0;
+        z-index: 999999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .loadingEffect {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        position: relative;
+        -webkit-animation: loadingAnimation 1s linear;
+        animation: loadingAnimation 1s linear;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .loadingEffect::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 1px dashed #ffffff;
+        border-radius: 50%;
+        -webkit-animation: loadingRotate 4s linear infinite;
+        animation: loadingRotate 4s linear infinite;
+        }
+
+        .loadingLogo {
+        position: absolute;
+        left: calc(50% - 47.5px);
+        top: calc(50% - 18.5px);
+        width: 89px;
+        height: 37px;
+        }
+
+        .loadingNone {
+        opacity: 0;
+        /*visibility: hidden;*/
+        transition: all .4s ease-in-out;
+        }
+
+        @keyframes loadingAnimation {
+        0% {
+        transform: scale(0) rotate(90deg);
+        opacity: 0
+        }
+
+        100% {
+        transform: scale(1) rotate(0);
+        opacity: 1
+        }
+        }
+
+        @-webkit-keyframes loadingAnimation {
+        0% {
+        transform: scale(0) rotate(90deg);
+        opacity: 0
+        }
+
+        100% {
+        transform: scale(1) rotate(0);
+        opacity: 1
+        }
+        }
+
+        @-webkit-keyframes loadingRotate {
+        100% {
+        transform: rotate(360deg);
+        }
+        }
+
+        @keyframes loadingRotate {
+        100% {
+        transform: rotate(360deg);
+        }
+        }
+    </style>
+    
+    <style>
+        header.nobg{
+            background: rgba(8, 25, 43, 1);
+        }
+        .error-screen {
+            --error-bg: #0f2a42;
+            --error-bg-deep: #0b1f33;
+            --error-panel: rgba(12, 46, 78, 1);
+            --error-panel-shadow: rgba(7, 18, 28, 0.35);
+            --error-text: #ffffff;
+            --error-text-muted: #cfe2f2;
+            --error-code: rgba(18, 66, 110, 1);
+            --error-tag: rgba(18, 66, 111, 1);
+            --error-tag-hover: #3373b0;
+            --error-button: rgba(213, 220, 54, 1);
+            --error-button-text: rgba(12, 25, 39, 1);
+            /* background: radial-gradient(1200px 600px at 10% 20%, rgba(62, 124, 191, 0.18), transparent 60%),
+                        radial-gradient(800px 500px at 90% 10%, rgba(44, 96, 152, 0.2), transparent 55%),
+                        linear-gradient(180deg, var(--error-bg), var(--error-bg-deep)); */
+            color: var(--error-text);
+            background: rgba(8, 25, 43, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .error-screen__container {
+            max-width: 1220px;
+            margin: 0 auto;
+            padding: 80px 20px 80px;
+            display: grid;
+            grid-template-columns: minmax(280px, 1fr) minmax(320px, 450px);
+            gap: 60px;
+            align-items: center;
+        }
+
+        .error-screen__code {
+            font-family: "Swis721";
+            font-size: 340px;
+            line-height: 1;
+            letter-spacing: -.06em;
+            text-align:right;
+            color: var(--error-code);
+        }
+
+        .error-screen__panel {
+            background: var(--error-panel);
+            border-radius: 16px;
+            padding: 29px 25px 25px 25px;
+            box-shadow: 0 24px 60px var(--error-panel-shadow);
+        }
+
+        .error-screen__title {
+            font-family: "sMedium";
+            font-size: 30px;
+            line-height: 1.2;
+            letter-spacing: -.04em;
+            margin: 0 0 9px;
+        }
+
+        .error-screen__desc {
+            font-family: "sMedium";
+            font-size: 16px;
+            line-height: 1.25;
+            margin: 0 0 20px;
+            color: var(--error-text-muted);
+        }
+
+        .error-screen__search {
+            margin-bottom: 40px;
+        }
+
+        .error-screen .search404Box {
+            width: 100%;
+        }
+
+        .error-screen .search404InputBox {
+            position: relative;
+            display: flex;
+            align-items: center;
+            padding: 0 54px 0 20px;
+            height: 60px;
+            border-radius: 16px;
+            background: rgba(8, 25, 43, 1);
+        }
+
+        .error-screen .search404InputBox .inputSearch {
+            width: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: var(--error-text);
+            font-family: "sLight";
+            font-size: 20px;
+            line-height:1.4;
+        }
+
+        .error-screen .search404InputBox .inputSearch::placeholder {
+            color: rgba(81, 130, 209, 1);
+        }
+
+        .error-screen .search404InputBox .searchIcon {
+            position: absolute;
+            right: 15px;
+            width: 24px;
+            height: 24px;
+            background-image: url("/assets/sprites/ico_search.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .error-screen__popular-title {
+            font-family: "Swis721";
+            font-size: 16px;
+            color: rgba(255, 255, 255, 1);
+            margin: 0 0 20px;
+        }
+
+        .error-screen__tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .error-screen__tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 13px 30px 13px 15px;
+            border-radius: 4px;
+            background: var(--error-tag);
+            color: var(--error-text);
+            text-decoration: none;
+            font-family: "Swis721";
+            font-size: 16px;
+            transition: background 0.2s ease, transform 0.2s ease;
+        }
+
+        .error-screen__tag:hover {
+            background: var(--error-tag-hover);
+            transform: translateY(-1px);
+        }
+
+        .error-screen__tag-icon {
+            width: 24px;
+            height: 24px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .error-screen__tag-icon.icon-film {
+            background-image: url('/assets/images/error_film.svg');
+        }
+
+        .error-screen__tag-icon.icon-dizi {
+            background-image: url('/assets/images/error_dizi.svg');
+        }
+
+        .error-screen__tag-icon.icon-spor {
+            background-image: url('/assets/images/error_spor.svg');
+        }
+
+        .error-screen__tag-icon.icon-cocuk {
+            background-image: url('/assets/images/error_cocuk.svg');
+        }
+
+        .error-screen__tag-icon.icon-canli-tv {
+            background-image: url('/assets/images/error_canlitv.svg');
+        }
+
+        .error-screen__home {
+            margin-top: 22px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 51px;
+            border-radius: 4px;
+            background: var(--error-button);
+            color: var(--error-button-text);
+            text-decoration: none;
+            font-family: "Swis721";
+            font-size: 16px;
+            transition: filter 0.2s ease, transform 0.2s ease;
+        }
+
+        .error-screen__home:hover {
+            filter: brightness(0.95);
+            transform: translateY(-1px);
+        }
+
+        @media (max-width: 1100px) {
+            .error-screen__container {
+                grid-template-columns: 1fr;
+                gap: 32px;
+                padding: 64px 20px 80px;
+            }
+
+            .error-screen__code {
+                font-size: 200px;
+                text-align: center;
+            }
+
+            .error-screen__panel {
+                margin: 0 auto;
+                width: 100%;
+                max-width: 520px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .error-screen__container {
+                grid-template-columns: 1fr;
+                gap: 20px;
+                padding: 20px 20px 30px;
+            }
+            .error-screen__code {
+                text-align:center;
+                font-size: 100px;
+                letter-spacing: -4px;
+            }
+
+            .error-screen__panel {
+                padding: 20px;
+            }
+
+            .error-screen .search404InputBox .inputSearch{
+                font-size:16px;
+            }
+
+            .error-screen__search {
+                margin-bottom: 20px;
+            }
+            .error-screen__title {
+                font-size: 24px;
+                text-align: center;
+            }
+
+            .error-screen__desc {
+                font-size: 16px;
+                text-align: center;
+            }
+
+            .error-screen__popular-title{
+                text-align: center;
+            }
+
+            .error-screen__tags {
+                justify-content: center;
+            }
+            .error-screen__tag {
+                font-size: 16px;
+            }
+        }
+    </style>
+
+    <script src=/assets/js/main/third-party-config.v202610132255x.js></script>
+    <script src=/assets/js/main/third-party-guard.v202610132255x.js></script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5T84Z7M');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1169607439906103');
+        fbq('init', '1182359816412321');
+        fbq('track', 'PageView');
+        
+    </script>
+
+
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1169607439906103&ev=PageView&noscript=1"></noscript>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1182359816412321&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+    <script src="https://www.googleoptimize.com/optimize.js?id=OPT-PCXBCW5"></script>
+    <script type="text/javascript">
+        /*  */
+        var google_conversion_id = 928188962;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /*  */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+    <noscript><div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/928188962/?value=0&amp;guid=ON&amp;script=0"></div></noscript>
+    <script>
+        function googleEventTag(eventAction, eventCategory, eventLabel) {
+        if (eventLabel) {
+        ga('send', 'event', eventCategory, eventAction, eventLabel);
+        }
+        else {
+        ga('send', 'event', eventCategory, eventAction);
+        }
+        }
+    </script>
+    <script async="true" src="https://www.googletagmanager.com/gtag/js?id=AW-814737260"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-814737260');
+    </script>
+    <script async src="https://tivibu.api.useinsider.com/ins.js?id=10013537"></script>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5T84Z7M"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Start VWO Async SmartCode -->
+    <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
+    <script type='text/javascript' id='vwoCode'>
+        window._vwo_code || (function () {
+        var account_id = 943091,
+        version = 2.1,
+        settings_tolerance = 2000,
+        hide_element = 'body',
+        hide_element_style = 'opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;transition:none !important;',
+        /* DO NOT EDIT BELOW THIS LINE */
+        f = false, w = window, d = document, v = d.querySelector('#vwoCode'), cK = '_vwo_' + account_id + '_settings', cc = {}; try { var c = JSON.parse(localStorage.getItem('_vwo_' + account_id + '_config')); cc = c && typeof c === 'object' ? c : {} } catch (e) { } var stT = cc.stT === 'session' ? w.sessionStorage : w.localStorage; code = { use_existing_jquery: function () { return typeof use_existing_jquery !== 'undefined' ? use_existing_jquery : undefined }, library_tolerance: function () { return typeof library_tolerance !== 'undefined' ? library_tolerance : undefined }, settings_tolerance: function () { return cc.sT || settings_tolerance }, hide_element_style: function () { return '{' + (cc.hES || hide_element_style) + '}' }, hide_element: function () { if (performance.getEntriesByName('first-contentful-paint')[0]) { return '' } return typeof cc.hE === 'string' ? cc.hE : hide_element }, getVersion: function () { return version }, finish: function (e) { if (!f) { f = true; var t = d.getElementById('_vis_opt_path_hides'); if (t) t.parentNode.removeChild(t); if (e) (new Image).src = 'https://dev.visualwebsiteoptimizer.com/ee.gif?a=' + account_id + e } }, finished: function () { return f }, addScript: function (e) { var t = d.createElement('script'); t.type = 'text/javascript'; if (e.src) { t.src = e.src } else { t.text = e.text } d.getElementsByTagName('head')[0].appendChild(t) }, load: function (e, t) { var i = this.getSettings(), n = d.createElement('script'), r = this; t = t || {}; if (i) { n.textContent = i; d.getElementsByTagName('head')[0].appendChild(n); if (!w.VWO || VWO.caE) { stT.removeItem(cK); r.load(e) } } else { var o = new XMLHttpRequest; o.open('GET', e, true); o.withCredentials = !t.dSC; o.responseType = t.responseType || 'text'; o.onload = function () { if (t.onloadCb) { return t.onloadCb(o, e) } if (o.status === 200 || o.status === 304) { _vwo_code.addScript({ text: o.responseText }) } else { _vwo_code.finish('&e=loading_failure:' + e) } }; o.onerror = function () { if (t.onerrorCb) { return t.onerrorCb(e) } _vwo_code.finish('&e=loading_failure:' + e) }; o.send() } }, getSettings: function () { try { var e = stT.getItem(cK); if (!e) { return } e = JSON.parse(e); if (Date.now() > e.e) { stT.removeItem(cK); return } return e.s } catch (e) { return } }, init: function () { if (d.URL.indexOf('__vwo_disable__') > -1) return; var e = this.settings_tolerance(); w._vwo_settings_timer = setTimeout(function () { _vwo_code.finish(); stT.removeItem(cK) }, e); var t; if (this.hide_element() !== 'body') { t = d.createElement('style'); var i = this.hide_element(), n = i ? i + this.hide_element_style() : '', r = d.getElementsByTagName('head')[0]; t.setAttribute('id', '_vis_opt_path_hides'); v && t.setAttribute('nonce', v.nonce); t.setAttribute('type', 'text/css'); if (t.styleSheet) t.styleSheet.cssText = n; else t.appendChild(d.createTextNode(n)); r.appendChild(t) } else { t = d.getElementsByTagName('head')[0]; var n = d.createElement('div'); n.style.cssText = 'z-index: 2147483647 !important;position: fixed !important;left: 0 !important;top: 0 !important;width: 100% !important;height: 100% !important;background: white !important;'; n.setAttribute('id', '_vis_opt_path_hides'); n.classList.add('_vis_hide_layer'); t.parentNode.insertBefore(n, t.nextSibling) } var o = window._vis_opt_url || d.URL, s = 'https://dev.visualwebsiteoptimizer.com/j.php?a=' + account_id + '&u=' + encodeURIComponent(o) + '&vn=' + version; if (w.location.search.indexOf('_vwo_xhr') !== -1) { this.addScript({ src: s }) } else { this.load(s + '&x=true') } } }; w._vwo_code = code; code.init();
+        })();
+    </script>
+    <!-- End VWO Async SmartCode -->
+</head>
+<body class="overflowNone">
+    <noscript>
+        <style>
+            .overflowNone {
+            overflow: visible;
+            }
+
+            .loadingBox {
+            display: none;
+            }
+
+            .main-banner {
+            display: none;
+            }
+
+            .tivibu-properties.campaign {
+            display: none;
+            }
+        </style>
+    </noscript>
+    <main id="main">
+        <div class="loadingBox">
+            <div class="loadingEffect">
+                <div class="loadingLogo" style="background: url('/assets/img/tivibu.webp')no-repeat;">
+                </div>
+            </div>
+        </div>
+            <header class="header headerDetail">
+                
+<div class="left">
+    <div class="logo">
+        <a href="/" title="Tivibu">
+            <svg width="97" height="40" viewBox="0 0 97 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.8673 21.3969V26.5696L17.6021 26.563V39.6714H24.4887V21.3969H15.8673Z" fill="white" />
+                <path d="M38.723 21.3969L36.0529 30.5419L33.3554 21.3969H26.4896L32.3248 39.6714H39.6561L45.5603 21.3969H38.723Z" fill="white" />
+                <path d="M47.1078 21.3969V26.5696L48.8459 26.563V39.6714H55.7293V21.3969H47.1078Z" fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M73.1548 21.7818C74.2143 22.2897 75.1356 23.0459 75.8404 23.986C77.1766 25.9268 77.858 28.2436 77.7855 30.5988C77.7855 35.1439 75.6072 39.9989 69.4916 39.9989C68.6006 40.0445 67.7095 39.9119 66.8705 39.609C66.0314 39.306 65.2611 38.8388 64.6048 38.2345L64.5971 39.6714H58.5034V14.4972H65.3868V22.3826C66.6612 21.4816 68.1944 21.0203 69.7544 21.0684C70.9288 21.0291 72.0952 21.2739 73.1548 21.7818ZM68.2594 34.4123C70.21 34.4123 70.9044 32.3555 70.9044 30.5966C70.9044 28.6899 70.2067 26.6539 68.2594 26.6539C65.7733 26.6539 65.585 29.6712 65.585 30.5966C65.585 33.4113 66.966 34.4145 68.2594 34.4123Z" fill="white" />
+                <path d="M89.9543 21.3969V32.5165C89.9543 33.2273 89.7418 34.4145 88.3213 34.4145C87.3433 34.4145 86.8472 33.8986 86.8472 32.8812V21.3969H79.9639V32.6841C79.9639 38.7274 83.4477 39.9967 86.3686 39.9967C87.2315 40.0198 88.0892 39.8564 88.8831 39.5175C89.677 39.1785 90.3883 38.6722 90.9684 38.033V39.6758H96.8409V21.3969H89.9543Z" fill="white" />
+                <path d="M24.5697 17.1618L18.3271 13.6878V20.6347L24.5697 17.1618Z" fill="#D7DF23" />
+                <path d="M51.7 14.5026H49.4034V20.2722H51.7V14.5026Z" fill="#EF4130" />
+                <path d="M55.7227 14.5026H53.4272V20.2722H55.7227V14.5026Z" fill="#EF4130" />
+                <path d="M13.2727 33.9008L12.2695 34.2009C11.544 34.4481 10.7892 34.5987 10.0244 34.6489C9.54248 34.6489 9.10878 34.558 9.10878 33.4693V26.632H13.2705V21.3958H9.10878V16.4959H2.31854L2.33168 21.3958H0.0481873V26.632H2.22764V33.5996C2.22764 37.7702 4.40708 39.9704 8.53051 39.9704C10.1441 39.9713 11.7467 39.7041 13.2727 39.1797V33.9008Z" fill="white" />
+                <path d="M54.9353 0L54.9681 9.07921C54.9681 9.53153 55.2375 9.73633 55.7063 9.73633C55.8744 9.72564 56.0416 9.70369 56.2068 9.67062L56.2123 11.2806C55.7391 11.3778 55.2582 11.4328 54.7754 11.4448C53.7897 11.4448 52.8675 11.0769 52.862 9.22925L52.8303 1.18501L54.9353 0Z" fill="white" />
+                <path d="M26.2125 0.071188L26.241 6.81434L28.9352 3.22427L31.4542 3.2166L28.2485 7.04214L31.3446 11.3441L28.9856 11.3518L27.0361 8.53161L26.2563 9.40777L26.264 11.3594L24.1546 11.3671L24.1163 1.26496L26.2125 0.071188Z" fill="white" />
+                <path d="M68.7906 0.08214L68.818 6.82529L71.5155 3.23413L74.0345 3.22646L70.8288 7.05309L73.9249 11.3528L71.5593 11.3627L69.6142 8.54037L68.8333 9.41653L68.841 11.3704L66.7328 11.378L66.6966 1.27591L68.7906 0.08214Z" fill="white" />
+                <path d="M86.5033 3.24727L86.8516 4.32495C87.0873 3.94247 87.4174 3.62705 87.8102 3.40898C88.203 3.1909 88.6453 3.07751 89.0946 3.0797C89.5688 3.07629 90.0338 3.21122 90.4326 3.46798C90.8313 3.72475 91.1466 4.0922 91.3397 4.52537C91.5915 4.05808 91.9712 3.67224 92.4344 3.41309C92.8976 3.15394 93.4251 3.03221 93.9551 3.06218C95.6296 3.0567 96.8661 4.0851 96.8749 6.44416L96.8935 11.3353L94.783 11.343L94.7677 6.30945C94.7677 5.48476 94.4391 4.76522 93.4535 4.7696C92.4086 4.7696 91.953 5.60304 91.9563 6.66539L91.9749 11.3518L89.8689 11.3594L89.8393 6.21745C89.8622 6.03492 89.8452 5.8496 89.7896 5.67424C89.734 5.49888 89.6411 5.33764 89.5173 5.20162C89.3934 5.0656 89.2416 4.95801 89.0722 4.88627C88.9028 4.81453 88.7199 4.78033 88.536 4.78603C87.4879 4.78603 87.0224 5.61947 87.0268 6.66648L87.0454 11.3758L84.9405 11.3791L84.9109 3.25165L86.5033 3.24727Z" fill="white" />
+                <path d="M44.1541 0.357035L44.1618 2.18383L41.4073 2.19588L41.4413 11.309L39.2509 11.3189L39.2202 2.20354L36.4636 2.2134L36.4581 0.38551L44.1541 0.357035Z" fill="white" />
+                <path d="M19.7968 3.25822V4.45528C20.2897 3.4225 21.0574 3.17499 22.4932 3.16951L22.4998 5.23068H22.2348C21.9089 5.19675 21.5796 5.23778 21.2721 5.35063C20.9645 5.46347 20.6868 5.64515 20.4602 5.88177C20.2337 6.11839 20.0642 6.40368 19.9648 6.71584C19.8654 7.028 19.8386 7.35876 19.8867 7.68283L19.8976 11.3835L17.7882 11.3923L17.7576 3.26698L19.7968 3.25822Z" fill="white" />
+                <path d="M7.70035 0.49065L7.70583 2.31963L4.94811 2.3284L4.98207 11.4427L2.79167 11.4503L2.75881 2.33935L0.005476 2.34701L0 0.520221L7.70035 0.49065Z" fill="white" />
+                <path d="M13.8346 11.3988L13.5181 10.4132C13.298 10.783 12.9798 11.0847 12.5988 11.2847C12.2178 11.4848 11.7888 11.5755 11.3594 11.5467C10.9522 11.575 10.5437 11.5142 10.1623 11.3686C9.78095 11.223 9.43588 10.9961 9.15111 10.7036C8.86634 10.4111 8.64871 10.0601 8.51336 9.675C8.378 9.28988 8.32817 8.8799 8.36733 8.47357L8.3531 4.35233L10.4701 4.34466L10.4855 8.47685C10.4855 9.53043 11.0604 9.99808 11.7997 9.99589C12.0237 9.99081 12.2441 9.93888 12.4468 9.84345C12.6495 9.74801 12.8299 9.61119 12.9765 9.44178C13.1231 9.27238 13.2326 9.07415 13.298 8.85985C13.3633 8.64556 13.3831 8.41996 13.356 8.19757L13.3428 4.3348L15.4226 4.32714L15.4467 11.3912L13.8346 11.3988Z" fill="white" />
+                <path d="M9.10659 1.44785L11.2149 1.44019L11.2214 3.09504L9.11207 3.1027L9.10659 1.44785Z" fill="white" />
+                <path d="M12.5379 1.43362L14.6461 1.42595L14.6516 3.08189L12.5433 3.08956L12.5379 1.43362Z" fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M65.16 6.96986C65.1502 4.51442 63.7209 2.94281 61.3466 2.94938C60.7826 2.92702 60.2202 3.02271 59.6954 3.23032C59.1706 3.43793 58.6949 3.75288 58.2989 4.15499C57.9029 4.5571 57.5952 5.0375 57.3956 5.56542C57.196 6.09334 57.1089 6.65712 57.1399 7.22066C57.1476 9.70348 58.9218 11.4021 61.6861 11.3923C62.7575 11.3924 63.8149 11.1482 64.7778 10.6782L64.0572 9.14493C63.3262 9.48279 62.5318 9.66124 61.7266 9.66843C61.1679 9.73617 60.6053 9.5794 60.1621 9.23257C59.719 8.88574 59.4316 8.37719 59.3631 7.81864L65.1151 7.79783C65.1462 7.52295 65.1612 7.24649 65.16 6.96986ZM63.0382 5.73066C63.1132 5.94395 63.1424 6.17063 63.1241 6.39597L59.3248 6.4124C59.3847 5.89716 59.6429 5.42549 60.0446 5.09736C60.4463 4.76923 60.9601 4.61042 61.4769 4.6546C61.7029 4.64878 61.9276 4.6906 62.1364 4.77733C62.3452 4.86407 62.5334 4.99377 62.6887 5.15802C62.8441 5.32227 62.9632 5.51738 63.0382 5.73066Z" fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M51.2488 7.02133C51.2411 4.5637 49.8119 2.99099 47.4375 3.00085C46.8741 2.9777 46.3121 3.07261 45.7876 3.27949C45.263 3.48636 44.7876 3.80063 44.3916 4.20211C43.9957 4.6036 43.6881 5.08343 43.4886 5.61081C43.2891 6.13819 43.202 6.70146 43.233 7.26446C43.2429 9.75166 45.0127 11.4503 47.7803 11.4427C48.8518 11.441 49.909 11.196 50.8721 10.7264L50.1492 9.19311C49.4195 9.53121 48.6262 9.7104 47.8219 9.71881C47.2626 9.7863 46.6992 9.62943 46.2553 9.28254C45.8113 8.93566 45.5228 8.427 45.453 7.86792L51.2061 7.84602C51.2354 7.57211 51.2497 7.2968 51.2488 7.02133ZM49.1303 5.78154C49.205 5.99509 49.2339 6.22199 49.215 6.44745L45.4169 6.46168C45.4768 5.94644 45.7349 5.47478 46.1367 5.14664C46.5384 4.81851 47.0521 4.65971 47.5689 4.70389C47.7951 4.69802 48.02 4.73989 48.2289 4.82677C48.4378 4.91364 48.626 5.04357 48.7813 5.20808C48.9366 5.37259 49.0555 5.56799 49.1303 5.78154Z" fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M76.2346 3.27022C76.9905 2.76073 77.8805 2.48672 78.792 2.48282C79.3982 2.48037 79.9989 2.59745 80.5598 2.82737C81.1207 3.05729 81.6308 3.39554 82.0609 3.82276C82.4909 4.24998 82.8326 4.75779 83.0662 5.31716C83.2999 5.87653 83.4209 6.47646 83.4225 7.08266C83.4247 7.99421 83.1566 8.88595 82.6521 9.6452C82.1477 10.4044 81.4295 10.9971 80.5883 11.3484C79.7471 11.6996 78.8207 11.7936 77.9261 11.6185C77.0316 11.4434 76.209 11.0071 75.5622 10.3647C74.9155 9.72229 74.4738 8.90259 74.2928 8.00919C74.1117 7.11579 74.1996 6.18878 74.5452 5.3453C74.8909 4.50181 75.4788 3.7797 76.2346 3.27022ZM77.3621 9.27695C77.7937 9.5632 78.3004 9.71506 78.8183 9.71333C79.5128 9.71043 80.1778 9.43198 80.6671 8.93914C81.1565 8.4463 81.4302 7.77937 81.4281 7.08485C81.4262 6.56699 81.2707 6.06133 80.9814 5.63181C80.6921 5.20229 80.2819 4.8682 79.8028 4.67178C79.3236 4.47535 78.797 4.42541 78.2894 4.52827C77.7819 4.63114 77.3162 4.88218 76.9513 5.24967C76.5864 5.61715 76.3387 6.08458 76.2395 6.59285C76.1402 7.10111 76.1939 7.6274 76.3937 8.10516C76.5935 8.58292 76.9305 8.9907 77.3621 9.27695Z" fill="white" />
+            </svg>
+        </a>
+    </div>
+    <ul class="menu">
+        <li catId="0204"><a href="/film" title="Film">Film</a></li>
+        <li catId="0203"><a href="/dizi" title="Dizi">Dizi</a></li>
+        <li catId="0202"><a href="/kirala-satinal" title="Kirala & Satın Al">Kirala & Satın Al</a></li>
+        <li catId="0201"><a href="/cocuk" title="Çocuk">Çocuk</a></li>
+        
+        <li class="menuLi" catId="sport">
+            <a href="/spor" class="menuLink" title="">Spor</a>
+        </li>
+
+        <li catId="ozellikler"><a href="/ozellikler" title="Tivibu Nedir?">Tivibu Nedir?</a></li>
+
+    </ul>
+    <ul class="menu mobile">
+        <li class="login"><a href="/giris-yonlendirme" onclick="giris_yap_uye_ol_click();" title="Giriş Yap">Giriş Yap</a></li>
+        <li class="search"><a href="/arama" title="Arama">Arama</a></li>
+        <li class="hamburger"><a href="javascript:;" title="Menü">Menü</a></li>
+    </ul>
+    <div class="searchBox">
+        <div class="searchInputBox">
+            <i class="searchIcon"></i>
+            <input type="text" class="inputSearch" placeholder="Yıl, Yönetmen, Oyuncu, ..." contentType="0|1|3|5">
+            <input type="hidden" name="hdnsearchmobile" id="hdnsearchmobile" />
+        </div>
+    </div>
+</div>
+<div class="right">
+    <ul class="menu">
+        <li class="tv"><a href="/canli-tv" title="Tivibu Canlı TV">Canlı TV</a></li>
+        <li class="packages"><a href="/paketler" title="Tivibu Paketler">Paketler</a></li>
+        <li class="search"><a href="/arama" title="Tivibu Arama">Arama</a></li>
+        <li class="signin"><a class="btn border" href="/giris-yonlendirme" onclick="giris_yap_uye_ol_click();" title="Tivibu Giriş Yap"><span>Giriş Yap</span></a></li>
+        <li class="signup"><a class="btn yellow" href="https://odeme.tivibu.com.tr/" onclick="giris_yap_uye_ol_click();" title="Tivibu Üye Ol"><span>Üye Ol</span></a></li>
+    </ul>
+</div>
+
+
+            </header>
+        
+<section class="error-screen">
+    <div class="container error-screen__container">
+        <div class="error-screen__code">404</div>
+        <div class="error-screen__panel">
+            <div class="error-screen__panel-content">
+                <h1 class="error-screen__title">Aradığınız sayfa bulunamadı!</h1>
+                <p class="error-screen__desc">
+                    Aradığınız sayfaya ulaşamıyoruz, ancak yayın akışı devam ediyor. Kanal bulunamadı veya yayın kaldırılmış olabilir.
+                </p>
+                <div class="error-screen__search">
+                    <div class="search404Box">
+                        <div class="search404InputBox">
+                            <i class="searchIcon"></i>
+                            <input type="text" class="inputSearch" placeholder="Film, dizi içeriklerinizi arayın..." contentType="0|1|3|5">
+                            <input type="hidden" name="hdnsearchmobile" id="hdnsearchmobile" />
+                        </div>
+                    </div>
+                </div>
+                <div class="error-screen__popular">
+                    <div class="error-screen__popular-title">Popüler kategorilere göz atın</div>
+                    <div class="error-screen__tags">
+                        <a class="error-screen__tag" href="/film">
+                            <span class="error-screen__tag-icon icon-film" aria-hidden="true"></span>
+                            <span class="error-screen__tag-text">Film</span>
+                        </a>
+                        <a class="error-screen__tag" href="/dizi">
+                            <span class="error-screen__tag-icon icon-dizi" aria-hidden="true"></span>
+                            <span class="error-screen__tag-text">Dizi</span>
+                        </a>
+                        <a class="error-screen__tag" href="/spor">
+                            <span class="error-screen__tag-icon icon-spor" aria-hidden="true"></span>
+                            <span class="error-screen__tag-text">Spor</span>
+                        </a>
+                        <a class="error-screen__tag" href="/cocuk">
+                            <span class="error-screen__tag-icon icon-cocuk" aria-hidden="true"></span>
+                            <span class="error-screen__tag-text">Çocuk</span>
+                        </a>
+                        <a class="error-screen__tag" href="/canli-tv">
+                            <span class="error-screen__tag-icon icon-canli-tv" aria-hidden="true"></span>
+                            <span class="error-screen__tag-text">Canlı TV</span>
+                        </a>
+                    </div>
+                </div>
+                <a class="error-screen__home" href="/">Anasayfaya Dön</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+            <footer class="footer">
+                <div class="top">
+
+<div class="box"><span class="menuTitle">Tivibu</span> <ul class="menu"><li><a href="/tivibu-android-tv-kutu">Tivibu Android TV</a> </li><li><a href="/ozellikler">Tivibu Nedir?</a> </li><li><a href="/kampanyalar">Tivibu Kampanyaları</a> </li><li><a href="/bize-ulasin">Bize Ulaşın </a> </li><li><a href="/destek">Destek </a> </li><li><a href="/ticari-firsatlar" target="_blank">Ticari Tivibu</a> </li><li><a href="/ozellikler">Tivibu'yu Keşfet </a> </li><li><a href="javascript:;">Tek Şifre</a> </li></ul></div><div class="box"><span class="menuTitle">Tivibu Paketler</span> <ul class="menu"><li><a href="/paketler/tivibu-go/tivibu-go-super-paket">Tivibu GO S&uuml;per Paket</a> </li><li><a href="/paketler/tivibu-go/tivibu-go-sinema-paketi">Tivibu GO Sinema Paketi</a> </li><li><a href="/paketler/tivibu-ev/tivibu-ev-super-paket">Tivibu Ev S&uuml;per Paket</a> </li><li><a href="/paketler/tivibu-ev/tivibu-ev-sinema-paketi">Tivibu Ev Sinema Paketi</a> </li><li><a href="/paketler/tivibu-uydu/tivibu-uydu-super-paket">Tivibu Uydu S&uuml;per Paket</a> </li><li><a href="/paketler/tivibu-uydu/tivibu-uydu-aile-paketi">Tivibu Uydu Aile Paketi</a> </li></ul></div><div class="box boxXl"><span class="menuTitle">&Ouml;ne &Ccedil;ıkanlar</span> <ul class="menu menuXl"><li><a href="/dizi/tivibu-vitrin/herkesten-once-izle">Herkesten &Ouml;nce İzle | Dizi</a> </li><li><a href="/canli-tv">Canlı TV</a> </li><li><a href="/film">Film İzle</a> </li><li><a href="/dizi-detay/the-rookie/00000020140000171732" =""="">The Rookie İzle</a> </li><li><a href="/dizi-detay/the-walking-dead/00000020140000177002">The Walking Dead İzle</a> </li><li><a href="/dizi-detay/dexter/00000020140000181956">Dexter İzle</a> </li><li><a href="/dizi-detay/uzay-feneri-23/00000020140000183007">Beacon 23 İzle</a> </li><li><a href="/film-detay/suikast-treni/00000020010000084250">Bullet Train İzle</a> </li><li><a href="/spor">Spor İ&ccedil;erikleri</a> </li><li><a href="/kanallar/tivibu-spor">Tivibu Spor Canlı İzle</a> </li><li><a href="/kanallar/trt-1">TRT1 Canlı İzle</a> </li></ul></div><div class="box open"><span class="menuTitle">Yasal Metinler</span> <ul class="menu"><li><a href="/aydinlatma-metni">Aydınlatma Metni </a> </li><li><a href="/tivibu-go-kullanim-kosullari" target="_blank">Kullanım Koşulları</a> </li><li><a href="/cerez-politikasi">&Ccedil;erez Politikası </a> </li><li><a class="efl-edit" href="javascript:;">&Ccedil;erez Ayarları</a> </li></ul></div>
+   
+    <div class="box socialBox">
+        <span class="menuTitle">Tivibu’yu İndir</span>
+        <ul class="apps-list desktop">
+            <li>
+                <a href="/indir?file=TivibuGO.dmg" target="_blank" title="Tivibu’yu İndir AppStore">
+                    <svg width="120" height="38" viewBox="0 0 120 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M40.008 24V15.54H41.1L44.364 22.896H44.004L47.268 15.54H48.348V24H47.22V17.232H47.616L44.568 24H43.788L40.74 17.232H41.148V24H40.008ZM52.5751 24.108C52.0391 24.108 51.5711 23.984 51.1711 23.736C50.7711 23.488 50.4591 23.128 50.2351 22.656C50.0191 22.184 49.9111 21.624 49.9111 20.976C49.9111 20.32 50.0191 19.76 50.2351 19.296C50.4591 18.832 50.7711 18.476 51.1711 18.228C51.5711 17.972 52.0391 17.844 52.5751 17.844C53.1031 17.844 53.5631 17.976 53.9551 18.24C54.3471 18.504 54.6071 18.864 54.7351 19.32H54.6031L54.7231 17.952H55.8991C55.8751 18.2 55.8511 18.448 55.8271 18.696C55.8111 18.936 55.8031 19.172 55.8031 19.404V24H54.5911V22.656H54.7231C54.5951 23.104 54.3311 23.46 53.9311 23.724C53.5391 23.98 53.0871 24.108 52.5751 24.108ZM52.8751 23.16C53.3951 23.16 53.8111 22.976 54.1231 22.608C54.4431 22.24 54.6031 21.696 54.6031 20.976C54.6031 20.256 54.4431 19.716 54.1231 19.356C53.8111 18.988 53.3951 18.804 52.8751 18.804C52.3471 18.804 51.9231 18.988 51.6031 19.356C51.2911 19.716 51.1351 20.256 51.1351 20.976C51.1351 21.696 51.2911 22.24 51.6031 22.608C51.9151 22.976 52.3391 23.16 52.8751 23.16ZM60.2236 24.108C59.6156 24.108 59.0836 23.984 58.6276 23.736C58.1796 23.48 57.8316 23.116 57.5836 22.644C57.3436 22.164 57.2236 21.596 57.2236 20.94C57.2236 20.292 57.3476 19.736 57.5956 19.272C57.8436 18.808 58.1916 18.456 58.6396 18.216C59.0876 17.968 59.6156 17.844 60.2236 17.844C60.6156 17.844 60.9956 17.912 61.3636 18.048C61.7316 18.176 62.0356 18.36 62.2756 18.6L61.8796 19.452C61.6556 19.236 61.4036 19.076 61.1236 18.972C60.8436 18.86 60.5716 18.804 60.3076 18.804C59.7316 18.804 59.2796 18.988 58.9516 19.356C58.6236 19.724 58.4596 20.256 58.4596 20.952C58.4596 21.656 58.6236 22.196 58.9516 22.572C59.2796 22.948 59.7316 23.136 60.3076 23.136C60.5636 23.136 60.8316 23.088 61.1116 22.992C61.3916 22.888 61.6476 22.724 61.8796 22.5L62.2756 23.352C62.0276 23.592 61.7156 23.78 61.3396 23.916C60.9716 24.044 60.5996 24.108 60.2236 24.108ZM64.039 18.432L63.511 18.024C63.743 17.784 63.899 17.56 63.979 17.352C64.067 17.136 64.111 16.92 64.111 16.704L64.435 16.956H63.427V15.54H64.855V16.512C64.855 16.872 64.795 17.208 64.675 17.52C64.555 17.824 64.343 18.128 64.039 18.432ZM68.8298 24.108C68.1738 24.108 67.6778 23.932 67.3418 23.58C67.0058 23.22 66.8378 22.684 66.8378 21.972V18.888H65.6618V17.952H66.8378V16.356L68.0498 16.032V17.952H69.7298V18.888H68.0498V21.864C68.0498 22.312 68.1298 22.632 68.2898 22.824C68.4498 23.016 68.6818 23.112 68.9858 23.112C69.1378 23.112 69.2698 23.1 69.3818 23.076C69.5018 23.044 69.6098 23.008 69.7058 22.968V23.952C69.5858 24 69.4458 24.036 69.2858 24.06C69.1258 24.092 68.9738 24.108 68.8298 24.108ZM73.5746 24.108C72.5986 24.108 71.8306 23.832 71.2706 23.28C70.7106 22.728 70.4306 21.964 70.4306 20.988C70.4306 20.356 70.5506 19.804 70.7906 19.332C71.0386 18.86 71.3786 18.496 71.8106 18.24C72.2506 17.976 72.7586 17.844 73.3346 17.844C73.9026 17.844 74.3786 17.964 74.7626 18.204C75.1466 18.444 75.4386 18.784 75.6386 19.224C75.8386 19.656 75.9386 20.168 75.9386 20.76V21.144H71.3786V20.448H75.1106L74.9066 20.604C74.9066 20.004 74.7706 19.54 74.4986 19.212C74.2346 18.876 73.8506 18.708 73.3466 18.708C72.7866 18.708 72.3546 18.904 72.0506 19.296C71.7466 19.68 71.5946 20.212 71.5946 20.892V21.012C71.5946 21.724 71.7666 22.26 72.1106 22.62C72.4626 22.98 72.9586 23.16 73.5986 23.16C73.9506 23.16 74.2786 23.112 74.5826 23.016C74.8946 22.912 75.1906 22.744 75.4706 22.512L75.8666 23.34C75.5866 23.588 75.2466 23.78 74.8466 23.916C74.4466 24.044 74.0226 24.108 73.5746 24.108ZM77.3294 24V19.404C77.3294 19.172 77.3174 18.936 77.2934 18.696C77.2774 18.448 77.2574 18.2 77.2334 17.952H78.4094L78.5174 19.224H78.3734C78.5574 18.776 78.8414 18.436 79.2254 18.204C79.6094 17.964 80.0534 17.844 80.5574 17.844C81.2694 17.844 81.8054 18.04 82.1654 18.432C82.5334 18.824 82.7174 19.432 82.7174 20.256V24H81.5054V20.328C81.5054 19.792 81.3974 19.408 81.1814 19.176C80.9734 18.936 80.6534 18.816 80.2214 18.816C79.7094 18.816 79.3014 18.976 78.9974 19.296C78.6934 19.608 78.5414 20.032 78.5414 20.568V24H77.3294ZM87.6419 24V17.952H88.8539V24H87.6419ZM87.5459 16.692V15.432H88.9499V16.692H87.5459ZM90.3302 24V23.196L94.2662 18.588L94.2782 18.888H90.3302V17.952H95.3822V18.756L91.4102 23.4L91.3982 23.076H95.5142V24H90.3302ZM96.8997 24V15.168H98.1117V24H96.8997ZM102.684 24.108C101.708 24.108 100.94 23.832 100.38 23.28C99.82 22.728 99.54 21.964 99.54 20.988C99.54 20.356 99.66 19.804 99.9 19.332C100.148 18.86 100.488 18.496 100.92 18.24C101.36 17.976 101.868 17.844 102.444 17.844C103.012 17.844 103.488 17.964 103.872 18.204C104.256 18.444 104.548 18.784 104.748 19.224C104.948 19.656 105.048 20.168 105.048 20.76V21.144H100.488V20.448H104.22L104.016 20.604C104.016 20.004 103.88 19.54 103.608 19.212C103.344 18.876 102.96 18.708 102.456 18.708C101.896 18.708 101.464 18.904 101.16 19.296C100.856 19.68 100.704 20.212 100.704 20.892V21.012C100.704 21.724 100.876 22.26 101.22 22.62C101.572 22.98 102.068 23.16 102.708 23.16C103.06 23.16 103.388 23.112 103.692 23.016C104.004 22.912 104.3 22.744 104.58 22.512L104.976 23.34C104.696 23.588 104.356 23.78 103.956 23.916C103.556 24.044 103.132 24.108 102.684 24.108Z" fill="white" />
+                        <path d="M26.3311 28.2377C25.2972 29.2403 24.1685 29.082 23.0819 28.6071C21.9321 28.1216 20.8771 28.1005 19.664 28.6071C18.1449 29.2615 17.3432 29.0715 16.4359 28.2377C11.288 22.9289 12.0475 14.8444 17.8917 14.5489C19.3159 14.6227 20.3075 15.3299 21.1409 15.3932C22.3857 15.1399 23.5777 14.4117 24.9069 14.5067C26.4998 14.6333 27.7025 15.2666 28.4936 16.4064C25.2023 18.3801 25.9829 22.7178 29 23.9316C28.3987 25.5147 27.6181 27.0873 26.3205 28.2483L26.3311 28.2377ZM21.0354 14.4855C20.8771 12.132 22.7865 10.19 24.9808 10C25.2867 12.723 22.5123 14.7494 21.0354 14.4855Z" fill="white" />
+                        <path class="border" d="M0.5 8C0.5 3.85786 3.85786 0.5 8 0.5H112C116.142 0.5 119.5 3.85786 119.5 8V30C119.5 34.1421 116.142 37.5 112 37.5H8C3.85786 37.5 0.5 34.1421 0.5 30V8Z" stroke="white" stroke-opacity="0.2" />
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="/indir?file=TivibuGO.msi" target="_blank" title="Tivibu’yu İndir PlayStore">
+                    <svg width="150" height="38" viewBox="0 0 150 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M42.324 24L39.36 15.54H40.656L43.116 22.848H42.672L45.276 15.54H46.224L48.672 22.848H48.264L50.808 15.54H52.032L49.044 24H47.976L45.6 17.04H45.852L43.38 24H42.324ZM53.2825 24V17.952H54.4945V24H53.2825ZM53.1865 16.692V15.432H54.5905V16.692H53.1865ZM56.2708 24V19.404C56.2708 19.172 56.2588 18.936 56.2348 18.696C56.2188 18.448 56.1988 18.2 56.1748 17.952H57.3508L57.4588 19.224H57.3148C57.4988 18.776 57.7828 18.436 58.1668 18.204C58.5508 17.964 58.9948 17.844 59.4988 17.844C60.2108 17.844 60.7468 18.04 61.1068 18.432C61.4748 18.824 61.6588 19.432 61.6588 20.256V24H60.4468V20.328C60.4468 19.792 60.3388 19.408 60.1228 19.176C59.9148 18.936 59.5948 18.816 59.1628 18.816C58.6508 18.816 58.2428 18.976 57.9388 19.296C57.6348 19.608 57.4828 20.032 57.4828 20.568V24H56.2708ZM65.7001 24.108C65.1721 24.108 64.7041 23.984 64.2961 23.736C63.8961 23.488 63.5841 23.128 63.3601 22.656C63.1441 22.184 63.0361 21.624 63.0361 20.976C63.0361 20.32 63.1441 19.76 63.3601 19.296C63.5841 18.832 63.8961 18.476 64.2961 18.228C64.7041 17.972 65.1721 17.844 65.7001 17.844C66.2201 17.844 66.6761 17.976 67.0681 18.24C67.4681 18.496 67.7321 18.848 67.8601 19.296H67.7161V15.168H68.9281V24H67.7281V22.632H67.8721C67.7361 23.088 67.4721 23.448 67.0801 23.712C66.6881 23.976 66.2281 24.108 65.7001 24.108ZM66.0001 23.16C66.5201 23.16 66.9401 22.976 67.2601 22.608C67.5801 22.24 67.7401 21.696 67.7401 20.976C67.7401 20.256 67.5801 19.716 67.2601 19.356C66.9401 18.988 66.5201 18.804 66.0001 18.804C65.4721 18.804 65.0481 18.988 64.7281 19.356C64.4161 19.716 64.2601 20.256 64.2601 20.976C64.2601 21.696 64.4161 22.24 64.7281 22.608C65.0481 22.976 65.4721 23.16 66.0001 23.16ZM73.2886 24.108C72.6886 24.108 72.1686 23.984 71.7286 23.736C71.2886 23.48 70.9486 23.12 70.7086 22.656C70.4686 22.184 70.3486 21.624 70.3486 20.976C70.3486 20.328 70.4686 19.772 70.7086 19.308C70.9486 18.836 71.2886 18.476 71.7286 18.228C72.1686 17.972 72.6886 17.844 73.2886 17.844C73.8886 17.844 74.4086 17.972 74.8486 18.228C75.2966 18.476 75.6406 18.836 75.8806 19.308C76.1286 19.772 76.2526 20.328 76.2526 20.976C76.2526 21.624 76.1286 22.184 75.8806 22.656C75.6406 23.12 75.2966 23.48 74.8486 23.736C74.4086 23.984 73.8886 24.108 73.2886 24.108ZM73.2886 23.16C73.8166 23.16 74.2366 22.976 74.5486 22.608C74.8606 22.24 75.0166 21.696 75.0166 20.976C75.0166 20.256 74.8606 19.716 74.5486 19.356C74.2366 18.988 73.8166 18.804 73.2886 18.804C72.7686 18.804 72.3526 18.988 72.0406 19.356C71.7286 19.716 71.5726 20.256 71.5726 20.976C71.5726 21.696 71.7246 22.24 72.0286 22.608C72.3406 22.976 72.7606 23.16 73.2886 23.16ZM79.2078 24L76.9158 17.952H78.1758L79.9638 22.992H79.6518L81.4878 17.952H82.4238L84.2478 22.992H83.9478L85.7358 17.952H86.9478L84.6438 24H83.5398L81.6438 18.864H82.2078L80.3358 24H79.2078ZM90.0226 24.108C89.5186 24.108 89.0546 24.044 88.6306 23.916C88.2066 23.788 87.8546 23.608 87.5746 23.376L87.9466 22.548C88.2426 22.772 88.5706 22.94 88.9306 23.052C89.2906 23.164 89.6586 23.22 90.0346 23.22C90.4746 23.22 90.8066 23.144 91.0306 22.992C91.2546 22.832 91.3666 22.616 91.3666 22.344C91.3666 22.136 91.2946 21.968 91.1506 21.84C91.0146 21.712 90.7866 21.616 90.4666 21.552L89.3146 21.324C88.8026 21.212 88.4146 21.02 88.1506 20.748C87.8866 20.476 87.7546 20.128 87.7546 19.704C87.7546 19.344 87.8506 19.024 88.0426 18.744C88.2426 18.464 88.5226 18.244 88.8826 18.084C89.2506 17.924 89.6786 17.844 90.1666 17.844C90.6146 17.844 91.0306 17.908 91.4146 18.036C91.7986 18.164 92.1186 18.348 92.3746 18.588L91.9906 19.392C91.7426 19.184 91.4626 19.024 91.1506 18.912C90.8386 18.792 90.5226 18.732 90.2026 18.732C89.7546 18.732 89.4226 18.816 89.2066 18.984C88.9906 19.152 88.8826 19.372 88.8826 19.644C88.8826 19.852 88.9466 20.024 89.0746 20.16C89.2106 20.288 89.4226 20.388 89.7106 20.46L90.8626 20.688C91.4066 20.8 91.8146 20.984 92.0866 21.24C92.3586 21.496 92.4946 21.84 92.4946 22.272C92.4946 22.648 92.3906 22.976 92.1826 23.256C91.9746 23.536 91.6866 23.748 91.3186 23.892C90.9506 24.036 90.5186 24.108 90.0226 24.108ZM94.0156 18.432L93.4876 18.024C93.7196 17.784 93.8756 17.56 93.9556 17.352C94.0436 17.136 94.0876 16.92 94.0876 16.704L94.4116 16.956H93.4036V15.54H94.8316V16.512C94.8316 16.872 94.7716 17.208 94.6516 17.52C94.5316 17.824 94.3196 18.128 94.0156 18.432ZM98.8064 24.108C98.1504 24.108 97.6544 23.932 97.3184 23.58C96.9824 23.22 96.8144 22.684 96.8144 21.972V18.888H95.6384V17.952H96.8144V16.356L98.0264 16.032V17.952H99.7064V18.888H98.0264V21.864C98.0264 22.312 98.1064 22.632 98.2664 22.824C98.4264 23.016 98.6584 23.112 98.9624 23.112C99.1144 23.112 99.2464 23.1 99.3584 23.076C99.4784 23.044 99.5864 23.008 99.6824 22.968V23.952C99.5624 24 99.4224 24.036 99.2624 24.06C99.1024 24.092 98.9504 24.108 98.8064 24.108ZM103.13 24.108C102.594 24.108 102.126 23.984 101.726 23.736C101.326 23.488 101.014 23.128 100.79 22.656C100.574 22.184 100.466 21.624 100.466 20.976C100.466 20.32 100.574 19.76 100.79 19.296C101.014 18.832 101.326 18.476 101.726 18.228C102.126 17.972 102.594 17.844 103.13 17.844C103.658 17.844 104.118 17.976 104.51 18.24C104.902 18.504 105.162 18.864 105.29 19.32H105.158L105.278 17.952H106.454C106.43 18.2 106.406 18.448 106.382 18.696C106.366 18.936 106.358 19.172 106.358 19.404V24H105.146V22.656H105.278C105.15 23.104 104.886 23.46 104.486 23.724C104.094 23.98 103.642 24.108 103.13 24.108ZM103.43 23.16C103.95 23.16 104.366 22.976 104.678 22.608C104.998 22.24 105.158 21.696 105.158 20.976C105.158 20.256 104.998 19.716 104.678 19.356C104.366 18.988 103.95 18.804 103.43 18.804C102.902 18.804 102.478 18.988 102.158 19.356C101.846 19.716 101.69 20.256 101.69 20.976C101.69 21.696 101.846 22.24 102.158 22.608C102.47 22.976 102.894 23.16 103.43 23.16ZM108.126 24V19.404C108.126 19.172 108.114 18.936 108.09 18.696C108.074 18.448 108.054 18.2 108.03 17.952H109.206L109.314 19.224H109.17C109.354 18.776 109.638 18.436 110.022 18.204C110.406 17.964 110.85 17.844 111.354 17.844C112.066 17.844 112.602 18.04 112.962 18.432C113.33 18.824 113.514 19.432 113.514 20.256V24H112.302V20.328C112.302 19.792 112.194 19.408 111.978 19.176C111.77 18.936 111.45 18.816 111.018 18.816C110.506 18.816 110.098 18.976 109.794 19.296C109.49 19.608 109.338 20.032 109.338 20.568V24H108.126ZM118.439 24V17.952H119.651V24H118.439ZM118.343 16.692V15.432H119.747V16.692H118.343ZM121.127 24V23.196L125.063 18.588L125.075 18.888H121.127V17.952H126.179V18.756L122.207 23.4L122.195 23.076H126.311V24H121.127ZM127.697 24V15.168H128.909V24H127.697ZM133.481 24.108C132.505 24.108 131.737 23.832 131.177 23.28C130.617 22.728 130.337 21.964 130.337 20.988C130.337 20.356 130.457 19.804 130.697 19.332C130.945 18.86 131.285 18.496 131.717 18.24C132.157 17.976 132.665 17.844 133.241 17.844C133.809 17.844 134.285 17.964 134.669 18.204C135.053 18.444 135.345 18.784 135.545 19.224C135.745 19.656 135.845 20.168 135.845 20.76V21.144H131.285V20.448H135.017L134.813 20.604C134.813 20.004 134.677 19.54 134.405 19.212C134.141 18.876 133.757 18.708 133.253 18.708C132.693 18.708 132.261 18.904 131.957 19.296C131.653 19.68 131.501 20.212 131.501 20.892V21.012C131.501 21.724 131.673 22.26 132.017 22.62C132.369 22.98 132.865 23.16 133.505 23.16C133.857 23.16 134.185 23.112 134.489 23.016C134.801 22.912 135.097 22.744 135.377 22.512L135.773 23.34C135.493 23.588 135.153 23.78 134.753 23.916C134.353 24.044 133.929 24.108 133.481 24.108Z" fill="white" />
+                        <path d="M29 19.9931V26.6011C29 26.7802 28.9639 26.9574 28.8939 27.1222C28.8239 27.287 28.7215 27.4361 28.5926 27.5604C28.4638 27.6848 28.3113 27.7819 28.1441 27.846C27.9769 27.9101 27.7985 27.9399 27.6196 27.9336L27.5013 27.9238L21 27.1114V19.9931H29ZM19.2222 19.9931V26.8891L14.5573 26.306C14.1273 26.2523 13.7317 26.0433 13.4449 25.7184C13.1581 25.3935 12.9999 24.975 13 24.5416V19.9931H19.2222ZM27.5013 10.2847C27.679 10.2625 27.8593 10.2763 28.0315 10.3253C28.2037 10.3743 28.3643 10.4575 28.5037 10.5699C28.643 10.6823 28.7583 10.8216 28.8427 10.9796C28.9271 11.1375 28.9787 11.3108 28.9947 11.4891L29 11.6074V18.2154H21V11.0971L27.5013 10.2847ZM19.2222 11.3194V18.2154H13V13.6669C12.9999 13.2335 13.1581 12.815 13.4449 12.4901C13.7317 12.1652 14.1273 11.9562 14.5573 11.9025L19.2222 11.3194Z" fill="white" />
+                        <path class="border" d="M0.5 8C0.5 3.85786 3.85786 0.5 8 0.5H142C146.142 0.5 149.5 3.85786 149.5 8V30C149.5 34.1421 146.142 37.5 142 37.5H8C3.85787 37.5 0.5 34.1421 0.5 30V8Z" stroke="white" stroke-opacity="0.2" />
+                    </svg>
+                </a>
+            </li>
+        </ul>
+        <ul class="apps-list mobile">
+            <li>
+                <a href="https://apps.apple.com/tr/app/tivibu-go-canl%C4%B1-tv-filmler/id434604895?l=tr" target="_blank" aria-label="Tivibu Go'yu App Store'dan indir">
+                    <svg width="170" height="52" viewBox="0 0 170 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect class="border" x="0.5" y="0.5" width="169" height="51" rx="7.5" stroke="white" stroke-opacity="0.2" />
+                        <path d="M33.5495 27.0632C33.596 32.2083 37.952 33.9207 38 33.9426C37.9632 34.063 37.3042 36.3827 35.7054 38.7782C34.3233 40.8494 32.8887 42.9129 30.6293 42.9561C28.4091 42.9977 27.6951 41.6058 25.1566 41.6058C22.6188 41.6058 21.8258 42.9129 19.7239 42.9977C17.5427 43.0826 15.8817 40.7577 14.4882 38.6945C11.6408 34.4733 9.46467 26.7663 12.3865 21.5639C13.838 18.9804 16.4324 17.3447 19.248 17.3025C21.3897 17.2607 23.4112 18.7798 24.7204 18.7798C26.0288 18.7798 28.4855 16.9528 31.0681 17.221C32.1493 17.2672 35.1841 17.6687 37.1328 20.5938C36.9761 20.6937 33.5119 22.7616 33.5495 27.0632ZM29.3769 14.4286C30.5348 12.9916 31.3142 10.9904 31.1017 9C29.4325 9.06869 27.4141 10.1404 26.217 11.5769C25.144 12.8487 24.2045 14.8849 24.4578 16.8359C26.3184 16.9837 28.2188 15.8665 29.3769 14.4286Z" fill="white" />
+                        <path d="M45.9723 26H43.4411L48.0497 12.9091H50.9773L55.5923 26H53.0611L49.5646 15.5938H49.4624L45.9723 26ZM46.0554 20.8672H52.9588V22.772H46.0554V20.8672ZM56.4943 29.6818V16.1818H58.7699V17.8054H58.9041C59.0234 17.5668 59.1918 17.3132 59.4091 17.0447C59.6264 16.772 59.9204 16.5398 60.2912 16.348C60.6619 16.152 61.1349 16.054 61.7102 16.054C62.4687 16.054 63.1527 16.2479 63.7621 16.6357C64.3757 17.0192 64.8615 17.5881 65.2195 18.3423C65.5817 19.0923 65.7628 20.0128 65.7628 21.1037C65.7628 22.1818 65.5859 23.098 65.2322 23.8523C64.8785 24.6065 64.397 25.1818 63.7876 25.5781C63.1783 25.9744 62.4879 26.1726 61.7166 26.1726C61.1541 26.1726 60.6875 26.0788 60.3168 25.8913C59.946 25.7038 59.6477 25.478 59.4219 25.2138C59.2003 24.9453 59.0277 24.6918 58.9041 24.4531H58.8082V29.6818H56.4943ZM58.7635 21.0909C58.7635 21.7259 58.853 22.282 59.032 22.7592C59.2152 23.2365 59.4773 23.6094 59.8182 23.8778C60.1633 24.142 60.581 24.2741 61.071 24.2741C61.5824 24.2741 62.0106 24.1378 62.3558 23.8651C62.701 23.5881 62.9609 23.2109 63.1356 22.7337C63.3146 22.2521 63.4041 21.7045 63.4041 21.0909C63.4041 20.4815 63.3168 19.9403 63.142 19.4673C62.9673 18.9943 62.7074 18.6236 62.3622 18.3551C62.017 18.0866 61.5866 17.9524 61.071 17.9524C60.5767 17.9524 60.157 18.0824 59.8118 18.3423C59.4666 18.6023 59.2045 18.9666 59.0256 19.4354C58.8508 19.9041 58.7635 20.456 58.7635 21.0909ZM67.0243 29.6818V16.1818H69.2999V17.8054H69.4341C69.5534 17.5668 69.7218 17.3132 69.9391 17.0447C70.1564 16.772 70.4504 16.5398 70.8212 16.348C71.1919 16.152 71.6649 16.054 72.2402 16.054C72.9987 16.054 73.6827 16.2479 74.2921 16.6357C74.9057 17.0192 75.3915 17.5881 75.7495 18.3423C76.1117 19.0923 76.2928 20.0128 76.2928 21.1037C76.2928 22.1818 76.1159 23.098 75.7622 23.8523C75.4085 24.6065 74.927 25.1818 74.3176 25.5781C73.7083 25.9744 73.0179 26.1726 72.2466 26.1726C71.6841 26.1726 71.2175 26.0788 70.8468 25.8913C70.476 25.7038 70.1777 25.478 69.9519 25.2138C69.7303 24.9453 69.5577 24.6918 69.4341 24.4531H69.3382V29.6818H67.0243ZM69.2935 21.0909C69.2935 21.7259 69.383 22.282 69.562 22.7592C69.7452 23.2365 70.0073 23.6094 70.3482 23.8778C70.6933 24.142 71.111 24.2741 71.601 24.2741C72.1124 24.2741 72.5406 24.1378 72.8858 23.8651C73.231 23.5881 73.4909 23.2109 73.6656 22.7337C73.8446 22.2521 73.9341 21.7045 73.9341 21.0909C73.9341 20.4815 73.8468 19.9403 73.672 19.4673C73.4973 18.9943 73.2374 18.6236 72.8922 18.3551C72.547 18.0866 72.1166 17.9524 71.601 17.9524C71.1067 17.9524 70.687 18.0824 70.3418 18.3423C69.9966 18.6023 69.7345 18.9666 69.5556 19.4354C69.3808 19.9041 69.2935 20.456 69.2935 21.0909ZM88.5158 16.5078C88.4561 15.9496 88.2047 15.5149 87.7615 15.2038C87.3226 14.8928 86.7516 14.7372 86.0484 14.7372C85.5541 14.7372 85.1301 14.8118 84.7764 14.9609C84.4227 15.1101 84.1521 15.3125 83.9646 15.5682C83.7771 15.8239 83.6813 16.1158 83.677 16.4439C83.677 16.7166 83.7388 16.9531 83.8624 17.1534C83.9902 17.3537 84.1628 17.5241 84.3801 17.6648C84.5974 17.8011 84.8382 17.9162 85.1024 18.0099C85.3666 18.1037 85.633 18.1825 85.9014 18.2464L87.1287 18.5533C87.623 18.6683 88.0982 18.8239 88.5541 19.0199C89.0144 19.2159 89.4256 19.4631 89.7878 19.7614C90.1543 20.0597 90.444 20.4197 90.6571 20.8416C90.8702 21.2635 90.9767 21.7578 90.9767 22.3246C90.9767 23.0916 90.7807 23.767 90.3886 24.3509C89.9966 24.9304 89.4298 25.3842 88.6884 25.7124C87.9511 26.0362 87.0584 26.1982 86.0101 26.1982C84.9916 26.1982 84.1074 26.0405 83.3574 25.7251C82.6117 25.4098 82.0278 24.9496 81.606 24.3445C81.1884 23.7393 80.9625 23.0021 80.9284 22.1328H83.2615C83.2956 22.5888 83.4362 22.968 83.6834 23.2706C83.9305 23.5732 84.2523 23.799 84.6486 23.9482C85.0492 24.0973 85.4966 24.1719 85.9909 24.1719C86.5065 24.1719 86.9582 24.0952 87.346 23.9418C87.7381 23.7841 88.0449 23.5668 88.2665 23.2898C88.4881 23.0085 88.601 22.6804 88.6053 22.3054C88.601 21.9645 88.5009 21.6832 88.3048 21.4616C88.1088 21.2358 87.834 21.0483 87.4803 20.8991C87.1308 20.7457 86.7217 20.6094 86.253 20.4901L84.7636 20.1065C83.6855 19.8295 82.8332 19.4098 82.2068 18.8473C81.5847 18.2805 81.2736 17.5284 81.2736 16.5909C81.2736 15.8196 81.4824 15.1442 81.9 14.5646C82.3219 13.9851 82.895 13.5355 83.6195 13.2159C84.3439 12.892 85.1642 12.7301 86.0804 12.7301C87.0094 12.7301 87.8233 12.892 88.5222 13.2159C89.2253 13.5355 89.7771 13.9808 90.1777 14.5518C90.5783 15.1186 90.7849 15.7706 90.7977 16.5078H88.5158ZM97.1713 16.1818V17.9716H91.5271V16.1818H97.1713ZM92.9206 13.8295H95.2345V23.0469C95.2345 23.358 95.2814 23.5966 95.3751 23.7628C95.4732 23.9247 95.601 24.0355 95.7587 24.0952C95.9163 24.1548 96.0911 24.1847 96.2828 24.1847C96.4277 24.1847 96.5598 24.174 96.6791 24.1527C96.8027 24.1314 96.8965 24.1122 96.9604 24.0952L97.3503 25.9041C97.2267 25.9467 97.0499 25.9936 96.8197 26.0447C96.5939 26.0959 96.3169 26.1257 95.9888 26.1342C95.4092 26.1513 94.8872 26.0639 94.4227 25.8722C93.9582 25.6761 93.5896 25.3736 93.3169 24.9645C93.0484 24.5554 92.9163 24.044 92.9206 23.4304V13.8295ZM102.564 26.1918C101.605 26.1918 100.774 25.9808 100.071 25.5589C99.3677 25.1371 98.8222 24.5469 98.4344 23.7884C98.0509 23.0298 97.8592 22.1435 97.8592 21.1293C97.8592 20.1151 98.0509 19.2266 98.4344 18.4638C98.8222 17.701 99.3677 17.1087 100.071 16.6868C100.774 16.2649 101.605 16.054 102.564 16.054C103.523 16.054 104.353 16.2649 105.057 16.6868C105.76 17.1087 106.303 17.701 106.687 18.4638C107.074 19.2266 107.268 20.1151 107.268 21.1293C107.268 22.1435 107.074 23.0298 106.687 23.7884C106.303 24.5469 105.76 25.1371 105.057 25.5589C104.353 25.9808 103.523 26.1918 102.564 26.1918ZM102.576 24.3381C103.096 24.3381 103.531 24.1953 103.88 23.9098C104.23 23.62 104.49 23.2322 104.66 22.7464C104.835 22.2607 104.922 21.7195 104.922 21.1229C104.922 20.522 104.835 19.9787 104.66 19.4929C104.49 19.0028 104.23 18.6129 103.88 18.3232C103.531 18.0334 103.096 17.8885 102.576 17.8885C102.044 17.8885 101.601 18.0334 101.247 18.3232C100.898 18.6129 100.635 19.0028 100.461 19.4929C100.29 19.9787 100.205 20.522 100.205 21.1229C100.205 21.7195 100.29 22.2607 100.461 22.7464C100.635 23.2322 100.898 23.62 101.247 23.9098C101.601 24.1953 102.044 24.3381 102.576 24.3381ZM108.512 26V16.1818H110.756V17.8182H110.858C111.037 17.2514 111.344 16.8146 111.779 16.5078C112.217 16.1967 112.718 16.0412 113.281 16.0412C113.409 16.0412 113.551 16.0476 113.709 16.0604C113.871 16.0689 114.005 16.0838 114.112 16.1051V18.2337C114.014 18.1996 113.858 18.1697 113.645 18.1442C113.436 18.1143 113.234 18.0994 113.038 18.0994C112.616 18.0994 112.237 18.1911 111.9 18.3743C111.568 18.5533 111.306 18.8026 111.114 19.1222C110.922 19.4418 110.826 19.8104 110.826 20.228V26H108.512ZM118.871 26.1918C117.887 26.1918 117.037 25.9872 116.321 25.5781C115.609 25.1648 115.062 24.581 114.678 23.8267C114.295 23.0682 114.103 22.1754 114.103 21.1484C114.103 20.1385 114.295 19.2521 114.678 18.4893C115.066 17.7223 115.607 17.1257 116.302 16.6996C116.996 16.2692 117.812 16.054 118.75 16.054C119.355 16.054 119.926 16.152 120.463 16.348C121.004 16.5398 121.481 16.8381 121.895 17.2429C122.312 17.6477 122.64 18.1634 122.879 18.7898C123.118 19.4119 123.237 20.1534 123.237 21.0142V21.7237H115.189V20.1641H121.019C121.015 19.7209 120.919 19.3267 120.731 18.9815C120.544 18.6321 120.282 18.3572 119.945 18.157C119.613 17.9567 119.225 17.8565 118.782 17.8565C118.309 17.8565 117.893 17.9716 117.535 18.2017C117.177 18.4276 116.898 18.7259 116.698 19.0966C116.502 19.4631 116.402 19.8658 116.397 20.3047V21.6662C116.397 22.2372 116.502 22.7273 116.711 23.1364C116.92 23.5412 117.211 23.8523 117.586 24.0696C117.961 24.2827 118.4 24.3892 118.903 24.3892C119.24 24.3892 119.545 24.3423 119.817 24.2486C120.09 24.1506 120.326 24.0078 120.527 23.8203C120.727 23.6328 120.878 23.4006 120.981 23.1236L123.141 23.3665C123.005 23.9375 122.745 24.4361 122.361 24.8622C121.982 25.2841 121.496 25.6122 120.904 25.8466C120.312 26.0767 119.634 26.1918 118.871 26.1918ZM126.437 12.9091V14.2131C126.437 14.5881 126.364 14.978 126.22 15.3828C126.079 15.7834 125.885 16.1669 125.638 16.5334C125.391 16.8956 125.109 17.2067 124.794 17.4666L123.72 16.7699C123.955 16.4162 124.159 16.0348 124.334 15.6257C124.509 15.2124 124.596 14.7457 124.596 14.2259V12.9091H126.437ZM130.123 26.1726C129.351 26.1726 128.661 25.9744 128.052 25.5781C127.442 25.1818 126.961 24.6065 126.607 23.8523C126.253 23.098 126.076 22.1818 126.076 21.1037C126.076 20.0128 126.255 19.0923 126.613 18.3423C126.976 17.5881 127.464 17.0192 128.077 16.6357C128.691 16.2479 129.375 16.054 130.129 16.054C130.704 16.054 131.177 16.152 131.548 16.348C131.919 16.5398 132.213 16.772 132.43 17.0447C132.647 17.3132 132.816 17.5668 132.935 17.8054H133.031V12.9091H135.351V26H133.076V24.4531H132.935C132.816 24.6918 132.643 24.9453 132.417 25.2138C132.192 25.478 131.893 25.7038 131.522 25.8913C131.152 26.0788 130.685 26.1726 130.123 26.1726ZM130.768 24.2741C131.258 24.2741 131.676 24.142 132.021 23.8778C132.366 23.6094 132.628 23.2365 132.807 22.7592C132.986 22.282 133.076 21.7259 133.076 21.0909C133.076 20.456 132.986 19.9041 132.807 19.4354C132.633 18.9666 132.373 18.6023 132.027 18.3423C131.687 18.0824 131.267 17.9524 130.768 17.9524C130.253 17.9524 129.822 18.0866 129.477 18.3551C129.132 18.6236 128.872 18.9943 128.697 19.4673C128.522 19.9403 128.435 20.4815 128.435 21.0909C128.435 21.7045 128.522 22.2521 128.697 22.7337C128.876 23.2109 129.138 23.5881 129.483 23.8651C129.833 24.1378 130.261 24.2741 130.768 24.2741ZM139.922 26.1982C139.3 26.1982 138.74 26.0874 138.241 25.8658C137.747 25.6399 137.355 25.3075 137.065 24.8686C136.78 24.4297 136.637 23.8885 136.637 23.245C136.637 22.6911 136.739 22.233 136.944 21.8707C137.148 21.5085 137.427 21.2188 137.781 21.0014C138.135 20.7841 138.533 20.62 138.976 20.5092C139.424 20.3942 139.886 20.3111 140.363 20.2599C140.939 20.2003 141.405 20.147 141.763 20.1001C142.121 20.049 142.381 19.9723 142.543 19.87C142.709 19.7635 142.792 19.5994 142.792 19.3778V19.3395C142.792 18.858 142.65 18.4851 142.364 18.2209C142.079 17.9567 141.667 17.8246 141.13 17.8246C140.564 17.8246 140.114 17.9482 139.782 18.1953C139.454 18.4425 139.232 18.7344 139.117 19.071L136.956 18.7642C137.127 18.1676 137.408 17.669 137.8 17.2685C138.192 16.8636 138.672 16.5611 139.238 16.3608C139.805 16.1562 140.432 16.054 141.118 16.054C141.591 16.054 142.062 16.1094 142.53 16.2202C142.999 16.331 143.427 16.5142 143.815 16.7699C144.203 17.0213 144.514 17.3643 144.748 17.799C144.987 18.2337 145.106 18.777 145.106 19.429V26H142.882V24.6513H142.805C142.665 24.924 142.466 25.1797 142.211 25.4183C141.959 25.6527 141.642 25.8423 141.258 25.9872C140.879 26.1278 140.434 26.1982 139.922 26.1982ZM140.523 24.4979C140.988 24.4979 141.39 24.4062 141.731 24.223C142.072 24.0355 142.334 23.7884 142.518 23.4815C142.705 23.1747 142.799 22.8402 142.799 22.478V21.321C142.726 21.3807 142.603 21.4361 142.428 21.4872C142.258 21.5384 142.066 21.5831 141.853 21.6214C141.64 21.6598 141.429 21.6939 141.22 21.7237C141.011 21.7536 140.83 21.7791 140.677 21.8004C140.331 21.8473 140.022 21.924 139.75 22.0305C139.477 22.1371 139.262 22.2862 139.104 22.478C138.946 22.6655 138.868 22.9084 138.868 23.2067C138.868 23.6328 139.023 23.9545 139.334 24.1719C139.645 24.3892 140.042 24.4979 140.523 24.4979ZM149.027 20.2472V26H146.713V16.1818H148.925V17.8501H149.04C149.266 17.3004 149.626 16.8636 150.12 16.5398C150.619 16.2159 151.234 16.054 151.967 16.054C152.645 16.054 153.235 16.1989 153.738 16.4886C154.245 16.7784 154.637 17.1982 154.914 17.7479C155.195 18.2976 155.334 18.9645 155.329 19.7486V26H153.016V20.1065C153.016 19.4503 152.845 18.9368 152.504 18.5661C152.168 18.1953 151.701 18.0099 151.104 18.0099C150.699 18.0099 150.339 18.0994 150.024 18.2784C149.713 18.4531 149.468 18.7067 149.289 19.0391C149.114 19.3714 149.027 19.7741 149.027 20.2472Z" fill="white" />
+                        <path d="M43.7926 43V36.4545H45.3352V43H43.7926ZM44.5682 35.5256C44.3239 35.5256 44.1136 35.4446 43.9375 35.2827C43.7614 35.1179 43.6733 34.9205 43.6733 34.6903C43.6733 34.4574 43.7614 34.2599 43.9375 34.098C44.1136 33.9332 44.3239 33.8509 44.5682 33.8509C44.8153 33.8509 45.0256 33.9332 45.1989 34.098C45.375 34.2599 45.4631 34.4574 45.4631 34.6903C45.4631 34.9205 45.375 35.1179 45.1989 35.2827C45.0256 35.4446 44.8153 35.5256 44.5682 35.5256ZM48.4641 39.1648V43H46.9215V36.4545H48.396V37.5668H48.4727C48.6232 37.2003 48.8633 36.9091 49.1928 36.6932C49.5252 36.4773 49.9357 36.3693 50.4244 36.3693C50.8761 36.3693 51.2695 36.4659 51.6048 36.6591C51.9428 36.8523 52.2042 37.1321 52.3888 37.4986C52.5763 37.8651 52.6687 38.3097 52.6658 38.8324V43H51.1232V39.071C51.1232 38.6335 51.0096 38.2912 50.7823 38.044C50.5579 37.7969 50.2468 37.6733 49.8491 37.6733C49.5792 37.6733 49.3391 37.733 49.1289 37.8523C48.9215 37.9687 48.7582 38.1378 48.6388 38.3594C48.5224 38.581 48.4641 38.8494 48.4641 39.1648ZM56.663 43.1151C56.1488 43.1151 55.6886 42.983 55.2823 42.7188C54.8761 42.4545 54.555 42.071 54.3192 41.5682C54.0835 41.0653 53.9656 40.4545 53.9656 39.7358C53.9656 39.0085 54.0849 38.3949 54.3235 37.8949C54.565 37.392 54.8903 37.0128 55.2994 36.7571C55.7085 36.4986 56.1644 36.3693 56.6673 36.3693C57.0508 36.3693 57.3661 36.4347 57.6133 36.5653C57.8604 36.6932 58.0565 36.848 58.2013 37.0298C58.3462 37.2088 58.4585 37.3778 58.538 37.5369H58.6019V34.2727H60.1488V43H58.6317V41.9688H58.538C58.4585 42.1278 58.3434 42.2969 58.1928 42.4759C58.0423 42.652 57.8434 42.8026 57.5962 42.9276C57.3491 43.0526 57.038 43.1151 56.663 43.1151ZM57.0934 41.8494C57.4201 41.8494 57.6985 41.7614 57.9286 41.5852C58.1587 41.4062 58.3335 41.1577 58.4528 40.8395C58.5721 40.5213 58.6317 40.1506 58.6317 39.7273C58.6317 39.304 58.5721 38.9361 58.4528 38.6236C58.3363 38.3111 58.163 38.0682 57.9329 37.8949C57.7056 37.7216 57.4258 37.6349 57.0934 37.6349C56.7496 37.6349 56.4627 37.7244 56.2326 37.9034C56.0025 38.0824 55.8292 38.3295 55.7127 38.6449C55.5962 38.9602 55.538 39.321 55.538 39.7273C55.538 40.1364 55.5962 40.5014 55.7127 40.8224C55.832 41.1406 56.0067 41.392 56.2369 41.5767C56.4698 41.7585 56.7553 41.8494 57.0934 41.8494ZM61.7926 43V36.4545H63.3352V43H61.7926ZM62.5682 35.5256C62.3239 35.5256 62.1136 35.4446 61.9375 35.2827C61.7614 35.1179 61.6733 34.9205 61.6733 34.6903C61.6733 34.4574 61.7614 34.2599 61.9375 34.098C62.1136 33.9332 62.3239 33.8509 62.5682 33.8509C62.8153 33.8509 63.0256 33.9332 63.1989 34.098C63.375 34.2599 63.4631 34.4574 63.4631 34.6903C63.4631 34.9205 63.375 35.1179 63.1989 35.2827C63.0256 35.4446 62.8153 35.5256 62.5682 35.5256ZM64.9215 43V36.4545H66.4173V37.5455H66.4854C66.6048 37.1676 66.8093 36.8764 67.0991 36.6719C67.3917 36.4645 67.7255 36.3608 68.1005 36.3608C68.1857 36.3608 68.2809 36.3651 68.386 36.3736C68.494 36.3793 68.5835 36.3892 68.6545 36.4034V37.8224C68.5891 37.7997 68.4854 37.7798 68.3434 37.7628C68.2042 37.7429 68.0692 37.733 67.9386 37.733C67.6573 37.733 67.4045 37.794 67.18 37.9162C66.9585 38.0355 66.7837 38.2017 66.6559 38.4148C66.5281 38.6278 66.4641 38.8736 66.4641 39.152V43H64.9215ZM69.6793 43V36.4545H71.2219V43H69.6793ZM70.4549 35.5256C70.2106 35.5256 70.0004 35.4446 69.8242 35.2827C69.6481 35.1179 69.56 34.9205 69.56 34.6903C69.56 34.4574 69.6481 34.2599 69.8242 34.098C70.0004 33.9332 70.2106 33.8509 70.4549 33.8509C70.7021 33.8509 70.9123 33.9332 71.0856 34.098C71.2617 34.2599 71.3498 34.4574 71.3498 34.6903C71.3498 34.9205 71.2617 35.1179 71.0856 35.2827C70.9123 35.4446 70.7021 35.5256 70.4549 35.5256ZM74.3509 39.1648V43H72.8082V36.4545H74.2827V37.5668H74.3594C74.5099 37.2003 74.75 36.9091 75.0795 36.6932C75.4119 36.4773 75.8224 36.3693 76.3111 36.3693C76.7628 36.3693 77.1563 36.4659 77.4915 36.6591C77.8295 36.8523 78.0909 37.1321 78.2756 37.4986C78.4631 37.8651 78.5554 38.3097 78.5526 38.8324V43H77.0099V39.071C77.0099 38.6335 76.8963 38.2912 76.669 38.044C76.4446 37.7969 76.1335 37.6733 75.7358 37.6733C75.4659 37.6733 75.2259 37.733 75.0156 37.8523C74.8082 37.9687 74.6449 38.1378 74.5256 38.3594C74.4091 38.581 74.3509 38.8494 74.3509 39.1648Z" fill="white" />
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://play.google.com/store/apps/details?id=com.ttnet.tivibucep&hl=tr" target="_blank" aria-label="Tivibu Go'yu Google Play'den indir">
+                    <svg width="170" height="52" viewBox="0 0 170 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect class="border" x="0.5" y="0.5" width="169" height="51" rx="7.5" stroke="white" stroke-opacity="0.2" />
+                        <path d="M40.9116 27.8388L35.274 30.981L30.2175 26.0325L35.3142 21.0444L40.9116 24.1639C41.242 24.3479 41.5168 24.6149 41.708 24.9378C41.8992 25.2606 42 25.6276 42 26.0014C42 26.3751 41.8992 26.7422 41.708 27.065C41.5168 27.3878 41.242 27.6549 40.9116 27.8388ZM11.1611 10.3087C11.0549 10.5641 11.0001 10.8374 11 11.1134V40.888C11 41.1954 11.0647 41.4816 11.1784 41.738L27.2253 26.0311L11.1611 10.3087ZM28.7214 24.5677L33.4082 19.9804L14.2008 9.27594C13.7889 9.04336 13.3096 8.95404 12.8399 9.02235L28.7214 24.5677ZM28.7214 27.496L12.8974 42.9847C13.3261 43.0357 13.7778 42.962 14.2008 42.7254L33.3679 32.0436L28.7214 27.496Z" fill="white" />
+                        <path d="M53.1009 34.2727V35.142C53.1009 35.392 53.0526 35.652 52.956 35.9219C52.8622 36.1889 52.733 36.4446 52.5682 36.6889C52.4034 36.9304 52.2159 37.1378 52.0057 37.3111L51.2898 36.8466C51.446 36.6108 51.5824 36.3565 51.6989 36.0838C51.8153 35.8082 51.8736 35.4972 51.8736 35.1506V34.2727H53.1009ZM57.3846 43H54.4272V34.2727H57.4442C58.3107 34.2727 59.055 34.4474 59.6772 34.7969C60.3022 35.1435 60.7823 35.642 61.1175 36.2926C61.4528 36.9432 61.6204 37.7216 61.6204 38.6278C61.6204 39.5369 61.4513 40.3182 61.1133 40.9716C60.7781 41.625 60.2937 42.1264 59.6602 42.4759C59.0295 42.8253 58.271 43 57.3846 43ZM56.0082 41.6321H57.3079C57.9158 41.6321 58.4229 41.5213 58.8292 41.2997C59.2354 41.0753 59.5408 40.7415 59.7454 40.2983C59.9499 39.8523 60.0522 39.2955 60.0522 38.6278C60.0522 37.9602 59.9499 37.4062 59.7454 36.9659C59.5408 36.5227 59.2383 36.1918 58.8377 35.973C58.44 35.7514 57.9457 35.6406 57.3548 35.6406H56.0082V41.6321ZM63.1225 43V34.2727H68.7987V35.598H64.7035V37.9673H68.5046V39.2926H64.7035V41.6747H68.8327V43H63.1225ZM77.5835 34.2727V43H76.1772L72.065 37.0554H71.9925V43H70.4116V34.2727H71.8263L75.9343 40.2216H76.011V34.2727H77.5835ZM83.4034 43H81.7159L84.7884 34.2727H86.7401L89.8168 43H88.1293L85.7983 36.0625H85.7301L83.4034 43ZM83.4588 39.5781H88.0611V40.848H83.4588V39.5781ZM90.9663 43V34.2727H92.5472V41.6747H96.391V43H90.9663ZM99.3441 34.2727V43H97.7631V34.2727H99.3441ZM108.228 34.2727V43H106.822L102.71 37.0554H102.637V43H101.056V34.2727H102.471L106.579 40.2216H106.656V34.2727H108.228Z" fill="white" />
+                        <path d="M84.1359 16.2724C83.1738 16.2746 82.234 16.5567 81.4353 17.0831C80.6366 17.6095 80.0149 18.3565 79.6488 19.2296C79.2827 20.1027 79.1887 21.0628 79.3786 21.9884C79.5685 22.9139 80.0338 23.7635 80.7157 24.4295C81.3976 25.0956 82.2655 25.5482 83.2095 25.7302C84.1536 25.9122 85.1314 25.8155 86.0194 25.4521C86.9074 25.0888 87.6657 24.4751 88.1983 23.6889C88.7309 22.9026 89.014 21.979 89.0118 21.0349C89.0211 20.405 88.9012 19.7798 88.6591 19.1964C88.4171 18.613 88.0579 18.0833 87.603 17.6389C87.148 17.1946 86.6066 16.8446 86.011 16.6098C85.4154 16.375 84.7777 16.2603 84.1359 16.2724ZM84.1359 23.926C83.5462 23.9665 82.9578 23.8319 82.447 23.5398C81.9363 23.2477 81.5269 22.8116 81.2721 22.2882C81.0173 21.7647 80.9288 21.1782 81.0182 20.6047C81.1076 20.0313 81.3707 19.4975 81.7733 19.0728C82.1759 18.648 82.6995 18.352 83.2758 18.2231C83.8522 18.0942 84.4547 18.1384 85.0051 18.35C85.5555 18.5617 86.0283 18.9309 86.362 19.4097C86.6958 19.8885 86.875 20.4548 86.8764 21.0349C86.8948 21.4024 86.838 21.7699 86.7094 22.1156C86.5808 22.4613 86.3829 22.7782 86.1275 23.0477C85.8721 23.3171 85.5643 23.5336 85.2222 23.6845C84.8802 23.8354 84.5108 23.9175 84.1359 23.926ZM73.4935 16.2724C72.5314 16.2746 71.5916 16.5567 70.7929 17.0831C69.9942 17.6095 69.3725 18.3565 69.0064 19.2296C68.6403 20.1027 68.5463 21.0628 68.7362 21.9884C68.9261 22.9139 69.3915 23.7635 70.0734 24.4295C70.7552 25.0956 71.6231 25.5482 72.5671 25.7302C73.5112 25.9122 74.489 25.8155 75.377 25.4521C76.265 25.0888 77.0233 24.4751 77.5559 23.6889C78.0886 22.9026 78.3716 21.979 78.3694 21.0349C78.3787 20.405 78.2588 19.7798 78.0167 19.1964C77.7747 18.613 77.4155 18.0833 76.9606 17.6389C76.5056 17.1946 75.9642 16.8446 75.3686 16.6098C74.773 16.375 74.1353 16.2603 73.4935 16.2724ZM73.4935 23.926C72.9038 23.9665 72.3154 23.8319 71.8046 23.5398C71.2939 23.2477 70.8845 22.8116 70.6297 22.2882C70.3749 21.7647 70.2864 21.1782 70.3758 20.6047C70.4652 20.0313 70.7283 19.4975 71.1309 19.0728C71.5335 18.648 72.0571 18.352 72.6334 18.2231C73.2098 18.0942 73.8123 18.1384 74.3627 18.35C74.9131 18.5617 75.3859 18.9309 75.7196 19.4097C76.0534 19.8885 76.2326 20.4548 76.234 21.0349C76.2524 21.4024 76.1956 21.7699 76.067 22.1156C75.9384 22.4613 75.7405 22.7782 75.4851 23.0477C75.2297 23.3171 74.9219 23.5336 74.5798 23.6845C74.2378 23.8354 73.8684 23.9175 73.4935 23.926ZM60.8414 17.7403V19.7574H65.7744C65.697 20.7074 65.2946 21.6039 64.6325 22.3011C64.1376 22.7959 63.5425 23.1832 62.8855 23.438C62.2285 23.6928 61.5244 23.8094 60.8186 23.7803C59.3649 23.7803 57.9708 23.2136 56.9429 22.2049C55.915 21.1962 55.3375 19.8281 55.3375 18.4015C55.3375 16.9749 55.915 15.6068 56.9429 14.5981C57.9708 13.5894 59.3649 13.0227 60.8186 13.0227C62.2122 13.0023 63.5578 13.5217 64.564 14.4682L66.0142 13.0451C65.3336 12.3845 64.5255 11.8639 63.6373 11.5136C62.749 11.1634 61.7985 10.9907 60.8414 11.0056C59.8263 10.9668 58.8136 11.1296 57.8641 11.4841C56.9145 11.8386 56.0477 12.3775 55.3155 13.0686C54.5833 13.7597 54.0008 14.5888 53.603 15.5061C53.2051 16.4234 53 17.4101 53 18.4071C53 19.4041 53.2051 20.3908 53.603 21.3081C54.0008 22.2254 54.5833 23.0545 55.3155 23.7456C56.0477 24.4367 56.9145 24.9756 57.8641 25.3301C58.8136 25.6846 59.8263 25.8474 60.8414 25.8086C61.8182 25.8469 62.7922 25.682 63.6994 25.3247C64.6067 24.9674 65.4267 24.4258 66.1055 23.7355C67.3046 22.4428 67.9436 20.7426 67.8868 18.9954C67.8909 18.5749 67.8565 18.1548 67.7841 17.7403H60.8414ZM112.58 19.3092C112.283 18.4494 111.726 17.6986 110.983 17.1564C110.241 16.6141 109.349 16.3058 108.424 16.2724C107.799 16.2712 107.181 16.3957 106.607 16.6383C106.034 16.8809 105.517 17.2363 105.089 17.6827C104.661 18.129 104.33 18.6568 104.118 19.2334C103.907 19.81 103.817 20.4231 103.856 21.0349C103.847 22.0578 104.174 23.0564 104.791 23.8815C105.407 24.7066 106.278 25.3138 107.275 25.6126C108.272 25.9115 109.341 25.8857 110.322 25.5393C111.303 25.1929 112.143 24.5444 112.717 23.6907L111.062 22.5701C110.815 22.9738 110.465 23.3072 110.046 23.5372C109.627 23.7672 109.155 23.8858 108.675 23.8812C108.18 23.9012 107.691 23.7739 107.271 23.5159C106.851 23.2579 106.521 22.8813 106.323 22.4356L112.82 19.8022L112.58 19.3092ZM105.957 20.9004C105.934 20.5523 105.982 20.2032 106.098 19.8735C106.214 19.5438 106.396 19.2401 106.633 18.9803C106.87 18.7205 107.158 18.5097 107.479 18.3602C107.8 18.2108 108.149 18.1258 108.504 18.1101C108.872 18.0881 109.238 18.1731 109.557 18.3545C109.876 18.5359 110.133 18.8056 110.297 19.1299L105.957 20.9004ZM100.682 25.5172H102.817V11.5099H100.682V25.5172ZM97.1877 17.3369H97.1078C96.7888 16.9804 96.3951 16.6957 95.9536 16.5023C95.5122 16.3089 95.0334 16.2114 94.5499 16.2163C93.3021 16.2757 92.1253 16.804 91.2635 17.6917C90.4018 18.5794 89.9211 19.7584 89.9211 20.9845C89.9211 22.2105 90.4018 23.3895 91.2635 24.2772C92.1253 25.1649 93.3021 25.6932 94.5499 25.7526C95.034 25.7621 95.5143 25.6666 95.9565 25.4729C96.3986 25.2792 96.7918 24.992 97.1078 24.632H97.1877V25.3155C97.1877 27.1421 96.1942 28.117 94.5956 28.117C94.0616 28.1055 93.5431 27.9385 93.1059 27.6372C92.6688 27.3359 92.3328 26.914 92.1405 26.4249L90.2907 27.1757C90.6327 28.0187 91.2273 28.7399 91.996 29.2441C92.7646 29.7484 93.6711 30.0118 94.5956 29.9996C97.0963 29.9996 99.1632 28.554 99.1632 25.0354V16.5525H97.1877V17.3369ZM94.7326 23.926C93.9845 23.8802 93.2822 23.5563 92.7689 23.0202C92.2556 22.4841 91.9699 21.7761 91.9699 21.0405C91.9699 20.3049 92.2556 19.5969 92.7689 19.0608C93.2822 18.5247 93.9845 18.2007 94.7326 18.155C95.0983 18.1705 95.4571 18.258 95.7876 18.4123C96.1181 18.5666 96.4136 18.7846 96.6565 19.0533C96.8994 19.322 97.0847 19.6359 97.2015 19.9763C97.3182 20.3167 97.364 20.6767 97.3361 21.0349C97.3673 21.3942 97.3238 21.7561 97.2084 22.0985C97.093 22.4409 96.908 22.7568 96.6647 23.027C96.4213 23.2973 96.1246 23.5163 95.7925 23.6708C95.4604 23.8253 95.0999 23.9121 94.7326 23.926ZM122.583 11.5099H117.468V25.5172H119.603V20.2056H122.583C123.192 20.2485 123.803 20.168 124.378 19.9689C124.954 19.7698 125.481 19.4566 125.928 19.0486C126.374 18.6407 126.731 18.1468 126.974 17.5978C127.218 17.0489 127.344 16.4565 127.344 15.8578C127.344 15.259 127.218 14.6667 126.974 14.1177C126.731 13.5687 126.374 13.0748 125.928 12.6669C125.481 12.2589 124.954 11.9457 124.378 11.7466C123.803 11.5476 123.192 11.467 122.583 11.5099ZM122.583 18.2334H119.603V13.4597H122.629C122.95 13.4597 123.268 13.5217 123.564 13.6422C123.861 13.7627 124.13 13.9394 124.357 14.1621C124.584 14.3848 124.764 14.6491 124.887 14.9401C125.009 15.231 125.073 15.5428 125.073 15.8578C125.073 16.1727 125.009 16.4845 124.887 16.7755C124.764 17.0664 124.584 17.3308 124.357 17.5534C124.13 17.7761 123.861 17.9528 123.564 18.0733C123.268 18.1938 122.95 18.2558 122.629 18.2558L122.583 18.2334ZM135.761 16.2275C134.983 16.1805 134.208 16.3582 133.533 16.7386C132.857 17.119 132.309 17.6854 131.958 18.3679L133.842 19.1411C134.033 18.8042 134.318 18.5287 134.665 18.3477C135.011 18.1668 135.404 18.0882 135.795 18.1213C136.066 18.0903 136.341 18.1125 136.603 18.1867C136.865 18.2609 137.11 18.3856 137.322 18.5536C137.535 18.7215 137.711 18.9293 137.841 19.1649C137.971 19.4004 138.052 19.659 138.079 19.9255V20.06C137.392 19.7058 136.628 19.5211 135.852 19.5221C133.819 19.5221 131.741 20.6427 131.741 22.6821C131.761 23.1156 131.87 23.5407 132.061 23.9322C132.252 24.3237 132.521 24.6735 132.852 24.961C133.183 25.2484 133.57 25.4676 133.989 25.6055C134.408 25.7434 134.852 25.7972 135.292 25.7638C135.828 25.7929 136.362 25.6816 136.84 25.4413C137.318 25.2011 137.721 24.8405 138.01 24.3966H138.079V25.5172H140.134V20.1272C140.134 17.6731 138.239 16.25 135.806 16.25L135.761 16.2275ZM135.498 23.9036C134.801 23.9036 133.831 23.5562 133.831 22.7158C133.831 21.5952 135.041 21.2142 136.115 21.2142C136.793 21.1977 137.463 21.3603 138.056 21.6848C137.984 22.2934 137.69 22.8558 137.228 23.2679C136.766 23.68 136.168 23.9138 135.544 23.926L135.498 23.9036ZM147.625 16.5525L145.181 22.6261H145.113L142.578 16.5525H140.294L144.096 25.0466L141.927 29.7643H144.154L150 16.5525H147.625ZM128.441 25.5172H130.565V11.5099H128.441V25.5172Z" fill="white" />
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://appgallery.huawei.com/app/C101204731" target="_blank" aria-label="Tivibu Go'yu AppGallery'den indir">
+                    <svg width="170" height="52" viewBox="0 0 170 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect class="border" x="0.5" y="0.5" width="169" height="51" rx="7.5" stroke="white" stroke-opacity="0.2" />
+                        <path d="M55.8608 20V11.2727H57.4418V14.9673H61.4858V11.2727H63.071V20H61.4858V16.2926H57.4418V20H55.8608ZM67.62 20.1278C66.9638 20.1278 66.397 19.9915 65.9197 19.7188C65.4453 19.4432 65.0803 19.054 64.8246 18.5511C64.5689 18.0455 64.4411 17.4503 64.4411 16.7656C64.4411 16.0923 64.5689 15.5014 64.8246 14.9929C65.0831 14.4815 65.4439 14.0838 65.907 13.7997C66.37 13.5128 66.9141 13.3693 67.5391 13.3693C67.9425 13.3693 68.3232 13.4347 68.6811 13.5653C69.0419 13.6932 69.3601 13.892 69.6357 14.1619C69.9141 14.4318 70.1328 14.7756 70.2919 15.1932C70.451 15.608 70.5305 16.1023 70.5305 16.6761V17.1491H65.1655V16.1094H69.0518C69.049 15.8139 68.9851 15.5511 68.8601 15.321C68.7351 15.0881 68.5604 14.9048 68.3359 14.7713C68.1143 14.6378 67.8558 14.571 67.5604 14.571C67.245 14.571 66.968 14.6477 66.7294 14.8011C66.4908 14.9517 66.3047 15.1506 66.1712 15.3977C66.0405 15.642 65.9737 15.9105 65.9709 16.2031V17.1108C65.9709 17.4915 66.0405 17.8182 66.1797 18.0909C66.3189 18.3608 66.5135 18.5682 66.7635 18.7131C67.0135 18.8551 67.3061 18.9261 67.6413 18.9261C67.8658 18.9261 68.0689 18.8949 68.2507 18.8324C68.4325 18.767 68.5902 18.6719 68.7237 18.5469C68.8572 18.4219 68.9581 18.267 69.0263 18.0824L70.4666 18.2443C70.3757 18.625 70.2024 18.9574 69.9467 19.2415C69.6939 19.5227 69.37 19.7415 68.9751 19.8977C68.5803 20.0511 68.1286 20.1278 67.62 20.1278ZM71.8356 20V13.4545H73.31V14.5668H73.3867C73.5231 14.1918 73.7489 13.8991 74.0643 13.6889C74.3796 13.4759 74.756 13.3693 75.1935 13.3693C75.6367 13.3693 76.0103 13.4773 76.3143 13.6932C76.6211 13.9062 76.837 14.1974 76.962 14.5668H77.0302C77.1751 14.2031 77.4194 13.9134 77.7631 13.6974C78.1097 13.4787 78.5202 13.3693 78.9947 13.3693C79.5969 13.3693 80.0884 13.5597 80.4691 13.9403C80.8498 14.321 81.0401 14.8764 81.0401 15.6065V20H79.4933V15.8452C79.4933 15.4389 79.3853 15.142 79.1694 14.9545C78.9535 14.7642 78.6893 14.669 78.3768 14.669C78.0046 14.669 77.7134 14.7855 77.5032 15.0185C77.2958 15.2486 77.1921 15.5483 77.1921 15.9176V20H75.6793V15.7812C75.6793 15.4432 75.5771 15.1733 75.3725 14.9716C75.1708 14.7699 74.9066 14.669 74.5799 14.669C74.3583 14.669 74.1566 14.7259 73.9748 14.8395C73.793 14.9503 73.6481 15.108 73.5401 15.3125C73.4322 15.5142 73.3782 15.75 73.3782 16.0199V20H71.8356ZM85.5028 20.1278C84.8466 20.1278 84.2798 19.9915 83.8026 19.7188C83.3281 19.4432 82.9631 19.054 82.7074 18.5511C82.4517 18.0455 82.3239 17.4503 82.3239 16.7656C82.3239 16.0923 82.4517 15.5014 82.7074 14.9929C82.9659 14.4815 83.3267 14.0838 83.7898 13.7997C84.2528 13.5128 84.7969 13.3693 85.4219 13.3693C85.8253 13.3693 86.206 13.4347 86.5639 13.5653C86.9247 13.6932 87.2429 13.892 87.5185 14.1619C87.7969 14.4318 88.0156 14.7756 88.1747 15.1932C88.3338 15.608 88.4134 16.1023 88.4134 16.6761V17.1491H83.0483V16.1094H86.9347C86.9318 15.8139 86.8679 15.5511 86.7429 15.321C86.6179 15.0881 86.4432 14.9048 86.2188 14.7713C85.9972 14.6378 85.7386 14.571 85.4432 14.571C85.1278 14.571 84.8509 14.6477 84.6122 14.8011C84.3736 14.9517 84.1875 15.1506 84.054 15.3977C83.9233 15.642 83.8565 15.9105 83.8537 16.2031V17.1108C83.8537 17.4915 83.9233 17.8182 84.0625 18.0909C84.2017 18.3608 84.3963 18.5682 84.6463 18.7131C84.8963 18.8551 85.1889 18.9261 85.5241 18.9261C85.7486 18.9261 85.9517 18.8949 86.1335 18.8324C86.3153 18.767 86.473 18.6719 86.6065 18.5469C86.7401 18.4219 86.8409 18.267 86.9091 18.0824L88.3494 18.2443C88.2585 18.625 88.0852 18.9574 87.8295 19.2415C87.5767 19.5227 87.2528 19.7415 86.858 19.8977C86.4631 20.0511 86.0114 20.1278 85.5028 20.1278ZM91.261 16.1648V20H89.7184V13.4545H91.1928V14.5668H91.2695C91.4201 14.2003 91.6602 13.9091 91.9897 13.6932C92.3221 13.4773 92.7326 13.3693 93.2212 13.3693C93.6729 13.3693 94.0664 13.4659 94.4016 13.6591C94.7397 13.8523 95.0011 14.1321 95.1857 14.4986C95.3732 14.8651 95.4656 15.3097 95.4627 15.8324V20H93.9201V16.071C93.9201 15.6335 93.8065 15.2912 93.5792 15.044C93.3548 14.7969 93.0437 14.6733 92.646 14.6733C92.3761 14.6733 92.136 14.733 91.9258 14.8523C91.7184 14.9687 91.555 15.1378 91.4357 15.3594C91.3192 15.581 91.261 15.8494 91.261 16.1648ZM100.007 20V13.4545H101.55V20H100.007ZM100.783 12.5256C100.539 12.5256 100.328 12.4446 100.152 12.2827C99.9762 12.1179 99.8881 11.9205 99.8881 11.6903C99.8881 11.4574 99.9762 11.2599 100.152 11.098C100.328 10.9332 100.539 10.8509 100.783 10.8509C101.03 10.8509 101.24 10.9332 101.414 11.098C101.59 11.2599 101.678 11.4574 101.678 11.6903C101.678 11.9205 101.59 12.1179 101.414 12.2827C101.24 12.4446 101.03 12.5256 100.783 12.5256ZM104.679 16.1648V20H103.136V13.4545H104.611V14.5668H104.688C104.838 14.2003 105.078 13.9091 105.408 13.6932C105.74 13.4773 106.151 13.3693 106.639 13.3693C107.091 13.3693 107.484 13.4659 107.82 13.6591C108.158 13.8523 108.419 14.1321 108.604 14.4986C108.791 14.8651 108.884 15.3097 108.881 15.8324V20H107.338V16.071C107.338 15.6335 107.224 15.2912 106.997 15.044C106.773 14.7969 106.462 14.6733 106.064 14.6733C105.794 14.6733 105.554 14.733 105.344 14.8523C105.136 14.9687 104.973 15.1378 104.854 15.3594C104.737 15.581 104.679 15.8494 104.679 16.1648ZM112.878 20.1151C112.364 20.1151 111.903 19.983 111.497 19.7188C111.091 19.4545 110.77 19.071 110.534 18.5682C110.298 18.0653 110.18 17.4545 110.18 16.7358C110.18 16.0085 110.3 15.3949 110.538 14.8949C110.78 14.392 111.105 14.0128 111.514 13.7571C111.923 13.4986 112.379 13.3693 112.882 13.3693C113.266 13.3693 113.581 13.4347 113.828 13.5653C114.075 13.6932 114.271 13.848 114.416 14.0298C114.561 14.2088 114.673 14.3778 114.753 14.5369H114.817V11.2727H116.364V20H114.847V18.9688H114.753C114.673 19.1278 114.558 19.2969 114.408 19.4759C114.257 19.652 114.058 19.8026 113.811 19.9276C113.564 20.0526 113.253 20.1151 112.878 20.1151ZM113.308 18.8494C113.635 18.8494 113.913 18.7614 114.143 18.5852C114.374 18.4062 114.548 18.1577 114.668 17.8395C114.787 17.5213 114.847 17.1506 114.847 16.7273C114.847 16.304 114.787 15.9361 114.668 15.6236C114.551 15.3111 114.378 15.0682 114.148 14.8949C113.92 14.7216 113.641 14.6349 113.308 14.6349C112.964 14.6349 112.678 14.7244 112.447 14.9034C112.217 15.0824 112.044 15.3295 111.928 15.6449C111.811 15.9602 111.753 16.321 111.753 16.7273C111.753 17.1364 111.811 17.5014 111.928 17.8224C112.047 18.1406 112.222 18.392 112.452 18.5767C112.685 18.7585 112.97 18.8494 113.308 18.8494ZM118.007 20V13.4545H119.55V20H118.007ZM118.783 12.5256C118.539 12.5256 118.328 12.4446 118.152 12.2827C117.976 12.1179 117.888 11.9205 117.888 11.6903C117.888 11.4574 117.976 11.2599 118.152 11.098C118.328 10.9332 118.539 10.8509 118.783 10.8509C119.03 10.8509 119.24 10.9332 119.414 11.098C119.59 11.2599 119.678 11.4574 119.678 11.6903C119.678 11.9205 119.59 12.1179 119.414 12.2827C119.24 12.4446 119.03 12.5256 118.783 12.5256ZM121.136 20V13.4545H122.632V14.5455H122.7C122.82 14.1676 123.024 13.8764 123.314 13.6719C123.607 13.4645 123.94 13.3608 124.315 13.3608C124.401 13.3608 124.496 13.3651 124.601 13.3736C124.709 13.3793 124.798 13.3892 124.869 13.4034V14.8224C124.804 14.7997 124.7 14.7798 124.558 14.7628C124.419 14.7429 124.284 14.733 124.153 14.733C123.872 14.733 123.619 14.794 123.395 14.9162C123.173 15.0355 122.999 15.2017 122.871 15.4148C122.743 15.6278 122.679 15.8736 122.679 16.152V20H121.136ZM125.894 20V13.4545H127.437V20H125.894ZM126.67 12.5256C126.425 12.5256 126.215 12.4446 126.039 12.2827C125.863 12.1179 125.775 11.9205 125.775 11.6903C125.775 11.4574 125.863 11.2599 126.039 11.098C126.215 10.9332 126.425 10.8509 126.67 10.8509C126.917 10.8509 127.127 10.9332 127.3 11.098C127.477 11.2599 127.565 11.4574 127.565 11.6903C127.565 11.9205 127.477 12.1179 127.3 12.2827C127.127 12.4446 126.917 12.5256 126.67 12.5256ZM130.566 16.1648V20H129.023V13.4545H130.498V14.5668H130.574C130.725 14.2003 130.965 13.9091 131.294 13.6932C131.627 13.4773 132.037 13.3693 132.526 13.3693C132.978 13.3693 133.371 13.4659 133.706 13.6591C134.044 13.8523 134.306 14.1321 134.49 14.4986C134.678 14.8651 134.77 15.3097 134.767 15.8324V20H133.225V16.071C133.225 15.6335 133.111 15.2912 132.884 15.044C132.659 14.7969 132.348 14.6733 131.951 14.6733C131.681 14.6733 131.441 14.733 131.23 14.8523C131.023 14.9687 130.86 15.1378 130.74 15.3594C130.624 15.581 130.566 15.8494 130.566 16.1648Z" fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5398 9C13.5548 9 11 11.5544 11 18.538V33.462C11 40.4456 13.5548 43 20.5398 43H35.4556C42.4404 43 45 40.4456 45 33.462V18.538C45 11.5544 42.4452 9 35.4602 9H20.5398Z" fill="url(#paint0_linear_1416_2942)" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M25.8307 28.7193H27.1957L26.5109 27.1267L25.8307 28.7193ZM25.4946 29.5219L25.0896 30.4485H24.1676L26.1283 26.0003H26.9252L28.8779 30.4485H27.9313L27.5315 29.5219H25.4946ZM40.3311 30.4453H41.2223V26H40.3311V30.4453ZM36.7844 28.5357H38.427V27.7251H36.7844V26.8141H39.1689V26.0033H35.8935V30.4483H39.2547V29.6375H36.7844V28.5357ZM33.2437 29.0609L32.2334 26H31.4961L30.4858 29.0609L29.5026 26.0025H28.5413L30.0929 30.451H30.8403L31.8522 27.5289L32.8641 30.451H33.618L35.1656 26.0025H34.2291L33.2437 29.0609ZM22.8073 28.548C22.8073 29.2716 22.4479 29.6582 21.7954 29.6582C21.1392 29.6582 20.778 29.2604 20.778 28.5171V26.003H19.8748V28.548C19.8748 29.7998 20.5706 30.5177 21.7831 30.5177C23.0076 30.5177 23.7096 29.7861 23.7096 28.5108V26.0003H22.8073V28.548ZM17.7201 26.0003H18.6227V30.4513H17.7201V28.6436H15.681V30.4513H14.7778V26.0003H15.681V27.7956H17.7201V26.0003Z" fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M27.9999 20.3332C24.875 20.3332 22.3333 17.7912 22.3333 14.6665H23.1337C23.1337 17.3495 25.3169 19.5325 27.9999 19.5325C30.683 19.5325 32.8662 17.3495 32.8662 14.6665H33.6666C33.6666 17.7912 31.1246 20.3332 27.9999 20.3332Z" fill="white" />
+                        <path d="M64.0273 36.7288H58.6597L57.3483 40.2847H55L60.2456 26.9424H62.4719L67.8395 40.2847H65.3692L64.0273 36.7288ZM59.3307 34.9052H63.3258L61.8924 31.0758C61.7095 30.5591 61.496 29.9512 61.313 29.313C61.13 29.8905 60.947 30.4679 60.7641 31.0454L59.3307 34.9052Z" fill="white" />
+                        <path d="M68.7849 32.7779C68.7849 32.0485 68.7544 31.2279 68.7239 30.3465H70.8587C70.9502 30.772 70.9807 31.1671 71.0112 31.5926C71.8956 30.6201 72.902 30.1338 74.061 30.1338C74.7319 30.1338 75.3418 30.2858 75.9213 30.6201C76.5008 30.9544 76.9582 31.4711 77.2937 32.2005C77.6292 32.9299 77.8122 33.8417 77.8122 34.9358C77.8122 36.0907 77.5987 37.0937 77.2022 37.9143C76.8057 38.7349 76.2568 39.3731 75.5248 39.7682C74.8234 40.1937 74 40.4064 73.0545 40.4064C72.3836 40.4064 71.7126 40.2849 71.0417 40.0721V44.2359L68.7544 44.4183V32.7779H68.7849ZM74.7929 37.8535C75.2504 37.2456 75.4943 36.3339 75.4943 35.1182C75.4943 33.9936 75.3113 33.2034 74.9149 32.7171C74.5184 32.2309 74.0305 31.9573 73.39 31.9573C72.9325 31.9573 72.5361 32.0485 72.1701 32.2613C71.8041 32.474 71.4382 32.7475 71.1027 33.1123V38.4309C71.3162 38.5525 71.5907 38.6437 71.8956 38.7045C72.2006 38.7653 72.5056 38.7956 72.7801 38.7956C73.634 38.7956 74.3049 38.4917 74.7929 37.8535Z" fill="white" />
+                        <path d="M79.1847 32.7779C79.1847 32.0485 79.1542 31.2279 79.1237 30.3465H81.2585C81.35 30.772 81.3805 31.1671 81.411 31.5926C82.2954 30.6201 83.3018 30.1338 84.4607 30.1338C85.1317 30.1338 85.7416 30.2858 86.3211 30.6201C86.9005 30.9544 87.358 31.4711 87.6935 32.2005C88.0289 32.9299 88.2119 33.8417 88.2119 34.9358C88.2119 36.0907 87.9984 37.0937 87.602 37.9143C87.2055 38.7349 86.6566 39.3731 85.9246 39.7682C85.2232 40.1937 84.3997 40.4064 83.4543 40.4064C82.7834 40.4064 82.1124 40.2849 81.4415 40.0721V44.2359L79.1542 44.4183V32.7779H79.1847ZM85.1927 37.8535C85.6501 37.2456 85.8941 36.3339 85.8941 35.1182C85.8941 33.9936 85.7111 33.2034 85.3147 32.7171C84.9182 32.2309 84.4302 31.9573 83.7898 31.9573C83.3323 31.9573 82.9359 32.0485 82.5699 32.2613C82.2039 32.474 81.8379 32.7475 81.5025 33.1123V38.4309C81.716 38.5525 81.9904 38.6437 82.2954 38.7045C82.6004 38.7653 82.9054 38.7956 83.1798 38.7956C84.0338 38.7956 84.7352 38.4917 85.1927 37.8535Z" fill="white" />
+                        <path d="M92.39 39.646C91.414 39.099 90.6516 38.3392 90.1332 37.3058C89.6147 36.3029 89.3402 35.0872 89.3402 33.7195C89.3402 32.2303 89.6452 30.9538 90.2551 29.9205C90.8651 28.8871 91.6885 28.0969 92.7559 27.5802C93.7929 27.0636 94.9823 26.79 96.2937 26.79C97.0561 26.79 97.7881 26.8812 98.4895 27.0332C99.1909 27.2155 99.8314 27.4283 100.441 27.7322L99.8619 29.495C98.642 28.9175 97.4831 28.644 96.3852 28.644C95.4702 28.644 94.6468 28.8567 93.9454 29.2518C93.2439 29.6469 92.695 30.2244 92.329 30.9842C91.9325 31.744 91.7495 32.6862 91.7495 33.7499C91.7495 34.6921 91.902 35.5431 92.207 36.2725C92.512 37.0019 92.9694 37.5794 93.6099 38.0352C94.2503 38.4607 95.0738 38.6735 96.0497 38.6735C96.5072 38.6735 96.9341 38.6431 97.3916 38.5519C97.8491 38.4607 98.2455 38.3696 98.642 38.2176V35.5127H95.5617V33.7499H100.868V39.3725C100.106 39.7372 99.3129 40.0108 98.459 40.1931C97.6051 40.3755 96.7816 40.4666 95.9582 40.4666C94.5553 40.4666 93.3964 40.1931 92.39 39.646Z" fill="white" />
+                        <path d="M108.889 40.2846C108.798 39.8895 108.767 39.464 108.737 38.9777C108.371 39.4032 107.944 39.7376 107.364 40.0415C106.815 40.3454 106.175 40.467 105.443 40.467C104.864 40.467 104.345 40.3454 103.888 40.1327C103.43 39.9199 103.034 39.5856 102.759 39.1297C102.485 38.6738 102.332 38.1268 102.332 37.4885C102.332 36.516 102.668 35.7562 103.369 35.1787C104.071 34.6012 105.23 34.3277 106.846 34.3277C107.456 34.3277 108.066 34.3581 108.645 34.4493V34.2669C108.645 33.3855 108.462 32.7777 108.096 32.413C107.73 32.0483 107.181 31.8659 106.48 31.8659C105.992 31.8659 105.474 31.9267 104.925 32.0787C104.376 32.2306 103.888 32.3826 103.461 32.5953L103.095 30.9541C103.491 30.7718 104.04 30.5894 104.711 30.4375C105.382 30.2855 106.084 30.1943 106.815 30.1943C107.669 30.1943 108.401 30.3159 109.011 30.5894C109.621 30.863 110.079 31.2885 110.414 31.9267C110.75 32.5649 110.933 33.4159 110.933 34.4797V38.4307C110.933 38.8562 110.963 39.464 110.994 40.2846H108.889ZM107.547 38.4307C108.035 38.2179 108.401 37.914 108.706 37.5797V35.7258C108.096 35.665 107.578 35.6346 107.181 35.6346C106.236 35.6346 105.596 35.7865 105.23 36.0905C104.864 36.3944 104.681 36.7895 104.681 37.3062C104.681 37.7924 104.803 38.1572 105.077 38.4003C105.352 38.6434 105.687 38.765 106.144 38.765C106.602 38.7954 107.059 38.6738 107.547 38.4307Z" fill="white" />
+                        <path d="M112.732 37.9138V26.1824L114.989 26V37.5187C114.989 37.9442 115.05 38.2482 115.202 38.4305C115.355 38.6129 115.568 38.7041 115.904 38.7041C116.056 38.7041 116.239 38.6737 116.514 38.6129L116.788 40.2541C116.575 40.3452 116.3 40.406 115.995 40.4668C115.69 40.5276 115.385 40.558 115.111 40.558C113.525 40.4668 112.732 39.6158 112.732 37.9138Z" fill="white" />
+                        <path d="M118.405 37.9138V26.1824L120.661 26V37.5187C120.661 37.9442 120.722 38.2482 120.875 38.4305C121.027 38.6129 121.241 38.7041 121.576 38.7041C121.729 38.7041 121.912 38.6737 122.186 38.6129L122.461 40.2541C122.247 40.3452 121.973 40.406 121.668 40.4668C121.363 40.5276 121.058 40.558 120.783 40.558C119.198 40.4668 118.405 39.6158 118.405 37.9138Z" fill="white" />
+                        <path d="M131.793 35.6044H125.267C125.358 37.6711 126.364 38.7349 128.255 38.7349C128.713 38.7349 129.201 38.6741 129.689 38.5525C130.177 38.4309 130.634 38.279 131.092 38.0966L131.58 39.6466C130.451 40.1937 129.201 40.4672 127.828 40.4672C126.761 40.4672 125.876 40.2545 125.145 39.8594C124.413 39.4643 123.864 38.8868 123.498 38.127C123.132 37.3672 122.949 36.4858 122.949 35.4221C122.949 34.3279 123.132 33.3858 123.528 32.5956C123.925 31.8054 124.443 31.1975 125.145 30.772C125.846 30.3465 126.639 30.1338 127.554 30.1338C128.499 30.1338 129.292 30.3465 129.902 30.8024C130.543 31.2279 131 31.8358 131.305 32.5652C131.61 33.2946 131.763 34.1152 131.763 34.9966V35.6044H131.793ZM129.567 34.176C129.536 33.3858 129.323 32.7779 128.957 32.3828C128.591 31.9877 128.133 31.775 127.523 31.775C126.944 31.775 126.456 31.9877 126.09 32.3828C125.694 32.7779 125.45 33.3858 125.328 34.1456H129.567V34.176Z" fill="white" />
+                        <path d="M133.501 32.8385C133.501 32.2914 133.47 31.4708 133.44 30.3463H135.575C135.605 30.6198 135.636 30.9541 135.666 31.3492C135.697 31.7443 135.727 32.0483 135.727 32.2914C136.002 31.8659 136.246 31.5012 136.52 31.1973C136.764 30.8934 137.069 30.6502 137.405 30.4679C137.74 30.2855 138.136 30.1943 138.563 30.1943C138.929 30.1943 139.204 30.2247 139.478 30.3159L139.204 32.2914C138.99 32.2306 138.746 32.2002 138.472 32.2002C137.923 32.2002 137.466 32.3218 137.069 32.5953C136.673 32.8689 136.246 33.3248 135.788 33.9326V40.315H133.531V32.8385H133.501Z" fill="white" />
+                        <path d="M140.759 44.3571C140.424 44.2963 140.149 44.2355 139.936 44.1444L140.363 42.5032C140.515 42.5336 140.698 42.5943 140.942 42.6247C141.186 42.6551 141.4 42.6855 141.613 42.6855C142.62 42.6855 143.382 42.0473 143.87 40.7404L144.023 40.3757L140.363 30.3766H142.803L144.663 35.9688C144.968 36.911 145.151 37.6708 145.242 38.157C145.425 37.4276 145.608 36.7286 145.852 35.9992L147.713 30.3462H150L146.34 40.4061C146.005 41.3483 145.608 42.1385 145.212 42.7159C144.816 43.2934 144.328 43.7189 143.809 44.0228C143.26 44.2963 142.62 44.4483 141.827 44.4483C141.461 44.4483 141.095 44.4179 140.759 44.3571Z" fill="white" />
+                        <defs>
+                            <linearGradient id="paint0_linear_1416_2942" x1="1711" y1="9" x2="1711" y2="3409" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FB6361" />
+                                <stop offset="1" stop-color="#ED3E45" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+
+                </a>
+            </li>
+        </ul>
+        <span class="menuTitle">Sosyal Medyada Tivibu</span>
+        
+<ul class="socials">
+            <li>
+                <a href="https://www.instagram.com/tivibu/ " target="_blank" class="instagram" aria-label="Instagram">
+                    <i></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/user/tivibu" target="_blank" class="youtube" aria-label="Youtube">
+                    <i></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/tivibu" target="_blank" class="facebook" aria-label="Facebook">
+                    <i></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/tivibu" target="_blank" class="twitter" aria-label="Twitter">
+                    <i></i>
+                </a>
+            </li>
+</ul>
+
+
+        <div class="box">
+            <span class="menuTitle">Erişilebilirlik</span>
+            <ul class="menu">
+                <li id="erisilebilirlikFooter">
+                    <a href="javascript:;" id="menu-erisilebilirlik-link" class="readabler-trigger" title="Erişilebilirlik Paneli">
+                        Erişilebilirlik Paneli
+                    </a>
+                </li>
+                <li id="footerSignlang"> <a href="#" onclick="event.preventDefault();" aria-label="İşaret Dili Çevirisi" data-engelsiz-nokey title="İşaret Dili Çevirisi"><span class="link">İşaret Dili Çevirisi</span></a> </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="bottom">
+    <div class="box">
+        © 2026 TTNET A.Ş. Tüm hakları saklıdır.
+    </div>
+    <div class="box">
+    </div>
+    <div class="box">
+        <a class="btn slidetop" data-scroll href="#main">
+            <span>Başa Dön</span>
+        </a>
+    </div>
+</div>
+<a class="btn signup w100" href="https://odeme.tivibu.com.tr/Product/ProductList">
+   
+    <span>
+        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.5 10C14.7091 10 16.5 8.20914 16.5 6C16.5 3.79086 14.7091 2 12.5 2C10.2909 2 8.5 3.79086 8.5 6C8.5 8.20914 10.2909 10 12.5 10Z" fill="#0C1927" stroke="#0C1927" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M21.5 22C21.5 17.0294 17.4706 13 12.5 13C7.52945 13 3.5 17.0294 3.5 22" stroke="#0C1927" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M10 19.5H15" stroke="#0C1927" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M12.5 17V22" stroke="#0C1927" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        Hemen Üye Ol
+    </span>
+</a>
+
+
+
+
+
+<style>
+    /* Sadece yuvarlak buton ikonunu ve gölgesini görünmez yapar, paneli etkilemez */
+    #widget button.widget-avatar {
+        opacity: 0 !important;
+        visibility: hidden !important;
+        pointer-events: none !important;
+        width: 0 !important;
+        height: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    /* Butonun etrafındaki olası ekstra tıklama alanlarını veya çerçeveleri temizler */
+    #widget button.widget-avatar * {
+        display: none !important;
+    }
+</style>
+
+
+
+<script>
+    function waitForElement(selector, timeout = 5000) {
+      return new Promise((resolve, reject) => {
+        const element = document.querySelector(selector);
+
+        if (element) {
+          resolve(element);
+          return;
+        }
+
+        const observer = new MutationObserver(() => {
+          const element = document.querySelector(selector);
+
+          if (element) {
+            observer.disconnect();
+            resolve(element);
+          }
+        });
+
+        observer.observe(document.body, {
+          childList: true,
+          subtree: true
+        });
+
+        setTimeout(() => {
+          observer.disconnect();
+          reject(new Error(selector + " bulunamadı"));
+        }, timeout);
+      });
+    }
+
+    function loadScript(src, type = "text/javascript") {
+      return new Promise((resolve, reject) => {
+        const existingScript = document.querySelector(`script[src="${src}"]`);
+
+        if (existingScript) {
+          resolve(existingScript);
+          return;
+        }
+
+        const script = document.createElement("script");
+        script.src = src;
+        script.type = type;
+
+        script.onload = () => resolve(script);
+        script.onerror = () => reject(new Error(src + " yüklenemedi"));
+
+        document.body.appendChild(script);
+      });
+    }
+    
+    //Engelsiz Çeviri
+    async function scriptAddEngelsiz() {
+      const footerLink = document.querySelector("#footerSignlang a");
+
+      if (!footerLink) {
+        return;
+      }
+
+      footerLink.removeEventListener("click", footerSignlangClickHandler);
+
+      try {
+        await loadScript("/assets/js/main/engelsiz.js", "module");
+
+        const engelsizBtn = await waitForElement("#engelsizCeviriBtn", 7000);
+
+        engelsizBtn.click();
+      } catch (error) {
+        console.error("Engelsiz çeviri yüklenirken hata oluştu:", error);
+      }
+    }
+
+    function footerSignlangClickHandler(e) {
+      e.preventDefault();
+
+      scriptAddEngelsiz();
+
+      window.scroll({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
+
+    const footerLink = document.querySelector("#footerSignlang a");
+
+    if (footerLink) {
+      footerLink.addEventListener("click", footerSignlangClickHandler);
+    }
+
+        //Erişilebilirlik Paneli
+    async function scriptAddErisilebilirlik() {
+
+      if (typeof weTool !== "undefined") {
+       // console.log("weTool zaten yüklü, panel direkt tetikleniyor...");
+        // Zaten yüklüyse gecikmesiz anında tetikle
+        triggerWeAccessPanel(100);
+        return;
+      }
+
+      try {
+        await loadScript("https://api.weaccess.ai/static/tool/wetool.js", "module");
+
+        await new Promise((resolve, reject) => {
+          let attempts = 0;
+          const interval = setInterval(() => {
+            if (typeof weTool !== "undefined") {
+              clearInterval(interval);
+              resolve();
+            } else if (attempts > 50) { // 5 saniye zaman aşımı
+              clearInterval(interval);
+              reject(new Error("weTool nesnesi global olarak yüklenemedi."));
+            }
+            attempts++;
+          }, 100);
+        });
+
+        window.myWeAccessInstance = weTool.mount({
+            hash: 'a4906e5d-9f58-44dd-84e2-6cd734aa6dcf',
+            icon_alignment: 'bottomleft',
+            icon_color: '#0c1927',
+            icon_size: 'small',
+            icon_type: 'circle',
+        });
+
+       // console.log("WeAccess mount edildi. İlk yükleme için buton bekleniyor...");
+        triggerWeAccessPanel(600);
+
+      } catch (error) {
+         console.error("Erişilebilirlik paneli yüklenirken hata oluştu:", error);
+      }
+    }
+
+    async function triggerWeAccessPanel(delay = 0) {
+      try {
+        const targetSelector = 'button.widget-avatar, button[aria-label="Erişilebilirlik Aracı"], #WaAccessibilityButton, .wa-accessibility-toggle';
+        const originalButton = await waitForElement(targetSelector, 7000);
+
+        if (originalButton) {
+            setTimeout(() => {
+              //  console.log("WeAccess butonu tetikleniyor.");
+                originalButton.click();
+            }, delay);
+        } else {
+            //console.error("WeAccess butonu zaman aşımı nedeniyle DOM üzerinde bulunamadı.");
+        }
+      } catch (e) {
+       // console.error("Buton beklenirken hata oluştu:", e);
+      }
+    }
+
+    function erisilebilirlikFooterClickHandler(e) {
+      e.preventDefault();
+      scriptAddErisilebilirlik();
+    }
+
+    const footerErisilebilirlikLink = document.querySelector("#erisilebilirlikFooter a");
+
+    if (footerErisilebilirlikLink) {
+      footerErisilebilirlikLink.addEventListener("click", erisilebilirlikFooterClickHandler);
+    }
+
+    //
+
+    document.addEventListener("click", function(e) {
+      if (e.target.matches(".tidClose.notCev") || e.target.closest(".tidClose.notCev")) {
+        setTimeout(() => {
+          location.reload();
+        }, 300);
+      }
+    });
+</script>
+            </footer>
+       
+        <div class="mobileMenu"></div>
+        <div class="mobileLogin">
+            <div class="loginButton">
+                <a href="javascript:;">Giriş Yap</a>
+                <a href="javascript:;">Üye Ol</a>
+            </div>
+        </div>
+        <div class="modalGeneral">
+            <div class="infoBoxPopup modalGroup" id="infoBox" style="display: none;">
+                <div class="modalClosed"></div>
+                <div class="infoBox-container">
+                    <h2>Bilgilendirme</h2>
+                    <p>Değerli Kullanıcımız, Tivibu GO hizmetiniz, Türk Telekom Grup şirketi olan Net Ekran 11 Televizyon ve Medya Hiz. AŞ. tarafından sunulmaktadır. Üyeliğiniz devam ettiği sürece, abonesi olduğunuz paket haklarınızı aynen koruyarak hizmet almaya devam edebilirsiniz.</p>
+                </div>
+            </div>
+            <div class="modalBoxHover" id="modalBoxHover" style="display: none;">
+                <div class="modalClosed"></div>
+            </div>
+        </div>
+        <div class="one-password" id="one-password" style="display: none;">
+            <div class="modalClosed"></div>
+            <div class="popup-content">
+                <div class="popup-title">
+                    <span>Tivibu GO ile</span>
+                    sayısız içeriğe anında ulaşmak ister misiniz?
+                </div>
+                <div class="popup-body">
+                    <div class="popup-rows row-first">
+                        <div class="text">
+                            <span>
+                                Tek Şifreniz var ise
+                            </span>
+                            İzle butonuna tıklayarak hemen giriş yapıp
+                            Tivibu izlemeye başlayabilirsiniz.
+                        </div>
+                    </div>
+                    <div class="row-border"></div>
+                    <div class="popup-rows row-last">
+                        <div class="text">
+                            <span>
+                                Tek Şifrenizi unuttuysanız <br />/ Yeni Tek Şifre almak istiyorsanız
+                            </span>
+                            İlgili butona tıklayarak yeni şifrenizi alabilirsiniz.
+                        </div>
+                    </div>
+                    <div class="popup-columns">
+                        <a href="/giris-yonlendirme" target="_blank" class="button primary">
+                            <span>
+                                İzle
+                            </span>
+                        </a>
+                        <a href="https://teksifre.turktelekom.com.tr/kullanici-kayit/bireysel" target="_blank">
+                            <span>
+                                Tek Şifre al
+                            </span>
+                        </a>
+                        <a href="https://teksifre.turktelekom.com.tr/PasswordReset/sifremi-unuttum-giris" target="_blank">
+                            <span>
+                                Şifremi Unuttum
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" class="token" name="CSRF-TOKEN-TVBUDNBX!-FORM" value="CfDJ8F9X2p8zYF9Hm5p9Hv4N55E1pFT50RyaSZWVaJuAYD1N6hFWd6u51Pjgff-0PHRNRFrMGqauYNhoQdrheS8vToZj9UCCfUzsC9tKVjaY6q-jYDHuHzdPnqouSORir_mUWNgsBV4CZGbpIl3czow9ytM">
+        <script src=/assets/js/tivibu-master.min.v202610132255x.js></script>
+        <script>
+(function ($) {
+    if (!$ || !$.ajaxPrefilter || window.__tivibuCsrfAjax) {
+        return;
+    }
+    window.__tivibuCsrfAjax = true;
+
+    function isSameOrigin(url) {
+        if (!url) return true;
+        if (url.charAt(0) === '/' && url.charAt(1) !== '/') return true;
+        if (url.charAt(0) === '?') return true;
+        try {
+            return new URL(url, window.location.href).origin === window.location.origin;
+        } catch (e) {
+            return true;
+        }
+    }
+
+    $.ajaxPrefilter(function (options, originalOptions, jqXHR) {
+        var method = (options.type || options.method || 'GET').toUpperCase();
+        if (method !== 'POST' && method !== 'PUT' && method !== 'DELETE' && method !== 'PATCH') {
+            return;
+        }
+        if (!isSameOrigin(options.url)) {
+            return;
+        }
+
+        var $token = $('.token');
+        var name = $token.attr('name');
+        var value = $token.val();
+        if (!value) {
+            return;
+        }
+
+        jqXHR.setRequestHeader('RequestVerificationToken', value);
+        if (!name) {
+            return;
+        }
+
+        if (typeof FormData !== 'undefined' && options.data instanceof FormData) {
+            if (!options.data.has(name)) {
+                options.data.append(name, value);
+            }
+            return;
+        }
+
+        if (typeof options.data === 'string') {
+            if (options.data.indexOf(encodeURIComponent(name) + '=') === -1 && options.data.indexOf(name + '=') === -1) {
+                options.data += (options.data.length ? '&' : '') + encodeURIComponent(name) + '=' + encodeURIComponent(value);
+            }
+        } else if (options.data && typeof options.data === 'object') {
+            if (options.data[name] == null) {
+                options.data[name] = value;
+            }
+        } else if (!options.data) {
+            options.data = encodeURIComponent(name) + '=' + encodeURIComponent(value);
+        }
+    });
+})(window.jQuery);
+</script>
+
+        
+        <script src=/assets/js/main/channels.v202610132255x.js></script>
+        <script src="/assets/js/vendors/tilt.js"></script>
+        <script src=/assets/js/main/support.v202610132255x.js></script>
+        
+    <script>
+        if ($('.error-screen .search404Box .inputSearch').length > 0) {
+            $('.error-screen .search404Box .inputSearch').keyup(delay(function (e) {
+                if ($(this).val().length < 3) return;
+                $(this).val($(this).val().replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g, ' ').replace(/(\s{2,})/g, ' ').replace(/^\s*/, ''));
+                var searchValue = $(this).val();
+                if (searchValue != "") {
+                    window.location.href = "/arama?q=" + searchValue;
+                }
+            }, 1200));
+        }
+         //DELAY FUNCTION
+        function delay(callback, ms) {
+            var timer = 0;
+            return function () {
+                var context = this,
+                    args = arguments;
+                clearTimeout(timer);
+                timer = setTimeout(function () {
+                    callback.apply(context, args);
+                }, ms || 0);
+            };
+        }
+    </script>
+
+        <script src="/assets/js/vendors/insider-sw-sdk.js"></script>
+        <script src=/assets/js/meta.min.v202610132255x.js></script>
+    </main>
+</body>
+</html>

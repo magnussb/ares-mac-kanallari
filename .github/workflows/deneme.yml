@@ -1,0 +1,24 @@
+name: Kaynak denemesi
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  dene:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0 Safari/537.36'
+          : > deneme.md
+          for u in https://beinsports.com.tr/yayin-akisi https://beinsports.com.tr/ https://www.tivibu.com.tr/tv-rehberi https://www.tod.tv/ ; do
+            code=$(curl -sL -A "$UA" -m 25 -o page.html -w '%{http_code} %{url_effective}' "$u")
+            echo "## $u -> $code ($(wc -c < page.html) bayt)" >> deneme.md
+            echo '```' >> deneme.md
+            grep -oiE '(https?:)?//[a-z0-9.-]*(api|epg|guide|akis|schedule)[a-z0-9./_?=&-]*' page.html | sort -u | head -30 >> deneme.md
+            grep -oiE '"[a-zA-Z/_.-]*(yayin|akis|schedule|epg|broadcast|channel)[a-zA-Z/_.-]*"' page.html | sort -u | head -30 >> deneme.md
+            grep -oiE '<script[^>]+src="[^"]+"' page.html | head -15 >> deneme.md
+            echo '```' >> deneme.md
+            cp page.html "sayfa_$(echo $u | sed 's#https://##; s#[/.]#_#g').html"
+          done
+          git config user.name ares-bot; git config user.email ares-bot@users.noreply.github.com
+          mkdir -p deneme && mv sayfa_*.html deneme/ && git add deneme.md deneme && git commit -qm deneme && git push

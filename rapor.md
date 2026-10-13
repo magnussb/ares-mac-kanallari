@@ -1,21 +1,9 @@
-# Rapor 2026-10-13 23:03 UTC
+# Rapor 2026-10-13 23:09 UTC
 
 ESPN maç: 88 · EPG program: 308 · eşleşen maç: 7
 
 ## Çekim
 ```
-ch_digiturk deneme 1: 0/13 kanal, 0 program
-ch_digiturk deneme 2: 0/13 kanal, 0 program
-ch_digiturk deneme 3: 0/13 kanal, 0 program
---- ch_digiturk son log:
-[info]   [36/39] digiturk.com.tr (tr) - Eurosport1.tr - Oct 15, 2026 (0 programs)
-[info]     ERR: Request failed with status code 403
-[info]   [37/39] digiturk.com.tr (tr) - Eurosport2.tr - Oct 13, 2026 (0 programs)
-[info]     ERR: Request failed with status code 403
-[info]   [38/39] digiturk.com.tr (tr) - Eurosport2.tr - Oct 14, 2026 (0 programs)
-[info]     ERR: Request failed with status code 403
-[info]   [39/39] digiturk.com.tr (tr) - Eurosport2.tr - Oct 15, 2026 (0 programs)
-[info]     ERR: Request failed with status code 403
 ch_dsmart deneme 1: 0/2 kanal, 0 program
 ch_dsmart deneme 2: 0/2 kanal, 0 program
 ch_dsmart deneme 3: 0/2 kanal, 0 program
@@ -32,6 +20,7 @@ ch_tvplus deneme 1: 7/7 kanal, 310 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 200
+beIN: ana sayfa alınamadı: 'NoneType' object has no attribute 'group'
 ```
 
 ## Kanal başına program

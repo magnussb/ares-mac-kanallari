@@ -179,6 +179,73 @@ def _epg_file(path: str) -> list[dict]:
     return progs
 
 
+BEIN = 'https://beinsports.com.tr/yayin-akisi'
+BEIN_DAYS = ['pazartesi', 'sali', 'carsamba', 'persembe', 'cuma', 'cumartesi', 'pazar']
+
+
+def get_text(url: str) -> str:
+    req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': 'text/html'})
+    with urllib.request.urlopen(req, timeout=25) as r:
+        return r.read().decode('utf-8', 'replace')
+
+
+def bein_page(path: str) -> dict:
+    h = get_text(f'{BEIN}/{path}' if path else BEIN)
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', h, re.S)
+    return json.loads(m.group(1))['props']['pageProps']
+
+
+def bein_channel_name(rewrite_id: str) -> str | None:
+    if rewrite_id == 'beinsports':
+        return 'beIN SPORTS 1'
+    m = re.fullmatch(r'beinsports-(\d+)', rewrite_id)
+    if m:
+        return f'beIN SPORTS {m.group(1)}'
+    m = re.fullmatch(r'beinsports-max-?(\d+)', rewrite_id)
+    if m:
+        return f'beIN SPORTS MAX {m.group(1)}'
+    return None  # beIN SPORTS HABER vb. maç yayınlamaz
+
+
+def bein_programs(log: list[str]) -> list[dict]:
+    """beIN SPORTS'un kendi yayın akışı (Digiturk sitesi GitHub'ı engelliyor)."""
+    try:
+        first = bein_page('')
+    except Exception as e:
+        log.append(f'beIN: ana sayfa alınamadı: {e}')
+        return []
+    chans = [(x['rewriteId'], bein_channel_name(x['rewriteId']))
+             for x in first.get('activeLeagues', [])]
+    chans = [c for c in chans if c[1]]
+    today = datetime.now(TR).date()
+    days = [today + timedelta(days=i) for i in range(0, 4)]
+    progs, ok, fail = [], 0, 0
+    for rid, name in chans:
+        for d in days:
+            tag = BEIN_DAYS[d.weekday()]
+            try:
+                data = bein_page(f'{rid}/{tag}').get('data') or {}
+                ok += 1
+            except Exception as e:
+                fail += 1
+                continue
+            # Sayfa haftanın o gününü gösterir; gerçek tarihi veriden al.
+            try:
+                ed = datetime.strptime(data.get('event_date', ''), '%Y-%m-%d').date()
+            except ValueError:
+                ed = d
+            for g in data.get('listTvGuides') or []:
+                try:
+                    hh, mm, *_ = (g.get('event_time') or '').split(':')
+                    start = datetime(ed.year, ed.month, ed.day, int(hh), int(mm), tzinfo=TR)
+                except Exception:
+                    continue
+                progs.append({'channel': name, 'title': (g.get('name') or '').strip(),
+                              'start': start, 'stop': start + timedelta(hours=2)})
+    log.append(f'beIN: {len(chans)} kanal, {ok} sayfa ok, {fail} hata, {len(progs)} program')
+    return progs
+
+
 # Maç olmayan yayınlar (özet, stüdyo, tekrar).
 SKIP = re.compile(r'\b(ozet|ozetler|studyo|tekrar|analiz|magazin|haber|'
                   r'programi|degerlendirme|roportaj|belgesel)\b')
@@ -187,6 +254,12 @@ SKIP = re.compile(r'\b(ozet|ozetler|studyo|tekrar|analiz|magazin|haber|'
 def main() -> None:
     matches = espn_matches()
     progs = epg_programs('guide_*.xml')
+    blog: list[str] = []
+    progs += bein_programs(blog)
+    if blog:
+        with open('grab_log.txt', 'a', encoding='utf-8') as f:
+            f.write('\n'.join(blog) + '\n')
+        print('\n'.join(blog))
     result: dict[str, list[str]] = {}
     matched_titles: set[str] = set()
     for p in progs:
@@ -204,9 +277,23 @@ def main() -> None:
                 chans = result.setdefault(m['id'], [])
                 if p['channel'] not in chans:
                     chans.append(p['channel'])
+    # Bir kaynak geçici olarak çekilemezse önceki eşleşmeler kaybolmasın
+    # (yalnız hâlâ listede olan maçlar için).
+    live_ids = {m['id'] for m in matches}
+    try:
+        with open('mac_kanallari.json', encoding='utf-8') as f:
+            old = json.load(f).get('maclar', {})
+        for mid, chans in old.items():
+            if mid in live_ids:
+                cur = result.setdefault(mid, [])
+                for c in chans:
+                    if c not in cur:
+                        cur.append(c)
+    except Exception:
+        pass
     out = {
         'guncellendi': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
-        'kaynak': 'ESPN fikstür + Digiturk / TV+ / D-Smart yayın akışı',
+        'kaynak': 'ESPN fikstür + beIN SPORTS / TV+ / D-Smart yayın akışı',
         'maclar': result,
     }
     with open('mac_kanallari.json', 'w', encoding='utf-8') as f:

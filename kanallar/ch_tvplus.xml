@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="tvplus.com.tr" site_id="11" lang="tr" xmltv_id="SSport.tr">S SPORT</channel>
+  <channel site="tvplus.com.tr" site_id="170" lang="tr" xmltv_id="SSport2.tr">S SPORT 2</channel>
+  <channel site="tvplus.com.tr" site_id="4399" lang="tr" xmltv_id="tabiiSpor.tr">tabii spor</channel>
+  <channel site="tvplus.com.tr" site_id="144" lang="tr" xmltv_id="TRT1.tr">TRT 1</channel>
+  <channel site="tvplus.com.tr" site_id="134" lang="tr" xmltv_id="TV8.tr">TV8</channel>
+  <channel site="tvplus.com.tr" site_id="188" lang="tr" xmltv_id="TV85.tr">TV8,5</channel>
+  <channel site="tvplus.com.tr" site_id="173" lang="tr" xmltv_id="SportsTV.tr">SPORTS TV</channel>
+</channels>

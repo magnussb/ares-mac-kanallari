@@ -1,0 +1,4 @@
+epg/
+guide*.xml
+tmp_*
+grab_log.txt

@@ -15,7 +15,7 @@ concurrency:
 jobs:
   guncelle:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
@@ -30,10 +30,13 @@ jobs:
           npm ci --no-audit --no-fund
 
       - name: Spor kanallarının yayın akışını çek
+        run: ./grab.sh
+
+      - name: Erişim testi
         run: |
-          cd epg
-          npm run grab --- --channels=../channels.xml --output=../guide.xml --days=3 --maxConnections=4 || true
-          ls -la ../guide.xml || true
+          for u in "https://www.digiturk.com.tr/" "https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate" "https://www.dsmart.com.tr/"; do
+            echo "$u -> $(curl -s -o /dev/null -m 20 -w '%{http_code}' "$u")" >> grab_log.txt
+          done
 
       - name: Maçlarla eşleştir
         run: python3 build.py

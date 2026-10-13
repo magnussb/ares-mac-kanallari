@@ -14,7 +14,9 @@ Uygulama bu dosyayı okur; eşleşmeyen maçta kanal yazmaz (tahmin yok).
 """
 from __future__ import annotations
 
+import glob
 import json
+import os
 import re
 import sys
 import unicodedata
@@ -142,11 +144,19 @@ def parse_time(s: str) -> datetime:
     return dt.replace(tzinfo=timezone(off))
 
 
-def epg_programs(path: str) -> list[dict]:
+def epg_programs(pattern: str) -> list[dict]:
+    progs = []
+    for path in sorted(glob.glob(pattern)):
+        progs += _epg_file(path)
+    print(f'EPG: {len(progs)} program')
+    return progs
+
+
+def _epg_file(path: str) -> list[dict]:
     try:
         root = ET.parse(path).getroot()
     except Exception as e:
-        print(f'guide.xml okunamadı: {e}', file=sys.stderr)
+        print(f'{path} okunamadı: {e}', file=sys.stderr)
         return []
     names = {}
     for ch in root.findall('channel'):
@@ -166,7 +176,6 @@ def epg_programs(path: str) -> list[dict]:
             })
         except Exception:
             continue
-    print(f'EPG: {len(progs)} program, {len(names)} kanal')
     return progs
 
 
@@ -177,7 +186,7 @@ SKIP = re.compile(r'\b(ozet|ozetler|studyo|tekrar|analiz|magazin|haber|'
 
 def main() -> None:
     matches = espn_matches()
-    progs = epg_programs('guide.xml')
+    progs = epg_programs('guide_*.xml')
     result: dict[str, list[str]] = {}
     matched_titles: set[str] = set()
     for p in progs:
@@ -214,6 +223,8 @@ def write_debug(matches, progs, result, matched_titles) -> None:
     per = {}
     for p in progs:
         per[p['channel']] = per.get(p['channel'], 0) + 1
+    if os.path.exists('grab_log.txt'):
+        lines += ['## Çekim', '```', open('grab_log.txt', encoding='utf-8').read().strip(), '```', '']
     lines.append('## Kanal başına program')
     lines += [f'- {k}: {v}' for k, v in sorted(per.items())]
     lines += ['', '## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)']

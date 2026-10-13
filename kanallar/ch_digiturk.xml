@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Türkiye spor kanalları. Kaynak: iptv-org/epg site grabber'ları. -->
 <channels>
   <channel site="digiturk.com.tr" site_id="193" lang="tr" xmltv_id="beINSPORTS1.tr">beIN SPORTS 1</channel>
   <channel site="digiturk.com.tr" site_id="310" lang="tr" xmltv_id="beINSPORTS2.tr">beIN SPORTS 2</channel>
@@ -14,13 +13,4 @@
   <channel site="digiturk.com.tr" site_id="552" lang="tr" xmltv_id="HTSpor.tr">HT SPOR</channel>
   <channel site="digiturk.com.tr" site_id="554" lang="tr" xmltv_id="Eurosport1.tr">EUROSPORT 1</channel>
   <channel site="digiturk.com.tr" site_id="555" lang="tr" xmltv_id="Eurosport2.tr">EUROSPORT 2</channel>
-  <channel site="tvplus.com.tr" site_id="11" lang="tr" xmltv_id="SSport.tr">S SPORT</channel>
-  <channel site="tvplus.com.tr" site_id="170" lang="tr" xmltv_id="SSport2.tr">S SPORT 2</channel>
-  <channel site="tvplus.com.tr" site_id="4399" lang="tr" xmltv_id="tabiiSpor.tr">tabii spor</channel>
-  <channel site="tvplus.com.tr" site_id="144" lang="tr" xmltv_id="TRT1.tr">TRT 1</channel>
-  <channel site="tvplus.com.tr" site_id="134" lang="tr" xmltv_id="TV8.tr">TV8</channel>
-  <channel site="tvplus.com.tr" site_id="188" lang="tr" xmltv_id="TV85.tr">TV8,5</channel>
-  <channel site="tvplus.com.tr" site_id="173" lang="tr" xmltv_id="SportsTV.tr">SPORTS TV</channel>
-  <channel site="dsmart.com.tr" site_id="58d29bb0eefad3db9c60628a" lang="tr" xmltv_id="SporSmart.tr">Spor Smart</channel>
-  <channel site="dsmart.com.tr" site_id="5fcb6bd2cfef0b15931fcdf8" lang="tr" xmltv_id="SporSmart2.tr">Spor Smart 2</channel>
 </channels>

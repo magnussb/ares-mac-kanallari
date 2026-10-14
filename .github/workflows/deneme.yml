@@ -1,0 +1,24 @@
+name: Kaynak denemesi
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  dene:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0 Safari/537.36'
+          mkdir -p deneme; : > deneme.md
+          i=0
+          for u in https://www.tabii.com/tr https://www.tabii.com/tr/live https://www.tabii.com/tr/canli-yayin https://www.mackolik.com/canli-sonuclar https://www.mackolik.com/futbol/canli-sonuclar https://arsiv.mackolik.com/Canli-Sonuclar ; do
+            i=$((i+1))
+            code=$(curl -sL --compressed -A "$UA" -m 25 -o deneme/s$i.html -w '%{http_code} %{url_effective}' "$u")
+            echo "## $u -> $code ($(wc -c < deneme/s$i.html) bayt) = s$i.html" >> deneme.md
+            echo '```' >> deneme.md
+            grep -oiE '(https?:)?//[a-z0-9.-]*(api|epg|guide|live|channel|broadcast)[a-z0-9./_?=&-]*' deneme/s$i.html | sort -u | head -25 >> deneme.md
+            grep -oiE 'tabii spor ?[0-9]?|beIN SPORTS ?[0-9]?|S Sport ?[0-9]?|"(tv|channel|broadcast|yayin)[a-zA-Z]*"' deneme/s$i.html | sort | uniq -c | sort -rn | head -20 >> deneme.md
+            echo '```' >> deneme.md
+          done
+          git config user.name ares-bot; git config user.email ares-bot@users.noreply.github.com
+          git add deneme.md deneme && git commit -qm deneme && git push

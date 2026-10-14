@@ -139,6 +139,7 @@ def espn_matches() -> list[dict]:
                         'start': start,
                         'home': teams['home'].get('displayName', ''),
                         'away': teams['away'].get('displayName', ''),
+                        'league': lg,
                     })
                 except Exception:
                     continue
@@ -189,6 +190,9 @@ def _epg_file(path: str) -> list[dict]:
             continue
     return progs
 
+
+UEFA_CLUB = {'uefa.champions', 'uefa.europa', 'uefa.europa.conf'}
+TABII_APP = 'tabii'
 
 BEIN = 'https://beinsports.com.tr/yayin-akisi'
 BEIN_DAYS = ['pazartesi', 'sali', 'carsamba', 'persembe', 'cuma', 'cumartesi', 'pazar']
@@ -291,6 +295,13 @@ def main() -> None:
                 chans = result.setdefault(m['id'], [])
                 if p['channel'] not in chans:
                     chans.append(p['channel'])
+    # UEFA kulüp kupalarının Türkiye hakları TRT'de: TV'de verilmeyen her maç
+    # tabii uygulamasında (Türk takımları ücretsiz, diğerleri Premium).
+    # Hangi tabii spor kanalı olduğu herkese açık değil (giriş istiyor).
+    for m in matches:
+        if m.get('league') in UEFA_CLUB and m['id'] not in result:
+            result[m['id']] = [TABII_APP]
+
     # Bir kaynak geçici olarak çekilemezse önceki eşleşmeler kaybolmasın
     # (yalnız hâlâ listede olan maçlar için).
     live_ids = {m['id'] for m in matches}
@@ -300,6 +311,8 @@ def main() -> None:
         for mid, chans in old.items():
             if mid in live_ids:
                 cur = result.setdefault(mid, [])
+                if cur and cur != [TABII_APP]:
+                    chans = [c for c in chans if c != TABII_APP]
                 for c in chans:
                     if c not in cur:
                         cur.append(c)

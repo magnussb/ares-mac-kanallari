@@ -9,14 +9,16 @@ jobs:
       - uses: actions/checkout@v4
       - run: |
           UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0 Safari/537.36'
-          mkdir -p deneme; : > deneme.md
+          : > deneme.md
           curl -sL --compressed -A "$UA" -m 25 -o g.html https://www.tabii.com/tr/tv-guide
           for js in $(grep -oE '/_next/static/[^"]+\.js' g.html | sort -u); do
-            curl -sL --compressed -A "$UA" -m 25 "https://www.tabii.com$js" -o j.js
-            if grep -qiE 'epg|tv-guide|tvguide|livechannel|live-channel' j.js; then
-              echo "## $js" >> deneme.md
-              grep -oE '.{0,160}(epg|EPG|tvGuide|livechannel|liveChannel|/channels|apigateway)[^;]{0,200}' j.js | head -12 >> deneme.md
-            fi
+            curl -sL --compressed -A "$UA" -m 25 "https://www.tabii.com$js" >> all.js; echo >> all.js
           done
+          echo "## yollar" >> deneme.md
+          grep -oE '["`/][a-zA-Z0-9_-]+/v[0-9]+/[a-zA-Z0-9_/${}.-]*' all.js | sort -u | head -80 >> deneme.md
+          echo "## r0 / tvguide" >> deneme.md
+          grep -oE '.{0,250}(r0:\(\)=>|tvguide|tv-guide|TvGuide)[^;]{0,250}' all.js | grep -v className | head -15 >> deneme.md
+          echo "## base/headers" >> deneme.md
+          grep -oE '.{0,150}(apigateway|x-api-key|X-Api-Key|trtdigital|Authorization)[^;]{0,200}' all.js | head -15 >> deneme.md
           git config user.name ares-bot; git config user.email ares-bot@users.noreply.github.com
-          git add deneme.md deneme && git commit -qm deneme && git push
+          git add deneme.md && git commit -qm deneme && git push

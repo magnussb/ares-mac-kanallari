@@ -10,15 +10,12 @@ jobs:
       - run: |
           UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0 Safari/537.36'
           mkdir -p deneme; : > deneme.md
-          i=0
-          for u in https://www.mackolik.com/tvprogrami https://www.tabii.com/tr/tv-rehberi https://www.tabii.com/tr/tv-guide https://www.tabii.com/tr/live-tv ; do
-            i=$((i+1))
-            code=$(curl -sL --compressed -A "$UA" -m 25 -o deneme/s$i.html -w '%{http_code} %{url_effective}' "$u")
-            echo "## $u -> $code ($(wc -c < deneme/s$i.html) bayt) = s$i.html" >> deneme.md
-            echo '```' >> deneme.md
-            grep -oiE '(https?:)?//[a-z0-9.-]*(api|epg|guide|live|channel|broadcast)[a-z0-9./_?=&-]*' deneme/s$i.html | sort -u | head -25 >> deneme.md
-            grep -oiE 'tabii spor ?[0-9]?|beIN SPORTS ?[0-9]?|S Sport ?[0-9]?|"(tv|channel|broadcast|yayin)[a-zA-Z]*"' deneme/s$i.html | sort | uniq -c | sort -rn | head -20 >> deneme.md
-            echo '```' >> deneme.md
+          curl -sL --compressed -A "$UA" -m 25 -o deneme/tvguide.js https://www.mackolik.com/js/pages/tv-guide.b16a8b2cf3.js
+          for q in "" "?dayOffset=0" "?dayOffset=1" "?dayOffset=0&sportType=soccer"; do
+            f="deneme/ajax_$(echo "$q" | tr -c 'a-zA-Z0-9' '_').txt"
+            code=$(curl -sL --compressed -A "$UA" -H 'X-Requested-With: XMLHttpRequest' -H 'Referer: https://www.mackolik.com/tvprogrami' -m 25 -o "$f" -w '%{http_code} %{content_type}' "https://www.mackolik.com/ajax/tv-guide$q")
+            echo "## ajax/tv-guide$q -> $code ($(wc -c < "$f") bayt)" >> deneme.md
+            head -c 1500 "$f" >> deneme.md; echo >> deneme.md
           done
           git config user.name ares-bot; git config user.email ares-bot@users.noreply.github.com
           git add deneme.md deneme && git commit -qm deneme && git push

@@ -10,15 +10,18 @@ jobs:
       - run: |
           UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0 Safari/537.36'
           : > deneme.md
-          curl -sL --compressed -A "$UA" -m 25 -o g.html https://www.tabii.com/tr/tv-guide
-          for js in $(grep -oE '/_next/static/[^"]+\.js' g.html | sort -u); do
-            curl -sL --compressed -A "$UA" -m 25 "https://www.tabii.com$js" >> all.js; echo >> all.js
+          for u in https://eu1.tabii.com/apigateway/live/v1/tv-guide https://eu1.tabii.com/apigateway/live/v1/queue; do
+            code=$(curl -sL --compressed -A "$UA" -H 'Accept-Language: tr' -H 'Origin: https://www.tabii.com' -H 'Referer: https://www.tabii.com/' -m 25 -o r.json -w '%{http_code}' "$u")
+            echo "## $u -> $code ($(wc -c < r.json) bayt)" >> deneme.md
+            python3 - >> deneme.md <<'PY'
+          import json
+          try:
+              d=json.load(open('r.json'))
+          except Exception as e:
+              print('json değil', open('r.json').read()[:600]); raise SystemExit
+          s=json.dumps(d,ensure_ascii=False)
+          print(s[:2500])
+          PY
           done
-          echo "## yollar" >> deneme.md
-          grep -oE '["`/][a-zA-Z0-9_-]+/v[0-9]+/[a-zA-Z0-9_/${}.-]*' all.js | sort -u | head -80 >> deneme.md
-          echo "## r0 / tvguide" >> deneme.md
-          grep -oE '.{0,250}(r0:\(\)=>|tvguide|tv-guide|TvGuide)[^;]{0,250}' all.js | grep -v className | head -15 >> deneme.md
-          echo "## base/headers" >> deneme.md
-          grep -oE '.{0,150}(apigateway|x-api-key|X-Api-Key|trtdigital|Authorization)[^;]{0,200}' all.js | head -15 >> deneme.md
           git config user.name ares-bot; git config user.email ares-bot@users.noreply.github.com
           git add deneme.md && git commit -qm deneme && git push

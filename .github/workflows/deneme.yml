@@ -11,7 +11,7 @@ jobs:
           UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0 Safari/537.36'
           mkdir -p deneme; : > deneme.md
           i=0
-          for u in https://www.tabii.com/tr https://www.tabii.com/tr/live https://www.tabii.com/tr/canli-yayin https://www.mackolik.com/canli-sonuclar https://www.mackolik.com/futbol/canli-sonuclar https://arsiv.mackolik.com/Canli-Sonuclar ; do
+          for u in https://www.mackolik.com/tvprogrami https://www.tabii.com/tr/tv-rehberi https://www.tabii.com/tr/tv-guide https://www.tabii.com/tr/live-tv ; do
             i=$((i+1))
             code=$(curl -sL --compressed -A "$UA" -m 25 -o deneme/s$i.html -w '%{http_code} %{url_effective}' "$u")
             echo "## $u -> $code ($(wc -c < deneme/s$i.html) bayt) = s$i.html" >> deneme.md

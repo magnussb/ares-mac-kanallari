@@ -1,11 +1,11 @@
-# Rapor 2026-10-13 23:11 UTC
+# Rapor 2026-10-14 01:49 UTC
 
-ESPN maç: 88 · EPG program: 516 · eşleşen maç: 13
+ESPN maç: 88 · EPG program: 536 · eşleşen maç: 13
 
 ## Çekim
 ```
-ch_dsmart deneme 1: 2/2 kanal, 57 program
-ch_tvplus deneme 1: 7/7 kanal, 310 program
+ch_dsmart deneme 1: 2/2 kanal, 78 program
+ch_tvplus deneme 1: 7/7 kanal, 309 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 200
@@ -13,14 +13,14 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 151 program
 ```
 
 ## Kanal başına program
-- S SPORT: 57
+- S SPORT: 58
 - S SPORT 2: 53
 - SPORTS TV: 56
-- Spor Smart: 32
-- Spor Smart 2: 25
+- Spor Smart: 40
+- Spor Smart 2: 38
 - TRT 1: 43
-- TV8: 34
-- TV8,5: 40
+- TV8: 33
+- TV8,5: 39
 - beIN SPORTS 1: 35
 - beIN SPORTS 2: 28
 - beIN SPORTS 3: 51
@@ -78,7 +78,10 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 151 program
 - 15.10 10:00 beIN SPORTS 1: Gençlerbirliği - Amedspor
 - 15.10 12:15 beIN SPORTS 4: Benfica - Guimaraes
 - 15.10 12:25 tabii spor: Inter - Club Brugge
+- 15.10 13:00 Spor Smart 2: Tai Po - Lion City "Canlı"
+- 15.10 13:00 Spor Smart: Gangwon - Phnom "Canlı"
 - 15.10 14:30 tabii spor: Viking - Bayern Münih
+- 15.10 15:15 Spor Smart 2: Pathum - Adelaide "Canlı"
 - 15.10 16:00 beIN SPORTS 1: Samsunspor - Trabzonspor
 - 15.10 16:10 tabii spor: Villareal - Napoli
 - 15.10 17:00 beIN SPORTS 2: Mardin 1969 - F. Karagümrük

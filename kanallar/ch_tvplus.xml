@@ -7,4 +7,6 @@
   <channel site="tvplus.com.tr" site_id="134" lang="tr" xmltv_id="TV8.tr">TV8</channel>
   <channel site="tvplus.com.tr" site_id="188" lang="tr" xmltv_id="TV85.tr">TV8,5</channel>
   <channel site="tvplus.com.tr" site_id="173" lang="tr" xmltv_id="SportsTV.tr">SPORTS TV</channel>
+  <channel site="tvplus.com.tr" site_id="31" lang="tr" xmltv_id="TRTSpor.tr">TRT SPOR</channel>
+  <channel site="tvplus.com.tr" site_id="205" lang="tr" xmltv_id="TRTSporYildiz.tr">TRT SPOR YILDIZ</channel>
 </channels>

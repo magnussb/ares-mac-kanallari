@@ -10,12 +10,13 @@ jobs:
       - run: |
           UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0 Safari/537.36'
           mkdir -p deneme; : > deneme.md
-          curl -sL --compressed -A "$UA" -m 25 -o deneme/tvguide.js https://www.mackolik.com/js/pages/tv-guide.b16a8b2cf3.js
-          for q in "" "?dayOffset=0" "?dayOffset=1" "?dayOffset=0&sportType=soccer"; do
-            f="deneme/ajax_$(echo "$q" | tr -c 'a-zA-Z0-9' '_').txt"
-            code=$(curl -sL --compressed -A "$UA" -H 'X-Requested-With: XMLHttpRequest' -H 'Referer: https://www.mackolik.com/tvprogrami' -m 25 -o "$f" -w '%{http_code} %{content_type}' "https://www.mackolik.com/ajax/tv-guide$q")
-            echo "## ajax/tv-guide$q -> $code ($(wc -c < "$f") bayt)" >> deneme.md
-            head -c 1500 "$f" >> deneme.md; echo >> deneme.md
+          curl -sL --compressed -A "$UA" -m 25 -o g.html https://www.tabii.com/tr/tv-guide
+          for js in $(grep -oE '/_next/static/[^"]+\.js' g.html | sort -u); do
+            curl -sL --compressed -A "$UA" -m 25 "https://www.tabii.com$js" -o j.js
+            if grep -qiE 'epg|tv-guide|tvguide|livechannel|live-channel' j.js; then
+              echo "## $js" >> deneme.md
+              grep -oE '.{0,160}(epg|EPG|tvGuide|livechannel|liveChannel|/channels|apigateway)[^;]{0,200}' j.js | head -12 >> deneme.md
+            fi
           done
           git config user.name ares-bot; git config user.email ares-bot@users.noreply.github.com
           git add deneme.md deneme && git commit -qm deneme && git push

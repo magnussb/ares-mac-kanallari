@@ -384,6 +384,11 @@ def main() -> None:
                 if p['channel'] not in chans:
                     chans.append(p['channel'])
 
+    # Gerçek TV kanalı bulunan maçta "tabii" (uygulama) etiketi gereksiz.
+    for mid, chans in result.items():
+        if TABII_APP in chans and len(chans) > 1:
+            chans.remove(TABII_APP)
+
     out = {
         'guncellendi': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
         'kaynak': 'ESPN fikstür + beIN SPORTS / TV+ / D-Smart yayın akışı',

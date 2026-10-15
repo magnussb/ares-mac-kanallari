@@ -113,13 +113,13 @@ def get_json(url: str):
         return json.loads(r.read().decode('utf-8'))
 
 
-def espn_matches() -> list[dict]:
+def espn_matches(sport: str = 'soccer', leagues: list[str] | None = None) -> list[dict]:
     today = datetime.now(TR).date()
     out, seen = [], set()
     for off in range(-1, 4):
         ymd = (today + timedelta(days=off)).strftime('%Y%m%d')
-        for lg in LEAGUES:
-            url = (f'https://site.api.espn.com/apis/site/v2/sports/soccer/{lg}'
+        for lg in (leagues or LEAGUES):
+            url = (f'https://site.api.espn.com/apis/site/v2/sports/{sport}/{lg}'
                    f'/scoreboard?dates={ymd}')
             try:
                 j = get_json(url)
@@ -143,7 +143,55 @@ def espn_matches() -> list[dict]:
                     })
                 except Exception:
                     continue
-    print(f'ESPN: {len(out)} maç')
+    print(f'ESPN {sport}: {len(out)} maç')
+    return out
+
+
+def euroleague_matches() -> list[dict]:
+    """EuroLeague + EuroCup (resmi açık API). Kimlik: E2026_379."""
+    now = datetime.now(TR)
+    year = now.year if now.month >= 7 else now.year - 1
+    lo, hi = now - timedelta(days=1), now + timedelta(days=4)
+    out = []
+    for comp, lg in (('E', 'euroleague'), ('U', 'eurocup')):
+        try:
+            j = get_json(f'https://api-live.euroleague.net/v2/competitions/{comp}/seasons/{comp}{year}/games')
+        except Exception as e:
+            print(f'EuroLeague {comp}: {e}', file=sys.stderr)
+            continue
+        for g in j.get('data', []):
+            try:
+                start = datetime.fromisoformat(g['utcDate'].replace('Z', '+00:00'))
+                if not (lo <= start <= hi):
+                    continue
+                def nm(side):
+                    c = g[side]['club']
+                    return c.get('editorialName') or c.get('abbreviatedName') or c['name']
+                out.append({'id': g['identifier'], 'start': start,
+                            'home': nm('local'), 'away': nm('road'), 'league': lg})
+            except Exception:
+                continue
+    print(f'EuroLeague/EuroCup: {len(out)} maç')
+    return out
+
+
+def f1_sessions() -> list[dict]:
+    """Sıradaki F1 haftasonu seansları. Anahtar: f1:<seans id>."""
+    try:
+        j = get_json('https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard')
+    except Exception as e:
+        print(f'F1: {e}', file=sys.stderr)
+        return []
+    out = []
+    for ev in j.get('events', []):
+        for c in ev.get('competitions', []):
+            try:
+                out.append({'id': f"f1:{c['id']}",
+                            'start': datetime.fromisoformat(c['date'].replace('Z', '+00:00')),
+                            'kind': (c.get('type') or {}).get('abbreviation', '')})
+            except Exception:
+                continue
+    print(f'F1: {len(out)} seans')
     return out
 
 
@@ -269,8 +317,14 @@ SKIP = re.compile(r'\b(ozet|ozetler|studyo|tekrar|analiz|magazin|haber|'
                   r'programi|degerlendirme|roportaj|belgesel)\b')
 
 
+F1_RE = re.compile(r'\b(formula ?1|f1)\b')
+
+
 def main() -> None:
     matches = espn_matches()
+    matches += espn_matches('basketball', ['nba'])
+    matches += euroleague_matches()
+    f1 = f1_sessions()
     progs = epg_programs('guide_*.xml')
     blog: list[str] = []
     progs += bein_programs(blog)
@@ -304,7 +358,7 @@ def main() -> None:
 
     # Bir kaynak geçici olarak çekilemezse önceki eşleşmeler kaybolmasın
     # (yalnız hâlâ listede olan maçlar için).
-    live_ids = {m['id'] for m in matches}
+    live_ids = {m['id'] for m in matches} | {s['id'] for s in f1}
     try:
         with open('mac_kanallari.json', encoding='utf-8') as f:
             old = json.load(f).get('maclar', {})
@@ -318,6 +372,18 @@ def main() -> None:
                         cur.append(c)
     except Exception:
         pass
+    # F1: başlıkta Formula 1 / F1 geçen, seans saatine yakın yayın.
+    for p in progs:
+        title = norm(p['title'])
+        if not F1_RE.search(title) or SKIP.search(title):
+            continue
+        for sess in f1:
+            diff = (p['start'] - sess['start']).total_seconds() / 60
+            if -35 <= diff <= 15:
+                chans = result.setdefault(sess['id'], [])
+                if p['channel'] not in chans:
+                    chans.append(p['channel'])
+
     out = {
         'guncellendi': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
         'kaynak': 'ESPN fikstür + beIN SPORTS / TV+ / D-Smart yayın akışı',

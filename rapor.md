@@ -1,4 +1,4 @@
-# Rapor 2026-10-15 19:21 UTC
+# Rapor 2026-10-15 19:24 UTC
 
 ESPN maç: 138 · EPG program: 562 · eşleşen maç: 80
 
@@ -94,7 +94,7 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 140 program
 ## ESPN maçları (önümüzdeki 48 saat)
 - 15.10 19:45 AZ Alkmaar - Hapoel Be'er → tabii
 - 15.10 19:45 Lech Poznan - Bayer Leverkusen → tabii
-- 15.10 19:45 Lyon - Crystal Palace → tabii, tabii spor
+- 15.10 19:45 Lyon - Crystal Palace → tabii spor
 - 15.10 19:45 NK Celje - Omonia Nicosia → tabii
 - 15.10 19:45 RB Salzburg - AC Milan → tabii
 - 15.10 19:45 Sparta Prague - Lillestrom → tabii
@@ -116,7 +116,7 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 140 program
 - 15.10 19:45 FC Lugano - Red Star Belgrade → tabii
 - 15.10 19:45 Hajduk Split - Ajax Amsterdam → tabii
 - 15.10 19:45 KAA Gent - AGF → tabii
-- 15.10 19:45 KuPS Kuopio - Trabzonspor → tabii, TRT 1
+- 15.10 19:45 KuPS Kuopio - Trabzonspor → TRT 1
 - 15.10 19:45 Mjällby AIF - Inter D'Escaldes → tabii
 - 15.10 19:45 Panathinaikos - Borac Banja Luka → tabii
 - 15.10 19:45 Riga FC - Kairat Almaty → tabii

@@ -1,9 +1,9 @@
 {
   "android": {
-    "build": 3,
-    "name": "1.1.1",
-    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.1.1-3.apk",
-    "size": 67895842,
-    "notes": "• Uygulama artık yeni Ares sunucusuna bağlanıyor (eski bilgisayar adresi otomatik değişir)\n• Profiller, Spor sekmesi ve puan durumları\n• Uygulama içi güncelleme"
+    "build": 4,
+    "name": "1.2.0",
+    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.2.0-4.apk",
+    "size": 67961498,
+    "notes": "• Arama çok daha hızlı; tüm listelerde arama\n• Profiller artık cihazlar arasında eşleniyor\n• Film/Dizi: Son izlenenler klasörü\n• Ekran boyutu: Esnet\n• Kaydırarak kanal değişiminde liste açılmıyor\n• Sadece Wi-Fi'de güncelleme seçeneği\n• Xtream eklerken adres yerine kod (ör. 1111)\n• Yatay ekranda Spor ve menü düzeltmeleri"
   }
 }

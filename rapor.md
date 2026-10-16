@@ -1,6 +1,6 @@
-# Rapor 2026-10-15 22:11 UTC
+# Rapor 2026-10-16 01:14 UTC
 
-ESPN maç: 128 · EPG program: 626 · eşleşen maç: 71
+ESPN maç: 128 · EPG program: 621 · eşleşen maç: 71
 
 ## Çekim
 ```
@@ -8,15 +8,15 @@ ch_dsmart deneme 1: 0/2 kanal, 0 program
 ch_dsmart deneme 2: 0/2 kanal, 0 program
 ch_dsmart deneme 3: 0/2 kanal, 0 program
 --- ch_dsmart son log:
-[info]   [1/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 15, 2026 (0 programs)
-Unable to fetch https://www.dsmart.com.tr/api/v1/public/epg/schedules?page=12&limit=10&day=2026-10-16: Request failed with status code 500!
-[info]   [2/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 16, 2026 (0 programs)
+[info]   [1/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 16, 2026 (0 programs)
 Unable to fetch https://www.dsmart.com.tr/api/v1/public/epg/schedules?page=12&limit=10&day=2026-10-17: Request failed with status code 500!
-[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 17, 2026 (0 programs)
-[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 15, 2026 (0 programs)
-[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 16, 2026 (0 programs)
-[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 17, 2026 (0 programs)
-ch_tvplus deneme 1: 9/9 kanal, 487 program
+[info]   [2/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 17, 2026 (0 programs)
+Unable to fetch https://www.dsmart.com.tr/api/v1/public/epg/schedules?page=12&limit=10&day=2026-10-18: Request failed with status code 500!
+[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 18, 2026 (0 programs)
+[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 16, 2026 (0 programs)
+[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 17, 2026 (0 programs)
+[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 18, 2026 (0 programs)
+ch_tvplus deneme 1: 9/9 kanal, 483 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 200
@@ -24,29 +24,27 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 141 program
 ```
 
 ## Kanal başına program
-- S SPORT: 55
+- S SPORT: 54
 - S SPORT 2: 49
 - SPORTS TV: 54
-- TRT 1: 37
-- TRT SPOR: 69
+- TRT 1: 36
+- TRT SPOR: 68
 - TRT SPOR YILDIZ: 131
 - TV8: 31
-- TV8,5: 43
+- TV8,5: 42
 - beIN SPORTS 1: 34
 - beIN SPORTS 2: 27
 - beIN SPORTS 3: 47
 - beIN SPORTS 4: 33
-- tabii spor: 16
+- tabii spor: 15
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 15.10 23:30 S SPORT: Olimpia Milano - Dubai Basket
-- 16.10 00:00 S SPORT 2: Valencia Basket - Maccabi Tel Aviv
-- 16.10 01:15 TRT SPOR YILDIZ: Trabzonspor - Sabah BC
 - 16.10 03:40 TRT SPOR YILDIZ: Beşiktaş J.K. - İstanbul G.
 - 16.10 05:15 beIN SPORTS 4: Lorient - Paris FC
 - 16.10 07:00 beIN SPORTS 3: C. Palace - Nott'm Forest
 - 16.10 07:00 beIN SPORTS 4: Brest - Angers
 - 16.10 07:15 beIN SPORTS 2: Pendikspor - Vanspor FK
+- 16.10 07:35 TRT SPOR YILDIZ: Trabzonspor - Sabah BC
 - 16.10 08:45 beIN SPORTS 3: Liverpool - Man City
 - 16.10 08:45 beIN SPORTS 4: Nice - Strasbourg
 - 16.10 09:00 beIN SPORTS 1: T. Konyaspor - Başakşehir FK

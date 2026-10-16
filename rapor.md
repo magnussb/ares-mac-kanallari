@@ -1,63 +1,50 @@
-# Rapor 2026-10-16 01:14 UTC
+# Rapor 2026-10-16 07:03 UTC
 
-ESPN maç: 128 · EPG program: 621 · eşleşen maç: 71
+ESPN maç: 128 · EPG program: 766 · eşleşen maç: 74
 
 ## Çekim
 ```
-ch_dsmart deneme 1: 0/2 kanal, 0 program
-ch_dsmart deneme 2: 0/2 kanal, 0 program
-ch_dsmart deneme 3: 0/2 kanal, 0 program
---- ch_dsmart son log:
-[info]   [1/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 16, 2026 (0 programs)
-Unable to fetch https://www.dsmart.com.tr/api/v1/public/epg/schedules?page=12&limit=10&day=2026-10-17: Request failed with status code 500!
-[info]   [2/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 17, 2026 (0 programs)
-Unable to fetch https://www.dsmart.com.tr/api/v1/public/epg/schedules?page=12&limit=10&day=2026-10-18: Request failed with status code 500!
-[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 18, 2026 (0 programs)
-[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 16, 2026 (0 programs)
-[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 17, 2026 (0 programs)
-[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 18, 2026 (0 programs)
-ch_tvplus deneme 1: 9/9 kanal, 483 program
+ch_dsmart deneme 1: 2/2 kanal, 75 program
+ch_tvplus deneme 1: 9/9 kanal, 484 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 200
-beIN: 4 kanal, 16 sayfa ok, 0 hata, 141 program
+beIN: 4 kanal, 15 sayfa ok, 1 hata, 209 program
 ```
 
 ## Kanal başına program
-- S SPORT: 54
-- S SPORT 2: 49
+- S SPORT: 51
+- S SPORT 2: 46
 - SPORTS TV: 54
+- Spor Smart: 43
+- Spor Smart 2: 32
 - TRT 1: 36
 - TRT SPOR: 68
-- TRT SPOR YILDIZ: 131
-- TV8: 31
+- TRT SPOR YILDIZ: 128
+- TV8: 30
 - TV8,5: 42
-- beIN SPORTS 1: 34
-- beIN SPORTS 2: 27
-- beIN SPORTS 3: 47
-- beIN SPORTS 4: 33
-- tabii spor: 15
+- beIN SPORTS 1: 37
+- beIN SPORTS 2: 55
+- beIN SPORTS 3: 65
+- beIN SPORTS 4: 52
+- tabii spor: 27
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 16.10 03:40 TRT SPOR YILDIZ: Beşiktaş J.K. - İstanbul G.
-- 16.10 05:15 beIN SPORTS 4: Lorient - Paris FC
-- 16.10 07:00 beIN SPORTS 3: C. Palace - Nott'm Forest
-- 16.10 07:00 beIN SPORTS 4: Brest - Angers
 - 16.10 07:15 beIN SPORTS 2: Pendikspor - Vanspor FK
-- 16.10 07:35 TRT SPOR YILDIZ: Trabzonspor - Sabah BC
 - 16.10 08:45 beIN SPORTS 3: Liverpool - Man City
 - 16.10 08:45 beIN SPORTS 4: Nice - Strasbourg
-- 16.10 09:00 beIN SPORTS 1: T. Konyaspor - Başakşehir FK
 - 16.10 09:00 beIN SPORTS 2: Batman P. - İstanbulspor
+- 16.10 09:03 beIN SPORTS 1: T. Konyaspor - Başakşehir FK
 - 16.10 09:55 tabii spor: Leipzig - Psv
+- 16.10 10:00 Spor Smart: AL Muharraq - Gol Gohar ''Tkr''
 - 16.10 10:30 beIN SPORTS 3: Coventry - Newcastle
 - 16.10 10:30 beIN SPORTS 4: Rennes - Auxerre
-- 16.10 10:45 beIN SPORTS 1: Gaziantep FK - A. Çorum FK
-- 16.10 10:45 beIN SPORTS 2: Antalyaspor - Kayserispor
+- 16.10 10:47 beIN SPORTS 1: Gaziantep FK - A. Çorum FK
+- 16.10 10:48 beIN SPORTS 2: Antalyaspor - Kayserispor
 - 16.10 12:00 tabii spor: Galatasaray - Barcelona
 - 16.10 12:15 beIN SPORTS 3: Arsenal - Leeds
 - 16.10 12:15 beIN SPORTS 4: Saint-Étienne - Rodez
-- 16.10 12:30 beIN SPORTS 2: A. Keçiörengücü - Igdır FK
+- 16.10 12:31 beIN SPORTS 2: A. Keçiörengücü - Igdır FK
 - 16.10 13:25 TRT SPOR YILDIZ: Tofaş - Buducnost Voli P.
 - 16.10 13:40 tabii spor: Lask - Liverpool
 - 16.10 14:00 beIN SPORTS 3: Chelsea - Bournemouth
@@ -69,31 +56,56 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 141 program
 - 16.10 15:45 beIN SPORTS 4: Lens - Lyon
 - 16.10 16:00 beIN SPORTS 2: Muğlaspor - Bursaspor
 - 16.10 16:45 beIN SPORTS 1: Gençlerbirliği - Amedspor
+- 16.10 16:55 TRT SPOR YILDIZ: Trabzonspor - Sabah BC
 - 16.10 17:25 tabii spor: Aston Villa - Fenerbahçe
+- 16.10 17:28 beIN SPORTS 4: Lille - Le Havre
 - 16.10 17:30 beIN SPORTS 3: Sunderland - Brighton
-- 16.10 17:30 beIN SPORTS 4: Lille - Le Havre
 - 16.10 17:45 beIN SPORTS 2: Manisa FK - E. Erokspor
 - 16.10 19:05 tabii spor: Kups Kuopio - Trabzonspor
+- 16.10 19:13 beIN SPORTS 4: PSG - Le Mans
 - 16.10 19:15 TRT SPOR YILDIZ: Ziraat B. - Galatasaray
 - 16.10 19:15 beIN SPORTS 3: Ipswich - Fulham
-- 16.10 19:15 beIN SPORTS 4: PSG - Le Mans
 - 16.10 19:30 beIN SPORTS 2: Bandırmaspor - Sivasspor
 - 16.10 21:00 beIN SPORTS 3: Man Utd - Tottenham
 - 16.10 21:10 tabii spor: Hoffenheim - Beşiktaş
 - 16.10 21:15 beIN SPORTS 2: Sarıyer - Bodrum FK
 - 16.10 23:00 beIN SPORTS 3: Hull City - Everton
 - 16.10 23:30 S SPORT: Barcelona - Olympiacos
+- 16.10 23:30 beIN SPORTS 3: C. Palace - Nott'm Forest
 - 17.10 00:00 S SPORT 2: Panathinaikos - Hapoel Tel Aviv
 - 17.10 00:15 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Samsun
 - 17.10 02:00 S SPORT 2: Frosinone - Sassuolo
 - 17.10 07:00 S SPORT: Moto 2 - Moto GP
+- 17.10 07:00 beIN SPORTS 4: Lorient - Paris FC
+- 17.10 08:45 beIN SPORTS 4: Brest - Angers
+- 17.10 09:15 beIN SPORTS 1: Galatasaray - Kasımpaşa
+- 17.10 10:30 beIN SPORTS 4: Nantes - Reims
 - 17.10 11:00 S SPORT 2: Moto GP - Moto 3
+- 17.10 11:00 beIN SPORTS 1: A. Çorum FK - Ç. Rizespor
+- 17.10 14:00 beIN SPORTS 1: Fenerbahçe - Alanyaspor
 - 17.10 15:00 S SPORT 2: Inside Serie A - Inside Tactics
+- 17.10 15:55 tabii spor: Feyenoord - Como
 - 17.10 15:55 TRT SPOR YILDIZ: Halkbank - Galatasaray
 - 17.10 16:00 TRT SPOR: Sivasspor - Sarıyer
+- 17.10 17:35 tabii spor: Roma - Real Madrid
 - 17.10 18:55 TRT SPOR YILDIZ: Fenerbahçe M. - Ziraat B.
+- 17.10 19:00 Spor Smart: Joventut - Baskonia "Canlı"
 - 17.10 19:00 TRT SPOR: Bodrum FK - Bandırma Spor
+- 17.10 19:00 beIN SPORTS 2: Bodrum FK - Bandırmaspor
 - 17.10 19:30 S SPORT: Real Betis - Barcelona
+- 17.10 19:45 tabii spor: Viktoria Plzen - Union Sg
+- 17.10 21:00 beIN SPORTS 2: Red Star - Saint-Étienne
+- 17.10 21:25 tabii spor: Lilleström - Torrense
+- 17.10 22:00 Spor Smart: Burgos - Obradoiro ''Canlı''
+- 17.10 23:05 tabii spor: Beşiktaş - Marsilya
+- 18.10 00:30 Spor Smart 2: A. Mineiro - Coritiba "Canlı"
+- 18.10 05:00 S SPORT 2: Moto 2 - Moto 3
+- 18.10 07:00 S SPORT: Moto GP - Moto 3
+- 18.10 07:00 beIN SPORTS 2: Trabzonspor - Beşiktaş
+- 18.10 07:30 beIN SPORTS 2: Başakşehir - Gaziantep FK
+- 18.10 08:00 beIN SPORTS 2: Fenerbahçe - C. Alanyaspor
+- 18.10 08:45 beIN SPORTS 3: Man City - Ipswich
+- 18.10 09:45 beIN SPORTS 2: Sivasspor - Sarıyer
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 16.10 20:00 Çorum FK - Caykur Rizespor → beIN SPORTS 1
@@ -102,8 +114,8 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 141 program
 - 16.10 21:30 Eintracht Frankfurt - FC Cologne → —
 - 16.10 21:45 Le Mans - Toulouse → beIN SPORTS 4
 - 16.10 21:00 Heerenveen - Excelsior → —
-- 17.10 13:30 Erzurum BB - Eyupspor → —
-- 17.10 16:00 Amed SFK - Konyaspor → —
+- 17.10 13:30 Erzurum BB - Eyupspor → beIN SPORTS 2
+- 17.10 16:00 Amed SFK - Konyaspor → beIN SPORTS 2
 - 17.10 16:00 Genclerbirligi - Galatasaray → beIN SPORTS 1
 - 17.10 19:00 Fenerbahce - Alanyaspor → beIN SPORTS 1
 - 17.10 14:30 Everton - Chelsea → beIN SPORTS 3
@@ -124,14 +136,12 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 141 program
 - 17.10 16:30 SV Elversberg - FC Augsburg → —
 - 17.10 16:30 Werder Bremen - SC Paderborn 07 → —
 - 17.10 19:30 Bayern Munich - RB Leipzig → —
-- 17.10 18:15 Strasbourg - Paris Saint-Germain → —
+- 17.10 18:15 Strasbourg - Paris Saint-Germain → beIN SPORTS 4
 - 17.10 21:45 Lille - Brest → beIN SPORTS 4
 - 17.10 21:45 Troyes - Lens → —
 - 17.10 17:30 ADO Den Haag - PSV Eindhoven → —
 - 17.10 21:00 Telstar - Feyenoord Rotterdam → —
 - 17.10 22:00 Sparta Rotterdam - Willem II → —
-- 16.10 02:30 New York Knicks - Toronto Raptors → —
-- 16.10 03:30 Houston Rockets - Oklahoma City Thunder → —
 - 17.10 02:00 Orlando Magic - Miami Heat → —
 - 17.10 02:00 Philadelphia 76ers - Boston Celtics → —
 - 17.10 02:00 Detroit Pistons - Toronto Raptors → —

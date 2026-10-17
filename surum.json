@@ -1,9 +1,9 @@
 {
   "android": {
-    "build": 5,
-    "name": "1.3.0",
-    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.0-5.apk",
-    "size": 68094742,
-    "notes": "• Hatırlatıcı: maç ve programlar başlamadan 5 dk önce bildirim (programda her hafta seçeneği)\n• Takım takibi: takip ettiğin takımın maçları kendiliğinden hatırlatılır\n• Bayi sistemi: MAC adresiyle liste kurulumu, bayi bildirimleri, ana ekranda bilgi kanalı\n• Kodla eklenen listelerde sunucu adresi gizli\n• Son eklenen film/dizilerde kategori adı\n• Güncelleme kontrolü artık anında"
+    "build": 7,
+    "name": "1.3.2",
+    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.2-7.apk",
+    "size": 68095030,
+    "notes": "• Hatırlatıcı bildirimi uygulama her açıldığında tekrar gelmiyor\n• Ayarlar'ın en altında: Bayilik Sistemi Bildirimleri (bayi iletişim bilgileri ve son 5 bildirim)\n• Bayinin Telegram / WhatsApp / sitesine tek dokunuşla ulaşma\n• Kodla liste eklenince cihaz bayi panelinde hemen görünüyor"
   }
 }

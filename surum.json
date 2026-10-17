@@ -1,9 +1,9 @@
 {
   "android": {
-    "build": 10,
-    "name": "1.3.5",
-    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.5-10.apk",
-    "size": 68249926,
-    "notes": "• Giriş ekranında QR kod, MAC adresi ve cihaz anahtarı: QR'ı okut, siteden listeni kur, uygulamaya kendiliğinden gelsin\n• Bayi müşterinin cihazlarını MAC ile eşleştirebiliyor (senkron)\n• Bayi koduyla eklenen listeler de cihazlar arasında eşleniyor\n• Açılış ekranında logo düzgün\n• Ayarlar'da Listeler & Hesaplar kapalı geliyor"
+    "build": 11,
+    "name": "1.3.6",
+    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.6-11.apk",
+    "size": 68532750,
+    "notes": "• Bayi bildirimleri artık telefona anında düşüyor (15-30 dk beklemek yok)\n• Bildirime dokununca liste yenilenip açılıyor\n• Aynı bildirim iki kez gelmiyor"
   }
 }

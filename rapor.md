@@ -1,51 +1,39 @@
-# Rapor 2026-10-17 09:13 UTC
+# Rapor 2026-10-17 13:39 UTC
 
-ESPN maç: 102 · EPG program: 788 · eşleşen maç: 49
+ESPN maç: 102 · EPG program: 776 · eşleşen maç: 49
 
 ## Çekim
 ```
 ch_dsmart deneme 1: 2/2 kanal, 79 program
-ch_tvplus deneme 1: 9/9 kanal, 498 program
+ch_tvplus deneme 1: 9/9 kanal, 480 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 200
-beIN: 4 kanal, 14 sayfa ok, 2 hata, 212 program
+beIN: 4 kanal, 15 sayfa ok, 1 hata, 218 program
 ```
 
 ## Kanal başına program
-- S SPORT: 47
-- S SPORT 2: 47
-- SPORTS TV: 54
+- S SPORT: 45
+- S SPORT 2: 44
+- SPORTS TV: 53
 - Spor Smart: 49
 - Spor Smart 2: 30
-- TRT 1: 37
-- TRT SPOR: 57
-- TRT SPOR YILDIZ: 139
-- TV8: 30
+- TRT 1: 39
+- TRT SPOR: 53
+- TRT SPOR YILDIZ: 132
+- TV8: 33
 - TV8,5: 42
 - beIN SPORTS 1: 55
 - beIN SPORTS 2: 60
-- beIN SPORTS 3: 70
-- beIN SPORTS 4: 27
-- tabii spor: 44
+- beIN SPORTS 3: 47
+- beIN SPORTS 4: 56
+- tabii spor: 38
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 17.10 09:15 beIN SPORTS 1: Galatasaray - Kasımpaşa
-- 17.10 10:30 beIN SPORTS 2: Manisa FK - E. Erokspor
-- 17.10 10:31 beIN SPORTS 3: Sunderland - Brighton
-- 17.10 11:00 S SPORT 2: Moto GP - Moto 3
-- 17.10 11:04 beIN SPORTS 1: A. Çorum FK - Ç. Rizespor
-- 17.10 12:16 beIN SPORTS 3: Arsenal - Leeds
-- 17.10 12:23 beIN SPORTS 3: Chelsea - Bournemouth
-- 17.10 12:29 beIN SPORTS 3: Aston Villa - Brentford
-- 17.10 12:41 beIN SPORTS 3: Ipswich - Fulham
-- 17.10 12:47 beIN SPORTS 3: Man Utd - Tottenham
-- 17.10 12:54 beIN SPORTS 3: Hull City - Everton
 - 17.10 14:03 beIN SPORTS 1: Fenerbahçe - Alanyaspor
-- 17.10 14:30 tabii spor: Hoffenheim - Beşiktaş
-- 17.10 15:00 S SPORT 2: Inside Serie A - Inside Tactics
 - 17.10 15:55 TRT SPOR YILDIZ: Halkbank - Galatasaray
 - 17.10 16:00 TRT SPOR: Sivasspor - Sarıyer
+- 17.10 16:00 beIN SPORTS 4: Le Mans - Toulouse
 - 17.10 16:10 tabii spor: Feyenoord - Como
 - 17.10 18:10 tabii spor: Roma - Real Madrid
 - 17.10 18:55 TRT SPOR YILDIZ: Fenerbahçe M. - Ziraat B.
@@ -55,19 +43,18 @@ beIN: 4 kanal, 14 sayfa ok, 2 hata, 212 program
 - 17.10 19:30 S SPORT: Real Betis - Barcelona
 - 17.10 20:15 tabii spor: Shaktar Donetsk - AEK Atina
 - 17.10 21:00 beIN SPORTS 2: Red Star - Saint-Étienne
-- 17.10 21:33 beIN SPORTS 3: Fulham - Hull City
 - 17.10 22:00 Spor Smart: Burgos - Obradoiro ''Canlı''
 - 18.10 00:30 Spor Smart 2: A. Mineiro - Coritiba "Canlı"
 - 18.10 00:50 tabii spor: Milan - Benfica
 - 18.10 05:00 S SPORT 2: Moto 2 - Moto 3
-- 18.10 05:15 beIN SPORTS 4: Le Mans - Toulouse
 - 18.10 07:00 S SPORT: Moto GP - Moto 3
 - 18.10 07:00 beIN SPORTS 2: Trabzonspor - Beşiktaş
-- 18.10 07:00 beIN SPORTS 4: Strasbourg - PSG
+- 18.10 07:00 beIN SPORTS 3: Everton - Chelsea
 - 18.10 07:30 beIN SPORTS 2: Başakşehir - Gaziantep FK
 - 18.10 08:00 beIN SPORTS 2: Fenerbahçe - C. Alanyaspor
-- 18.10 08:45 beIN SPORTS 4: Lille - Brest
+- 18.10 08:45 beIN SPORTS 3: Man City - Ipswich
 - 18.10 09:45 beIN SPORTS 2: Sivasspor - Sarıyer
+- 18.10 10:30 beIN SPORTS 3: Fulham - Hull City
 - 18.10 10:30 beIN SPORTS 4: Troyes - Lens
 - 18.10 11:00 S SPORT 2: Moto 2 - Moto GP
 - 18.10 11:20 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Samsun
@@ -78,12 +65,14 @@ beIN: 4 kanal, 14 sayfa ok, 2 hata, 212 program
 - 18.10 13:30 Spor Smart: R.Madrid - Surne Bilbao "Canlı"
 - 18.10 13:30 TRT SPOR: A.H. Iğdır - Boluspor
 - 18.10 13:30 beIN SPORTS 2: Igdır FK - Boluspor
+- 18.10 14:00 beIN SPORTS 3: Newcastle - Aston Villa
 - 18.10 14:15 tabii spor: S. Bratislava - Stuttgart
 - 18.10 14:55 TRT SPOR YILDIZ: Zeren Spor - Fenerbahçe M.
 - 18.10 15:55 tabii spor: Kups Kuopio - Trabzonspor
 - 18.10 16:00 TRT SPOR: Kayserispor - Batman P.
 - 18.10 16:00 beIN SPORTS 2: Kayserispor - Batman P.
 - 18.10 18:00 Spor Smart: Valencia - Murcia "Canlı"
+- 18.10 18:10 tabii spor: Hoffenheim - Beşiktaş
 - 18.10 19:00 TRT SPOR: İstanbulspor - Antalyaspor
 - 18.10 19:00 beIN SPORTS 2: İstanbulspor - Antalyaspor
 - 18.10 20:00 Spor Smart: Joventut - Barcelona ''Canlı''
@@ -95,9 +84,11 @@ beIN: 4 kanal, 14 sayfa ok, 2 hata, 212 program
 - 19.10 00:30 Spor Smart: Bahia - Flamengo "Canlı"
 - 19.10 03:45 TRT SPOR: Van Spor - E. Ümraniyespor
 - 19.10 11:15 tabii spor: Salzburg - Milan
+- 19.10 12:55 tabii spor: Benfica - Celtic
+- 19.10 14:10 TRT SPOR YILDIZ: Türkiye - Belçika
+- 19.10 15:00 tabii spor: Lech Poznan - B.Leverkusen
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 17.10 13:30 Erzurum BB - Eyupspor → beIN SPORTS 2
 - 17.10 16:00 Amed SFK - Konyaspor → beIN SPORTS 2
 - 17.10 16:00 Genclerbirligi - Galatasaray → beIN SPORTS 1
 - 17.10 19:00 Fenerbahce - Alanyaspor → beIN SPORTS 1

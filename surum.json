@@ -1,9 +1,9 @@
 {
   "android": {
-    "build": 8,
-    "name": "1.3.3",
-    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.3-8.apk",
-    "size": 68095114,
-    "notes": "• Arama artık yazma bitince başlıyor (klavyedeki Ara tuşuyla hemen); takılma yok\n• Abonelik bitişi uyarısı: 7 gün kala ve son gün telefon bildirimi, son haftada açılışta uyarı\n• Uyarıdan bayine tek dokunuşla ulaşma (WhatsApp / Telegram / site)"
+    "build": 9,
+    "name": "1.3.4",
+    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.4-9.apk",
+    "size": 68095142,
+    "notes": "• Bayi bildirimleri artık iki türlü: uygulama içi (ana ekranda pencere) ve telefon bildirimi (uygulama kapalıyken de)\n• Arama yazma bitince başlıyor; takılma yok\n• Abonelik bitişi uyarısı (7 gün kala ve son gün)"
   }
 }

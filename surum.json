@@ -1,9 +1,9 @@
 {
   "android": {
-    "build": 11,
-    "name": "1.3.6",
-    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.6-11.apk",
-    "size": 68532750,
-    "notes": "• Bayi bildirimleri artık telefona anında düşüyor (15-30 dk beklemek yok)\n• Bildirime dokununca liste yenilenip açılıyor\n• Aynı bildirim iki kez gelmiyor"
+    "build": 12,
+    "name": "1.3.7",
+    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.7-12.apk",
+    "size": 68532914,
+    "notes": "• Arama çok hızlandı, donma yok: yazdıkça sonuç geliyor\n• Kelimenin içinde geçenler ve Türkçe karaktersiz yazım da bulunuyor (askin → Aşkın)\n• Film ve dizi adları afişin altında, kolay okunuyor\n• Tümü'nde de her film ve dizinin hangi grupta olduğu yazıyor\n• Gruplar alttan açılıyor: sağ alttaki düğme, ☰ ya da sağa kaydır; tek elle rahat kullanım\n• Canlı TV, Filmler ve Diziler aynı düzende\n• Geri sarma, hata veren kanalı yeniden açma ve numarayla kanal geçişi düzeltildi"
   }
 }

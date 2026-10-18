@@ -1,40 +1,44 @@
-# Rapor 2026-10-18 20:32 UTC
+# Rapor 2026-10-18 23:02 UTC
 
-ESPN maç: 117 · EPG program: 689 · eşleşen maç: 55
+ESPN maç: 127 · EPG program: 589 · eşleşen maç: 74
 
 ## Çekim
 ```
-ch_dsmart deneme 1: 2/2 kanal, 82 program
-ch_tvplus deneme 1: 9/9 kanal, 402 program
+ch_dsmart deneme 1: 0/2 kanal, 0 program
+ch_dsmart deneme 2: 0/2 kanal, 0 program
+ch_dsmart deneme 3: 0/2 kanal, 0 program
+--- ch_dsmart son log:
+[info]   [1/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 18, 2026 (0 programs)
+Unable to fetch https://www.dsmart.com.tr/api/v1/public/epg/schedules?page=12&limit=10&day=2026-10-19: Request failed with status code 500!
+[info]   [2/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 19, 2026 (0 programs)
+Unable to fetch https://www.dsmart.com.tr/api/v1/public/epg/schedules?page=12&limit=10&day=2026-10-20: Request failed with status code 500!
+[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 20, 2026 (0 programs)
+[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 18, 2026 (0 programs)
+[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 19, 2026 (0 programs)
+[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 20, 2026 (0 programs)
+ch_tvplus deneme 1: 9/9 kanal, 387 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 200
-beIN: 4 kanal, 15 sayfa ok, 1 hata, 209 program
+beIN: 4 kanal, 14 sayfa ok, 2 hata, 205 program
 ```
 
 ## Kanal başına program
-- S SPORT: 23
-- S SPORT 2: 24
+- S SPORT: 21
+- S SPORT 2: 21
 - SPORTS TV: 55
-- Spor Smart: 48
-- Spor Smart 2: 34
-- TRT 1: 44
-- TRT SPOR: 30
-- TRT SPOR YILDIZ: 116
-- TV8: 35
-- TV8,5: 41
-- beIN SPORTS 1: 40
-- beIN SPORTS 2: 62
+- TRT 1: 42
+- TRT SPOR: 28
+- TRT SPOR YILDIZ: 110
+- TV8: 36
+- TV8,5: 42
+- beIN SPORTS 1: 66
+- beIN SPORTS 2: 34
 - beIN SPORTS 3: 53
-- beIN SPORTS 4: 54
-- tabii spor: 30
+- beIN SPORTS 4: 52
+- tabii spor: 29
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 18.10 21:01 beIN SPORTS 2: Igdır FK - Boluspor
-- 18.10 22:00 Spor Smart: Fluminense - Santos "Canlı"
-- 18.10 22:15 tabii spor: Celta Vigo - Juventus
-- 18.10 22:46 beIN SPORTS 2: Kayserispor - Batman P.
-- 19.10 00:30 Spor Smart: Bahia - Flamengo "Canlı"
 - 19.10 01:10 TRT SPOR YILDIZ: Halkbank - Galatasaray
 - 19.10 02:00 TRT SPOR: Kayserispor - Batman P.
 - 19.10 03:40 TRT SPOR YILDIZ: Fenerbahçe M. - Ziraat B.
@@ -57,14 +61,8 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 209 program
 - 20.10 16:05 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasınapoli - Arsenal
 - 20.10 18:00 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasısportıng Cp - Galatasaray
 - 20.10 21:20 TRT SPOR YILDIZ: Napoli Basketball - Tofaş
-- 20.10 22:00 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıatletıco Madrıd - Manchester Unıted
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 18.10 22:00 Real Madrid - Sevilla → S SPORT
-- 18.10 21:45 Juventus - Lazio → S SPORT 2
-- 18.10 21:45 Lyon - Nice → beIN SPORTS 4
-- 18.10 21:00 FC Twente - FC Utrecht → —
-- 18.10 21:00 NEC Nijmegen - Fortuna Sittard → —
 - 19.10 20:00 Trabzonspor - Besiktas → —
 - 19.10 22:00 Tottenham Hotspur - Coventry City → —
 - 19.10 22:00 Getafe - Rayo Vallecano → S SPORT
@@ -78,9 +76,10 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 209 program
 - 20.10 22:00 Liverpool - Villarreal → tabii
 - 20.10 22:00 Manchester City - AEK Athens → tabii
 - 20.10 22:00 Napoli - Bodo/Glimt → tabii
-- 20.10 22:00 Paris Saint-Germain - Barcelona → tabii
+- 20.10 22:00 Paris Saint-Germain - Barcelona → tabii spor
 - 20.10 22:00 VfB Stuttgart - Atlético Madrid → tabii
 - 20.10 22:00 Detroit Pistons - Boston Celtics → —
+- 21.10 02:00 New York Knicks - Philadelphia 76ers → —
 - 20.10 21:30 Manresa - Roma → —
 - 20.10 21:00  Rostock - Aris → —
 - 20.10 20:00 Buducnost - Neptunas → —

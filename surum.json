@@ -1,12 +1,18 @@
 {
   "android": {
-    "build": 16,
-    "name": "1.3.11",
-    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.11-16.apk",
-    "size": 68954966,
-    "notes": "• Android TV: menü artık solda dikey (telefon yatayındaki gibi); ekran yüksekliği içeriğe kaldı\n• Oynatıcıda Sol tuşu: TiviMate gibi yan panel — solda bütün listeler ve gruplar, sağda kanallar; yayından çıkmadan liste/grup değiştir\n• Film ve dizilerde satırda 6 küçük afiş, iki tam satır; satır değişince ızgara sayfa sayfa kayar, odak çerçevesi yalnız afişte\n• Film/dizi sayfasında İzle ve bölümler üstte; Canlı TV yazıları bir tık küçüldü\n• TV ana sayfası yeniden düzenlendi: favori kanallar üstte, bilgi kanalı küçük ve yanında bugünün maçları\n• Liste ekle: TV'de QR/MAC kartı ile giriş yan yana; Enter bir sonraki alana geçer; şifre açık görünür; ad verilmediyse sorar (artık sunucu adı liste adı olmuyor)\n• Güncelleme penceresi TV'de ekrana sığıyor, notlar kumandayla kayıyor\n• TV'de kanal açılışında 2 sn tampon: ilk saniyelerdeki takılma azalır"
+    "build": 17,
+    "name": "1.3.12",
+    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.12-17.apk",
+    "size": 68971754,
+    "notes": "• Oynatıcıda ses/altyazı menüsü TiviMate gibi: Ses › Altyazı › Oynatma hızı › En-boy oranı ›; açılınca odak menüde, parçalar numaralı (Ses 1 · tur)\n• Alt çubukta \"Ses ve altyazı\" düğmesi: ikinci sese tek adımda geç\n• Kumandada Yukarı artık bir sonraki kanal, Aşağı bir önceki (CH+/CH- gibi)\n• Oynatıcıda OK'tan sonra Aşağı: Rehber, Filmler, Diziler, Ayarlar kısayolları\n• Ayarlar > Oynatıcı > Video çözücü: Donanım (doğrudan) / Donanım (kopyalı) / Yazılım — bozuk ya da takılan görüntüde değiştir\n• Yayın bilgisinde çözücü (HW/SW) görünüyor; 4K sinemaskop içerik artık \"4K\" olarak etiketleniyor\n• TV'de mpv'ye daha az soru soruluyor; 4K film daha hızlı açılıyor\n• \"Liste güncellendi\" bildirimi Ayarlar > İçerik Ayarları'ndan kapatılabiliyor\n• Windows'ta TV modu denerken Esc = Geri\n• Ayarlar'da kumandayla açılan grubun içine giriliyor (Hesap Yönetimi, Liste ekle, listedeki Yenile/Sil); Profil kartı ve liste satırı yerine içindeki düğmeler odaklanıyor"
   },
   "history": [
+    {
+      "name": "1.3.12",
+      "build": 17,
+      "date": "2026-10-18",
+      "notes": "• Oynatıcıda ses/altyazı menüsü TiviMate gibi: Ses › Altyazı › Oynatma hızı › En-boy oranı ›; açılınca odak menüde, parçalar numaralı (Ses 1 · tur)\n• Alt çubukta \"Ses ve altyazı\" düğmesi: ikinci sese tek adımda geç\n• Kumandada Yukarı artık bir sonraki kanal, Aşağı bir önceki (CH+/CH- gibi)\n• Oynatıcıda OK'tan sonra Aşağı: Rehber, Filmler, Diziler, Ayarlar kısayolları\n• Ayarlar > Oynatıcı > Video çözücü: Donanım (doğrudan) / Donanım (kopyalı) / Yazılım — bozuk ya da takılan görüntüde değiştir\n• Yayın bilgisinde çözücü (HW/SW) görünüyor; 4K sinemaskop içerik artık \"4K\" olarak etiketleniyor\n• TV'de mpv'ye daha az soru soruluyor; 4K film daha hızlı açılıyor\n• \"Liste güncellendi\" bildirimi Ayarlar > İçerik Ayarları'ndan kapatılabiliyor\n• Windows'ta TV modu denerken Esc = Geri\n• Ayarlar'da kumandayla açılan grubun içine giriliyor (Hesap Yönetimi, Liste ekle, listedeki Yenile/Sil); Profil kartı ve liste satırı yerine içindeki düğmeler odaklanıyor"
+    },
     {
       "name": "1.3.11",
       "build": 16,

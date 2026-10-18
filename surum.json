@@ -1,12 +1,18 @@
 {
   "android": {
-    "build": 17,
-    "name": "1.3.12",
-    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.12-17.apk",
-    "size": 68971754,
-    "notes": "• Oynatıcıda ses/altyazı menüsü TiviMate gibi: Ses › Altyazı › Oynatma hızı › En-boy oranı ›; açılınca odak menüde, parçalar numaralı (Ses 1 · tur)\n• Alt çubukta \"Ses ve altyazı\" düğmesi: ikinci sese tek adımda geç\n• Kumandada Yukarı artık bir sonraki kanal, Aşağı bir önceki (CH+/CH- gibi)\n• Oynatıcıda OK'tan sonra Aşağı: Rehber, Filmler, Diziler, Ayarlar kısayolları\n• Ayarlar > Oynatıcı > Video çözücü: Donanım (doğrudan) / Donanım (kopyalı) / Yazılım — bozuk ya da takılan görüntüde değiştir\n• Yayın bilgisinde çözücü (HW/SW) görünüyor; 4K sinemaskop içerik artık \"4K\" olarak etiketleniyor\n• TV'de mpv'ye daha az soru soruluyor; 4K film daha hızlı açılıyor\n• \"Liste güncellendi\" bildirimi Ayarlar > İçerik Ayarları'ndan kapatılabiliyor\n• Windows'ta TV modu denerken Esc = Geri\n• Ayarlar'da kumandayla açılan grubun içine giriliyor (Hesap Yönetimi, Liste ekle, listedeki Yenile/Sil); Profil kartı ve liste satırı yerine içindeki düğmeler odaklanıyor"
+    "build": 18,
+    "name": "1.3.13",
+    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.13-18.apk",
+    "size": 69772233,
+    "notes": "• Kumanda: kanal paneli (Sol) açılınca odak oynayan kanalda; kanal sütununda Sağ paneli kapatmıyor, Sol gruplara geçiyor, gruplarda Sol kapatıyor; odak panelin dışına kaçmıyor\n• Kanal değiştirince (Yukarı/Aşağı, CH±) alt bar çıkmıyor; kanal adı kısa rozetle gösteriliyor. Kontroller yalnız OK ile açılıyor\n• Kontroller gizliyken görünmeyen düğmeler odak almıyor (OK'a basınca Ayarlar açılıyordu)\n• Ses/altyazı/hız/en-boy menüsü telefon ve Windows'ta da aynı (TiviMate düzeni); seçince menü açık kalıyor, işaret yeni seçime geçiyor; Sol bir üst kademe, Sağ açar\n• Spor > Puan durumu: averaj gibi uzun değerler kırpılmıyor (+16, +1 görünüyordu) — telefon, TV, Windows"
   },
   "history": [
+    {
+      "name": "1.3.13",
+      "build": 18,
+      "date": "2026-10-19",
+      "notes": "• Kumanda: kanal paneli (Sol) açılınca odak oynayan kanalda; kanal sütununda Sağ paneli kapatmıyor, Sol gruplara geçiyor, gruplarda Sol kapatıyor; odak panelin dışına kaçmıyor\n• Kanal değiştirince (Yukarı/Aşağı, CH±) alt bar çıkmıyor; kanal adı kısa rozetle gösteriliyor. Kontroller yalnız OK ile açılıyor\n• Kontroller gizliyken görünmeyen düğmeler odak almıyor (OK'a basınca Ayarlar açılıyordu)\n• Ses/altyazı/hız/en-boy menüsü telefon ve Windows'ta da aynı (TiviMate düzeni); seçince menü açık kalıyor, işaret yeni seçime geçiyor; Sol bir üst kademe, Sağ açar\n• Spor > Puan durumu: averaj gibi uzun değerler kırpılmıyor (+16, +1 görünüyordu) — telefon, TV, Windows"
+    },
     {
       "name": "1.3.12",
       "build": 17,

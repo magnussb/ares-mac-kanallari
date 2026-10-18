@@ -1,49 +1,40 @@
-# Rapor 2026-10-18 18:03 UTC
+# Rapor 2026-10-18 20:32 UTC
 
-ESPN maç: 113 · EPG program: 643 · eşleşen maç: 55
+ESPN maç: 117 · EPG program: 689 · eşleşen maç: 55
 
 ## Çekim
 ```
-ch_dsmart deneme 1: 0/2 kanal, 0 program
-ch_dsmart deneme 2: 0/2 kanal, 0 program
-ch_dsmart deneme 3: 0/2 kanal, 0 program
---- ch_dsmart son log:
-[info]   [1/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 18, 2026 (0 programs)
-Unable to fetch https://www.dsmart.com.tr/api/v1/public/epg/schedules?page=12&limit=10&day=2026-10-19: Request failed with status code 500!
-[info]   [2/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 19, 2026 (0 programs)
-Unable to fetch https://www.dsmart.com.tr/api/v1/public/epg/schedules?page=12&limit=10&day=2026-10-20: Request failed with status code 500!
-[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 20, 2026 (0 programs)
-[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 18, 2026 (0 programs)
-[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 19, 2026 (0 programs)
-[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 20, 2026 (0 programs)
-ch_tvplus deneme 1: 9/9 kanal, 414 program
+ch_dsmart deneme 1: 2/2 kanal, 82 program
+ch_tvplus deneme 1: 9/9 kanal, 402 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 200
-beIN: 4 kanal, 16 sayfa ok, 0 hata, 233 program
+beIN: 4 kanal, 15 sayfa ok, 1 hata, 209 program
 ```
 
 ## Kanal başına program
-- S SPORT: 25
-- S SPORT 2: 25
+- S SPORT: 23
+- S SPORT 2: 24
 - SPORTS TV: 55
-- TRT 1: 43
-- TRT SPOR: 31
-- TRT SPOR YILDIZ: 123
+- Spor Smart: 48
+- Spor Smart 2: 34
+- TRT 1: 44
+- TRT SPOR: 30
+- TRT SPOR YILDIZ: 116
 - TV8: 35
-- TV8,5: 42
-- beIN SPORTS 1: 61
+- TV8,5: 41
+- beIN SPORTS 1: 40
 - beIN SPORTS 2: 62
-- beIN SPORTS 3: 56
+- beIN SPORTS 3: 53
 - beIN SPORTS 4: 54
-- tabii spor: 31
+- tabii spor: 30
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 18.10 19:00 beIN SPORTS 2: İstanbulspor - Antalyaspor
-- 18.10 20:35 tabii spor: Lyon - Crystal Palace
 - 18.10 21:01 beIN SPORTS 2: Igdır FK - Boluspor
+- 18.10 22:00 Spor Smart: Fluminense - Santos "Canlı"
 - 18.10 22:15 tabii spor: Celta Vigo - Juventus
 - 18.10 22:46 beIN SPORTS 2: Kayserispor - Batman P.
+- 19.10 00:30 Spor Smart: Bahia - Flamengo "Canlı"
 - 19.10 01:10 TRT SPOR YILDIZ: Halkbank - Galatasaray
 - 19.10 02:00 TRT SPOR: Kayserispor - Batman P.
 - 19.10 03:40 TRT SPOR YILDIZ: Fenerbahçe M. - Ziraat B.
@@ -65,18 +56,12 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 233 program
 - 20.10 12:00 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıborussıa Dortmund - Vıllarreal
 - 20.10 16:05 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasınapoli - Arsenal
 - 20.10 18:00 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasısportıng Cp - Galatasaray
+- 20.10 21:20 TRT SPOR YILDIZ: Napoli Basketball - Tofaş
+- 20.10 22:00 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıatletıco Madrıd - Manchester Unıted
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 18.10 19:00 Istanbul Basaksehir - Gaziantep FK → beIN SPORTS 1
-- 18.10 18:30 Nottingham Forest - Arsenal → beIN SPORTS 3
-- 18.10 19:30 Málaga - Real Sociedad → S SPORT
 - 18.10 22:00 Real Madrid - Sevilla → S SPORT
-- 18.10 19:00 AC Milan - Atalanta → S SPORT 2
 - 18.10 21:45 Juventus - Lazio → S SPORT 2
-- 18.10 18:30 Borussia Mönchengladbach - TSG Hoffenheim → —
-- 18.10 18:15 Le Havre AC - AJ Auxerre → —
-- 18.10 18:15 Lorient - AS Monaco → beIN SPORTS 4
-- 18.10 18:15 Paris FC - Stade Rennais → —
 - 18.10 21:45 Lyon - Nice → beIN SPORTS 4
 - 18.10 21:00 FC Twente - FC Utrecht → —
 - 18.10 21:00 NEC Nijmegen - Fortuna Sittard → —
@@ -88,6 +73,15 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 233 program
 - 19.10 22:15 Braga - Gil Vicente → —
 - 20.10 19:45 Fenerbahce - Slavia Prague → TRT 1
 - 20.10 19:45 Sabah FK - Borussia Dortmund → tabii spor
+- 20.10 22:00 AS Roma - Slovan Bratislava → tabii
+- 20.10 22:00 FC Porto - PSV Eindhoven → tabii
+- 20.10 22:00 Liverpool - Villarreal → tabii
+- 20.10 22:00 Manchester City - AEK Athens → tabii
+- 20.10 22:00 Napoli - Bodo/Glimt → tabii
+- 20.10 22:00 Paris Saint-Germain - Barcelona → tabii
+- 20.10 22:00 VfB Stuttgart - Atlético Madrid → tabii
+- 20.10 22:00 Detroit Pistons - Boston Celtics → —
+- 20.10 21:30 Manresa - Roma → —
 - 20.10 21:00  Rostock - Aris → —
 - 20.10 20:00 Buducnost - Neptunas → —
 - 20.10 19:30 Turk Telekom - Siauliai  → TRT SPOR YILDIZ

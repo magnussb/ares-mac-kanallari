@@ -1,67 +1,59 @@
-# Rapor 2026-10-18 00:53 UTC
+# Rapor 2026-10-18 05:45 UTC
 
-ESPN maç: 111 · EPG program: 750 · eşleşen maç: 55
+ESPN maç: 111 · EPG program: 746 · eşleşen maç: 55
 
 ## Çekim
 ```
 ch_dsmart deneme 1: 2/2 kanal, 82 program
-ch_tvplus deneme 1: 9/9 kanal, 462 program
+ch_tvplus deneme 1: 9/9 kanal, 453 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 200
-beIN: 4 kanal, 15 sayfa ok, 1 hata, 208 program
+beIN: 4 kanal, 15 sayfa ok, 1 hata, 215 program
 ```
 
 ## Kanal başına program
-- S SPORT: 36
-- S SPORT 2: 36
+- S SPORT: 34
+- S SPORT 2: 34
 - SPORTS TV: 54
 - Spor Smart: 48
 - Spor Smart 2: 34
 - TRT 1: 41
-- TRT SPOR: 46
-- TRT SPOR YILDIZ: 142
-- TV8: 36
-- TV8,5: 42
-- beIN SPORTS 1: 40
-- beIN SPORTS 2: 62
+- TRT SPOR: 41
+- TRT SPOR YILDIZ: 140
+- TV8: 35
+- TV8,5: 43
+- beIN SPORTS 1: 61
+- beIN SPORTS 2: 48
 - beIN SPORTS 3: 52
 - beIN SPORTS 4: 54
 - tabii spor: 27
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 18.10 05:00 S SPORT 2: Moto 2 - Moto 3
-- 18.10 05:15 beIN SPORTS 4: Le Mans - Toulouse
 - 18.10 07:00 S SPORT: Moto GP - Moto 3
 - 18.10 07:00 beIN SPORTS 4: Red Star - Saint-Étienne
-- 18.10 08:00 beIN SPORTS 2: Fenerbahçe - C. Alanyaspor
-- 18.10 08:00 beIN SPORTS 3: Everton - Chelsea
+- 18.10 08:06 beIN SPORTS 3: Everton - Chelsea
 - 18.10 08:45 beIN SPORTS 4: Braga - Sporting CP
-- 18.10 09:45 beIN SPORTS 2: Gençlerbirliği - Galatasaray
-- 18.10 09:45 beIN SPORTS 3: Man City - Ipswich
+- 18.10 09:50 beIN SPORTS 3: Man City - Ipswich
 - 18.10 10:30 beIN SPORTS 4: Lille - Brest
 - 18.10 11:00 S SPORT 2: Moto 2 - Moto GP
 - 18.10 11:20 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Samsun
-- 18.10 11:30 beIN SPORTS 2: Bodrum FK - Bandırmaspor
-- 18.10 11:30 beIN SPORTS 3: Brentford - Liverpool
+- 18.10 11:39 beIN SPORTS 3: Brentford - Liverpool
 - 18.10 12:15 beIN SPORTS 1: Başakşehir - Gaziantep FK
 - 18.10 12:15 beIN SPORTS 4: Troyes - Lens
 - 18.10 12:35 tabii spor: Real Betis - Porto
 - 18.10 12:55 TRT SPOR YILDIZ: Beykoz B. - Mihalıçcık B.
-- 18.10 13:15 beIN SPORTS 3: Newcastle - Aston Villa
 - 18.10 13:30 Spor Smart: R.Madrid - Surne Bilbao "Canlı"
 - 18.10 13:30 TRT SPOR: A.H. Iğdır - Boluspor
-- 18.10 13:30 beIN SPORTS 2: Igdır FK - Boluspor
+- 18.10 13:31 beIN SPORTS 3: Newcastle - Aston Villa
 - 18.10 14:00 beIN SPORTS 4: Strasbourg - PSG
 - 18.10 14:15 tabii spor: S. Bratislava - Stuttgart
 - 18.10 14:55 TRT SPOR YILDIZ: Zeren Spor - Fenerbahçe M.
 - 18.10 15:55 tabii spor: Kups Kuopio - Trabzonspor
 - 18.10 16:00 TRT SPOR: Kayserispor - Batman P.
-- 18.10 16:00 beIN SPORTS 2: Kayserispor - Batman P.
 - 18.10 18:00 Spor Smart: Valencia - Murcia "Canlı"
 - 18.10 18:10 tabii spor: Hoffenheim - Beşiktaş
 - 18.10 19:00 TRT SPOR: İstanbulspor - Antalyaspor
-- 18.10 19:00 beIN SPORTS 2: İstanbulspor - Antalyaspor
 - 18.10 20:00 Spor Smart: Joventut - Barcelona ''Canlı''
 - 18.10 20:35 tabii spor: Lyon - Crystal Palace
 - 18.10 22:00 Spor Smart: Fluminense - Santos "Canlı"
@@ -80,7 +72,6 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 208 program
 - 19.10 20:00 TRT SPOR: Bursaspor - Pendikspor
 - 19.10 20:25 tabii spor: Bournemouth - Sturm Graz
 - 19.10 22:15 tabii spor: Dinamo Zagreb - Anderlecht
-- 20.10 01:15 Spor Smart 2: Mirassol - Internacional "Tkr"
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 18.10 13:30 Kasimpasa - Samsunspor → beIN SPORTS 1

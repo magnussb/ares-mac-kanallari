@@ -1,9 +1,9 @@
 {
   "android": {
-    "build": 12,
-    "name": "1.3.7",
-    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.7-12.apk",
-    "size": 68532914,
-    "notes": "• Arama çok hızlandı, donma yok: yazdıkça sonuç geliyor\n• Kelimenin içinde geçenler ve Türkçe karaktersiz yazım da bulunuyor (askin → Aşkın)\n• Film ve dizi adları afişin altında, kolay okunuyor\n• Tümü'nde de her film ve dizinin hangi grupta olduğu yazıyor\n• Gruplar alttan açılıyor: sağ alttaki düğme, ☰ ya da sağa kaydır; tek elle rahat kullanım\n• Canlı TV, Filmler ve Diziler aynı düzende\n• Geri sarma, hata veren kanalı yeniden açma ve numarayla kanal geçişi düzeltildi"
+    "build": 13,
+    "name": "1.3.8",
+    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.8-13.apk",
+    "size": 68636046,
+    "notes": "• Liste ekle ekranında QR, MAC, cihaz anahtarı ve site en üstte; ekranın fotoğrafını bayine gönderebilirsin\n• Gönderilen liste 10 saniyede bir kendiliğinden kontrol ediliyor\n• Bayinin kurduğu liste ve eşleştirme, uygulama açıksa anında geliyor\n• Canlı TV, Filmler ve Diziler'de son açtığın gruplar üstte yuvarlak kısayol (Netflix, Disney…)\n• Yapıştır düğmesi: M3U linki, sunucu adresi ya da kod tek dokunuşla\n• Android TV kutuları destekleniyor: kumandayla gezinme, üst menü (Ayarlar > Oynatıcı > Arayüz)\n• Spor ekranında daha çok maç görünüyor"
   }
 }

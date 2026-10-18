@@ -1,12 +1,18 @@
 {
   "android": {
-    "build": 14,
-    "name": "1.3.9",
-    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.9-14.apk",
-    "size": 68889234,
-    "notes": "• Kanal grupları yine soldan kaydırınca solda açılıyor\n• Liste eklerken alan adı artık \"Kısa kod ya da sunucu adresi (DNS)\": bayinin verdiği kodu buraya yaz\n• Ayarlar > Hakkında > Sürüm geçmişi: hangi sürümde neler geldiğini gör\n• Yeni sürüm çıkınca bildirim geliyor, ana ekranda \"Güncelle\" kartı çıkıyor\n• Güncelleme her açılışta ve uygulamaya dönünce kontrol ediliyor\n• 32 bit Android TV kutularına da kuruluyor\n• Bayin liste bitiş tarihini görüp tek tıkla hatırlatma gönderebiliyor"
+    "build": 15,
+    "name": "1.3.10",
+    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.10-15.apk",
+    "size": 68905730,
+    "notes": "• Android TV: canlı yayın ve filmler akıcı (donanım çözücü görüntüyü doğrudan çiziyor, 4K dahil); gerekirse Ayarlar > Oynatıcı'dan kapatılır\n• TV kutusunda bellek kullanımı azaldı (uygulamanın kendiliğinden kapanmasına karşı)\n• Kumanda: oynatıcıda sağ üstteki ses/altyazı düğmelerine Yukarı ile ulaşılıyor; Sol tuşu kanal listesini açıyor\n• Canlı TV'de OK doğrudan tam ekran; üzerinde durduğun kanalın programı sağ panelde\n• Filmler ve Diziler'de satırda 5 afiş; film/dizi sayfasında İzle düğmesi ve bölümler en üstte\n• Hesap Yönetimi ve Kategori yönetimi kumandayla kullanılabiliyor (▲ ▼ ile sıralama)\n• Menüler TV'de ortada pencere olarak açılıyor; bilgi kanalı görseli küçüldü\n• Harici oynatıcı (VLC) TV'de seçim penceresi olmadan doğrudan açılıyor"
   },
   "history": [
+    {
+      "name": "1.3.10",
+      "build": 15,
+      "date": "2026-10-18",
+      "notes": "• Android TV: canlı yayın ve filmler akıcı (donanım çözücü görüntüyü doğrudan çiziyor, 4K dahil); gerekirse Ayarlar > Oynatıcı'dan kapatılır\n• TV kutusunda bellek kullanımı azaldı (uygulamanın kendiliğinden kapanmasına karşı)\n• Kumanda: oynatıcıda sağ üstteki ses/altyazı düğmelerine Yukarı ile ulaşılıyor; Sol tuşu kanal listesini açıyor\n• Canlı TV'de OK doğrudan tam ekran; üzerinde durduğun kanalın programı sağ panelde\n• Filmler ve Diziler'de satırda 5 afiş; film/dizi sayfasında İzle düğmesi ve bölümler en üstte\n• Hesap Yönetimi ve Kategori yönetimi kumandayla kullanılabiliyor (▲ ▼ ile sıralama)\n• Menüler TV'de ortada pencere olarak açılıyor; bilgi kanalı görseli küçüldü\n• Harici oynatıcı (VLC) TV'de seçim penceresi olmadan doğrudan açılıyor"
+    },
     {
       "name": "1.3.9",
       "build": 14,

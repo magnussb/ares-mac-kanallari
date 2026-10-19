@@ -1,12 +1,18 @@
 {
   "android": {
-    "build": 18,
-    "name": "1.3.13",
-    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.13-18.apk",
-    "size": 69772233,
-    "notes": "• Kumanda: kanal paneli (Sol) açılınca odak oynayan kanalda; kanal sütununda Sağ paneli kapatmıyor, Sol gruplara geçiyor, gruplarda Sol kapatıyor; odak panelin dışına kaçmıyor\n• Kanal değiştirince (Yukarı/Aşağı, CH±) alt bar çıkmıyor; kanal adı kısa rozetle gösteriliyor. Kontroller yalnız OK ile açılıyor\n• Kontroller gizliyken görünmeyen düğmeler odak almıyor (OK'a basınca Ayarlar açılıyordu)\n• Ses/altyazı/hız/en-boy menüsü telefon ve Windows'ta da aynı (TiviMate düzeni); seçince menü açık kalıyor, işaret yeni seçime geçiyor; Sol bir üst kademe, Sağ açar\n• Spor > Puan durumu: averaj gibi uzun değerler kırpılmıyor (+16, +1 görünüyordu) — telefon, TV, Windows"
+    "build": 19,
+    "name": "1.3.14",
+    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.14-19.apk",
+    "size": 70001745,
+    "notes": "• Kumanda altyapısı yenilendi (TiviMate düzeni): her ekran için tuş → eylem tablosu; kısa ve uzun basış ayrı; farklı kumandaların OK/Geri/P± kodları tek tuşa iniyor\n• Ayarlar > Kumanda: Canlı yayın, Kontroller, Kanal listesi, Rehber ve Menü için her tuşa (kısa/uzun) eylem atanabiliyor; \"Varsayılanlara dön\"\n• Oynatıcıda uzun OK menüyü açıyor; Menü/Bilgi/Rehber tuşları, Kırmızı = favori, Yeşil = önceki kanal, Sarı = rehber, Mavi = gruplar\n• Kanal listesi ve gruplar indeks tabanlı: odak binlerce kanalda kaybolmuyor; grup imleci gezince kanallar anında değişiyor; P+/P− sayfa atlar; uzun OK kanal menüsü\n• Hızlı zaplama: art arda Yukarı/Aşağı'da yalnız son kanal açılıyor (sağlayıcı bağlantı limiti ve çözücü yorulmuyor)\n• Ana sayfada Geri: \"Çıkmak için tekrar Geri'ye basın\" — yanlışlıkla çıkış yok\n• Dizi ekranında sezona gelmek bölümleri anında getiriyor; Aşağı o sezonda kalınan bölüme, ilk bölümden Yukarı seçili sezona dönüyor\n• Numara ile kanal: 1,5 sn bekleyince ya da OK ile açılır"
   },
   "history": [
+    {
+      "name": "1.3.14",
+      "build": 19,
+      "date": "2026-10-19",
+      "notes": "• Kumanda altyapısı yenilendi (TiviMate düzeni): her ekran için tuş → eylem tablosu; kısa ve uzun basış ayrı; farklı kumandaların OK/Geri/P± kodları tek tuşa iniyor\n• Ayarlar > Kumanda: Canlı yayın, Kontroller, Kanal listesi, Rehber ve Menü için her tuşa (kısa/uzun) eylem atanabiliyor; \"Varsayılanlara dön\"\n• Oynatıcıda uzun OK menüyü açıyor; Menü/Bilgi/Rehber tuşları, Kırmızı = favori, Yeşil = önceki kanal, Sarı = rehber, Mavi = gruplar\n• Kanal listesi ve gruplar indeks tabanlı: odak binlerce kanalda kaybolmuyor; grup imleci gezince kanallar anında değişiyor; P+/P− sayfa atlar; uzun OK kanal menüsü\n• Hızlı zaplama: art arda Yukarı/Aşağı'da yalnız son kanal açılıyor (sağlayıcı bağlantı limiti ve çözücü yorulmuyor)\n• Ana sayfada Geri: \"Çıkmak için tekrar Geri'ye basın\" — yanlışlıkla çıkış yok\n• Dizi ekranında sezona gelmek bölümleri anında getiriyor; Aşağı o sezonda kalınan bölüme, ilk bölümden Yukarı seçili sezona dönüyor\n• Numara ile kanal: 1,5 sn bekleyince ya da OK ile açılır"
+    },
     {
       "name": "1.3.13",
       "build": 18,

@@ -1,12 +1,18 @@
 {
   "android": {
-    "build": 20,
-    "name": "1.3.15",
-    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.15-20.apk",
-    "size": 70018209,
-    "notes": "• Film/dizi duraklatılmışken Geri tuşu artık oynatıcıdan çıkıyor (kontroller açık kalıp çıkış engellenmiyordu)\n• Film/dizide Yukarı/Aşağı bölüm değiştirmiyor; bölüm geçişi alt çubuktaki ◀◀ ▶▶ düğmelerinde\n• TV'de oynatıcının üst satırındaki ulaşılamayan ikonlar kaldırıldı; menü/rehber alt çubukta ve kumanda tuşlarında (uzun OK = menü)\n• Ayarlar > İçerik Ayarları > \"Geçmişi temizle\": son izlenen kanallar ve film/dizi kaldığın yerler silinir (telefon + TV)\n• Radyo kanalları: kapak görseli video sayılıp geçişi bekletmiyor (TV'de kanal değişimi daha hızlı)\n• Ses parçası değiştirince altyazı seçimi değişmiyor\n• Kumanda: kanal panelinde ilk Sol yalnız kanal listesini açıyor, ikinci Sol grupları getiriyor; gruplarda Sol listenin başına (öbür listeler) gidiyor, baştayken kapatıyor\n• TV'de kanal satırlarında 5 haneli numara kalktı, kanal ve grup adları aynı boyda (14) — uzun adlar sığıyor; panel daha şeffaf ve geniş\n• Oynatıcıda OK → Aşağı: Rehber + son izlenen 6 kanal (Filmler/Diziler/Ayarlar kısayolları yerine); Yeşil tuş bir önceki kanal\n• Canlı yayın tamponuna 1 sn seçeneği eklendi\n• Ayarlar > Oynatıcı > \"Taraklanma giderme (deinterlace)\" (TV): 50i kanallarda tarak izi için; kopyalı/yazılım çözücüde çalışır, ExoPlayer motoru donanımda kendisi giderir\n• Hesap ve Cihazlar'da cihaz anahtarı da gösteriliyor (kopyalanabilir)\n• Film/dizi: kategori paneli geniş ve yazı küçük, başlık kesilmiyor; Canlı TV'de arama kutusu dar\n• Mavi düğmelerde (İzle, QR ile bağla, Güncelle…) odak artık belli: açık halka + TV'de hafif büyüme"
+    "build": 21,
+    "name": "1.3.16",
+    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.16-21.apk",
+    "size": 70018205,
+    "notes": "• Oynatma motoru artık varsayılan olarak ExoPlayer (TV ve telefon): görüntü TiviMate gibi doğrudan ekrana çizilir, 4K/RAW yayınlarda donma azalır. ExoPlayer'ın açamadığı yayın kendiliğinden mpv ile açılır (kısa uyarı çıkar). Ayarlar > Oynatıcı > Oynatma motoru'ndan mpv'ye dönülebilir\n• Radyo kanalları: kapak görseli video sayılmıyor, ExoPlayer ile geçiş daha hızlı\n• Kanal listesinde kanal adı ile sol kenar arasındaki boşluk daraltıldı (TV ve telefon)\n• Liste ekle: ad verme penceresi kapanırken oluşan hata giderildi"
   },
   "history": [
+    {
+      "name": "1.3.16",
+      "build": 21,
+      "date": "2026-10-20",
+      "notes": "• Oynatma motoru artık varsayılan olarak ExoPlayer (TV ve telefon): görüntü TiviMate gibi doğrudan ekrana çizilir, 4K/RAW yayınlarda donma azalır. ExoPlayer'ın açamadığı yayın kendiliğinden mpv ile açılır (kısa uyarı çıkar). Ayarlar > Oynatıcı > Oynatma motoru'ndan mpv'ye dönülebilir\n• Radyo kanalları: kapak görseli video sayılmıyor, ExoPlayer ile geçiş daha hızlı\n• Kanal listesinde kanal adı ile sol kenar arasındaki boşluk daraltıldı (TV ve telefon)\n• Liste ekle: ad verme penceresi kapanırken oluşan hata giderildi"
+    },
     {
       "name": "1.3.15",
       "build": 20,

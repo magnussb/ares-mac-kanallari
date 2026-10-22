@@ -1,12 +1,18 @@
 {
   "android": {
-    "build": 23,
-    "name": "1.3.18",
-    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.18-23.apk",
-    "size": 70067429,
-    "notes": "• Sol grup listesinde bütün oynatma listeleri: her liste ▾ ile açılıp kapanır, başka listenin grubuna girince uygulama Ayarlar'a gitmeden o listeye geçer (Canlı TV, Filmler, Diziler; telefonda grup çekmecesi)\n• TV: RAW / 4K / UHD kanallar ExoPlayer ile açılıyor (TiviMate gibi doğrudan ekrana çizer; geç açılma ve donma azalır), diğer kanallar mpv ile. Ayarlar > Oynatıcı > Oynatma motoru'ndan değiştirilebilir\n• RAW kanallardaki çizgi çizgi görüntü (taraklanma) kendiliğinden düzeltiliyor\n• TV: kumanda uyuyup uyanınca ya da HDMI/HDR değişince uygulamanın kapanıp yeniden açılması giderildi\n• Uygulama beklenmedik kapanırsa nedeni kaydediliyor: Ayarlar > Hakkında > Kapanma kayıtları (destek için fotoğrafını gönderin)\n• Oynatıcıda ses düğmesi yerine Menü düğmesi: ses, altyazı, hız, en-boy (uzun OK ile açılan menü)\n• TV: Liste ekle ekranında imleç QR kartındaki bağlantıya gitmiyor, doğrudan forma geçiyor"
+    "build": 24,
+    "name": "1.3.19",
+    "url": "https://raw.githubusercontent.com/magnussb/ares-mac-kanallari/apk/Ares-1.3.19-24.apk",
+    "size": 73523370,
+    "notes": "• TV: oynatıcı baştan yazıldı (ExoPlayer, görüntü doğrudan ekrana). RAW / 4K kanallarda donma ve geç açılma için; artık motor değiştirmiyor, \"mpv ile açılacak\" yazıp takılma ve görüntünün donması giderildi\n• Kutunun çözemediği sesler (AC3, E-AC3, MP2, DTS) artık çalıyor\n• Kanal değişince eski kanalın görüntüsü yeni kanalın sesiyle kalmıyor\n• Bir kanalın sesi ya da görüntüsü cihazda çözülemezse ekranda kısa uyarı çıkıyor\n• Yayın bilgisinde gerçek kare hızı ve atlanan kare sayısı (takılma olursa fotoğrafını gönderin)\n• Ayarlar > Oynatıcı > Oynatma motoru: TV'de ExoPlayer önerilir, istenirse mpv; telefonda mpv varsayılan\n• Ayarlar > Hakkında > Açık kaynak lisansları"
   },
   "history": [
+    {
+      "name": "1.3.19",
+      "build": 24,
+      "date": "2026-10-23",
+      "notes": "• TV: oynatıcı baştan yazıldı (ExoPlayer, görüntü doğrudan ekrana). RAW / 4K kanallarda donma ve geç açılma için; artık motor değiştirmiyor, \"mpv ile açılacak\" yazıp takılma ve görüntünün donması giderildi\n• Kutunun çözemediği sesler (AC3, E-AC3, MP2, DTS) artık çalıyor\n• Kanal değişince eski kanalın görüntüsü yeni kanalın sesiyle kalmıyor\n• Bir kanalın sesi ya da görüntüsü cihazda çözülemezse ekranda kısa uyarı çıkıyor\n• Yayın bilgisinde gerçek kare hızı ve atlanan kare sayısı (takılma olursa fotoğrafını gönderin)\n• Ayarlar > Oynatıcı > Oynatma motoru: TV'de ExoPlayer önerilir, istenirse mpv; telefonda mpv varsayılan\n• Ayarlar > Hakkında > Açık kaynak lisansları"
+    },
     {
       "name": "1.3.18",
       "build": 23,

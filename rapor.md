@@ -1,81 +1,76 @@
-# Rapor 2026-10-22 19:12 UTC
+# Rapor 2026-10-22 23:15 UTC
 
-ESPN maç: 165 · EPG program: 708 · eşleşen maç: 89
+ESPN maç: 158 · EPG program: 773 · eşleşen maç: 79
 
 ## Çekim
 ```
 ch_dsmart deneme 1: 2/2 kanal, 89 program
-ch_tvplus deneme 1: 9/9 kanal, 378 program
+ch_tvplus deneme 1: 9/9 kanal, 436 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 200
-beIN: 4 kanal, 16 sayfa ok, 0 hata, 246 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 251 program
 ```
 
 ## Kanal başına program
-- S SPORT: 58
+- S SPORT: 55
 - S SPORT 2: 56
 - SPORTS TV: 54
 - Spor Smart: 49
 - Spor Smart 2: 40
-- TRT 1: 37
-- TRT SPOR: 35
-- TRT SPOR YILDIZ: 54
+- TRT 1: 41
+- TRT SPOR: 32
+- TRT SPOR YILDIZ: 91
 - TV8: 31
-- TV8,5: 15
-- beIN SPORTS 1: 52
-- beIN SPORTS 2: 56
-- beIN SPORTS 3: 61
-- beIN SPORTS 4: 77
-- tabii spor: 33
+- TV8,5: 42
+- beIN SPORTS 1: 51
+- beIN SPORTS 2: 59
+- beIN SPORTS 3: 68
+- beIN SPORTS 4: 73
+- tabii spor: 31
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 22.10 19:15 beIN SPORTS 2: Vanspor FK - Ümraniyespor
-- 22.10 19:32 beIN SPORTS 3: Nott'm Forest - Arsenal
-- 22.10 21:00 beIN SPORTS 2: İstanbulspor - Antalyaspor
-- 22.10 21:30 beIN SPORTS 3: Tottenham - Coventry
-- 22.10 21:45 S SPORT 2: Partizan - Kızılyıldız
-- 22.10 22:00 beIN SPORTS 1: Rizespor - Trabzonspor
-- 22.10 22:00 beIN SPORTS 4: Lorient - Monaco
-- 22.10 22:30 beIN SPORTS 1: Beşiktaş - Başakşehir
-- 22.10 23:09 beIN SPORTS 1: Alanyaspor - Kocaelispor
-- 22.10 23:14 beIN SPORTS 1: Galatasaray - Fenerbahçe
-- 22.10 23:30 S SPORT: Olimpia Milano - Barcelona
 - 23.10 01:15 TRT SPOR YILDIZ: Bosna BH T. - Bahçeşehir K.
 - 23.10 02:55 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Ankara
 - 23.10 03:15 TRT SPOR YILDIZ: Esenler Erokspor - U. Craiova
 - 23.10 05:20 TRT SPOR YILDIZ: Zeren Spor - Fenerbahçe M.
-- 23.10 05:31 beIN SPORTS 4: Lyon - Nice
+- 23.10 05:30 beIN SPORTS 4: Lyon - Nice
 - 23.10 07:00 beIN SPORTS 2: Sivasspor - Sarıyer
 - 23.10 07:15 TRT SPOR YILDIZ: Napoli Basketball - Tofaş
 - 23.10 07:15 beIN SPORTS 3: Newcastle - Aston Villa
-- 23.10 07:16 beIN SPORTS 4: Le Mans - Toulouse
+- 23.10 07:15 beIN SPORTS 4: Le Mans - Toulouse
 - 23.10 08:45 beIN SPORTS 2: Bodrum FK - Bandırmaspor
 - 23.10 09:00 beIN SPORTS 1: Erzurumspor FK - Eyüpspor
 - 23.10 09:00 beIN SPORTS 3: Leeds - Man Utd
-- 23.10 09:01 beIN SPORTS 4: Strasbourg - PSG
+- 23.10 09:00 beIN SPORTS 4: Strasbourg - PSG
 - 23.10 09:55 tabii spor: Napoli - Bodo Glimt
 - 23.10 10:30 beIN SPORTS 2: Igdır FK - Boluspor
 - 23.10 10:45 beIN SPORTS 1: Amedspor - T. Konyaspor
 - 23.10 10:45 beIN SPORTS 3: Brighton - C. Palace
-- 23.10 10:46 beIN SPORTS 4: Lille - Brest
+- 23.10 10:45 beIN SPORTS 4: Lille - Brest
 - 23.10 12:00 tabii spor: Como - Manchester United
 - 23.10 12:15 beIN SPORTS 2: Kayserispor - Batman P.
 - 23.10 12:30 beIN SPORTS 3: Bournemouth - Sunderland
-- 23.10 12:31 beIN SPORTS 4: Troyes - Lens
+- 23.10 12:30 beIN SPORTS 4: Troyes - Lens
 - 23.10 13:40 tabii spor: Bayern Munih - Arsenal
-- 23.10 14:17 beIN SPORTS 4: Angers - Marseille
+- 23.10 14:00 beIN SPORTS 2: Vanspor FK - Ümraniyespor
+- 23.10 14:15 beIN SPORTS 4: Angers - Marseille
+- 23.10 14:17 beIN SPORTS 3: Nott'm Forest - Arsenal
 - 23.10 15:45 tabii spor: Fenerbahçe - Slavia Prag
+- 23.10 15:45 beIN SPORTS 2: İstanbulspor - Antalyaspor
 - 23.10 16:00 beIN SPORTS 1: Kasımpaşa - Samsunspor
+- 23.10 16:00 beIN SPORTS 3: Tottenham - Coventry
+- 23.10 16:00 beIN SPORTS 4: Lorient - Monaco
 - 23.10 17:25 tabii spor: Lille - Galatasaray
 - 23.10 17:30 beIN SPORTS 2: F.Karagümrük - Keçiörengücü
+- 23.10 17:45 beIN SPORTS 1: Alanyaspor - Kocaelispor
+- 23.10 17:45 beIN SPORTS 4: Paris FC - Rennes
 - 23.10 17:46 beIN SPORTS 3: Everton - Chelsea
-- 23.10 17:46 beIN SPORTS 4: Paris FC - Rennes
 - 23.10 19:05 tabii spor: Trabzonspor - Hearts
 - 23.10 19:30 beIN SPORTS 3: Man City - Ipswich
 - 23.10 20:00 TRT SPOR: Boluspor - Van Spor
 - 23.10 20:00 beIN SPORTS 2: Boluspor - Vanspor FK
-- 23.10 21:10 tabii spor: Beşiktaş - Cyrstal Palace
+- 23.10 21:10 tabii spor: Beşiktaş - Crystal Palace
 - 24.10 00:00 S SPORT 2: Paris Basket - Valencia
 - 24.10 02:00 Spor Smart: Cruzeiro - Remo "Canlı"
 - 24.10 02:00 S SPORT 2: Torino - Monza
@@ -84,10 +79,14 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 246 program
 - 24.10 09:00 S SPORT 2: Moto 2 - Moto GP
 - 24.10 09:30 beIN SPORTS 1: C. Alanyaspor - Kocaelispor
 - 24.10 12:15 beIN SPORTS 2: Beşiktaş - Başakşehir
+- 24.10 12:30 beIN SPORTS 1: Galatasaray - Fenerbahçe
 - 24.10 12:45 beIN SPORTS 2: Rizespor - Trabzonspor
+- 24.10 12:55 TRT SPOR YILDIZ: Galatasaray - Onikişubat B.
 - 24.10 13:30 beIN SPORTS 2: Ümraniyespor - Sivasspor
 - 24.10 15:00 S SPORT 2: Inside Serie A - Inside Tactics
+- 24.10 15:25 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Sakarya
 - 24.10 15:55 tabii spor: Feyenoord - Como
+- 24.10 15:55 TRT SPOR YILDIZ: Spor Toto - Halkbank
 - 24.10 17:30 beIN SPORTS 2: Galatasaray - Fenerbahçe
 - 24.10 17:35 tabii spor: Roma - Real Madrid
 - 24.10 19:00 Spor Smart: Manresa - Burgos "Canlı"
@@ -95,43 +94,9 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 246 program
 - 24.10 19:45 tabii spor: Shakhtar Donetsk - Aek Atina
 - 24.10 21:50 tabii spor: Manchester City - Borrusia Dortmunt
 - 24.10 22:00 Spor Smart: Barcelona - Zaragoza ''Canlı''
+- 24.10 22:30 Spor Smart 2: Mirassol - Sao Paulo "Canlı"
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 22.10 19:45 Ararat-Armenia - AZ Alkmaar → tabii
-- 22.10 19:45 Dinamo Zagreb - NEC Nijmegen → tabii
-- 22.10 19:45 Ferencvaros - Torreense → tabii
-- 22.10 19:45 Juventus - Stade Rennais → tabii spor
-- 22.10 19:45 Lech Poznan - Sunderland → tabii
-- 22.10 19:45 OFI Crete - Bayer Leverkusen → tabii
-- 22.10 19:45 SK Sturm Graz - Marseille → tabii
-- 22.10 19:45 Union St.-Gilloise - Hapoel Be'er → tabii
-- 22.10 22:00 AFC Bournemouth - AC Milan → tabii spor
-- 22.10 22:00 Besiktas - Crystal Palace → TRT 1
-- 22.10 22:00 Celtic - Celta Vigo → tabii
-- 22.10 22:00 Jagiellonia Bialystok - Anderlecht → tabii
-- 22.10 22:00 Lillestrom - Real Sociedad → tabii
-- 22.10 22:00 NK Celje - RB Salzburg → tabii
-- 22.10 22:00 Olympiacos - Sparta Prague → tabii
-- 22.10 22:00 Omonia Nicosia - Benfica → tabii
-- 22.10 22:00 TSG Hoffenheim - Lyon → tabii
-- 22.10 22:00 Viktoria Plzen - Levski Sofia → tabii
-- 22.10 19:45 FC Nordsjælland - CSKA Sofia → tabii
-- 22.10 19:45 Getafe - FC Lugano → tabii
-- 22.10 19:45 Iberia 1999 - Mjällby AIF → tabii
-- 22.10 19:45 Inter D'Escaldes - CSU Craiova → tabii
-- 22.10 19:45 Jablonec - Brighton & Hove Albion → tabii
-- 22.10 19:45 Kauno Zalgiris - SK Brann → tabii
-- 22.10 19:45 Pafos - Riga FC → tabii
-- 22.10 19:45 Red Star Belgrade - F.C. København → tabii
-- 22.10 19:45 Trabzonspor - Heart of Midlothian → TRT 1
-- 22.10 22:00 AGF - Egnatia → tabii
-- 22.10 22:00 Ajax Amsterdam - Atalanta → tabii
-- 22.10 22:00 AS Monaco - SC Freiburg → tabii
-- 22.10 22:00 Borac Banja Luka - KuPS Kuopio → tabii
-- 22.10 22:00 Braga - KAA Gent → tabii
-- 22.10 22:00 FC Midtjylland - Sint-Truidense → tabii
-- 22.10 22:00 FC Thun - Hajduk Split → tabii
-- 22.10 22:00 Lincoln Red Imps - FC Twente → tabii
 - 23.10 20:00 Alanyaspor - Kocaelispor → beIN SPORTS 1
 - 23.10 22:00 Ipswich Town - Nottingham Forest → beIN SPORTS 3
 - 23.10 22:00 Alavés - Málaga → S SPORT 2
@@ -164,6 +129,7 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 246 program
 - 24.10 21:45 Lens - Paris FC → beIN SPORTS 3
 - 24.10 17:30 Estrela - Casa Pia → —
 - 24.10 20:00 Alverca - Arouca → —
+- 24.10 22:30 Gil Vicente - FC Porto → beIN SPORTS 2, beIN SPORTS 3
 - 24.10 17:30 FC Utrecht - PEC Zwolle → —
 - 24.10 19:45 Willem II - SC Cambuur → —
 - 24.10 22:00 ADO Den Haag - Heerenveen → —
@@ -181,12 +147,7 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 246 program
 - 24.10 05:00 Golden State Warriors - Memphis Grizzlies → —
 - 24.10 05:00 Los Angeles Lakers - LA Clippers → —
 - 24.10 05:00 Sacramento Kings - Portland Trail Blazers → —
+- 25.10 01:00 Charlotte Hornets - Miami Heat → —
 - 23.10 21:45 Paris - Valencia → —
 - 23.10 21:15 Olympiacos - Fenerbahce → S SPORT
 - 23.10 20:00 Zalgiris - ASVEL → S SPORT 2
-- 22.10 21:45 Partizan - Crvena → —
-- 22.10 21:30 Milan - Barca → —
-- 22.10 21:15 Panathinaikos - Baskonia → —
-- 22.10 21:05 Maccabi - Real → —
-- 22.10 21:00 Bayern - Dubai → —
-- 22.10 20:30 Efes - Besiktas → S SPORT

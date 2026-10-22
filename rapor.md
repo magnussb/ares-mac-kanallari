@@ -1,72 +1,72 @@
-# Rapor 2026-10-21 23:12 UTC
+# Rapor 2026-10-22 04:31 UTC
 
-ESPN maç: 177 · EPG program: 1505 · eşleşen maç: 77
+ESPN maç: 177 · EPG program: 1521 · eşleşen maç: 78
 
 ## Çekim
 ```
-ch_dsmart deneme 1: 2/2 kanal, 96 program
-ch_tvplus deneme 1: 9/9 kanal, 460 program
+ch_dsmart deneme 1: 0/2 kanal, 0 program
+ch_dsmart deneme 2: 0/2 kanal, 0 program
+ch_dsmart deneme 3: 0/2 kanal, 0 program
+--- ch_dsmart son log:
+[info]   [1/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 22, 2026 (0 programs)
+Unable to fetch https://www.dsmart.com.tr/api/v1/public/epg/schedules?page=12&limit=10&day=2026-10-23: Request failed with status code 500!
+[info]   [2/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 23, 2026 (0 programs)
+Unable to fetch https://www.dsmart.com.tr/api/v1/public/epg/schedules?page=12&limit=10&day=2026-10-24: Request failed with status code 500!
+[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 24, 2026 (0 programs)
+[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 22, 2026 (0 programs)
+[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 23, 2026 (0 programs)
+[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 24, 2026 (0 programs)
+ch_tvplus deneme 1: 9/9 kanal, 443 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 200
-beIN: 4 kanal, 15 sayfa ok, 1 hata, 951 program
+beIN: 4 kanal, 14 sayfa ok, 2 hata, 1080 program
 ```
 
 ## Kanal başına program
-- S SPORT: 57
-- S SPORT 2: 53
+- S SPORT: 58
+- S SPORT 2: 56
 - SPORTS TV: 55
-- Spor Smart: 51
-- Spor Smart 2: 45
-- TRT 1: 41
-- TRT SPOR: 60
-- TRT SPOR YILDIZ: 90
-- TV8: 33
-- TV8,5: 27
+- TRT 1: 40
+- TRT SPOR: 52
+- TRT SPOR YILDIZ: 83
+- TV8: 31
+- TV8,5: 24
 - beIN SPORTS 1: 52
-- beIN SPORTS 2: 842
-- beIN SPORTS 3: 41
+- beIN SPORTS 2: 984
+- beIN SPORTS 3: 28
 - beIN SPORTS 4: 16
 - tabii spor: 42
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
 - 22.10 05:15 beIN SPORTS 4: Lyon - Nice
-- 22.10 07:00 beIN SPORTS 2: Manisa FK - Muğlaspor
 - 22.10 07:00 beIN SPORTS 3: Man City - Ipswich
 - 22.10 07:00 beIN SPORTS 4: Le Mans - Toulouse
 - 22.10 07:15 TRT SPOR YILDIZ: Bosna BH T. - Bahçeşehir K.
-- 22.10 08:45 beIN SPORTS 2: Bursaspor - Pendikspor
 - 22.10 08:45 beIN SPORTS 4: Red Star - Saint-Étienne
 - 22.10 08:49 beIN SPORTS 3: Fulham - Hull City
 - 22.10 09:15 beIN SPORTS 1: A. Çorum FK - Ç. Rizespor
 - 22.10 09:45 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Ankara
 - 22.10 09:55 tabii spor: Stuttgart - Atletico Madrid
-- 22.10 10:30 beIN SPORTS 2: E. Erokspor - Mardin 1969
 - 22.10 10:30 beIN SPORTS 4: Rodez - Montpellier
 - 22.10 10:32 beIN SPORTS 3: Brentford - Liverpool
 - 22.10 11:00 beIN SPORTS 1: Erzurumspor FK - Eyüpspor
-- 22.10 12:15 beIN SPORTS 2: Sivasspor - Sarıyer
 - 22.10 12:15 beIN SPORTS 4: Strasbourg - PSG
 - 22.10 12:25 tabii spor: Porto - Psv Eindhoven
 - 22.10 12:30 beIN SPORTS 3: Newcastle - Aston Villa
 - 22.10 13:00 TRT SPOR YILDIZ: Esenler Erokspor - U. Craiova
 - 22.10 14:00 beIN SPORTS 1: Amedspor - T. Konyaspor
-- 22.10 14:00 beIN SPORTS 2: Bodrum FK - Bandırmaspor
 - 22.10 14:00 beIN SPORTS 4: Lille - Brest
 - 22.10 14:05 tabii spor: Fenerbahçe - Slavia Prag
 - 22.10 14:15 beIN SPORTS 3: Leeds - Man Utd
 - 22.10 15:45 tabii spor: Lille - Galatasaray
 - 22.10 15:45 beIN SPORTS 1: Gençlerbirliği - Galatasaray
-- 22.10 15:45 beIN SPORTS 2: Igdır FK - Boluspor
 - 22.10 15:45 beIN SPORTS 4: Troyes - Lens
 - 22.10 16:00 beIN SPORTS 3: Brighton - C. Palace
 - 22.10 17:00 TRT SPOR YILDIZ: Zeren Spor - Fenerbahçe M.
-- 22.10 17:30 beIN SPORTS 2: Kayserispor - Batman P.
 - 22.10 17:30 beIN SPORTS 4: Angers - Marseille
 - 22.10 17:45 beIN SPORTS 3: Bournemouth - Sunderland
-- 22.10 19:15 beIN SPORTS 2: Vanspor FK - Ümraniyespor
 - 22.10 19:32 beIN SPORTS 3: Nott'm Forest - Arsenal
-- 22.10 21:00 beIN SPORTS 2: İstanbulspor - Antalyaspor
 - 22.10 21:30 beIN SPORTS 3: Tottenham - Coventry
 - 22.10 21:45 S SPORT 2: Partizan - Kızılyıldız
 - 22.10 22:00 beIN SPORTS 1: Rizespor - Trabzonspor
@@ -75,16 +75,21 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 951 program
 - 22.10 23:15 beIN SPORTS 1: Alanyaspor - Kocaelispor
 - 22.10 23:30 S SPORT: Olimpia Milano - Barcelona
 - 22.10 23:30 beIN SPORTS 1: Galatasaray - Fenerbahçe
-- 23.10 07:00 beIN SPORTS 3: Everton - Chelsea
+- 23.10 07:00 beIN SPORTS 2: Igdır FK - Boluspor
 - 23.10 07:15 TRT SPOR YILDIZ: Napoli Basketball - Tofaş
+- 23.10 08:45 beIN SPORTS 2: Kayserispor - Batman P.
 - 23.10 09:55 tabii spor: Leıpzıg - Psv
+- 23.10 10:30 beIN SPORTS 2: Vanspor FK - Ümraniyespor
 - 23.10 10:45 beIN SPORTS 1: Kasımpaşa - Samsunspor
 - 23.10 12:00 tabii spor: Galatasaray - Barcelona
+- 23.10 12:15 beIN SPORTS 2: İstanbulspor - Antalyaspor
 - 23.10 13:40 tabii spor: Lask - Liverpool
 - 23.10 14:00 beIN SPORTS 2: F.Karagümrük - Keçiörengücü
 - 23.10 15:00 beIN SPORTS 1: Trabzonspor - Beşiktaş
 - 23.10 15:45 tabii spor: Manchester City - PSG
+- 23.10 15:45 beIN SPORTS 2: Manisa FK - Muğlaspor
 - 23.10 17:25 tabii spor: Aston Villa - Fenerbahçe
+- 23.10 17:30 beIN SPORTS 2: Bursaspor - Pendikspor
 - 23.10 19:05 tabii spor: Kups - Trabzonspor
 - 23.10 20:00 TRT SPOR: Boluspor - Van Spor
 - 23.10 20:00 beIN SPORTS 2: Boluspor - Vanspor FK
@@ -93,7 +98,9 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 951 program
 - 23.10 22:30 beIN SPORTS 2: Rizespor - Trabzonspor
 - 23.10 23:00 beIN SPORTS 2: Beşiktaş - Başakşehir
 - 24.10 00:00 S SPORT 2: Paris Basket - Valencia
+- 24.10 01:45 beIN SPORTS 2: Sivasspor - Sarıyer
 - 24.10 02:00 S SPORT 2: Torino - Monza
+- 24.10 03:30 beIN SPORTS 2: Bodrum FK - Bandırmaspor
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 22.10 19:45 Ararat-Armenia - AZ Alkmaar → tabii
@@ -140,14 +147,6 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 951 program
 - 23.10 21:45 Brest - Nice → —
 - 23.10 22:45 Vitória de Guimaraes - Maritimo → —
 - 23.10 21:00 Go Ahead Eagles - Telstar → —
-- 22.10 02:00 Orlando Magic - Atlanta Hawks → —
-- 22.10 02:00 Washington Wizards - Milwaukee Bucks → —
-- 22.10 02:30 Miami Heat - Minnesota Timberwolves → S SPORT
-- 22.10 02:30 Brooklyn Nets - Charlotte Hornets → —
-- 22.10 02:30 Toronto Raptors - Chicago Bulls → —
-- 22.10 03:00 Memphis Grizzlies - Utah Jazz → —
-- 22.10 03:00 New Orleans Pelicans - Indiana Pacers → —
-- 22.10 03:30 Houston Rockets - Dallas Mavericks → —
 - 22.10 05:00 Los Angeles Lakers - Golden State Warriors → S SPORT
 - 22.10 05:00 Portland Trail Blazers - Phoenix Suns → —
 - 22.10 05:30 LA Clippers - Sacramento Kings → —
@@ -159,6 +158,12 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 951 program
 - 24.10 02:00 Indiana Pacers - Dallas Mavericks → —
 - 24.10 02:00 Orlando Magic - Minnesota Timberwolves → —
 - 24.10 02:00 Washington Wizards - Toronto Raptors → —
+- 24.10 03:00 Miami Heat - Detroit Pistons → —
+- 24.10 04:30 San Antonio Spurs - Houston Rockets → —
+- 24.10 04:30 Utah Jazz - New Orleans Pelicans → —
+- 24.10 05:00 Golden State Warriors - Memphis Grizzlies → —
+- 24.10 05:00 Los Angeles Lakers - LA Clippers → —
+- 24.10 05:00 Sacramento Kings - Portland Trail Blazers → —
 - 23.10 21:45 Paris - Valencia → —
 - 23.10 21:15 Olympiacos - Fenerbahce → S SPORT
 - 23.10 20:00 Zalgiris - ASVEL → S SPORT 2

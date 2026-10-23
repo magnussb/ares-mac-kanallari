@@ -1,11 +1,11 @@
-# Rapor 2026-10-23 09:57 UTC
+# Rapor 2026-10-23 14:56 UTC
 
-ESPN maç: 158 · EPG program: 725 · eşleşen maç: 79
+ESPN maç: 158 · EPG program: 710 · eşleşen maç: 79
 
 ## Çekim
 ```
 ch_dsmart deneme 1: 2/2 kanal, 82 program
-ch_tvplus deneme 1: 9/9 kanal, 393 program
+ch_tvplus deneme 1: 9/9 kanal, 379 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 200
@@ -13,36 +13,23 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 255 program
 ```
 
 ## Kanal başına program
-- S SPORT: 48
-- S SPORT 2: 51
-- SPORTS TV: 54
+- S SPORT: 45
+- S SPORT 2: 48
+- SPORTS TV: 53
 - Spor Smart: 45
 - Spor Smart 2: 37
 - TRT 1: 39
-- TRT SPOR: 20
-- TRT SPOR YILDIZ: 77
+- TRT SPOR: 25
+- TRT SPOR YILDIZ: 68
 - TV8: 30
 - TV8,5: 42
 - beIN SPORTS 1: 53
 - beIN SPORTS 2: 61
 - beIN SPORTS 3: 68
 - beIN SPORTS 4: 73
-- tabii spor: 27
+- tabii spor: 23
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 23.10 10:30 beIN SPORTS 2: Igdır FK - Boluspor
-- 23.10 10:45 beIN SPORTS 1: Amedspor - T. Konyaspor
-- 23.10 10:45 beIN SPORTS 3: Brighton - C. Palace
-- 23.10 10:45 beIN SPORTS 4: Lille - Brest
-- 23.10 12:00 tabii spor: Como - Manchester United
-- 23.10 12:15 beIN SPORTS 2: Kayserispor - Batman P.
-- 23.10 12:30 beIN SPORTS 3: Bournemouth - Sunderland
-- 23.10 12:30 beIN SPORTS 4: Troyes - Lens
-- 23.10 13:40 tabii spor: Bayern Munih - Arsenal
-- 23.10 14:00 beIN SPORTS 2: Vanspor FK - Ümraniyespor
-- 23.10 14:15 beIN SPORTS 4: Angers - Marseille
-- 23.10 14:17 beIN SPORTS 3: Nott'm Forest - Arsenal
-- 23.10 15:45 tabii spor: Fenerbahçe - Slavia Prag
 - 23.10 15:45 beIN SPORTS 2: İstanbulspor - Antalyaspor
 - 23.10 16:00 beIN SPORTS 1: Kasımpaşa - Samsunspor
 - 23.10 16:00 beIN SPORTS 3: Tottenham - Coventry
@@ -69,12 +56,15 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 255 program
 - 24.10 09:30 beIN SPORTS 1: C. Alanyaspor - Kocaelispor
 - 24.10 12:30 beIN SPORTS 1: Galatasaray - Fenerbahçe
 - 24.10 12:55 TRT SPOR YILDIZ: Galatasaray - Onikişubat B.
+- 24.10 13:30 TRT SPOR: Bandırma S. - A.H. Iğdır
 - 24.10 13:30 beIN SPORTS 2: Ümraniyespor - Sivasspor
 - 24.10 15:00 S SPORT 2: Inside Serie A - Inside Tactics
 - 24.10 15:25 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Sakarya
 - 24.10 15:55 tabii spor: Feyenoord - Como
+- 24.10 16:00 TRT SPOR: Muğlaspor K. - İstanbulspor
 - 24.10 17:35 tabii spor: Roma - Real Madrid
 - 24.10 19:00 Spor Smart: Manresa - Burgos "Canlı"
+- 24.10 19:00 TRT SPOR: Sarıyer - Fatih Karagümrük
 - 24.10 19:00 beIN SPORTS 2: Sarıyer - F. Karagümrük
 - 24.10 19:45 tabii spor: Shakhtar Donetsk - Aek Atina
 - 24.10 21:50 tabii spor: Manchester City - Borrusia Dortmunt
@@ -86,6 +76,10 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 255 program
 - 25.10 09:15 beIN SPORTS 2: Bandırmaspor - Igdır FK
 - 25.10 10:30 beIN SPORTS 1: Samsunspor - Amedspor
 - 25.10 11:00 beIN SPORTS 2: Muğlaspor - İstanbulspor
+- 25.10 13:00 S SPORT: Moto 3 - Moto 2
+- 25.10 13:30 beIN SPORTS 2: Pendikspor - Kayserispor
+- 25.10 14:00 Spor Smart: Girona - Joventut "Canlı"
+- 25.10 16:00 beIN SPORTS 2: Antalyaspor - Bodrum FK
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 23.10 20:00 Alanyaspor - Kocaelispor → beIN SPORTS 1
@@ -124,6 +118,20 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 255 program
 - 24.10 17:30 FC Utrecht - PEC Zwolle → —
 - 24.10 19:45 Willem II - SC Cambuur → —
 - 24.10 22:00 ADO Den Haag - Heerenveen → —
+- 25.10 16:00 Konyaspor - Genclerbirligi → beIN SPORTS 1
+- 25.10 17:00 Crystal Palace - Newcastle United → —
+- 25.10 17:00 Hull City - Brentford → —
+- 25.10 17:00 Liverpool - Brighton & Hove Albion → beIN SPORTS 3
+- 25.10 17:00 Manchester United - AFC Bournemouth → beIN SPORTS 4
+- 25.10 16:00 Athletic Club - Getafe → S SPORT
+- 25.10 14:30 Internazionale - Fiorentina → S SPORT 2
+- 25.10 17:00 Atalanta - Frosinone → S SPORT 2
+- 25.10 17:00 Genoa - Venezia → —
+- 25.10 17:30 TSG Hoffenheim - Bayer Leverkusen → —
+- 25.10 17:00 AS Monaco - Lille → —
+- 25.10 14:15 Fortuna Sittard - Excelsior → —
+- 25.10 16:30 NEC Nijmegen - FC Groningen → —
+- 25.10 16:30 PSV Eindhoven - Feyenoord Rotterdam → —
 - 23.10 23:00 Milwaukee Bucks - Chicago Bulls → —
 - 24.10 02:00 Boston Celtics - New York Knicks → —
 - 24.10 02:00 Charlotte Hornets - Atlanta Hawks → —

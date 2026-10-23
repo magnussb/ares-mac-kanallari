@@ -1,50 +1,39 @@
-# Rapor 2026-10-23 04:35 UTC
+# Rapor 2026-10-23 09:57 UTC
 
-ESPN maç: 158 · EPG program: 742 · eşleşen maç: 79
+ESPN maç: 158 · EPG program: 725 · eşleşen maç: 79
 
 ## Çekim
 ```
 ch_dsmart deneme 1: 2/2 kanal, 82 program
-ch_tvplus deneme 1: 9/9 kanal, 412 program
+ch_tvplus deneme 1: 9/9 kanal, 393 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 200
-beIN: 4 kanal, 16 sayfa ok, 0 hata, 251 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 255 program
 ```
 
 ## Kanal başına program
-- S SPORT: 53
-- S SPORT 2: 52
+- S SPORT: 48
+- S SPORT 2: 51
 - SPORTS TV: 54
 - Spor Smart: 45
 - Spor Smart 2: 37
 - TRT 1: 39
-- TRT SPOR: 26
-- TRT SPOR YILDIZ: 82
+- TRT SPOR: 20
+- TRT SPOR YILDIZ: 77
 - TV8: 30
 - TV8,5: 42
-- beIN SPORTS 1: 51
-- beIN SPORTS 2: 59
+- beIN SPORTS 1: 53
+- beIN SPORTS 2: 61
 - beIN SPORTS 3: 68
 - beIN SPORTS 4: 73
-- tabii spor: 31
+- tabii spor: 27
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 23.10 05:30 beIN SPORTS 4: Lyon - Nice
-- 23.10 07:00 beIN SPORTS 2: Sivasspor - Sarıyer
-- 23.10 07:15 TRT SPOR YILDIZ: Napoli Basketball - Tofaş
-- 23.10 07:15 beIN SPORTS 3: Newcastle - Aston Villa
-- 23.10 07:15 beIN SPORTS 4: Le Mans - Toulouse
-- 23.10 08:45 beIN SPORTS 2: Bodrum FK - Bandırmaspor
-- 23.10 09:00 beIN SPORTS 1: Erzurumspor FK - Eyüpspor
-- 23.10 09:00 beIN SPORTS 3: Leeds - Man Utd
-- 23.10 09:00 beIN SPORTS 4: Strasbourg - PSG
-- 23.10 09:55 tabii spor: Napoli - Bodo Glimt
 - 23.10 10:30 beIN SPORTS 2: Igdır FK - Boluspor
 - 23.10 10:45 beIN SPORTS 1: Amedspor - T. Konyaspor
 - 23.10 10:45 beIN SPORTS 3: Brighton - C. Palace
 - 23.10 10:45 beIN SPORTS 4: Lille - Brest
-- 23.10 11:05 TRT SPOR YILDIZ: Esenler Erokspor - U. Craiova
 - 23.10 12:00 tabii spor: Como - Manchester United
 - 23.10 12:15 beIN SPORTS 2: Kayserispor - Batman P.
 - 23.10 12:30 beIN SPORTS 3: Bournemouth - Sunderland
@@ -58,6 +47,7 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 251 program
 - 23.10 16:00 beIN SPORTS 1: Kasımpaşa - Samsunspor
 - 23.10 16:00 beIN SPORTS 3: Tottenham - Coventry
 - 23.10 16:00 beIN SPORTS 4: Lorient - Monaco
+- 23.10 16:30 TRT SPOR YILDIZ: Napoli Basketball - Tofaş
 - 23.10 17:25 tabii spor: Lille - Galatasaray
 - 23.10 17:30 beIN SPORTS 2: F.Karagümrük - Keçiörengücü
 - 23.10 17:45 beIN SPORTS 1: Alanyaspor - Kocaelispor
@@ -71,20 +61,18 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 251 program
 - 24.10 00:00 S SPORT 2: Paris Basket - Valencia
 - 24.10 02:00 Spor Smart: Cruzeiro - Remo "Canlı"
 - 24.10 02:00 S SPORT 2: Torino - Monza
+- 24.10 02:40 TRT SPOR YILDIZ: Esenler Erokspor - U. Craiova
 - 24.10 06:30 beIN SPORTS 4: Brest - Nice
-- 24.10 07:30 beIN SPORTS 3: Brentford - Liverpool
+- 24.10 07:15 beIN SPORTS 3: Newcastle - Aston Villa
 - 24.10 09:00 S SPORT 2: Moto 2 - Moto GP
+- 24.10 09:00 beIN SPORTS 3: Leeds - Man Utd
 - 24.10 09:30 beIN SPORTS 1: C. Alanyaspor - Kocaelispor
-- 24.10 12:15 beIN SPORTS 2: Beşiktaş - Başakşehir
 - 24.10 12:30 beIN SPORTS 1: Galatasaray - Fenerbahçe
-- 24.10 12:45 beIN SPORTS 2: Rizespor - Trabzonspor
 - 24.10 12:55 TRT SPOR YILDIZ: Galatasaray - Onikişubat B.
 - 24.10 13:30 beIN SPORTS 2: Ümraniyespor - Sivasspor
 - 24.10 15:00 S SPORT 2: Inside Serie A - Inside Tactics
 - 24.10 15:25 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Sakarya
 - 24.10 15:55 tabii spor: Feyenoord - Como
-- 24.10 15:55 TRT SPOR YILDIZ: Spor Toto - Halkbank
-- 24.10 17:30 beIN SPORTS 2: Galatasaray - Fenerbahçe
 - 24.10 17:35 tabii spor: Roma - Real Madrid
 - 24.10 19:00 Spor Smart: Manresa - Burgos "Canlı"
 - 24.10 19:00 beIN SPORTS 2: Sarıyer - F. Karagümrük
@@ -95,6 +83,9 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 251 program
 - 25.10 03:00 Spor Smart 2: Santos - Bahia "Canlı"
 - 25.10 03:30 Spor Smart: R. Central - Huracan "Canlı"
 - 25.10 07:00 beIN SPORTS 4: Saint-Étienne - Nantes
+- 25.10 09:15 beIN SPORTS 2: Bandırmaspor - Igdır FK
+- 25.10 10:30 beIN SPORTS 1: Samsunspor - Amedspor
+- 25.10 11:00 beIN SPORTS 2: Muğlaspor - İstanbulspor
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 23.10 20:00 Alanyaspor - Kocaelispor → beIN SPORTS 1

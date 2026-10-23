@@ -1,11 +1,11 @@
-# Rapor 2026-10-22 23:15 UTC
+# Rapor 2026-10-23 04:35 UTC
 
-ESPN maç: 158 · EPG program: 773 · eşleşen maç: 79
+ESPN maç: 158 · EPG program: 742 · eşleşen maç: 79
 
 ## Çekim
 ```
-ch_dsmart deneme 1: 2/2 kanal, 89 program
-ch_tvplus deneme 1: 9/9 kanal, 436 program
+ch_dsmart deneme 1: 2/2 kanal, 82 program
+ch_tvplus deneme 1: 9/9 kanal, 412 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 200
@@ -13,15 +13,15 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 251 program
 ```
 
 ## Kanal başına program
-- S SPORT: 55
-- S SPORT 2: 56
+- S SPORT: 53
+- S SPORT 2: 52
 - SPORTS TV: 54
-- Spor Smart: 49
-- Spor Smart 2: 40
-- TRT 1: 41
-- TRT SPOR: 32
-- TRT SPOR YILDIZ: 91
-- TV8: 31
+- Spor Smart: 45
+- Spor Smart 2: 37
+- TRT 1: 39
+- TRT SPOR: 26
+- TRT SPOR YILDIZ: 82
+- TV8: 30
 - TV8,5: 42
 - beIN SPORTS 1: 51
 - beIN SPORTS 2: 59
@@ -30,10 +30,6 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 251 program
 - tabii spor: 31
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 23.10 01:15 TRT SPOR YILDIZ: Bosna BH T. - Bahçeşehir K.
-- 23.10 02:55 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Ankara
-- 23.10 03:15 TRT SPOR YILDIZ: Esenler Erokspor - U. Craiova
-- 23.10 05:20 TRT SPOR YILDIZ: Zeren Spor - Fenerbahçe M.
 - 23.10 05:30 beIN SPORTS 4: Lyon - Nice
 - 23.10 07:00 beIN SPORTS 2: Sivasspor - Sarıyer
 - 23.10 07:15 TRT SPOR YILDIZ: Napoli Basketball - Tofaş
@@ -48,6 +44,7 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 251 program
 - 23.10 10:45 beIN SPORTS 1: Amedspor - T. Konyaspor
 - 23.10 10:45 beIN SPORTS 3: Brighton - C. Palace
 - 23.10 10:45 beIN SPORTS 4: Lille - Brest
+- 23.10 11:05 TRT SPOR YILDIZ: Esenler Erokspor - U. Craiova
 - 23.10 12:00 tabii spor: Como - Manchester United
 - 23.10 12:15 beIN SPORTS 2: Kayserispor - Batman P.
 - 23.10 12:30 beIN SPORTS 3: Bournemouth - Sunderland
@@ -95,6 +92,9 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 251 program
 - 24.10 21:50 tabii spor: Manchester City - Borrusia Dortmunt
 - 24.10 22:00 Spor Smart: Barcelona - Zaragoza ''Canlı''
 - 24.10 22:30 Spor Smart 2: Mirassol - Sao Paulo "Canlı"
+- 25.10 03:00 Spor Smart 2: Santos - Bahia "Canlı"
+- 25.10 03:30 Spor Smart: R. Central - Huracan "Canlı"
+- 25.10 07:00 beIN SPORTS 4: Saint-Étienne - Nantes
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 23.10 20:00 Alanyaspor - Kocaelispor → beIN SPORTS 1
@@ -133,8 +133,6 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 251 program
 - 24.10 17:30 FC Utrecht - PEC Zwolle → —
 - 24.10 19:45 Willem II - SC Cambuur → —
 - 24.10 22:00 ADO Den Haag - Heerenveen → —
-- 23.10 02:00 Philadelphia 76ers - Cleveland Cavaliers → S SPORT
-- 23.10 04:30 Oklahoma City Thunder - Denver Nuggets → S SPORT
 - 23.10 23:00 Milwaukee Bucks - Chicago Bulls → —
 - 24.10 02:00 Boston Celtics - New York Knicks → —
 - 24.10 02:00 Charlotte Hornets - Atlanta Hawks → —
@@ -148,6 +146,13 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 251 program
 - 24.10 05:00 Los Angeles Lakers - LA Clippers → —
 - 24.10 05:00 Sacramento Kings - Portland Trail Blazers → —
 - 25.10 01:00 Charlotte Hornets - Miami Heat → —
+- 25.10 02:30 Cleveland Cavaliers - Brooklyn Nets → —
+- 25.10 02:30 Philadelphia 76ers - Milwaukee Bucks → —
+- 25.10 03:00 Chicago Bulls - Washington Wizards → —
+- 25.10 03:00 Dallas Mavericks - San Antonio Spurs → —
+- 25.10 03:30 Atlanta Hawks - Houston Rockets → S SPORT
+- 25.10 04:00 Denver Nuggets - New Orleans Pelicans → —
+- 25.10 05:00 Phoenix Suns - Golden State Warriors → —
 - 23.10 21:45 Paris - Valencia → —
 - 23.10 21:15 Olympiacos - Fenerbahce → S SPORT
 - 23.10 20:00 Zalgiris - ASVEL → S SPORT 2

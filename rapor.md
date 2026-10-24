@@ -1,6 +1,6 @@
-# Rapor 2026-10-24 18:05 UTC
+# Rapor 2026-10-24 20:41 UTC
 
-ESPN maç: 139 · EPG program: 666 · eşleşen maç: 40
+ESPN maç: 144 · EPG program: 605 · eşleşen maç: 39
 
 ## Çekim
 ```
@@ -16,77 +16,57 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 26, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 428 program
+ch_tvplus deneme 1: 9/9 kanal, 422 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 16 sayfa ok, 0 hata, 241 program
+beIN: 4 kanal, 12 sayfa ok, 4 hata, 186 program
 ```
 
 ## Kanal başına program
-- S SPORT: 43
-- S SPORT 2: 42
+- S SPORT: 41
+- S SPORT 2: 40
 - SPORTS TV: 54
 - TRT 1: 41
-- TRT SPOR: 28
-- TRT SPOR YILDIZ: 122
+- TRT SPOR: 27
+- TRT SPOR YILDIZ: 124
 - TV8: 33
-- TV8,5: 42
-- beIN SPORTS 1: 55
-- beIN SPORTS 2: 58
+- TV8,5: 41
+- beIN SPORTS 1: 28
+- beIN SPORTS 2: 30
 - beIN SPORTS 3: 68
 - beIN SPORTS 4: 60
-- tabii spor: 20
+- tabii spor: 18
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 24.10 19:00 beIN SPORTS 2: Sarıyer - F. Karagümrük
-- 24.10 20:15 tabii spor: Trabzonspor - Hearts
-- 24.10 21:00 TRT SPOR YILDIZ: Napoli Basketball - Tofaş
-- 24.10 21:55 tabii spor: Lille - Galatasaray
 - 25.10 00:00 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Sakarya
 - 25.10 01:00 TRT SPOR: Bandırma S. - A.H. Iğdır
 - 25.10 02:45 TRT SPOR: Ümraniyespor - Sivasspor
 - 25.10 04:30 TRT SPOR: Sarıyer - Fatih Karagümrük
 - 25.10 07:00 beIN SPORTS 4: Saint-Étienne - Nantes
 - 25.10 07:05 beIN SPORTS 3: Ipswich - Nott'm Forest
-- 25.10 07:30 beIN SPORTS 2: Ümraniyespor - Sivasspor
 - 25.10 08:45 TRT SPOR YILDIZ: Spor Toto - Halkbank
-- 25.10 09:15 beIN SPORTS 2: Bandırmaspor - Igdır FK
-- 25.10 10:30 beIN SPORTS 1: Samsunspor - Amedspor
-- 25.10 11:00 beIN SPORTS 2: Muğlaspor - İstanbulspor
-- 25.10 12:35 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıaston Vılla – Vıkıng
+- 25.10 12:35 tabii spor: Aston Vılla - Viking
 - 25.10 13:00 S SPORT: Moto 3 - Moto 2
 - 25.10 13:30 TRT SPOR: Pendikspor - Kayserispor
-- 25.10 13:30 beIN SPORTS 2: Pendikspor - Kayserispor
 - 25.10 13:55 TRT SPOR YILDIZ: Vakıfbank - Galatasaray
-- 25.10 14:15 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıreal Betıs – Feyenoord
-- 25.10 14:30 beIN SPORTS 1: Galatasaray - Fenerbahçe
-- 25.10 15:55 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasısportıng Cp – Lask
+- 25.10 14:15 tabii spor: Real Betis - Feyenoord
+- 25.10 15:55 tabii spor: Sporting Cp - Lask
 - 25.10 16:00 TRT SPOR: Antalyaspor - Bodrum
-- 25.10 16:00 beIN SPORTS 2: Antalyaspor - Bodrum FK
-- 25.10 18:00 beIN SPORTS 2: Rizespor - Trabzonspor
-- 25.10 18:30 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıclub Brugge – Lens
+- 25.10 18:30 tabii spor: Club Brugge - Lens
 - 25.10 19:00 TRT SPOR: Keçiörengücü - Bursaspor
 - 25.10 19:00 TRT SPOR YILDIZ: Fenerbahçe - Eczacıbaşı
-- 25.10 19:00 beIN SPORTS 2: A. Keçiörengücü - Bursaspor
-- 25.10 21:55 tabii spor: Uefa Avrupa Konferans Ligi Futbol Karşılaşmasıkaırat Almaty – Panathınaıkos
+- 25.10 21:55 tabii spor: Kairat Almaty - Panathinaikos
 - 25.10 22:05 beIN SPORTS 3: Hull City - Brentford
 - 25.10 22:15 TRT SPOR YILDIZ: Galatasaray - Onikişubat B.
 - 25.10 22:45 beIN SPORTS 3: PSG - Lyon
 - 26.10 02:30 S SPORT: Los Angeles Lakers - Utah Jazz
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 24.10 19:00 Samsunspor - Amed SFK → beIN SPORTS 1
-- 24.10 19:30 Chelsea - Tottenham Hotspur → beIN SPORTS 3
-- 24.10 19:30 Valencia - Villarreal → S SPORT
 - 24.10 22:00 Atlético Madrid - Deportivo → S SPORT
-- 24.10 19:00 Napoli - AS Roma → S SPORT 2
 - 24.10 21:45 Lazio - Parma → S SPORT 2
-- 24.10 19:30 Borussia Dortmund - Eintracht Frankfurt → —
 - 24.10 21:45 Lens - Paris FC → beIN SPORTS 3
-- 24.10 20:00 Alverca - Arouca → —
 - 24.10 22:30 Gil Vicente - FC Porto → beIN SPORTS 2, beIN SPORTS 3
-- 24.10 19:45 Willem II - SC Cambuur → —
 - 24.10 22:00 ADO Den Haag - Heerenveen → —
 - 25.10 16:00 Konyaspor - Genclerbirligi → beIN SPORTS 1
 - 25.10 19:00 Goztepe - Çorum FK → beIN SPORTS 1
@@ -123,6 +103,10 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 241 program
 - 25.10 22:00 AZ Alkmaar - FC Twente → —
 - 26.10 19:00 Besiktas - Istanbul Basaksehir → —
 - 26.10 19:00 Caykur Rizespor - Trabzonspor → —
+- 26.10 21:30 Galatasaray - Fenerbahce → —
+- 26.10 23:00 Sevilla - Osasuna → S SPORT
+- 26.10 22:30 Paris Saint-Germain - Lyon → beIN SPORTS 3
+- 26.10 21:45 Santa Clara - Benfica → —
 - 25.10 01:00 Charlotte Hornets - Miami Heat → —
 - 25.10 02:30 Cleveland Cavaliers - Brooklyn Nets → —
 - 25.10 02:30 Philadelphia 76ers - Milwaukee Bucks → —

@@ -1,6 +1,6 @@
-# Rapor 2026-10-23 22:05 UTC
+# Rapor 2026-10-24 00:33 UTC
 
-ESPN maç: 133 · EPG program: 722 · eşleşen maç: 41
+ESPN maç: 133 · EPG program: 717 · eşleşen maç: 41
 
 ## Çekim
 ```
@@ -8,15 +8,15 @@ ch_dsmart deneme 1: 0/2 kanal, 0 program
 ch_dsmart deneme 2: 0/2 kanal, 0 program
 ch_dsmart deneme 3: 0/2 kanal, 0 program
 --- ch_dsmart son log:
-[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 25, 2026 (0 programs)
+[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 26, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 23, 2026 (0 programs)
+[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 24, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 24, 2026 (0 programs)
+[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 25, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 25, 2026 (0 programs)
+[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 26, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 484 program
+ch_tvplus deneme 1: 9/9 kanal, 480 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
@@ -24,23 +24,21 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 239 program
 ```
 
 ## Kanal başına program
-- S SPORT: 58
+- S SPORT: 56
 - S SPORT 2: 51
 - SPORTS TV: 54
 - TRT 1: 38
-- TRT SPOR: 44
-- TRT SPOR YILDIZ: 133
-- TV8: 30
+- TRT SPOR: 43
+- TRT SPOR YILDIZ: 131
+- TV8: 31
 - TV8,5: 42
 - beIN SPORTS 1: 54
 - beIN SPORTS 2: 58
 - beIN SPORTS 3: 68
 - beIN SPORTS 4: 59
-- tabii spor: 33
+- tabii spor: 32
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 24.10 00:00 S SPORT 2: Paris Basket - Valencia
-- 24.10 00:00 S SPORT: Alaves - Malaga
 - 24.10 02:00 S SPORT 2: Torino - Monza
 - 24.10 02:00 TRT SPOR: Boluspor - Van Spor
 - 24.10 02:40 TRT SPOR YILDIZ: Esenler Erokspor - U. Craiova
@@ -92,9 +90,9 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 239 program
 - 25.10 21:55 tabii spor: Uefa Avrupa Konferans Ligi Futbol Karşılaşmasıkaırat Almaty – Panathınaıkos
 - 25.10 22:05 beIN SPORTS 3: Hull City - Brentford
 - 25.10 22:45 beIN SPORTS 3: PSG - Lyon
+- 26.10 02:30 S SPORT: Los Angeles Lakers - Utah Jazz
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 23.10 22:45 Vitória de Guimaraes - Maritimo → —
 - 24.10 13:30 Eyupspor - Kasimpasa → beIN SPORTS 1
 - 24.10 16:00 Gaziantep FK - Erzurum BB → beIN SPORTS 1
 - 24.10 19:00 Samsunspor - Amed SFK → beIN SPORTS 1
@@ -156,7 +154,6 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 239 program
 - 25.10 16:30 PSV Eindhoven - Feyenoord Rotterdam → —
 - 25.10 18:45 Sparta Rotterdam - Ajax Amsterdam → —
 - 25.10 22:00 AZ Alkmaar - FC Twente → —
-- 23.10 23:00 Milwaukee Bucks - Chicago Bulls → —
 - 24.10 02:00 Boston Celtics - New York Knicks → —
 - 24.10 02:00 Charlotte Hornets - Atlanta Hawks → —
 - 24.10 02:00 Indiana Pacers - Dallas Mavericks → —
@@ -178,3 +175,7 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 239 program
 - 25.10 05:00 Phoenix Suns - Golden State Warriors → —
 - 26.10 00:00 Utah Jazz - Los Angeles Lakers → —
 - 26.10 01:00 Brooklyn Nets - Indiana Pacers → —
+- 26.10 02:00 New York Knicks - Orlando Magic → —
+- 26.10 02:00 Minnesota Timberwolves - Toronto Raptors → —
+- 26.10 02:00 Oklahoma City Thunder - LA Clippers → —
+- 26.10 02:30 Philadelphia 76ers - Detroit Pistons → —

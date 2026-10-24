@@ -1,6 +1,6 @@
-# Rapor 2026-10-24 14:28 UTC
+# Rapor 2026-10-24 18:05 UTC
 
-ESPN maç: 133 · EPG program: 682 · eşleşen maç: 41
+ESPN maç: 139 · EPG program: 666 · eşleşen maç: 40
 
 ## Çekim
 ```
@@ -16,7 +16,7 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 26, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 444 program
+ch_tvplus deneme 1: 9/9 kanal, 428 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
@@ -24,31 +24,29 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 241 program
 ```
 
 ## Kanal başına program
-- S SPORT: 45
-- S SPORT 2: 45
+- S SPORT: 43
+- S SPORT 2: 42
 - SPORTS TV: 54
-- TRT 1: 40
-- TRT SPOR: 31
-- TRT SPOR YILDIZ: 126
-- TV8: 32
-- TV8,5: 43
+- TRT 1: 41
+- TRT SPOR: 28
+- TRT SPOR YILDIZ: 122
+- TV8: 33
+- TV8,5: 42
 - beIN SPORTS 1: 55
 - beIN SPORTS 2: 58
 - beIN SPORTS 3: 68
 - beIN SPORTS 4: 60
-- tabii spor: 25
+- tabii spor: 20
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 24.10 16:00 TRT SPOR: Muğlaspor K. - İstanbulspor
-- 24.10 17:35 tabii spor: Inter - Shakhtar Donetsk
-- 24.10 19:00 TRT SPOR: Sarıyer - Fatih Karagümrük
 - 24.10 19:00 beIN SPORTS 2: Sarıyer - F. Karagümrük
-- 24.10 19:50 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Sakarya
 - 24.10 20:15 tabii spor: Trabzonspor - Hearts
 - 24.10 21:00 TRT SPOR YILDIZ: Napoli Basketball - Tofaş
 - 24.10 21:55 tabii spor: Lille - Galatasaray
+- 25.10 00:00 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Sakarya
 - 25.10 01:00 TRT SPOR: Bandırma S. - A.H. Iğdır
 - 25.10 02:45 TRT SPOR: Ümraniyespor - Sivasspor
+- 25.10 04:30 TRT SPOR: Sarıyer - Fatih Karagümrük
 - 25.10 07:00 beIN SPORTS 4: Saint-Étienne - Nantes
 - 25.10 07:05 beIN SPORTS 3: Ipswich - Nott'm Forest
 - 25.10 07:30 beIN SPORTS 2: Ümraniyespor - Sivasspor
@@ -78,31 +76,16 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 241 program
 - 26.10 02:30 S SPORT: Los Angeles Lakers - Utah Jazz
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 24.10 16:00 Gaziantep FK - Erzurum BB → beIN SPORTS 1
 - 24.10 19:00 Samsunspor - Amed SFK → beIN SPORTS 1
-- 24.10 14:30 Aston Villa - Manchester City → beIN SPORTS 3
-- 24.10 17:00 Arsenal - Everton → beIN SPORTS 3
-- 24.10 17:00 Coventry City - Fulham → beIN SPORTS 4
 - 24.10 19:30 Chelsea - Tottenham Hotspur → beIN SPORTS 3
-- 24.10 15:00 Rayo Vallecano - Elche → S SPORT
-- 24.10 17:15 Racing Santander - Espanyol → S SPORT
 - 24.10 19:30 Valencia - Villarreal → S SPORT
 - 24.10 22:00 Atlético Madrid - Deportivo → S SPORT
-- 24.10 16:00 Cagliari - Bologna → —
-- 24.10 16:00 Como - Sassuolo → S SPORT 2
 - 24.10 19:00 Napoli - AS Roma → S SPORT 2
 - 24.10 21:45 Lazio - Parma → S SPORT 2
-- 24.10 16:30 FC Augsburg - 1. FC Union Berlin → —
-- 24.10 16:30 FC Cologne - Schalke 04 → —
-- 24.10 16:30 Mainz - Werder Bremen → —
-- 24.10 16:30 RB Leipzig - SV Elversberg → —
-- 24.10 16:30 SC Paderborn 07 - Hamburg SV → —
 - 24.10 19:30 Borussia Dortmund - Eintracht Frankfurt → —
 - 24.10 21:45 Lens - Paris FC → beIN SPORTS 3
-- 24.10 17:30 Estrela - Casa Pia → —
 - 24.10 20:00 Alverca - Arouca → —
 - 24.10 22:30 Gil Vicente - FC Porto → beIN SPORTS 2, beIN SPORTS 3
-- 24.10 17:30 FC Utrecht - PEC Zwolle → —
 - 24.10 19:45 Willem II - SC Cambuur → —
 - 24.10 22:00 ADO Den Haag - Heerenveen → —
 - 25.10 16:00 Konyaspor - Genclerbirligi → beIN SPORTS 1
@@ -138,6 +121,8 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 241 program
 - 25.10 16:30 PSV Eindhoven - Feyenoord Rotterdam → —
 - 25.10 18:45 Sparta Rotterdam - Ajax Amsterdam → —
 - 25.10 22:00 AZ Alkmaar - FC Twente → —
+- 26.10 19:00 Besiktas - Istanbul Basaksehir → —
+- 26.10 19:00 Caykur Rizespor - Trabzonspor → —
 - 25.10 01:00 Charlotte Hornets - Miami Heat → —
 - 25.10 02:30 Cleveland Cavaliers - Brooklyn Nets → —
 - 25.10 02:30 Philadelphia 76ers - Milwaukee Bucks → —

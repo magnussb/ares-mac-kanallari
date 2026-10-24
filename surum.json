@@ -1,12 +1,18 @@
 {
   "android": {
-    "build": 24,
-    "name": "1.3.19",
-    "url": "https://github.com/magnussb/ares-mac-kanallari/releases/download/v1.3.19/Ares.apk",
-    "size": 73523370,
-    "notes": "• TV: oynatıcı baştan yazıldı (ExoPlayer, görüntü doğrudan ekrana). RAW / 4K kanallarda donma ve geç açılma için; artık motor değiştirmiyor, \"mpv ile açılacak\" yazıp takılma ve görüntünün donması giderildi\n• Kutunun çözemediği sesler (AC3, E-AC3, MP2, DTS) artık çalıyor\n• Kanal değişince eski kanalın görüntüsü yeni kanalın sesiyle kalmıyor\n• Bir kanalın sesi ya da görüntüsü cihazda çözülemezse ekranda kısa uyarı çıkıyor\n• Yayın bilgisinde gerçek kare hızı ve atlanan kare sayısı (takılma olursa fotoğrafını gönderin)\n• Ayarlar > Oynatıcı > Oynatma motoru: TV'de ExoPlayer önerilir, istenirse mpv; telefonda mpv varsayılan\n• Ayarlar > Hakkında > Açık kaynak lisansları"
+    "build": 25,
+    "name": "1.3.20",
+    "url": "https://github.com/magnussb/ares-mac-kanallari/releases/download/v1.3.20/Ares.apk",
+    "size": 73588910,
+    "notes": "• TV Rehber: bir programa OK basınca odak alttaki düğmelere geçiyor; \"Baştan izle\" / \"Geriden izle\"ye kumandayla ulaşılıyor, Geri ile kapanıyor\n• Oynatıcıdaki Rehber: programın üzerine gelince \"Baştan izle\" / \"Geriden izle\" yazıyor\n• Canlı yayında geri sarma: arşivi olan kanallarda geri tuşu yayını arşivden o ana götürüyor; geriden izlerken ileri/geri sarma çalışıyor\n• 4K kanallarda \"kare kare\" akma için görüntü artık cihazın donanım çözücüsüyle çözülüyor\n• Yayın bilgisinde hangi çözücünün çalıştığı yazıyor (HW / SW)"
   },
   "history": [
+    {
+      "name": "1.3.20",
+      "build": 25,
+      "date": "2026-10-24",
+      "notes": "• TV Rehber: bir programa OK basınca odak alttaki düğmelere geçiyor; \"Baştan izle\" / \"Geriden izle\"ye kumandayla ulaşılıyor, Geri ile kapanıyor\n• Oynatıcıdaki Rehber: programın üzerine gelince \"Baştan izle\" / \"Geriden izle\" yazıyor\n• Canlı yayında geri sarma: arşivi olan kanallarda geri tuşu yayını arşivden o ana götürüyor; geriden izlerken ileri/geri sarma çalışıyor\n• 4K kanallarda \"kare kare\" akma için görüntü artık cihazın donanım çözücüsüyle çözülüyor\n• Yayın bilgisinde hangi çözücünün çalıştığı yazıyor (HW / SW)"
+    },
     {
       "name": "1.3.19",
       "build": 24,

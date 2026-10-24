@@ -1,6 +1,6 @@
-# Rapor 2026-10-24 00:33 UTC
+# Rapor 2026-10-24 05:43 UTC
 
-ESPN maç: 133 · EPG program: 717 · eşleşen maç: 41
+ESPN maç: 133 · EPG program: 709 · eşleşen maç: 39
 
 ## Çekim
 ```
@@ -16,37 +16,34 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 26, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 480 program
+ch_tvplus deneme 1: 9/9 kanal, 471 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 16 sayfa ok, 0 hata, 239 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 241 program
 ```
 
 ## Kanal başına program
-- S SPORT: 56
-- S SPORT 2: 51
+- S SPORT: 51
+- S SPORT 2: 50
 - SPORTS TV: 54
-- TRT 1: 38
-- TRT SPOR: 43
-- TRT SPOR YILDIZ: 131
-- TV8: 31
+- TRT 1: 39
+- TRT SPOR: 38
+- TRT SPOR YILDIZ: 132
+- TV8: 30
 - TV8,5: 42
-- beIN SPORTS 1: 54
+- beIN SPORTS 1: 55
 - beIN SPORTS 2: 58
 - beIN SPORTS 3: 68
-- beIN SPORTS 4: 59
+- beIN SPORTS 4: 60
 - tabii spor: 32
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 24.10 02:00 S SPORT 2: Torino - Monza
-- 24.10 02:00 TRT SPOR: Boluspor - Van Spor
-- 24.10 02:40 TRT SPOR YILDIZ: Esenler Erokspor - U. Craiova
 - 24.10 06:30 beIN SPORTS 4: Maritimo - Porto
 - 24.10 07:00 beIN SPORTS 2: İstanbulspor - Antalyaspor
 - 24.10 07:15 TRT SPOR YILDIZ: Napoli Basketball - Tofaş
 - 24.10 07:15 beIN SPORTS 3: Newcastle - Aston Villa
-- 24.10 08:15 beIN SPORTS 4: Benfica - Guimaraes
+- 24.10 08:20 beIN SPORTS 4: Benfica - Guimaraes
 - 24.10 08:45 beIN SPORTS 2: F.Karagümrük - Keçiörengücü
 - 24.10 09:00 S SPORT 2: Moto 2 - Moto GP
 - 24.10 09:00 beIN SPORTS 3: Leeds - Man Utd
@@ -54,7 +51,7 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 239 program
 - 24.10 10:00 beIN SPORTS 4: Brest - Nice
 - 24.10 10:30 beIN SPORTS 2: Boluspor - Vanspor FK
 - 24.10 11:15 beIN SPORTS 3: Ipswich - Nott'm Forest
-- 24.10 12:30 beIN SPORTS 1: Galatasaray - Fenerbahçe
+- 24.10 12:31 beIN SPORTS 1: Galatasaray - Fenerbahçe
 - 24.10 12:55 TRT SPOR YILDIZ: Galatasaray - Onikişubat B.
 - 24.10 13:30 TRT SPOR: Bandırma S. - A.H. Iğdır
 - 24.10 13:30 beIN SPORTS 2: Ümraniyespor - Sivasspor
@@ -154,17 +151,6 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 239 program
 - 25.10 16:30 PSV Eindhoven - Feyenoord Rotterdam → —
 - 25.10 18:45 Sparta Rotterdam - Ajax Amsterdam → —
 - 25.10 22:00 AZ Alkmaar - FC Twente → —
-- 24.10 02:00 Boston Celtics - New York Knicks → —
-- 24.10 02:00 Charlotte Hornets - Atlanta Hawks → —
-- 24.10 02:00 Indiana Pacers - Dallas Mavericks → —
-- 24.10 02:00 Orlando Magic - Minnesota Timberwolves → —
-- 24.10 02:00 Washington Wizards - Toronto Raptors → —
-- 24.10 03:00 Miami Heat - Detroit Pistons → —
-- 24.10 04:30 San Antonio Spurs - Houston Rockets → —
-- 24.10 04:30 Utah Jazz - New Orleans Pelicans → —
-- 24.10 05:00 Golden State Warriors - Memphis Grizzlies → —
-- 24.10 05:00 Los Angeles Lakers - LA Clippers → —
-- 24.10 05:00 Sacramento Kings - Portland Trail Blazers → —
 - 25.10 01:00 Charlotte Hornets - Miami Heat → —
 - 25.10 02:30 Cleveland Cavaliers - Brooklyn Nets → —
 - 25.10 02:30 Philadelphia 76ers - Milwaukee Bucks → —
@@ -179,3 +165,4 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 239 program
 - 26.10 02:00 Minnesota Timberwolves - Toronto Raptors → —
 - 26.10 02:00 Oklahoma City Thunder - LA Clippers → —
 - 26.10 02:30 Philadelphia 76ers - Detroit Pistons → —
+- 26.10 04:00 Sacramento Kings - Memphis Grizzlies → —

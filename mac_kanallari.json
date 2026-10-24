@@ -1,5 +1,5 @@
 {
- "guncellendi": "2026-10-24T05:43:39Z",
+ "guncellendi": "2026-10-24T10:49:54Z",
  "kaynak": "ESPN fikstür + beIN SPORTS / TV+ / D-Smart yayın akışı",
  "maclar": {
   "401874772": [
@@ -119,6 +119,12 @@
   ],
   "E2026_70": [
    "S SPORT"
+  ],
+  "f1:401839120": [
+   "beIN SPORTS 4"
+  ],
+  "f1:401839122": [
+   "beIN SPORTS 4"
   ]
  }
 }

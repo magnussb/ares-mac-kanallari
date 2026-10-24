@@ -1,6 +1,6 @@
-# Rapor 2026-10-24 05:43 UTC
+# Rapor 2026-10-24 10:49 UTC
 
-ESPN maç: 133 · EPG program: 709 · eşleşen maç: 39
+ESPN maç: 133 · EPG program: 675 · eşleşen maç: 41
 
 ## Çekim
 ```
@@ -16,40 +16,29 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 26, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 471 program
+ch_tvplus deneme 1: 9/9 kanal, 453 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 16 sayfa ok, 0 hata, 241 program
+beIN: 4 kanal, 15 sayfa ok, 1 hata, 225 program
 ```
 
 ## Kanal başına program
-- S SPORT: 51
-- S SPORT 2: 50
+- S SPORT: 48
+- S SPORT 2: 47
 - SPORTS TV: 54
 - TRT 1: 39
-- TRT SPOR: 38
-- TRT SPOR YILDIZ: 132
-- TV8: 30
+- TRT SPOR: 33
+- TRT SPOR YILDIZ: 129
+- TV8: 31
 - TV8,5: 42
 - beIN SPORTS 1: 55
-- beIN SPORTS 2: 58
+- beIN SPORTS 2: 42
 - beIN SPORTS 3: 68
 - beIN SPORTS 4: 60
-- tabii spor: 32
+- tabii spor: 27
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 24.10 06:30 beIN SPORTS 4: Maritimo - Porto
-- 24.10 07:00 beIN SPORTS 2: İstanbulspor - Antalyaspor
-- 24.10 07:15 TRT SPOR YILDIZ: Napoli Basketball - Tofaş
-- 24.10 07:15 beIN SPORTS 3: Newcastle - Aston Villa
-- 24.10 08:20 beIN SPORTS 4: Benfica - Guimaraes
-- 24.10 08:45 beIN SPORTS 2: F.Karagümrük - Keçiörengücü
-- 24.10 09:00 S SPORT 2: Moto 2 - Moto GP
-- 24.10 09:00 beIN SPORTS 3: Leeds - Man Utd
-- 24.10 09:30 beIN SPORTS 1: C. Alanyaspor - Kocaelispor
-- 24.10 10:00 beIN SPORTS 4: Brest - Nice
-- 24.10 10:30 beIN SPORTS 2: Boluspor - Vanspor FK
 - 24.10 11:15 beIN SPORTS 3: Ipswich - Nott'm Forest
 - 24.10 12:31 beIN SPORTS 1: Galatasaray - Fenerbahçe
 - 24.10 12:55 TRT SPOR YILDIZ: Galatasaray - Onikişubat B.
@@ -63,27 +52,22 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 241 program
 - 24.10 19:00 TRT SPOR: Sarıyer - Fatih Karagümrük
 - 24.10 19:00 beIN SPORTS 2: Sarıyer - F. Karagümrük
 - 24.10 20:15 tabii spor: Trabzonspor - Hearts
+- 24.10 21:00 TRT SPOR YILDIZ: Napoli Basketball - Tofaş
 - 24.10 21:55 tabii spor: Lille - Galatasaray
 - 25.10 02:45 TRT SPOR: Ümraniyespor - Sivasspor
 - 25.10 07:00 beIN SPORTS 4: Saint-Étienne - Nantes
 - 25.10 08:45 TRT SPOR YILDIZ: Spor Toto - Halkbank
-- 25.10 09:15 beIN SPORTS 2: Bandırmaspor - Igdır FK
 - 25.10 10:30 beIN SPORTS 1: Samsunspor - Amedspor
-- 25.10 11:00 beIN SPORTS 2: Muğlaspor - İstanbulspor
 - 25.10 12:35 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıaston Vılla – Vıkıng
 - 25.10 13:00 S SPORT: Moto 3 - Moto 2
 - 25.10 13:30 TRT SPOR: Pendikspor - Kayserispor
-- 25.10 13:30 beIN SPORTS 2: Pendikspor - Kayserispor
 - 25.10 13:55 TRT SPOR YILDIZ: Vakıfbank - Galatasaray
 - 25.10 14:15 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıreal Betıs – Feyenoord
 - 25.10 15:55 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasısportıng Cp – Lask
 - 25.10 16:00 TRT SPOR: Antalyaspor - Bodrum
-- 25.10 16:00 beIN SPORTS 2: Antalyaspor - Bodrum FK
-- 25.10 18:00 beIN SPORTS 2: Rizespor - Trabzonspor
 - 25.10 18:30 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıclub Brugge – Lens
 - 25.10 19:00 TRT SPOR: Keçiörengücü - Bursaspor
 - 25.10 19:00 TRT SPOR YILDIZ: Fenerbahçe - Eczacıbaşı
-- 25.10 19:00 beIN SPORTS 2: A. Keçiörengücü - Bursaspor
 - 25.10 21:55 tabii spor: Uefa Avrupa Konferans Ligi Futbol Karşılaşmasıkaırat Almaty – Panathınaıkos
 - 25.10 22:05 beIN SPORTS 3: Hull City - Brentford
 - 25.10 22:45 beIN SPORTS 3: PSG - Lyon

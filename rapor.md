@@ -1,6 +1,6 @@
-# Rapor 2026-10-25 06:00 UTC
+# Rapor 2026-10-25 11:15 UTC
 
-ESPN maç: 141 · EPG program: 411 · eşleşen maç: 36
+ESPN maç: 141 · EPG program: 592 · eşleşen maç: 36
 
 ## Çekim
 ```
@@ -16,44 +16,58 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 27, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 416 program
+ch_tvplus deneme 1: 9/9 kanal, 392 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: ana sayfa alınamadı: veri yok (0 bayt)
+beIN: 4 kanal, 15 sayfa ok, 1 hata, 205 program
 ```
 
 ## Kanal başına program
-- S SPORT: 34
-- S SPORT 2: 30
-- SPORTS TV: 54
+- S SPORT: 32
+- S SPORT 2: 26
+- SPORTS TV: 55
 - TRT 1: 40
-- TRT SPOR: 16
-- TRT SPOR YILDIZ: 113
+- TRT SPOR: 13
+- TRT SPOR YILDIZ: 102
 - TV8: 34
 - TV8,5: 43
-- tabii spor: 47
+- beIN SPORTS 1: 41
+- beIN SPORTS 2: 54
+- beIN SPORTS 3: 54
+- beIN SPORTS 4: 56
+- tabii spor: 42
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 25.10 08:45 TRT SPOR YILDIZ: Spor Toto - Halkbank
-- 25.10 12:35 tabii spor: Aston Vılla - Viking
+- 25.10 12:16 beIN SPORTS 3: Coventry - Fulham
 - 25.10 13:00 S SPORT: Moto 3 - Moto 2
 - 25.10 13:30 TRT SPOR: Pendikspor - Kayserispor
+- 25.10 13:30 beIN SPORTS 2: Pendikspor - Kayserispor
 - 25.10 13:55 TRT SPOR YILDIZ: Vakıfbank - Galatasaray
+- 25.10 14:00 beIN SPORTS 3: Chelsea - Tottenham
 - 25.10 14:15 tabii spor: Real Betis - Feyenoord
+- 25.10 15:31 beIN SPORTS 2: Bandırmaspor - Igdır FK
+- 25.10 15:35 beIN SPORTS 2: Muğlaspor - İstanbulspor
+- 25.10 15:39 beIN SPORTS 2: Sarıyer - F. Karagümrük
 - 25.10 15:55 tabii spor: Sporting Cp - Lask
 - 25.10 16:00 TRT SPOR: Antalyaspor - Bodrum
+- 25.10 16:00 beIN SPORTS 2: Antalyaspor - Bodrum FK
 - 25.10 16:15 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Sakarya
+- 25.10 18:00 beIN SPORTS 2: Rizespor - Trabzonspor
 - 25.10 18:30 tabii spor: Club Brugge - Lens
 - 25.10 19:00 TRT SPOR: Keçiörengücü - Bursaspor
 - 25.10 19:00 TRT SPOR YILDIZ: Fenerbahçe - Eczacıbaşı
+- 25.10 19:00 beIN SPORTS 2: A. Keçiörengücü - Bursaspor
 - 25.10 21:55 tabii spor: Kairat Almaty - Panathinaikos
 - 25.10 22:15 TRT SPOR YILDIZ: Galatasaray - Onikişubat B.
+- 26.10 02:05 TRT SPOR YILDIZ: Spor Toto - Halkbank
 - 26.10 02:30 S SPORT: Los Angeles Lakers - Utah Jazz
 - 26.10 11:40 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıjuventus – Rennes
 - 26.10 13:45 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıbournemouth – Mılan
 - 26.10 20:00 tabii spor: Lille - Galatasaray , Uefa Şampiyonlar Ligi Grup Maçları
 - 26.10 22:15 tabii spor: Trabzonspor - Hearts , Uefa Avrupa Konferans Ligi Grup Maçları
+- 27.10 12:25 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıbodo/glımt – Borussıa Dortmund
+- 27.10 14:15 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasısabah - Slavıa Prag
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 25.10 16:00 Konyaspor - Genclerbirligi → beIN SPORTS 1

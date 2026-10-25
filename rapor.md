@@ -1,6 +1,6 @@
-# Rapor 2026-10-24 23:07 UTC
+# Rapor 2026-10-25 01:06 UTC
 
-ESPN maç: 141 · EPG program: 651 · eşleşen maç: 36
+ESPN maç: 141 · EPG program: 663 · eşleşen maç: 36
 
 ## Çekim
 ```
@@ -8,62 +8,68 @@ ch_dsmart deneme 1: 0/2 kanal, 0 program
 ch_dsmart deneme 2: 0/2 kanal, 0 program
 ch_dsmart deneme 3: 0/2 kanal, 0 program
 --- ch_dsmart son log:
-[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 26, 2026 (0 programs)
+[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Oct 27, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 24, 2026 (0 programs)
+[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 25, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 25, 2026 (0 programs)
+[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 26, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 26, 2026 (0 programs)
+[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 27, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 443 program
+ch_tvplus deneme 1: 9/9 kanal, 439 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 15 sayfa ok, 1 hata, 210 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 226 program
 ```
 
 ## Kanal başına program
-- S SPORT: 39
-- S SPORT 2: 37
+- S SPORT: 37
+- S SPORT 2: 35
 - SPORTS TV: 54
-- TRT 1: 40
-- TRT SPOR: 25
+- TRT 1: 41
+- TRT SPOR: 24
 - TRT SPOR YILDIZ: 124
 - TV8: 33
 - TV8,5: 42
 - beIN SPORTS 1: 60
-- beIN SPORTS 2: 33
+- beIN SPORTS 2: 49
 - beIN SPORTS 3: 63
 - beIN SPORTS 4: 54
 - tabii spor: 47
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 25.10 01:00 TRT SPOR: Bandırma S. - A.H. Iğdır
 - 25.10 02:45 TRT SPOR: Ümraniyespor - Sivasspor
 - 25.10 04:30 TRT SPOR: Sarıyer - Fatih Karagümrük
 - 25.10 05:15 beIN SPORTS 4: Lens - Paris FC
 - 25.10 07:00 beIN SPORTS 4: Saint-Étienne - Nantes
 - 25.10 07:05 beIN SPORTS 3: Ipswich - Nott'm Forest
+- 25.10 07:30 beIN SPORTS 2: Ümraniyespor - Sivasspor
 - 25.10 08:45 TRT SPOR YILDIZ: Spor Toto - Halkbank
 - 25.10 08:45 beIN SPORTS 3: Aston Villa - Man City
 - 25.10 08:45 beIN SPORTS 4: Gil Vicente - Porto
+- 25.10 09:15 beIN SPORTS 2: Bandırmaspor - Igdır FK
 - 25.10 10:30 beIN SPORTS 1: Samsunspor - Amedspor
 - 25.10 10:30 beIN SPORTS 3: Arsenal - Everton
+- 25.10 11:00 beIN SPORTS 2: Muğlaspor - İstanbulspor
 - 25.10 12:15 beIN SPORTS 3: Coventry - Fulham
 - 25.10 12:35 tabii spor: Aston Vılla - Viking
 - 25.10 13:00 S SPORT: Moto 3 - Moto 2
 - 25.10 13:30 TRT SPOR: Pendikspor - Kayserispor
+- 25.10 13:30 beIN SPORTS 2: Pendikspor - Kayserispor
 - 25.10 13:55 TRT SPOR YILDIZ: Vakıfbank - Galatasaray
 - 25.10 14:00 beIN SPORTS 3: Chelsea - Tottenham
 - 25.10 14:15 tabii spor: Real Betis - Feyenoord
 - 25.10 14:30 beIN SPORTS 1: Galatasaray - Fenerbahçe
 - 25.10 15:55 tabii spor: Sporting Cp - Lask
 - 25.10 16:00 TRT SPOR: Antalyaspor - Bodrum
+- 25.10 16:00 beIN SPORTS 2: Antalyaspor - Bodrum FK
 - 25.10 16:15 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Sakarya
+- 25.10 18:00 beIN SPORTS 2: Rizespor - Trabzonspor
 - 25.10 18:30 tabii spor: Club Brugge - Lens
 - 25.10 19:00 TRT SPOR: Keçiörengücü - Bursaspor
 - 25.10 19:00 TRT SPOR YILDIZ: Fenerbahçe - Eczacıbaşı
+- 25.10 19:00 beIN SPORTS 2: A. Keçiörengücü - Bursaspor
 - 25.10 21:55 tabii spor: Kairat Almaty - Panathinaikos
 - 25.10 22:05 beIN SPORTS 3: Hull City - Brentford
 - 25.10 22:15 TRT SPOR YILDIZ: Galatasaray - Onikişubat B.
@@ -114,7 +120,6 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 210 program
 - 26.10 23:00 Sevilla - Osasuna → S SPORT
 - 26.10 22:30 Paris Saint-Germain - Lyon → beIN SPORTS 3
 - 26.10 21:45 Santa Clara - Benfica → —
-- 25.10 01:00 Charlotte Hornets - Miami Heat → —
 - 25.10 02:30 Cleveland Cavaliers - Brooklyn Nets → —
 - 25.10 02:30 Philadelphia 76ers - Milwaukee Bucks → —
 - 25.10 03:00 Chicago Bulls - Washington Wizards → —
@@ -131,3 +136,9 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 210 program
 - 26.10 04:00 Sacramento Kings - Memphis Grizzlies → —
 - 27.10 02:00 Charlotte Hornets - Washington Wizards → —
 - 27.10 02:00 Cleveland Cavaliers - Minnesota Timberwolves → —
+- 27.10 02:30 Boston Celtics - Chicago Bulls → —
+- 27.10 02:30 Miami Heat - Dallas Mavericks → —
+- 27.10 03:00 Milwaukee Bucks - Indiana Pacers → —
+- 27.10 03:00 Oklahoma City Thunder - Phoenix Suns → —
+- 27.10 03:30 Houston Rockets - Atlanta Hawks → —
+- 27.10 04:00 Utah Jazz - Memphis Grizzlies → —

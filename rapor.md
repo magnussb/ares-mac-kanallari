@@ -1,6 +1,6 @@
-# Rapor 2026-10-26 00:09 UTC
+# Rapor 2026-10-26 06:01 UTC
 
-ESPN maç: 113 · EPG program: 578 · eşleşen maç: 23
+ESPN maç: 113 · EPG program: 517 · eşleşen maç: 23
 
 ## Çekim
 ```
@@ -16,51 +16,47 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 28, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 373 program
+ch_tvplus deneme 1: 9/9 kanal, 348 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 16 sayfa ok, 0 hata, 208 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 176 program
 ```
 
 ## Kanal başına program
-- S SPORT: 21
-- S SPORT 2: 19
+- S SPORT: 16
+- S SPORT 2: 15
 - SPORTS TV: 55
-- TRT 1: 42
-- TRT SPOR: 26
-- TRT SPOR YILDIZ: 86
-- TV8: 35
+- TRT 1: 41
+- TRT SPOR: 20
+- TRT SPOR YILDIZ: 74
+- TV8: 34
 - TV8,5: 42
-- beIN SPORTS 1: 51
-- beIN SPORTS 2: 60
+- beIN SPORTS 1: 33
+- beIN SPORTS 2: 49
 - beIN SPORTS 3: 44
-- beIN SPORTS 4: 53
+- beIN SPORTS 4: 50
 - tabii spor: 44
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 26.10 02:05 TRT SPOR YILDIZ: Spor Toto - Halkbank
-- 26.10 02:30 S SPORT: Los Angeles Lakers - Utah Jazz
-- 26.10 03:00 TRT SPOR: Pendikspor - Kayserispor
-- 26.10 04:45 TRT SPOR: Antalyaspor - Bodrum
-- 26.10 07:15 beIN SPORTS 2: A. Keçiörengücü - Bursaspor
+- 26.10 07:19 beIN SPORTS 2: A. Keçiörengücü - Bursaspor
 - 26.10 08:00 beIN SPORTS 3: Chelsea - Tottenham
-- 26.10 08:45 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Sakarya
-- 26.10 09:00 beIN SPORTS 2: Pendikspor - Kayserispor
 - 26.10 09:00 beIN SPORTS 4: Marseille - Le Havre
+- 26.10 09:02 beIN SPORTS 2: Pendikspor - Kayserispor
 - 26.10 09:30 TRT SPOR YILDIZ: Vakıfbank - Galatasaray
 - 26.10 09:45 beIN SPORTS 3: Liverpool - Brighton
-- 26.10 10:45 beIN SPORTS 2: Batman P. - E. Erokspor
-- 26.10 10:45 beIN SPORTS 4: Rennes - Strasbourg
+- 26.10 10:46 beIN SPORTS 2: Batman P. - E. Erokspor
+- 26.10 10:49 beIN SPORTS 4: Rennes - Strasbourg
 - 26.10 11:30 beIN SPORTS 3: Man Utd - Bournemouth
 - 26.10 11:40 tabii spor: Juventus - Rennes
 - 26.10 12:00 beIN SPORTS 1: Fenerbahçe - Galatasaray
-- 26.10 12:30 beIN SPORTS 4: Monaco - Lille
-- 26.10 12:31 beIN SPORTS 2: Antalyaspor - Bodrum FK
+- 26.10 12:31 beIN SPORTS 4: Monaco - Lille
+- 26.10 12:32 beIN SPORTS 2: Antalyaspor - Bodrum FK
 - 26.10 13:15 beIN SPORTS 3: Hull City - Brentford
 - 26.10 13:45 tabii spor: Bournemouth - Milan
 - 26.10 14:15 beIN SPORTS 4: Sporting CP - Academico
 - 26.10 15:00 beIN SPORTS 3: C. Palace - Newcastle
+- 26.10 15:40 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Sakarya
 - 26.10 16:45 beIN SPORTS 3: Sunderland - Leeds
 - 26.10 17:30 beIN SPORTS 2: Rizespor - Trabzonspor
 - 26.10 18:30 beIN SPORTS 3: Ipswich - Nott'm Forest
@@ -108,12 +104,6 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 208 program
 - 27.10 20:30 Sassuolo - Lazio → —
 - 27.10 22:45 AS Roma - Cagliari → —
 - 27.10 22:45 Torino - Como → —
-- 26.10 01:00 Brooklyn Nets - Indiana Pacers → —
-- 26.10 02:00 New York Knicks - Orlando Magic → —
-- 26.10 02:00 Minnesota Timberwolves - Toronto Raptors → —
-- 26.10 02:00 Oklahoma City Thunder - LA Clippers → —
-- 26.10 02:30 Philadelphia 76ers - Detroit Pistons → —
-- 26.10 04:00 Sacramento Kings - Memphis Grizzlies → —
 - 27.10 02:00 Charlotte Hornets - Washington Wizards → —
 - 27.10 02:00 Cleveland Cavaliers - Minnesota Timberwolves → —
 - 27.10 02:30 Boston Celtics - Chicago Bulls → —
@@ -126,6 +116,7 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 208 program
 - 28.10 02:30 Boston Celtics - Brooklyn Nets → —
 - 28.10 03:00 New York Knicks - Detroit Pistons → —
 - 28.10 03:00 San Antonio Spurs - Sacramento Kings → —
+- 28.10 06:00 Los Angeles Lakers - Portland Trail Blazers → —
 - 27.10 23:00 Baskonia - Real → —
 - 27.10 22:30 Valencia - Fenerbahce → —
 - 27.10 22:15 Panathinaikos - Milan → —

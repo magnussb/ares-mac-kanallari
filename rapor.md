@@ -1,6 +1,6 @@
-# Rapor 2026-10-27 04:52 UTC
+# Rapor 2026-10-27 10:25 UTC
 
-ESPN maç: 96 · EPG program: 555 · eşleşen maç: 26
+ESPN maç: 97 · EPG program: 875 · eşleşen maç: 27
 
 ## Çekim
 ```
@@ -16,38 +16,29 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 29, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 393 program
+ch_tvplus deneme 1: 9/9 kanal, 413 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 15 sayfa ok, 1 hata, 164 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 467 program
 ```
 
 ## Kanal başına program
-- S SPORT: 52
+- S SPORT: 55
 - S SPORT 2: 52
-- SPORTS TV: 51
-- TRT 1: 40
-- TRT SPOR: 46
-- TRT SPOR YILDIZ: 31
+- SPORTS TV: 56
+- TRT 1: 39
+- TRT SPOR: 40
+- TRT SPOR YILDIZ: 52
 - TV8: 33
 - TV8,5: 42
-- beIN SPORTS 1: 33
+- beIN SPORTS 1: 317
 - beIN SPORTS 2: 31
-- beIN SPORTS 3: 46
+- beIN SPORTS 3: 65
 - beIN SPORTS 4: 54
-- tabii spor: 44
+- tabii spor: 39
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 27.10 05:45 beIN SPORTS 4: Angers - Lorient
-- 27.10 07:00 beIN SPORTS 2: Bandırmaspor - Igdır FK
-- 27.10 07:00 beIN SPORTS 3: Liverpool - Brighton
-- 27.10 07:15 TRT SPOR YILDIZ: Fenerbahçe - Eczacıbaşı
-- 27.10 07:30 beIN SPORTS 4: Montpellier - Red Star
-- 27.10 08:45 beIN SPORTS 2: Muğlaspor - İstanbulspor
-- 27.10 08:45 beIN SPORTS 3: Man Utd - Bournemouth
-- 27.10 09:15 beIN SPORTS 1: Ç. Rizespor - Trabzonspor
-- 27.10 09:15 beIN SPORTS 4: Brest - Nice
 - 27.10 10:30 beIN SPORTS 2: Sarıyer - F. Karagümrük
 - 27.10 10:30 beIN SPORTS 3: Hull City - Brentford
 - 27.10 11:01 beIN SPORTS 4: Lens - Paris FC
@@ -77,6 +68,7 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 164 program
 - 27.10 21:00 beIN SPORTS 2: Boluspor - Vanspor FK
 - 27.10 21:01 beIN SPORTS 3: Coventry - Fulham
 - 27.10 21:30 beIN SPORTS 1: Konyaspor - Galatasaray
+- 27.10 21:45 beIN SPORTS 4: Montpellier - Red Star
 - 27.10 21:55 tabii spor: Lech Poznan - Sunderland
 - 27.10 22:02 beIN SPORTS 1: Fenerbahçe - Göztepe
 - 27.10 22:30 beIN SPORTS 1: Trabzonspor - Gaziantep FK
@@ -84,25 +76,35 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 164 program
 - 27.10 23:45 beIN SPORTS 1: Gençlerbirliği - Alanyaspor
 - 28.10 00:30 S SPORT: Bayern Münih - Baskonia
 - 28.10 00:45 S SPORT 2: Panathinaikos - Olimpia Milano
+- 28.10 02:35 TRT SPOR YILDIZ: Fenerbahçe - Eczacıbaşı
 - 28.10 08:45 beIN SPORTS 3: Chelsea - Tottenham
 - 28.10 09:55 tabii spor: Omonia - Benfica
 - 28.10 10:00 beIN SPORTS 1: T. Konyaspor - Gençlerbirliği
+- 28.10 10:30 beIN SPORTS 3: Liverpool - Brighton
 - 28.10 12:00 tabii spor: Ferencvaros - Torreense
+- 28.10 12:15 beIN SPORTS 3: Man Utd - Bournemouth
 - 28.10 14:00 beIN SPORTS 4: Gil Vicente - Porto
 - 28.10 14:05 tabii spor: Celtic - Celta Vigo
 - 28.10 15:30 TRT SPOR: Serenity Alanya - C.Y. Limon
 - 28.10 15:45 beIN SPORTS 4: Auxerre - Le Mans
 - 28.10 16:15 tabii spor: Sturm Graz - Marsilya
+- 28.10 17:30 beIN SPORTS 4: Angers - Lorient
 - 28.10 17:55 tabii spor: Olympiakos - Sparta Prag
 - 28.10 18:30 beIN SPORTS 2: Ümraniyespor - Sivasspor
 - 28.10 19:15 beIN SPORTS 4: Toulouse - Troyes
 - 28.10 19:55 tabii spor: Dinamo Zagreb - Nec Nijmegen
+- 28.10 20:15 beIN SPORTS 2: Bandırmaspor - Igdır FK
+- 28.10 20:25 TRT SPOR YILDIZ: Vilnius Rytas - Trabzonspor
 - 28.10 21:00 TRT SPOR: Real Sociedad - Fenerbahçe
 - 28.10 22:00 tabii spor: Lillestrom - Real Sociedad
+- 28.10 22:00 beIN SPORTS 2: Muğlaspor - İstanbulspor
 - 28.10 23:00 S SPORT 2: Venezia - Inter
 - 28.10 23:00 beIN SPORTS 1: Başakşehir - Samsunspor
 - 29.10 01:00 S SPORT 2: Milan - Bologna
 - 29.10 02:00 TRT SPOR: Bayern Münih - Real Madrid
+- 29.10 09:55 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıstuttgart – Atletıco Madrıd
+- 29.10 12:15 beIN SPORTS 4: Sporting CP - Academico
+- 29.10 12:25 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıporto – Psv Eındhoven
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 27.10 20:30 Sassuolo - Lazio → S SPORT 2
@@ -113,7 +115,6 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 164 program
 - 28.10 20:30 Venezia - Internazionale → —
 - 28.10 22:45 Genoa - Juventus → S SPORT
 - 28.10 22:45 Monza - Napoli → —
-- 27.10 05:00 Denver Nuggets - Golden State Warriors → S SPORT
 - 28.10 02:30 Boston Celtics - Brooklyn Nets → —
 - 28.10 03:00 New York Knicks - Detroit Pistons → S SPORT
 - 28.10 03:00 San Antonio Spurs - Sacramento Kings → —
@@ -141,7 +142,7 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 164 program
 - 27.10 22:00 Crvena - Maccabi → —
 - 27.10 19:00 Dubai - Paris → S SPORT
 - 28.10 23:00 La Laguna Tenerife - Reyer Venice → —
-- 28.10 22:30 London - Turk Telekom → —
+- 28.10 22:30 London - Turk Telekom → TRT SPOR YILDIZ
 - 28.10 22:30 Burgos - Riga Zelli → —
 - 28.10 22:00 Le Mans Sarthe - Jerusalem → —
 - 28.10 21:30 Derthona -  Rostock → —

@@ -1,6 +1,6 @@
-# Rapor 2026-10-28 01:12 UTC
+# Rapor 2026-10-28 08:20 UTC
 
-ESPN maç: 121 · EPG program: 605 · eşleşen maç: 28
+ESPN maç: 121 · EPG program: 603 · eşleşen maç: 28
 
 ## Çekim
 ```
@@ -16,35 +16,29 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 484 program
+ch_tvplus deneme 1: 9/9 kanal, 471 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 15 sayfa ok, 1 hata, 121 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 133 program
 ```
 
 ## Kanal başına program
-- S SPORT: 55
+- S SPORT: 59
 - S SPORT 2: 53
-- SPORTS TV: 49
-- TRT 1: 46
-- TRT SPOR: 74
-- TRT SPOR YILDIZ: 89
-- TV8: 33
-- TV8,5: 39
+- SPORTS TV: 54
+- TRT 1: 45
+- TRT SPOR: 66
+- TRT SPOR YILDIZ: 77
+- TV8: 34
+- TV8,5: 35
 - beIN SPORTS 1: 21
 - beIN SPORTS 2: 21
 - beIN SPORTS 3: 43
-- beIN SPORTS 4: 36
-- tabii spor: 46
+- beIN SPORTS 4: 48
+- tabii spor: 47
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 28.10 02:35 TRT SPOR YILDIZ: Fenerbahçe - Eczacıbaşı
-- 28.10 05:16 beIN SPORTS 4: Lens - Paris FC
-- 28.10 07:00 beIN SPORTS 2: Pendikspor - Kayserispor
-- 28.10 07:00 beIN SPORTS 3: C. Palace - Newcastle
-- 28.10 07:04 beIN SPORTS 4: Monaco - Lille
-- 28.10 08:35 TRT SPOR YILDIZ: Bahçeşehir K. - PAOK T.
 - 28.10 08:45 beIN SPORTS 2: Batman P. - E. Erokspor
 - 28.10 08:45 beIN SPORTS 3: Sunderland - Leeds
 - 28.10 08:47 beIN SPORTS 4: Marseille - Le Havre
@@ -89,10 +83,14 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 121 program
 - 28.10 23:15 beIN SPORTS 1: Gençlerbirliği - Alanyaspor
 - 28.10 23:30 beIN SPORTS 1: Başakşehir - Samsunspor
 - 29.10 01:00 S SPORT 2: Milan - Bologna
+- 29.10 01:25 TRT SPOR YILDIZ: Bahçeşehir K. - PAOK T.
 - 29.10 02:00 TRT SPOR: Bayern Münih - Real Madrid
 - 29.10 03:35 TRT SPOR YILDIZ: Fenerbahçe M. - Alanya B.
+- 29.10 05:15 beIN SPORTS 4: Monaco - Lille
 - 29.10 07:15 TRT SPOR YILDIZ: Slask Wroclaw - Tofaş
 - 29.10 09:55 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıcomo – Manchester Unıted
+- 29.10 10:30 beIN SPORTS 3: C. Palace - Newcastle
+- 29.10 12:15 beIN SPORTS 4: Sporting CP - Academico
 - 29.10 12:50 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasısabah – Borussıa Dortmund
 - 29.10 13:40 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Sakarya
 - 29.10 14:00 beIN SPORTS 3: Ipswich - Nott'm Forest
@@ -100,8 +98,10 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 121 program
 - 29.10 16:30 tabii spor: Lille - Galatasaray , Uefa Şampiyonlar Ligi Grup Maçları
 - 29.10 17:30 beIN SPORTS 2: Sarıyer - F. Karagümrük
 - 29.10 18:35 tabii spor: Trabzonspor - Hearts , Uefa Avrupa Konferans Ligi Grup Maçları
+- 29.10 19:15 beIN SPORTS 2: Pendikspor - Kayserispor
 - 29.10 20:00 TRT SPOR: Galatasaray - Kızılyıldız
 - 29.10 20:40 tabii spor: Fenerbahçe - Slavia Prag , Uefa Şampiyonlar Ligi Grup Maçları
+- 29.10 21:00 beIN SPORTS 4: Lens - Paris FC
 - 29.10 22:20 tabii spor: Beşiktaş - Cyrstal Palace , Uefa Avrupa Ligi Grup Maçları
 - 30.10 00:45 S SPORT 2: Kızılyıldız - Bayern Münih
 - 30.10 03:45 S SPORT 2: Moto 2 - Moto GP
@@ -114,10 +114,6 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 121 program
 - 28.10 22:45 Monza - Napoli → —
 - 29.10 20:30 Frosinone - Lecce → S SPORT 2
 - 29.10 22:45 Fiorentina - Atalanta → S SPORT 2
-- 28.10 02:30 Boston Celtics - Brooklyn Nets → —
-- 28.10 03:00 New York Knicks - Detroit Pistons → S SPORT
-- 28.10 03:00 San Antonio Spurs - Sacramento Kings → —
-- 28.10 06:00 Los Angeles Lakers - Portland Trail Blazers → —
 - 29.10 02:00 Atlanta Hawks - Miami Heat → —
 - 29.10 02:00 Cleveland Cavaliers - Washington Wizards → —
 - 29.10 02:00 Detroit Pistons - Charlotte Hornets → —
@@ -132,6 +128,7 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 121 program
 - 29.10 05:30 LA Clippers - Los Angeles Lakers → —
 - 30.10 03:00 Atlanta Hawks - Cleveland Cavaliers → —
 - 30.10 03:00 New Orleans Pelicans - Sacramento Kings → —
+- 30.10 05:00 Portland Trail Blazers - Memphis Grizzlies → S SPORT
 - 29.10 22:45 Real - Fenerbahce → S SPORT
 - 29.10 22:05 Maccabi - Paris → —
 - 29.10 22:00 Crvena - Bayern → —

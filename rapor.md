@@ -1,6 +1,6 @@
-# Rapor 2026-10-29 00:49 UTC
+# Rapor 2026-10-29 06:59 UTC
 
-ESPN maç: 134 · EPG program: 631 · eşleşen maç: 42
+ESPN maç: 134 · EPG program: 684 · eşleşen maç: 44
 
 ## Çekim
 ```
@@ -16,55 +16,55 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 479 program
+ch_tvplus deneme 1: 9/9 kanal, 467 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 15 sayfa ok, 1 hata, 152 program
+beIN: 4 kanal, 15 sayfa ok, 1 hata, 218 program
 ```
 
 ## Kanal başına program
-- S SPORT: 58
-- S SPORT 2: 54
-- SPORTS TV: 48
+- S SPORT: 59
+- S SPORT 2: 53
+- SPORTS TV: 49
 - TRT 1: 43
-- TRT SPOR: 69
-- TRT SPOR YILDIZ: 87
+- TRT SPOR: 63
+- TRT SPOR YILDIZ: 79
 - TV8: 32
 - TV8,5: 42
-- beIN SPORTS 1: 38
-- beIN SPORTS 2: 35
-- beIN SPORTS 3: 37
-- beIN SPORTS 4: 42
+- beIN SPORTS 1: 56
+- beIN SPORTS 2: 42
+- beIN SPORTS 3: 55
+- beIN SPORTS 4: 65
 - tabii spor: 46
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 29.10 03:35 TRT SPOR YILDIZ: Fenerbahçe M. - Alanya B.
-- 29.10 05:15 beIN SPORTS 4: Marseille - Le Havre
 - 29.10 07:00 beIN SPORTS 2: A. Keçiörengücü - Bursaspor
 - 29.10 07:00 beIN SPORTS 4: Rennes - Strasbourg
 - 29.10 07:01 beIN SPORTS 3: Aston Villa - Man City
-- 29.10 07:15 TRT SPOR YILDIZ: Slask Wroclaw - Tofaş
 - 29.10 08:45 beIN SPORTS 2: Mardin 1969 - Manisa FK
 - 29.10 08:45 beIN SPORTS 3: Arsenal - Everton
-- 29.10 08:45 beIN SPORTS 4: Auxerre - Le Mans
+- 29.10 08:49 beIN SPORTS 4: Auxerre - Le Mans
 - 29.10 09:55 tabii spor: Como - Manchester United
 - 29.10 10:00 S SPORT 2: Genoa - Juventus
+- 29.10 10:15 beIN SPORTS 1: T. Konyaspor - Gençlerbirliği
 - 29.10 10:30 beIN SPORTS 2: Boluspor - Vanspor FK
-- 29.10 10:30 beIN SPORTS 4: Saint-Étienne - Nantes
 - 29.10 10:31 beIN SPORTS 3: Coventry - Fulham
+- 29.10 10:33 beIN SPORTS 4: Saint-Étienne - Nantes
 - 29.10 12:15 beIN SPORTS 2: Ümraniyespor - Sivasspor
 - 29.10 12:15 beIN SPORTS 3: Chelsea - Tottenham
-- 29.10 12:15 beIN SPORTS 4: Sporting CP - Academico
+- 29.10 12:19 beIN SPORTS 4: Sporting CP - Academico
 - 29.10 12:50 tabii spor: Sabah - Borussia Dortmund
 - 29.10 13:40 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Sakarya
+- 29.10 14:00 beIN SPORTS 1: Göztepe - A. Çorum FK
 - 29.10 14:00 beIN SPORTS 2: Bandırmaspor - Igdır FK
 - 29.10 14:00 beIN SPORTS 3: Liverpool - Brighton
-- 29.10 14:00 beIN SPORTS 4: Angers - Lorient
+- 29.10 14:06 beIN SPORTS 4: Angers - Lorient
 - 29.10 14:30 tabii spor: Psg - Barcelona
 - 29.10 15:45 beIN SPORTS 2: Muğlaspor - İstanbulspor
 - 29.10 15:45 beIN SPORTS 3: Man Utd - Bournemouth
 - 29.10 15:45 beIN SPORTS 4: Toulouse - Troyes
+- 29.10 16:00 beIN SPORTS 1: Beşiktaş - Başakşehir FK
 - 29.10 16:30 tabii spor: Lille - Galatasaray
 - 29.10 16:45 TRT SPOR YILDIZ: Vilnius Rytas - Trabzonspor
 - 29.10 17:30 beIN SPORTS 2: Sarıyer - F. Karagümrük
@@ -75,26 +75,30 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 152 program
 - 29.10 19:15 beIN SPORTS 3: C. Palace - Newcastle
 - 29.10 19:15 beIN SPORTS 4: Brest - Nice
 - 29.10 20:00 TRT SPOR: Galatasaray - Kızılyıldız
+- 29.10 20:00 beIN SPORTS 1: Konyaspor - Galatasaray
 - 29.10 20:40 tabii spor: Fenerbahçe - Slavia Prag
 - 29.10 21:00 beIN SPORTS 2: Batman P. - E. Erokspor
 - 29.10 21:00 beIN SPORTS 3: Sunderland - Leeds
-- 29.10 21:00 beIN SPORTS 4: Lens - Paris FC
+- 29.10 21:01 beIN SPORTS 4: Lens - Paris FC
 - 29.10 22:20 tabii spor: Beşiktaş - Cyrstal Palace
+- 29.10 23:15 beIN SPORTS 1: Gençlerbirliği - Alanyaspor
+- 29.10 23:31 beIN SPORTS 1: Başakşehir - Samsunspor
 - 30.10 00:45 S SPORT 2: Kızılyıldız - Bayern Münih
+- 30.10 01:05 TRT SPOR YILDIZ: Slask Wroclaw - Tofaş
 - 30.10 03:45 S SPORT 2: Moto 2 - Moto GP
-- 30.10 08:45 beIN SPORTS 3: Ipswich - Nott'm Forest
-- 30.10 09:00 beIN SPORTS 1: T. Konyaspor - Gençlerbirliği
 - 30.10 09:15 TRT SPOR YILDIZ: Galatasaray - Kızılyıldız
 - 30.10 09:55 tabii spor: Napoli - Bodo Glimt
-- 30.10 10:45 beIN SPORTS 1: Göztepe - A. Çorum FK
 - 30.10 13:40 tabii spor: Bayern Munih - Arsenal
 - 30.10 15:00 beIN SPORTS 1: Galatasaray - Fenerbahçe
 - 30.10 15:45 beIN SPORTS 4: Monaco - Lille
-- 30.10 16:15 beIN SPORTS 2: Antalyaspor - Bodrum FK
-- 30.10 18:30 beIN SPORTS 1: Konyaspor - Galatasaray
+- 30.10 17:30 beIN SPORTS 2: Antalyaspor - Bodrum FK
+- 30.10 17:30 beIN SPORTS 3: Ipswich - Nott'm Forest
+- 30.10 17:30 beIN SPORTS 4: Marseille - Le Havre
 - 30.10 20:00 beIN SPORTS 2: E. Erokspor - A. Keçiörengücü
 - 30.10 22:30 S SPORT: Barcelona - Valencia Basket
+- 30.10 23:45 beIN SPORTS 2: Gençlerbirliği - Alanyaspor
 - 31.10 01:00 S SPORT: Villarreal - Espanyol
+- 31.10 06:45 beIN SPORTS 4: Nice - Rennes
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 29.10 20:30 Frosinone - Lecce → S SPORT 2
@@ -106,18 +110,6 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 152 program
 - 30.10 21:00 Nice - Stade Rennais → —
 - 30.10 23:05 Lille - Lens → beIN SPORTS 3
 - 30.10 23:15 Casa Pia - Sporting CP → —
-- 29.10 02:00 Atlanta Hawks - Miami Heat → —
-- 29.10 02:00 Cleveland Cavaliers - Washington Wizards → —
-- 29.10 02:00 Detroit Pistons - Charlotte Hornets → —
-- 29.10 02:00 Indiana Pacers - Philadelphia 76ers → S SPORT
-- 29.10 02:30 Toronto Raptors - Orlando Magic → —
-- 29.10 03:00 Chicago Bulls - New York Knicks → —
-- 29.10 03:00 Milwaukee Bucks - Houston Rockets → —
-- 29.10 03:00 Minnesota Timberwolves - Golden State Warriors → —
-- 29.10 03:00 New Orleans Pelicans - Denver Nuggets → —
-- 29.10 04:00 Utah Jazz - San Antonio Spurs → —
-- 29.10 04:30 Dallas Mavericks - Oklahoma City Thunder → S SPORT
-- 29.10 05:30 LA Clippers - Los Angeles Lakers → —
 - 30.10 03:00 Atlanta Hawks - Cleveland Cavaliers → —
 - 30.10 03:00 New Orleans Pelicans - Sacramento Kings → —
 - 30.10 05:00 Portland Trail Blazers - Memphis Grizzlies → S SPORT
@@ -129,6 +121,8 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 152 program
 - 31.10 03:00 Miami Heat - Indiana Pacers → —
 - 31.10 03:00 Dallas Mavericks - Houston Rockets → —
 - 31.10 03:00 Minnesota Timberwolves - LA Clippers → —
+- 31.10 05:00 Golden State Warriors - Los Angeles Lakers → —
+- 31.10 05:00 Phoenix Suns - Denver Nuggets → —
 - 30.10 22:30 Virtus - Besiktas → S SPORT 2
 - 30.10 22:30 Barca - Valencia → —
 - 30.10 22:15 Olympiacos - Milan → —

@@ -1,6 +1,6 @@
-# Rapor 2026-10-29 06:59 UTC
+# Rapor 2026-10-29 14:09 UTC
 
-ESPN maç: 134 · EPG program: 684 · eşleşen maç: 44
+ESPN maç: 134 · EPG program: 667 · eşleşen maç: 47
 
 ## Çekim
 ```
@@ -16,51 +16,29 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 31, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 467 program
+ch_tvplus deneme 1: 9/9 kanal, 419 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 15 sayfa ok, 1 hata, 218 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 249 program
 ```
 
 ## Kanal başına program
 - S SPORT: 59
 - S SPORT 2: 53
-- SPORTS TV: 49
-- TRT 1: 43
-- TRT SPOR: 63
-- TRT SPOR YILDIZ: 79
+- SPORTS TV: 36
+- TRT 1: 39
+- TRT SPOR: 53
+- TRT SPOR YILDIZ: 61
 - TV8: 32
-- TV8,5: 42
+- TV8,5: 41
 - beIN SPORTS 1: 56
-- beIN SPORTS 2: 42
+- beIN SPORTS 2: 63
 - beIN SPORTS 3: 55
-- beIN SPORTS 4: 65
-- tabii spor: 46
+- beIN SPORTS 4: 75
+- tabii spor: 44
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 29.10 07:00 beIN SPORTS 2: A. Keçiörengücü - Bursaspor
-- 29.10 07:00 beIN SPORTS 4: Rennes - Strasbourg
-- 29.10 07:01 beIN SPORTS 3: Aston Villa - Man City
-- 29.10 08:45 beIN SPORTS 2: Mardin 1969 - Manisa FK
-- 29.10 08:45 beIN SPORTS 3: Arsenal - Everton
-- 29.10 08:49 beIN SPORTS 4: Auxerre - Le Mans
-- 29.10 09:55 tabii spor: Como - Manchester United
-- 29.10 10:00 S SPORT 2: Genoa - Juventus
-- 29.10 10:15 beIN SPORTS 1: T. Konyaspor - Gençlerbirliği
-- 29.10 10:30 beIN SPORTS 2: Boluspor - Vanspor FK
-- 29.10 10:31 beIN SPORTS 3: Coventry - Fulham
-- 29.10 10:33 beIN SPORTS 4: Saint-Étienne - Nantes
-- 29.10 12:15 beIN SPORTS 2: Ümraniyespor - Sivasspor
-- 29.10 12:15 beIN SPORTS 3: Chelsea - Tottenham
-- 29.10 12:19 beIN SPORTS 4: Sporting CP - Academico
-- 29.10 12:50 tabii spor: Sabah - Borussia Dortmund
-- 29.10 13:40 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Sakarya
-- 29.10 14:00 beIN SPORTS 1: Göztepe - A. Çorum FK
-- 29.10 14:00 beIN SPORTS 2: Bandırmaspor - Igdır FK
-- 29.10 14:00 beIN SPORTS 3: Liverpool - Brighton
-- 29.10 14:06 beIN SPORTS 4: Angers - Lorient
-- 29.10 14:30 tabii spor: Psg - Barcelona
 - 29.10 15:45 beIN SPORTS 2: Muğlaspor - İstanbulspor
 - 29.10 15:45 beIN SPORTS 3: Man Utd - Bournemouth
 - 29.10 15:45 beIN SPORTS 4: Toulouse - Troyes
@@ -85,9 +63,19 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 218 program
 - 29.10 23:31 beIN SPORTS 1: Başakşehir - Samsunspor
 - 30.10 00:45 S SPORT 2: Kızılyıldız - Bayern Münih
 - 30.10 01:05 TRT SPOR YILDIZ: Slask Wroclaw - Tofaş
+- 30.10 02:55 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Sakarya
 - 30.10 03:45 S SPORT 2: Moto 2 - Moto GP
+- 30.10 05:15 beIN SPORTS 4: Auxerre - Le Mans
+- 30.10 07:00 beIN SPORTS 2: Ümraniyespor - Sivasspor
+- 30.10 07:00 beIN SPORTS 3: Chelsea - Tottenham
+- 30.10 07:00 beIN SPORTS 4: Angers - Lorient
+- 30.10 08:45 beIN SPORTS 2: Bandırmaspor - Igdır FK
+- 30.10 08:45 beIN SPORTS 3: Liverpool - Brighton
+- 30.10 09:00 beIN SPORTS 1: T. Konyaspor - Gençlerbirliği
 - 30.10 09:15 TRT SPOR YILDIZ: Galatasaray - Kızılyıldız
 - 30.10 09:55 tabii spor: Napoli - Bodo Glimt
+- 30.10 10:45 beIN SPORTS 1: Göztepe - A. Çorum FK
+- 30.10 12:00 tabii spor: Como - Manchester United
 - 30.10 13:40 tabii spor: Bayern Munih - Arsenal
 - 30.10 15:00 beIN SPORTS 1: Galatasaray - Fenerbahçe
 - 30.10 15:45 beIN SPORTS 4: Monaco - Lille
@@ -99,6 +87,14 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 218 program
 - 30.10 23:45 beIN SPORTS 2: Gençlerbirliği - Alanyaspor
 - 31.10 01:00 S SPORT: Villarreal - Espanyol
 - 31.10 06:45 beIN SPORTS 4: Nice - Rennes
+- 31.10 10:00 beIN SPORTS 3: Aston Villa - Man City
+- 31.10 10:15 beIN SPORTS 4: Casa Pia - Sporting CP
+- 31.10 11:45 beIN SPORTS 3: Arsenal - Everton
+- 31.10 13:30 TRT SPOR: Van Spor - Sarıyer
+- 31.10 13:30 beIN SPORTS 2: Vanspor FK - Sarıyer
+- 31.10 15:40 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıreal Madrıd – Rb Leıpzıg
+- 31.10 16:00 TRT SPOR: Bursaspor - Bandırma Spor
+- 31.10 16:00 beIN SPORTS 2: F. Karagümrük - Pendikspor
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 29.10 20:30 Frosinone - Lecce → S SPORT 2
@@ -110,6 +106,11 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 218 program
 - 30.10 21:00 Nice - Stade Rennais → —
 - 30.10 23:05 Lille - Lens → beIN SPORTS 3
 - 30.10 23:15 Casa Pia - Sporting CP → —
+- 31.10 13:30 Erzurum BB - Çorum FK → beIN SPORTS 1
+- 31.10 16:00 Kocaelispor - Caykur Rizespor → beIN SPORTS 1
+- 31.10 15:30 Chelsea - Manchester United → beIN SPORTS 3
+- 31.10 16:00 Levante - Atlético Madrid → S SPORT
+- 31.10 17:00 Bologna - Monza → S SPORT 2
 - 30.10 03:00 Atlanta Hawks - Cleveland Cavaliers → —
 - 30.10 03:00 New Orleans Pelicans - Sacramento Kings → —
 - 30.10 05:00 Portland Trail Blazers - Memphis Grizzlies → S SPORT

@@ -1,12 +1,18 @@
 {
   "android": {
-    "build": 25,
-    "name": "1.3.20",
-    "url": "https://github.com/magnussb/ares-mac-kanallari/releases/download/v1.3.20/Ares.apk",
-    "size": 73588910,
-    "notes": "• TV Rehber: bir programa OK basınca odak alttaki düğmelere geçiyor; \"Baştan izle\" / \"Geriden izle\"ye kumandayla ulaşılıyor, Geri ile kapanıyor\n• Oynatıcıdaki Rehber: programın üzerine gelince \"Baştan izle\" / \"Geriden izle\" yazıyor\n• Canlı yayında geri sarma: arşivi olan kanallarda geri tuşu yayını arşivden o ana götürüyor; geriden izlerken ileri/geri sarma çalışıyor\n• 4K kanallarda \"kare kare\" akma için görüntü artık cihazın donanım çözücüsüyle çözülüyor\n• Yayın bilgisinde hangi çözücünün çalıştığı yazıyor (HW / SW)"
+    "build": 26,
+    "name": "1.3.21",
+    "url": "https://github.com/magnussb/ares-mac-kanallari/releases/download/v1.3.21/Ares.apk",
+    "size": 73703654,
+    "notes": "• TV: görüntü artık ekrana doğrudan çiziliyor (SurfaceView). 4K kanallardaki yeşil ekran / renkli şerit sorunu giderildi; HDR yayınlarda TV HDR'a geçiyor. Önizleme ve çoklu ekran eskisi gibi\n• Kanal değişince eski kanalın görüntüsü donuk kalmıyor: yeni kanalın ilk karesine kadar ekran siyah\n• mpv motoru seçiliyken 4K/RAW açarken uygulamanın donup kapanması (yanıt vermiyor) giderildi\n• Film/dizide kumanda: oynat düğmesinden Yukarı ile zaman çubuğuna geliniyor; Sol/Sağ 10 sn sarar, OK duraklatır (canlı yayında 30 sn)\n• Harici oynatıcı: Ayarlar'da hangi uygulamayla açılacağı yazıyor; yüklü oynatıcı yoksa söylüyor ve dahili oynatıcıyla sürüyor. Oynatıcı menüsüne \"Harici oynatıcıda aç\" eklendi\n• Ayarlar > Oynatıcı > Görüntü çıkışı (TV, ExoPlayer): Yüzey (HDR, önerilir) / Doku (eski yol)\n• Kapanma kayıtları: TV beklemeden sonra yeniden başlama artık \"çökme değil\" diye açıklanıyor"
   },
   "history": [
+    {
+      "name": "1.3.21",
+      "build": 26,
+      "date": "2026-10-30",
+      "notes": "• TV: görüntü artık ekrana doğrudan çiziliyor (SurfaceView). 4K kanallardaki yeşil ekran / renkli şerit sorunu giderildi; HDR yayınlarda TV HDR'a geçiyor. Önizleme ve çoklu ekran eskisi gibi\n• Kanal değişince eski kanalın görüntüsü donuk kalmıyor: yeni kanalın ilk karesine kadar ekran siyah\n• mpv motoru seçiliyken 4K/RAW açarken uygulamanın donup kapanması (yanıt vermiyor) giderildi\n• Film/dizide kumanda: oynat düğmesinden Yukarı ile zaman çubuğuna geliniyor; Sol/Sağ 10 sn sarar, OK duraklatır (canlı yayında 30 sn)\n• Harici oynatıcı: Ayarlar'da hangi uygulamayla açılacağı yazıyor; yüklü oynatıcı yoksa söylüyor ve dahili oynatıcıyla sürüyor. Oynatıcı menüsüne \"Harici oynatıcıda aç\" eklendi\n• Ayarlar > Oynatıcı > Görüntü çıkışı (TV, ExoPlayer): Yüzey (HDR, önerilir) / Doku (eski yol)\n• Kapanma kayıtları: TV beklemeden sonra yeniden başlama artık \"çökme değil\" diye açıklanıyor"
+    },
     {
       "name": "1.3.20",
       "build": 25,

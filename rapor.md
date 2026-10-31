@@ -1,6 +1,6 @@
-# Rapor 2026-10-31 12:13 UTC
+# Rapor 2026-10-31 17:40 UTC
 
-ESPN maç: 132 · EPG program: 694 · eşleşen maç: 56
+ESPN maç: 134 · EPG program: 674 · eşleşen maç: 54
 
 ## Çekim
 ```
@@ -16,7 +16,7 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 2, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 459 program
+ch_tvplus deneme 1: 9/9 kanal, 439 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
@@ -24,28 +24,21 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 236 program
 ```
 
 ## Kanal başına program
-- S SPORT: 51
-- S SPORT 2: 49
+- S SPORT: 46
+- S SPORT 2: 45
 - SPORTS TV: 42
-- TRT 1: 40
-- TRT SPOR: 33
-- TRT SPOR YILDIZ: 117
-- TV8: 32
+- TRT 1: 41
+- TRT SPOR: 29
+- TRT SPOR YILDIZ: 112
+- TV8: 33
 - TV8,5: 42
 - beIN SPORTS 1: 56
 - beIN SPORTS 2: 70
 - beIN SPORTS 3: 53
 - beIN SPORTS 4: 57
-- tabii spor: 52
+- tabii spor: 48
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 31.10 13:30 TRT SPOR: Van Spor - Sarıyer
-- 31.10 13:30 beIN SPORTS 2: Vanspor FK - Sarıyer
-- 31.10 13:30 beIN SPORTS 4: Lille - Lens
-- 31.10 15:40 tabii spor: Real Madrid - RB Leipzig
-- 31.10 16:00 TRT SPOR: Bursaspor - Bandırma Spor
-- 31.10 16:00 beIN SPORTS 2: F. Karagümrük - Pendikspor
-- 31.10 17:35 tabii spor: Inter - Shakhtar Donetsk
 - 31.10 18:55 TRT SPOR YILDIZ: Galatasaray - Sultanbeyli B.
 - 31.10 19:00 TRT SPOR: Manisa - Batman P.
 - 31.10 19:00 beIN SPORTS 2: Manisa FK - Batman P.
@@ -53,10 +46,14 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 236 program
 - 31.10 21:55 tabii spor: Lille - Galatasaray
 - 31.10 22:15 beIN SPORTS 2: Gençlerbirliği - Alanyaspor
 - 01.11 00:45 TRT SPOR YILDIZ: Galatasaray - Kızılyıldız
+- 01.11 02:00 TRT SPOR: Bursaspor - Bandırma Spor
 - 01.11 05:30 beIN SPORTS 4: Le Havre - PSG
+- 01.11 07:00 beIN SPORTS 2: Vanspor FK - Sarıyer
 - 01.11 07:15 TRT SPOR YILDIZ: On Hotels Alanya - Ziraat B.
 - 01.11 07:15 beIN SPORTS 4: Nice - Rennes
 - 01.11 08:15 beIN SPORTS 3: Bournemouth - Leeds
+- 01.11 08:45 beIN SPORTS 2: F. Karagümrük - Pendikspor
+- 01.11 09:00 beIN SPORTS 4: Lille - Lens
 - 01.11 10:00 beIN SPORTS 3: Coventry - Sunderland
 - 01.11 10:30 beIN SPORTS 2: Bursaspor - Bandırmaspor
 - 01.11 10:45 beIN SPORTS 4: Casa Pia - Sporting CP
@@ -81,12 +78,10 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 236 program
 - 02.11 02:00 S SPORT: Boston Celtics - Orlando Magic
 - 02.11 11:40 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıjuventus – Rennes
 - 02.11 13:45 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıbournemouth – Mılan
+- 02.11 20:00 tabii spor: Lille - Galatasaray , Uefa Şampiyonlar Ligi Grup Maçları
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 31.10 13:30 Erzurum BB - Çorum FK → beIN SPORTS 1
-- 31.10 16:00 Kocaelispor - Caykur Rizespor → beIN SPORTS 1
 - 31.10 19:00 Fenerbahce - Goztepe → beIN SPORTS 1, beIN SPORTS 2
-- 31.10 15:30 Chelsea - Manchester United → beIN SPORTS 3
 - 31.10 18:00 AFC Bournemouth - Leeds United → —
 - 31.10 18:00 Brentford - Nottingham Forest → —
 - 31.10 18:00 Coventry City - Sunderland → —
@@ -94,18 +89,11 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 236 program
 - 31.10 18:00 Manchester City - Brighton & Hove Albion → beIN SPORTS 3
 - 31.10 20:30 Tottenham Hotspur - Crystal Palace → beIN SPORTS 3
 - 31.10 23:00 Aston Villa - Fulham → beIN SPORTS 3
-- 31.10 16:00 Levante - Atlético Madrid → S SPORT
 - 31.10 18:15 Rayo Vallecano - Celta Vigo → S SPORT
 - 31.10 20:30 Real Betis - Málaga → S SPORT
 - 31.10 23:00 Barcelona - Alavés → S SPORT
-- 31.10 17:00 Bologna - Monza → S SPORT 2
 - 31.10 20:00 Udinese - AS Roma → S SPORT 2
 - 31.10 22:45 AC Milan - Internazionale → S SPORT 2
-- 31.10 17:30 Bayer Leverkusen - VfB Stuttgart → —
-- 31.10 17:30 Borussia Mönchengladbach - SC Paderborn 07 → —
-- 31.10 17:30 FC Augsburg - SC Freiburg → —
-- 31.10 17:30 Schalke 04 - RB Leipzig → —
-- 31.10 17:30 Werder Bremen - TSG Hoffenheim → —
 - 31.10 20:30 Bayern Munich - Borussia Dortmund → —
 - 31.10 22:45 Troyes - Le Mans → beIN SPORTS 2
 - 31.10 18:30 Moreirense - Estrela → —
@@ -143,6 +131,8 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 236 program
 - 01.11 16:30 Excelsior - FC Twente → —
 - 01.11 16:30 Telstar - FC Utrecht → —
 - 01.11 18:45 FC Groningen - Sparta Rotterdam → —
+- 02.11 20:00 Genclerbirligi - Alanyaspor → —
+- 02.11 20:30 Sassuolo - Fiorentina → S SPORT 2
 - 31.10 22:00 Utah Jazz - Portland Trail Blazers → —
 - 01.11 01:00 Charlotte Hornets - Philadelphia 76ers → —
 - 01.11 02:00 New Orleans Pelicans - Atlanta Hawks → —

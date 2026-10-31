@@ -1,6 +1,6 @@
-# Rapor 2026-10-31 05:24 UTC
+# Rapor 2026-10-31 12:13 UTC
 
-ESPN maç: 132 · EPG program: 688 · eşleşen maç: 56
+ESPN maç: 132 · EPG program: 694 · eşleşen maç: 56
 
 ## Çekim
 ```
@@ -16,58 +16,55 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 2, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 483 program
+ch_tvplus deneme 1: 9/9 kanal, 459 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 14 sayfa ok, 2 hata, 206 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 236 program
 ```
 
 ## Kanal başına program
-- S SPORT: 57
-- S SPORT 2: 52
-- SPORTS TV: 36
-- TRT 1: 41
-- TRT SPOR: 38
-- TRT SPOR YILDIZ: 134
+- S SPORT: 51
+- S SPORT 2: 49
+- SPORTS TV: 42
+- TRT 1: 40
+- TRT SPOR: 33
+- TRT SPOR YILDIZ: 117
 - TV8: 32
 - TV8,5: 42
-- beIN SPORTS 1: 45
-- beIN SPORTS 2: 51
+- beIN SPORTS 1: 56
+- beIN SPORTS 2: 70
 - beIN SPORTS 3: 53
 - beIN SPORTS 4: 57
-- tabii spor: 50
+- tabii spor: 52
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 31.10 06:30 beIN SPORTS 4: Lille - Lens
-- 31.10 07:15 TRT SPOR YILDIZ: Galatasaray - Kızılyıldız
-- 31.10 08:15 beIN SPORTS 3: Ipswich - Nott'm Forest
-- 31.10 08:15 beIN SPORTS 4: Casa Pia - Sporting CP
-- 31.10 10:00 beIN SPORTS 3: Aston Villa - Man City
-- 31.10 10:00 beIN SPORTS 4: Le Havre - PSG
-- 31.10 11:45 beIN SPORTS 3: Arsenal - Everton
-- 31.10 11:45 beIN SPORTS 4: Nice - Rennes
 - 31.10 13:30 TRT SPOR: Van Spor - Sarıyer
+- 31.10 13:30 beIN SPORTS 2: Vanspor FK - Sarıyer
+- 31.10 13:30 beIN SPORTS 4: Lille - Lens
 - 31.10 15:40 tabii spor: Real Madrid - RB Leipzig
 - 31.10 16:00 TRT SPOR: Bursaspor - Bandırma Spor
+- 31.10 16:00 beIN SPORTS 2: F. Karagümrük - Pendikspor
 - 31.10 17:35 tabii spor: Inter - Shakhtar Donetsk
 - 31.10 18:55 TRT SPOR YILDIZ: Galatasaray - Sultanbeyli B.
 - 31.10 19:00 TRT SPOR: Manisa - Batman P.
+- 31.10 19:00 beIN SPORTS 2: Manisa FK - Batman P.
 - 31.10 20:15 tabii spor: Trabzonspor - Hearts
 - 31.10 21:55 tabii spor: Lille - Galatasaray
-- 01.11 07:00 beIN SPORTS 2: Vanspor FK - Sarıyer
+- 31.10 22:15 beIN SPORTS 2: Gençlerbirliği - Alanyaspor
+- 01.11 00:45 TRT SPOR YILDIZ: Galatasaray - Kızılyıldız
+- 01.11 05:30 beIN SPORTS 4: Le Havre - PSG
 - 01.11 07:15 TRT SPOR YILDIZ: On Hotels Alanya - Ziraat B.
+- 01.11 07:15 beIN SPORTS 4: Nice - Rennes
 - 01.11 08:15 beIN SPORTS 3: Bournemouth - Leeds
-- 01.11 08:45 beIN SPORTS 2: F. Karagümrük - Pendikspor
 - 01.11 10:00 beIN SPORTS 3: Coventry - Sunderland
 - 01.11 10:30 beIN SPORTS 2: Bursaspor - Bandırmaspor
-- 01.11 12:15 beIN SPORTS 2: Kasımpaşa - Beşiktaş
+- 01.11 10:45 beIN SPORTS 4: Casa Pia - Sporting CP
 - 01.11 12:30 beIN SPORTS 4: Porto - Estoril
 - 01.11 12:35 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıaston Vılla – Vıkıng
 - 01.11 13:00 S SPORT: Moto 3 - Moto 2 - Moto GP
 - 01.11 13:30 TRT SPOR: Sivasspor - Boluspor
 - 01.11 14:15 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıreal Betıs – Feyenoord
-- 01.11 14:15 beIN SPORTS 4: Troyes - Le Mans
 - 01.11 15:55 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasısportıng Cp – Lask
 - 01.11 16:00 TRT SPOR: A.H. Iğdır - Antalyaspor
 - 01.11 18:30 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıclub Brugge – Lens
@@ -79,10 +76,11 @@ beIN: 4 kanal, 14 sayfa ok, 2 hata, 206 program
 - 01.11 21:40 beIN SPORTS 2: Kocaelispor - Rizespor
 - 01.11 21:50 beIN SPORTS 2: Amed - Eyüpspor
 - 01.11 21:55 tabii spor: Uefa Avrupa Konferans Ligi Futbol Karşılaşmasıkaırat Almaty – Panathınaıkos
-- 01.11 21:55 beIN SPORTS 2: Trabzonspor - Gaziantep FK
 - 01.11 22:00 beIN SPORTS 2: Başakşehir - Samsunspor
 - 01.11 22:15 beIN SPORTS 2: Sivasspor - Boluspor
 - 02.11 02:00 S SPORT: Boston Celtics - Orlando Magic
+- 02.11 11:40 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıjuventus – Rennes
+- 02.11 13:45 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıbournemouth – Mılan
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 31.10 13:30 Erzurum BB - Çorum FK → beIN SPORTS 1

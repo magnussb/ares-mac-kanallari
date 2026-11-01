@@ -1,4 +1,4 @@
-# Rapor 2026-10-31 21:27 UTC
+# Rapor 2026-11-01 01:00 UTC
 
 ESPN maç: 143 · EPG program: 641 · eşleşen maç: 60
 
@@ -8,39 +8,37 @@ ch_dsmart deneme 1: 0/2 kanal, 0 program
 ch_dsmart deneme 2: 0/2 kanal, 0 program
 ch_dsmart deneme 3: 0/2 kanal, 0 program
 --- ch_dsmart son log:
-[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Nov 2, 2026 (0 programs)
+[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Nov 3, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Oct 31, 2026 (0 programs)
+[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 1, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 1, 2026 (0 programs)
+[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 2, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 2, 2026 (0 programs)
+[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 3, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 422 program
+ch_tvplus deneme 1: 9/9 kanal, 411 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 15 sayfa ok, 1 hata, 220 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 231 program
 ```
 
 ## Kanal başına program
-- S SPORT: 44
-- S SPORT 2: 42
+- S SPORT: 41
+- S SPORT 2: 39
 - SPORTS TV: 42
 - TRT 1: 41
-- TRT SPOR: 27
-- TRT SPOR YILDIZ: 104
+- TRT SPOR: 24
+- TRT SPOR YILDIZ: 100
 - TV8: 33
-- TV8,5: 41
+- TV8,5: 42
 - beIN SPORTS 1: 64
-- beIN SPORTS 2: 51
+- beIN SPORTS 2: 62
 - beIN SPORTS 3: 49
 - beIN SPORTS 4: 56
-- tabii spor: 47
+- tabii spor: 48
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 01.11 00:45 TRT SPOR YILDIZ: Galatasaray - Kızılyıldız
-- 01.11 02:00 TRT SPOR: Bursaspor - Bandırma Spor
 - 01.11 05:30 TRT SPOR: Manisa - Batman P.
 - 01.11 05:30 beIN SPORTS 4: Le Havre - PSG
 - 01.11 07:15 TRT SPOR YILDIZ: On Hotels Alanya - Ziraat B.
@@ -82,15 +80,10 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 220 program
 - 02.11 13:45 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıbournemouth – Mılan
 - 02.11 20:00 tabii spor: Lille - Galatasaray , Uefa Şampiyonlar Ligi Grup Maçları
 - 02.11 22:15 tabii spor: Trabzonspor - Hearts , Uefa Avrupa Konferans Ligi Grup Maçları
+- 03.11 02:00 S SPORT 2: Miami - Florida
+- 03.11 02:50 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Sakarya
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 31.10 23:00 Aston Villa - Fulham → beIN SPORTS 3
-- 31.10 23:00 Barcelona - Alavés → S SPORT
-- 31.10 22:45 AC Milan - Internazionale → S SPORT 2
-- 31.10 22:45 Troyes - Le Mans → beIN SPORTS 2
-- 31.10 23:30 FC Porto - Estoril → —
-- 31.10 23:00 Ajax Amsterdam - AZ Alkmaar → —
-- 31.10 23:00 SC Cambuur - Go Ahead Eagles → —
 - 01.11 13:30 Amed SFK - Eyupspor → beIN SPORTS 2
 - 01.11 16:00 Istanbul Basaksehir - Samsunspor → beIN SPORTS 2
 - 01.11 16:00 Trabzonspor - Gaziantep FK → beIN SPORTS 1
@@ -127,8 +120,6 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 220 program
 - 02.11 22:45 Lorient - Brest → —
 - 02.11 23:15 Benfica - Alverca → —
 - 02.11 23:15 Gil Vicente - Vitória de Guimaraes → —
-- 31.10 22:00 Utah Jazz - Portland Trail Blazers → —
-- 01.11 01:00 Charlotte Hornets - Philadelphia 76ers → —
 - 01.11 02:00 New Orleans Pelicans - Atlanta Hawks → —
 - 01.11 03:00 Memphis Grizzlies - Sacramento Kings → —
 - 01.11 03:00 Milwaukee Bucks - Cleveland Cavaliers → —
@@ -138,3 +129,12 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 220 program
 - 02.11 01:00 Indiana Pacers - Brooklyn Nets → —
 - 02.11 04:30 Golden State Warriors - LA Clippers → —
 - 02.11 05:00 Los Angeles Lakers - Toronto Raptors → —
+- 03.11 03:00 Cleveland Cavaliers - Oklahoma City Thunder → S SPORT
+- 03.11 03:30 Charlotte Hornets - Detroit Pistons → —
+- 03.11 03:30 Indiana Pacers - Atlanta Hawks → —
+- 03.11 03:30 New York Knicks - Brooklyn Nets → —
+- 03.11 03:30 Orlando Magic - Washington Wizards → —
+- 03.11 03:30 Philadelphia 76ers - Chicago Bulls → —
+- 03.11 04:00 Dallas Mavericks - Sacramento Kings → —
+- 03.11 04:00 Memphis Grizzlies - New Orleans Pelicans → —
+- 03.11 04:00 Minnesota Timberwolves - Milwaukee Bucks → —

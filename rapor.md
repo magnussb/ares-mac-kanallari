@@ -1,6 +1,6 @@
-# Rapor 2026-11-01 19:33 UTC
+# Rapor 2026-11-01 23:32 UTC
 
-ESPN maç: 148 · EPG program: 607 · eşleşen maç: 60
+ESPN maç: 147 · EPG program: 581 · eşleşen maç: 78
 
 ## Çekim
 ```
@@ -16,42 +16,29 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 3, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 376 program
+ch_tvplus deneme 1: 9/9 kanal, 362 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 16 sayfa ok, 0 hata, 235 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 223 program
 ```
 
 ## Kanal başına program
-- S SPORT: 26
-- S SPORT 2: 26
+- S SPORT: 22
+- S SPORT 2: 23
 - SPORTS TV: 49
-- TRT 1: 41
-- TRT SPOR: 33
-- TRT SPOR YILDIZ: 74
+- TRT 1: 42
+- TRT SPOR: 30
+- TRT SPOR YILDIZ: 68
 - TV8: 34
-- TV8,5: 41
-- beIN SPORTS 1: 64
-- beIN SPORTS 2: 62
-- beIN SPORTS 3: 53
-- beIN SPORTS 4: 56
+- TV8,5: 42
+- beIN SPORTS 1: 71
+- beIN SPORTS 2: 52
+- beIN SPORTS 3: 48
+- beIN SPORTS 4: 52
 - tabii spor: 48
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 01.11 21:00 beIN SPORTS 2: Konyaspor - Galatasaray
-- 01.11 21:08 beIN SPORTS 2: Erzurumspor - Çorum FK
-- 01.11 21:15 beIN SPORTS 2: Kocaelispor - Rizespor
-- 01.11 21:21 beIN SPORTS 2: Fenerbahçe - Göztepe
-- 01.11 21:30 beIN SPORTS 2: Amed - Eyüpspor
-- 01.11 21:43 beIN SPORTS 2: Başakşehir - Samsunspor
-- 01.11 21:55 tabii spor: Kairat Almaty - Panathinaikos
-- 01.11 21:59 beIN SPORTS 3: Chelsea - Man Utd
-- 01.11 22:00 beIN SPORTS 2: Sivasspor - Boluspor
-- 01.11 22:15 beIN SPORTS 3: Man City - Brighton
-- 01.11 22:22 beIN SPORTS 3: Hull City - Ipswich
-- 01.11 22:29 beIN SPORTS 3: Bournemouth - Leeds
-- 01.11 23:00 TRT SPOR YILDIZ: Galatasaray - Sultanbeyli B.
 - 02.11 01:45 TRT SPOR YILDIZ: On Hotels Alanya - Ziraat B.
 - 02.11 02:00 S SPORT: Boston Celtics - Orlando Magic
 - 02.11 02:00 TRT SPOR: A.H. Iğdır - Antalyaspor
@@ -71,14 +58,6 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 235 program
 - 03.11 19:00 tabii spor: Fenerbahçe - Slavia Prag , Uefa Şampiyonlar Ligi Grup Maçları
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 01.11 20:30 Elche - Valencia → S SPORT
-- 01.11 23:00 Athletic Club - Real Sociedad → S SPORT
-- 01.11 20:00 Lecce - Genoa → S SPORT 2
-- 01.11 22:45 Juventus - Napoli → S SPORT 2
-- 01.11 22:45 Marseille - Toulouse → beIN SPORTS 3
-- 01.11 21:00 Académico de Viseu - Rio Ave → —
-- 01.11 21:00 Maritimo - Santa Clara → —
-- 01.11 23:30 Braga - FC Famalicao → —
 - 02.11 20:00 Genclerbirligi - Alanyaspor → —
 - 02.11 23:00 Newcastle United - Everton → —
 - 02.11 23:00 Deportivo - Osasuna → S SPORT
@@ -89,7 +68,13 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 235 program
 - 02.11 23:15 Gil Vicente - Vitória de Guimaraes → —
 - 03.11 20:45 Galatasaray - VfB Stuttgart → TRT 1
 - 03.11 20:45 Shakhtar Donetsk - Sporting CP → tabii spor
-- 01.11 23:30 Orlando Magic - Boston Celtics → —
+- 03.11 23:00 Atlético Madrid - Bayern Munich → tabii spor
+- 03.11 23:00 Barcelona - Aston Villa → tabii
+- 03.11 23:00 Bodo/Glimt - Lille → tabii
+- 03.11 23:00 Feyenoord Rotterdam - Internazionale → tabii
+- 03.11 23:00 LASK Linz - Slovan Bratislava → tabii
+- 03.11 23:00 Manchester United - AS Roma → tabii
+- 03.11 23:00 Villarreal - Paris Saint-Germain → tabii
 - 02.11 01:00 Indiana Pacers - Brooklyn Nets → —
 - 02.11 04:30 Golden State Warriors - LA Clippers → —
 - 02.11 05:00 Los Angeles Lakers - Toronto Raptors → —

@@ -1,6 +1,6 @@
-# Rapor 2026-11-01 01:00 UTC
+# Rapor 2026-11-01 07:26 UTC
 
-ESPN maç: 143 · EPG program: 641 · eşleşen maç: 60
+ESPN maç: 143 · EPG program: 615 · eşleşen maç: 60
 
 ## Çekim
 ```
@@ -16,7 +16,7 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 3, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 411 program
+ch_tvplus deneme 1: 9/9 kanal, 388 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
@@ -24,14 +24,14 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 231 program
 ```
 
 ## Kanal başına program
-- S SPORT: 41
-- S SPORT 2: 39
-- SPORTS TV: 42
-- TRT 1: 41
-- TRT SPOR: 24
-- TRT SPOR YILDIZ: 100
-- TV8: 33
-- TV8,5: 42
+- S SPORT: 35
+- S SPORT 2: 36
+- SPORTS TV: 44
+- TRT 1: 40
+- TRT SPOR: 18
+- TRT SPOR YILDIZ: 88
+- TV8: 32
+- TV8,5: 43
 - beIN SPORTS 1: 64
 - beIN SPORTS 2: 62
 - beIN SPORTS 3: 49
@@ -39,10 +39,6 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 231 program
 - tabii spor: 48
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 01.11 05:30 TRT SPOR: Manisa - Batman P.
-- 01.11 05:30 beIN SPORTS 4: Le Havre - PSG
-- 01.11 07:15 TRT SPOR YILDIZ: On Hotels Alanya - Ziraat B.
-- 01.11 07:15 beIN SPORTS 4: Nice - Rennes
 - 01.11 07:45 beIN SPORTS 2: Manisa FK - Batman P.
 - 01.11 08:00 beIN SPORTS 3: Brentford - Nott'm Forest
 - 01.11 09:00 beIN SPORTS 1: Fenerbahçe - Göztepe
@@ -75,6 +71,7 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 231 program
 - 01.11 21:55 tabii spor: Kairat Almaty - Panathinaikos
 - 01.11 22:00 beIN SPORTS 2: Sivasspor - Boluspor
 - 01.11 23:00 TRT SPOR YILDIZ: Galatasaray - Sultanbeyli B.
+- 02.11 01:45 TRT SPOR YILDIZ: On Hotels Alanya - Ziraat B.
 - 02.11 02:00 S SPORT: Boston Celtics - Orlando Magic
 - 02.11 11:40 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıjuventus – Rennes
 - 02.11 13:45 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıbournemouth – Mılan
@@ -82,6 +79,7 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 231 program
 - 02.11 22:15 tabii spor: Trabzonspor - Hearts , Uefa Avrupa Konferans Ligi Grup Maçları
 - 03.11 02:00 S SPORT 2: Miami - Florida
 - 03.11 02:50 TRT SPOR YILDIZ: Petlas Türkiye Offroad Ş. - Sakarya
+- 03.11 04:30 S SPORT 2: Florida A M - Florida St.
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 01.11 13:30 Amed SFK - Eyupspor → beIN SPORTS 2
@@ -120,11 +118,6 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 231 program
 - 02.11 22:45 Lorient - Brest → —
 - 02.11 23:15 Benfica - Alverca → —
 - 02.11 23:15 Gil Vicente - Vitória de Guimaraes → —
-- 01.11 02:00 New Orleans Pelicans - Atlanta Hawks → —
-- 01.11 03:00 Memphis Grizzlies - Sacramento Kings → —
-- 01.11 03:00 Milwaukee Bucks - Cleveland Cavaliers → —
-- 01.11 03:00 San Antonio Spurs - Minnesota Timberwolves → —
-- 01.11 03:30 Houston Rockets - Oklahoma City Thunder → S SPORT
 - 01.11 23:30 Orlando Magic - Boston Celtics → —
 - 02.11 01:00 Indiana Pacers - Brooklyn Nets → —
 - 02.11 04:30 Golden State Warriors - LA Clippers → —
@@ -138,3 +131,9 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 231 program
 - 03.11 04:00 Dallas Mavericks - Sacramento Kings → —
 - 03.11 04:00 Memphis Grizzlies - New Orleans Pelicans → —
 - 03.11 04:00 Minnesota Timberwolves - Milwaukee Bucks → —
+- 03.11 04:30 Houston Rockets - Boston Celtics → —
+- 03.11 04:30 San Antonio Spurs - Utah Jazz → —
+- 03.11 05:00 Denver Nuggets - Portland Trail Blazers → —
+- 03.11 06:00 Golden State Warriors - Phoenix Suns → —
+- 03.11 06:00 LA Clippers - Toronto Raptors → —
+- 03.11 06:00 Los Angeles Lakers - Miami Heat → —

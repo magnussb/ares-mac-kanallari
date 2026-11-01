@@ -1,12 +1,18 @@
 {
   "android": {
-    "build": 27,
-    "name": "1.3.22",
-    "url": "https://github.com/magnussb/ares-mac-kanallari/releases/download/v1.3.22/Ares.apk",
+    "build": 28,
+    "name": "1.3.23",
+    "url": "https://github.com/magnussb/ares-mac-kanallari/releases/download/v1.3.23/Ares.apk",
     "size": 73769190,
-    "notes": "• TV: Canlı TV, film ve dizide buketin üzerinde gezinirken sağda o buket hemen açılıyor; OK ya da Sağ listenin ilk kanalına / ilk filmine iniyor\n• TV: kanal açıkken Geri artık ana menüye değil buket listesine dönüyor\n• TV sarma: film, dizi ve canlı yayında imleç basıldıkça toplu ilerliyor, basılı tutunca hızlanıyor; bırakınca tek seferde sarıyor (her basışta yayın yeniden açılmıyor)\n• TV: sarma bitene kadar zaman çubuğu kapanmıyor\n• TV: kanal değişince üstte kanal adı ve yayın bilgisi (çözünürlük, fps, bitrate) görünüyor\n• TV: oynatıcıda düğmelerden Aşağı, son açılan kanalların en baştakine gidiyor\n• TV çoklu ekran: Sol/Sağ ile ses o pencereye geçiyor. OK büyütür, uzun OK menü açar (kanal değiştir, büyüt, kapat). Kanal seçerken Aşağı listenin başına iniyor\n• TV: Ana ekran tuşuyla çıkınca ses arkada çalmıyor; canlı yayın durur, film duraklar, uygulamaya dönünce sürer"
+    "notes": "• TV: odaktaki kartların köşeleri düzeldi, halka tam görünüyor, altında kare köşe kalmıyor\n• TV: ana ekran şeritlerinde kenarda yarım kart kalmıyor, kaydırınca hep tam kartlar görünüyor\n• TV: buket listesine geçerken odak aynı hizadaki bukete uğramadan doğrudan seçili bukete gidiyor\n• TV: Canlı TV'de İzle / Tam ekran / Favori düğmelerinden Sol, aynı hizadaki kanala değil seçili kanala gidiyor"
   },
   "history": [
+    {
+      "name": "1.3.23",
+      "build": 28,
+      "date": "2026-11-01",
+      "notes": "• TV: odaktaki kartların köşeleri düzeldi, halka tam görünüyor, altında kare köşe kalmıyor\n• TV: ana ekran şeritlerinde kenarda yarım kart kalmıyor, kaydırınca hep tam kartlar görünüyor\n• TV: buket listesine geçerken odak aynı hizadaki bukete uğramadan doğrudan seçili bukete gidiyor\n• TV: Canlı TV'de İzle / Tam ekran / Favori düğmelerinden Sol, aynı hizadaki kanala değil seçili kanala gidiyor"
+    },
     {
       "name": "1.3.22",
       "build": 27,

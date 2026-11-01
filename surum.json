@@ -1,12 +1,18 @@
 {
   "android": {
-    "build": 26,
-    "name": "1.3.21",
-    "url": "https://github.com/magnussb/ares-mac-kanallari/releases/download/v1.3.21/Ares.apk",
-    "size": 73703654,
-    "notes": "• TV: görüntü artık ekrana doğrudan çiziliyor (SurfaceView). 4K kanallardaki yeşil ekran / renkli şerit sorunu giderildi; HDR yayınlarda TV HDR'a geçiyor. Önizleme ve çoklu ekran eskisi gibi\n• Kanal değişince eski kanalın görüntüsü donuk kalmıyor: yeni kanalın ilk karesine kadar ekran siyah\n• mpv motoru seçiliyken 4K/RAW açarken uygulamanın donup kapanması (yanıt vermiyor) giderildi\n• Film/dizide kumanda: oynat düğmesinden Yukarı ile zaman çubuğuna geliniyor; Sol/Sağ 10 sn sarar, OK duraklatır (canlı yayında 30 sn)\n• Harici oynatıcı: Ayarlar'da hangi uygulamayla açılacağı yazıyor; yüklü oynatıcı yoksa söylüyor ve dahili oynatıcıyla sürüyor. Oynatıcı menüsüne \"Harici oynatıcıda aç\" eklendi\n• Ayarlar > Oynatıcı > Görüntü çıkışı (TV, ExoPlayer): Yüzey (HDR, önerilir) / Doku (eski yol)\n• Kapanma kayıtları: TV beklemeden sonra yeniden başlama artık \"çökme değil\" diye açıklanıyor"
+    "build": 27,
+    "name": "1.3.22",
+    "url": "https://github.com/magnussb/ares-mac-kanallari/releases/download/v1.3.22/Ares.apk",
+    "size": 73769190,
+    "notes": "• TV: Canlı TV, film ve dizide buketin üzerinde gezinirken sağda o buket hemen açılıyor; OK ya da Sağ listenin ilk kanalına / ilk filmine iniyor\n• TV: kanal açıkken Geri artık ana menüye değil buket listesine dönüyor\n• TV sarma: film, dizi ve canlı yayında imleç basıldıkça toplu ilerliyor, basılı tutunca hızlanıyor; bırakınca tek seferde sarıyor (her basışta yayın yeniden açılmıyor)\n• TV: sarma bitene kadar zaman çubuğu kapanmıyor\n• TV: kanal değişince üstte kanal adı ve yayın bilgisi (çözünürlük, fps, bitrate) görünüyor\n• TV: oynatıcıda düğmelerden Aşağı, son açılan kanalların en baştakine gidiyor\n• TV çoklu ekran: Sol/Sağ ile ses o pencereye geçiyor. OK büyütür, uzun OK menü açar (kanal değiştir, büyüt, kapat). Kanal seçerken Aşağı listenin başına iniyor\n• TV: Ana ekran tuşuyla çıkınca ses arkada çalmıyor; canlı yayın durur, film duraklar, uygulamaya dönünce sürer"
   },
   "history": [
+    {
+      "name": "1.3.22",
+      "build": 27,
+      "date": "2026-11-01",
+      "notes": "• TV: Canlı TV, film ve dizide buketin üzerinde gezinirken sağda o buket hemen açılıyor; OK ya da Sağ listenin ilk kanalına / ilk filmine iniyor\n• TV: kanal açıkken Geri artık ana menüye değil buket listesine dönüyor\n• TV sarma: film, dizi ve canlı yayında imleç basıldıkça toplu ilerliyor, basılı tutunca hızlanıyor; bırakınca tek seferde sarıyor (her basışta yayın yeniden açılmıyor)\n• TV: sarma bitene kadar zaman çubuğu kapanmıyor\n• TV: kanal değişince üstte kanal adı ve yayın bilgisi (çözünürlük, fps, bitrate) görünüyor\n• TV: oynatıcıda düğmelerden Aşağı, son açılan kanalların en baştakine gidiyor\n• TV çoklu ekran: Sol/Sağ ile ses o pencereye geçiyor. OK büyütür, uzun OK menü açar (kanal değiştir, büyüt, kapat). Kanal seçerken Aşağı listenin başına iniyor\n• TV: Ana ekran tuşuyla çıkınca ses arkada çalmıyor; canlı yayın durur, film duraklar, uygulamaya dönünce sürer"
+    },
     {
       "name": "1.3.21",
       "build": 26,

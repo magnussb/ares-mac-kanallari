@@ -1,12 +1,18 @@
 {
   "android": {
-    "build": 28,
-    "name": "1.3.23",
-    "url": "https://github.com/magnussb/ares-mac-kanallari/releases/download/v1.3.23/Ares.apk",
-    "size": 73769190,
-    "notes": "• TV: odaktaki kartların köşeleri düzeldi, halka tam görünüyor, altında kare köşe kalmıyor\n• TV: ana ekran şeritlerinde kenarda yarım kart kalmıyor, kaydırınca hep tam kartlar görünüyor\n• TV: buket listesine geçerken odak aynı hizadaki bukete uğramadan doğrudan seçili bukete gidiyor\n• TV: Canlı TV'de İzle / Tam ekran / Favori düğmelerinden Sol, aynı hizadaki kanala değil seçili kanala gidiyor"
+    "build": 29,
+    "name": "1.3.24",
+    "url": "https://github.com/magnussb/ares-mac-kanallari/releases/download/v1.3.24/Ares.apk",
+    "size": 73883978,
+    "notes": "• TV: sol menü gizlendi; Geri tuşuyla ya da en solda Sol ile açılıyor, içerik tüm ekranı kullanıyor\n• TV: buket ve kanal listeleri genişledi, uzun adlar odaktayken kayarak okunuyor\n• TV oynatıcı: kanal adı, çözünürlük, FPS ve bitrate alttaki bilgi alanında; kanal değişince de orada görünüyor\n• TV: kanal geçişinde siyahtan sonra eski kanalın görüntüsünün gelmesi için düzeltme\n• TV: oynatıcı bilgi alanı ve kanal paneli daha az şeffaf; film ve dizide Rehber kalktı\n• TV: İzle / Tam ekran düğmesinden Sol, kanal az olsa da kanal listesine gidiyor\n• Yeni renkler: antrasit siyah ve kırık beyaz\n• Liste silme düzeltildi: TV'de Sil'e kumandayla ulaşılıyor, liste güncellenirken de siliniyor\n• Yeni: Tüm listeleri güncelle düğmesi (Hesap Yönetimi ve Ayarlar > Listeler)"
   },
   "history": [
+    {
+      "name": "1.3.24",
+      "build": 29,
+      "date": "2026-11-02",
+      "notes": "• TV: sol menü gizlendi; Geri tuşuyla ya da en solda Sol ile açılıyor, içerik tüm ekranı kullanıyor\n• TV: buket ve kanal listeleri genişledi, uzun adlar odaktayken kayarak okunuyor\n• TV oynatıcı: kanal adı, çözünürlük, FPS ve bitrate alttaki bilgi alanında; kanal değişince de orada görünüyor\n• TV: kanal geçişinde siyahtan sonra eski kanalın görüntüsünün gelmesi için düzeltme\n• TV: oynatıcı bilgi alanı ve kanal paneli daha az şeffaf; film ve dizide Rehber kalktı\n• TV: İzle / Tam ekran düğmesinden Sol, kanal az olsa da kanal listesine gidiyor\n• Yeni renkler: antrasit siyah ve kırık beyaz\n• Liste silme düzeltildi: TV'de Sil'e kumandayla ulaşılıyor, liste güncellenirken de siliniyor\n• Yeni: Tüm listeleri güncelle düğmesi (Hesap Yönetimi ve Ayarlar > Listeler)"
+    },
     {
       "name": "1.3.23",
       "build": 28,

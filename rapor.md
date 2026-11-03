@@ -1,6 +1,6 @@
-# Rapor 2026-11-03 06:34 UTC
+# Rapor 2026-11-03 15:01 UTC
 
-ESPN maç: 136 · EPG program: 625 · eşleşen maç: 77
+ESPN maç: 136 · EPG program: 606 · eşleşen maç: 77
 
 ## Çekim
 ```
@@ -16,7 +16,7 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 5, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 442 program
+ch_tvplus deneme 1: 9/9 kanal, 425 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
@@ -24,12 +24,12 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 185 program
 ```
 
 ## Kanal başına program
-- S SPORT: 54
+- S SPORT: 55
 - S SPORT 2: 56
 - SPORTS TV: 56
 - TRT 1: 43
-- TRT SPOR: 50
-- TRT SPOR YILDIZ: 60
+- TRT SPOR: 41
+- TRT SPOR YILDIZ: 49
 - TV8: 33
 - TV8,5: 43
 - beIN SPORTS 1: 59
@@ -39,25 +39,6 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 185 program
 - tabii spor: 45
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 03.11 07:45 beIN SPORTS 2: Bursaspor - Bandırmaspor
-- 03.11 08:00 beIN SPORTS 3: Coventry - Sunderland
-- 03.11 08:15 beIN SPORTS 4: Le Havre - PSG
-- 03.11 09:30 beIN SPORTS 2: Manisa FK - Batman P.
-- 03.11 09:45 beIN SPORTS 1: Gençlerbirliği - C. Alanyaspor
-- 03.11 09:45 beIN SPORTS 3: Tottenham - C. Palace
-- 03.11 10:00 beIN SPORTS 4: Nice - Rennes
-- 03.11 11:15 beIN SPORTS 2: Sivasspor - Boluspor
-- 03.11 11:30 beIN SPORTS 3: Aston Villa - Fulham
-- 03.11 11:45 beIN SPORTS 4: Benfica - Alverca
-- 03.11 12:50 tabii spor: Inter - Shakhtar Donetsk
-- 03.11 13:00 beIN SPORTS 1: Erzurumspor FK - A. Çorum FK
-- 03.11 13:00 beIN SPORTS 2: Igdır FK - Antalyaspor
-- 03.11 13:15 beIN SPORTS 3: Liverpool - Arsenal
-- 03.11 13:30 beIN SPORTS 4: Guingamp - Saint-Étienne
-- 03.11 14:40 tabii spor: Bayern Münih - Arsenal
-- 03.11 14:45 beIN SPORTS 1: T. Konyaspor - Galatasaray
-- 03.11 14:45 beIN SPORTS 2: İstanbulspor - Mardin 1969
-- 03.11 15:00 beIN SPORTS 3: Newcastle - Everton
 - 03.11 15:15 beIN SPORTS 4: Lille - Lens
 - 03.11 16:30 beIN SPORTS 2: Bodrum FK - Ümraniyespor
 - 03.11 16:46 beIN SPORTS 3: Chelsea - Man Utd
@@ -79,20 +60,39 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 185 program
 - 03.11 23:30 beIN SPORTS 1: Beşiktaş - Gençlerbirliği
 - 04.11 05:15 beIN SPORTS 4: Porto - Estoril
 - 04.11 07:00 beIN SPORTS 3: Bournemouth - Leeds
-- 04.11 09:55 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıomonıa – Benfıca
+- 04.11 08:15 beIN SPORTS 2: İstanbulspor - Mardin 1969
+- 04.11 08:45 beIN SPORTS 3: Coventry - Sunderland
+- 04.11 09:55 tabii spor: Shakhtar Donetsk - Sporting
+- 04.11 10:00 beIN SPORTS 1: Erzurumspor FK - A. Çorum FK
+- 04.11 10:30 beIN SPORTS 3: Tottenham - C. Palace
 - 04.11 11:45 beIN SPORTS 1: Kocaelispor - Ç. Rizespor
-- 04.11 12:00 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıferencvaros – Torreense
+- 04.11 12:15 beIN SPORTS 3: Aston Villa - Fulham
+- 04.11 12:20 tabii spor: Atletico Madrid - Bayern Münih
+- 04.11 14:00 beIN SPORTS 3: Liverpool - Arsenal
 - 04.11 14:00 beIN SPORTS 4: Lyon - Angers
-- 04.11 14:05 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıceltıc – Celta Vıgo
+- 04.11 14:35 tabii spor: Barcelona - Aston Villa
+- 04.11 15:45 beIN SPORTS 3: Newcastle - Everton
 - 04.11 15:45 beIN SPORTS 4: Marseille - Toulouse
-- 04.11 16:15 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasısturm Graz – Marsilya
-- 04.11 16:25 TRT SPOR YILDIZ: Manisa Bşb. - Galatasaray
+- 04.11 16:25 TRT SPOR YILDIZ: Manisa B. - Galatasaray
+- 04.11 16:30 beIN SPORTS 1: T. Konyaspor - Galatasaray
 - 04.11 17:00 beIN SPORTS 2: F. Karagümrük - Pendikspor
 - 04.11 17:30 beIN SPORTS 4: Lorient - Brest
-- 04.11 17:55 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıolympıakos – Sparta Prag
-- 04.11 19:55 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıdınamo Zagreb – Nec Nıjmegen
+- 04.11 18:45 beIN SPORTS 2: Bursaspor - Bandırmaspor
+- 04.11 19:15 beIN SPORTS 4: Le Havre - PSG
+- 04.11 19:25 TRT SPOR YILDIZ: Türk Telekom - S. Frankfurt
 - 04.11 20:00 TRT SPOR: Avusturya - Türkiye
-- 04.11 22:00 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasılıllestrom – Real Socıedad
+- 04.11 20:30 beIN SPORTS 2: Manisa FK - Batman P.
+- 04.11 21:00 beIN SPORTS 4: Nice - Rennes
+- 04.11 21:20 TRT SPOR YILDIZ: L. Warszawa - Galatasaray M.
+- 04.11 22:15 beIN SPORTS 2: Sivasspor - Boluspor
+- 05.11 09:55 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıvılarreal - Psg
+- 05.11 10:15 beIN SPORTS 1: Amedspor - Eyüpspor
+- 05.11 12:50 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıfeyenoord - Inter
+- 05.11 14:30 beIN SPORTS 1: Başakşehir FK - Samsunspor
+- 05.11 15:00 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasımanchester Unıted - Roma
+- 05.11 16:15 beIN SPORTS 1: Fenerbahçe - Göztepe
+- 05.11 16:55 tabii spor: Galatasaray - Stuttgart , Uefa Şampiyonlar Ligi Grup Maçları
+- 05.11 17:30 beIN SPORTS 2: Igdır FK - Antalyaspor
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 03.11 20:45 Galatasaray - VfB Stuttgart → TRT 1
@@ -104,16 +104,16 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 185 program
 - 03.11 23:00 LASK Linz - Slovan Bratislava → tabii
 - 03.11 23:00 Manchester United - AS Roma → tabii
 - 03.11 23:00 Villarreal - Paris Saint-Germain → tabii
-- 04.11 20:45 AEK Athens - Real Madrid → tabii
+- 04.11 20:45 AEK Athens - Real Madrid → tabii spor
 - 04.11 20:45 Fenerbahce - Liverpool → TRT 1
 - 04.11 23:00 Borussia Dortmund - Real Betis → tabii
 - 04.11 23:00 FC Porto - Napoli → tabii
 - 04.11 23:00 Lens - Como → tabii
 - 04.11 23:00 PSV Eindhoven - Club Brugge → tabii
-- 04.11 23:00 RB Leipzig - Manchester City → tabii
+- 04.11 23:00 RB Leipzig - Manchester City → tabii spor
 - 04.11 23:00 Slavia Prague - Arsenal → tabii
 - 04.11 23:00 Viking FK - Sabah FK → tabii
-- 04.11 18:30 Stade Rennais - Olympiacos → tabii
+- 04.11 18:30 Stade Rennais - Olympiacos → tabii spor
 - 05.11 03:00 Detroit Pistons - Philadelphia 76ers → S SPORT
 - 05.11 03:00 Washington Wizards - Atlanta Hawks → —
 - 05.11 03:30 Boston Celtics - Milwaukee Bucks → —

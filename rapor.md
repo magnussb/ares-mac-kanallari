@@ -1,6 +1,6 @@
-# Rapor 2026-11-04 09:01 UTC
+# Rapor 2026-11-04 17:07 UTC
 
-ESPN maç: 149 · EPG program: 623 · eşleşen maç: 78
+ESPN maç: 148 · EPG program: 569 · eşleşen maç: 81
 
 ## Çekim
 ```
@@ -16,48 +16,29 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 6, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 468 program
+ch_tvplus deneme 1: 9/9 kanal, 407 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 16 sayfa ok, 0 hata, 159 program
+beIN: 4 kanal, 14 sayfa ok, 2 hata, 166 program
 ```
 
 ## Kanal başına program
-- S SPORT: 48
-- S SPORT 2: 56
-- SPORTS TV: 56
-- TRT 1: 42
-- TRT SPOR: 72
-- TRT SPOR YILDIZ: 80
-- TV8: 33
-- TV8,5: 34
-- beIN SPORTS 1: 49
-- beIN SPORTS 2: 30
+- S SPORT: 42
+- S SPORT 2: 59
+- SPORTS TV: 37
+- TRT 1: 40
+- TRT SPOR: 62
+- TRT SPOR YILDIZ: 67
+- TV8: 32
+- TV8,5: 29
+- beIN SPORTS 1: 47
+- beIN SPORTS 2: 37
 - beIN SPORTS 3: 44
-- beIN SPORTS 4: 36
-- tabii spor: 43
+- beIN SPORTS 4: 38
+- tabii spor: 35
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 04.11 09:30 beIN SPORTS 1: Erzurumspor FK - A. Çorum FK
-- 04.11 10:30 beIN SPORTS 2: Bodrum FK - Ümraniyespor
-- 04.11 10:30 beIN SPORTS 4: Reims - Sochaux
-- 04.11 10:32 beIN SPORTS 3: Man City - Brighton
-- 04.11 11:15 beIN SPORTS 1: Kocaelispor - Ç. Rizespor
-- 04.11 12:15 beIN SPORTS 2: Kayserispor - Muğlaspor
-- 04.11 12:15 beIN SPORTS 3: Hull City - Ipswich
-- 04.11 12:15 beIN SPORTS 4: Porto - Estoril
-- 04.11 12:20 tabii spor: Atletico Madrid - Bayern Münih
-- 04.11 14:00 beIN SPORTS 2: E. Erokspor - A. Keçiörengücü
-- 04.11 14:00 beIN SPORTS 3: Brentford - Nott'm Forest
-- 04.11 14:00 beIN SPORTS 4: Lille - Lens
-- 04.11 14:35 tabii spor: Barcelona - Aston Villa
-- 04.11 15:45 beIN SPORTS 2: Vanspor FK - Sarıyer
-- 04.11 15:45 beIN SPORTS 3: Bournemouth - Leeds
-- 04.11 15:45 beIN SPORTS 4: Troyes - Le Mans
-- 04.11 16:00 beIN SPORTS 1: Trabzonspor - Gaziantep FK
-- 04.11 16:25 TRT SPOR YILDIZ: Manisa B. - Galatasaray
-- 04.11 16:45 tabii spor: Galatasaray - Stuttgart
 - 04.11 17:30 beIN SPORTS 2: F. Karagümrük - Pendikspor
 - 04.11 17:30 beIN SPORTS 3: Coventry - Sunderland
 - 04.11 17:30 beIN SPORTS 4: Strasbourg - Auxerre
@@ -72,27 +53,46 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 159 program
 - 04.11 21:00 beIN SPORTS 4: Lyon - Angers
 - 04.11 21:20 TRT SPOR YILDIZ: L. Warszawa - Galatasaray M.
 - 04.11 21:45 beIN SPORTS 1: Beşiktaş - Gençlerbirliği
-- 04.11 22:00 beIN SPORTS 1: Göztepe - Başakşehir
+- 04.11 22:30 beIN SPORTS 1: Gaziantep FK - Kasımpaşa
 - 04.11 23:00 beIN SPORTS 2: Sivasspor - Boluspor
-- 05.11 08:45 beIN SPORTS 4: Marseille - Toulouse
+- 05.11 05:15 beIN SPORTS 4: Le Havre - PSG
+- 05.11 07:00 beIN SPORTS 3: Hull City - Ipswich
+- 05.11 07:00 beIN SPORTS 4: Nice - Rennes
+- 05.11 08:45 beIN SPORTS 3: Brentford - Nott'm Forest
+- 05.11 08:45 beIN SPORTS 4: Lille - Lens
 - 05.11 09:15 beIN SPORTS 1: Amedspor - Eyüpspor
 - 05.11 09:55 tabii spor: Vilarreal - Psg
-- 05.11 10:30 beIN SPORTS 4: Lorient - Brest
+- 05.11 10:30 beIN SPORTS 3: Bournemouth - Leeds
+- 05.11 10:30 beIN SPORTS 4: Troyes - Le Mans
 - 05.11 11:00 beIN SPORTS 1: Başakşehir FK - Samsunspor
 - 05.11 11:30 beIN SPORTS 2: Igdır FK - Antalyaspor
-- 05.11 12:15 beIN SPORTS 4: Le Havre - PSG
+- 05.11 12:15 beIN SPORTS 4: Casa Pia - Sporting CP
 - 05.11 12:50 tabii spor: Feyenoord - Inter
 - 05.11 13:15 beIN SPORTS 2: İstanbulspor - Mardin 1969
 - 05.11 13:20 TRT SPOR YILDIZ: Türkiye Baja Şampiyonası - Denizli
 - 05.11 14:00 beIN SPORTS 1: Gençlerbirliği - C. Alanyaspor
-- 05.11 14:00 beIN SPORTS 4: Nice - Rennes
 - 05.11 15:00 tabii spor: Manchester United - Roma
+- 05.11 15:00 beIN SPORTS 2: Bodrum FK - Ümraniyespor
 - 05.11 16:00 beIN SPORTS 1: Fenerbahçe - Göztepe
+- 05.11 16:45 beIN SPORTS 2: Kayserispor - Muğlaspor
+- 05.11 16:55 tabii spor: Galatasaray - Stuttgart
 - 05.11 17:30 beIN SPORTS 3: Liverpool - Arsenal
+- 05.11 18:30 beIN SPORTS 2: E. Erokspor - A. Keçiörengücü
 - 05.11 18:55 TRT SPOR YILDIZ: İlbank - Nilüfer B.
 - 05.11 19:15 beIN SPORTS 3: Newcastle - Everton
+- 05.11 19:15 beIN SPORTS 4: Marseille - Toulouse
+- 05.11 20:15 beIN SPORTS 2: Vanspor FK - Sarıyer
+- 05.11 21:00 beIN SPORTS 4: Lorient - Brest
+- 05.11 21:01 beIN SPORTS 3: Man City - Brighton
 - 06.11 07:00 beIN SPORTS 3: Chelsea - Man Utd
 - 06.11 12:00 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıcomo – Manchester Unıted
+- 06.11 12:45 TRT SPOR: 2026 Alanya Plaj Futbolu Dünya Kulüpler Şampiyonası Çeyrek Finalserenıty Alanya Bld - Bsc Sunrıse Kyıv
+- 06.11 13:40 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıbayern Munıh – Arsenal
+- 06.11 15:45 tabii spor: Fenerbahçe - Slavia Prag , Uefa Şampiyonlar Ligi Grup Maçları
+- 06.11 16:00 TRT SPOR: Dünya Güreş Şampiyonası Finaller ( Ww - 55 - 59 Kg/fs - 65 - 97 Kg )
+- 06.11 17:25 tabii spor: Lille - Galatasaray , Uefa Şampiyonlar Ligi Grup Maçları
+- 06.11 19:05 tabii spor: Trabzonspor - Hearts , Uefa Avrupa Konferans Ligi Grup Maçları
+- 06.11 20:00 TRT SPOR: Trendyol 1.lig Futbol Karşılaşması 13.haftaturka Esenler Erokspor - Keçtaş Keçiörengücü
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 04.11 20:45 AEK Athens - Real Madrid → tabii spor
@@ -140,6 +140,7 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 159 program
 - 05.11 23:00 Panathinaikos - CSKA Sofia → tabii
 - 05.11 23:00 Riga FC - Jablonec → tabii
 - 05.11 23:00 Sint-Truidense - SK Brann → tabii
+- 06.11 20:00 Gaziantep FK - Kasimpasa → beIN SPORTS 1
 - 05.11 03:00 Detroit Pistons - Philadelphia 76ers → S SPORT
 - 05.11 03:00 Washington Wizards - Atlanta Hawks → —
 - 05.11 03:30 Boston Celtics - Milwaukee Bucks → —
@@ -156,6 +157,7 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 159 program
 - 05.11 06:30 LA Clippers - Miami Heat → —
 - 06.11 05:00 Phoenix Suns - Orlando Magic → S SPORT
 - 06.11 06:00 Golden State Warriors - Miami Heat → —
+- 06.11 20:00 Besiktas - Zalgiris → S SPORT
 - 05.11 22:30 Milan - Valencia → S SPORT 2
 - 05.11 22:00 ASVEL - Bayern → —
 - 05.11 21:45 Hapoel - Barca → —

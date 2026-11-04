@@ -1,6 +1,6 @@
-# Rapor 2026-11-04 01:15 UTC
+# Rapor 2026-11-04 09:01 UTC
 
-ESPN maç: 149 · EPG program: 649 · eşleşen maç: 78
+ESPN maç: 149 · EPG program: 623 · eşleşen maç: 78
 
 ## Çekim
 ```
@@ -16,38 +16,30 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 6, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 507 program
+ch_tvplus deneme 1: 9/9 kanal, 468 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 15 sayfa ok, 1 hata, 143 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 159 program
 ```
 
 ## Kanal başına program
-- S SPORT: 53
-- S SPORT 2: 57
+- S SPORT: 48
+- S SPORT 2: 56
 - SPORTS TV: 56
-- TRT 1: 43
-- TRT SPOR: 80
-- TRT SPOR YILDIZ: 98
+- TRT 1: 42
+- TRT SPOR: 72
+- TRT SPOR YILDIZ: 80
 - TV8: 33
-- TV8,5: 39
-- beIN SPORTS 1: 47
+- TV8,5: 34
+- beIN SPORTS 1: 49
 - beIN SPORTS 2: 30
-- beIN SPORTS 3: 30
+- beIN SPORTS 3: 44
 - beIN SPORTS 4: 36
-- tabii spor: 47
+- tabii spor: 43
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 04.11 05:15 beIN SPORTS 4: Lorient - Brest
-- 04.11 07:00 beIN SPORTS 2: Igdır FK - Antalyaspor
-- 04.11 07:00 beIN SPORTS 3: Newcastle - Everton
-- 04.11 07:00 beIN SPORTS 4: Le Havre - PSG
-- 04.11 08:45 beIN SPORTS 2: İstanbulspor - Mardin 1969
-- 04.11 08:45 beIN SPORTS 3: Chelsea - Man Utd
-- 04.11 08:45 beIN SPORTS 4: Nice - Rennes
 - 04.11 09:30 beIN SPORTS 1: Erzurumspor FK - A. Çorum FK
-- 04.11 09:55 tabii spor: Shakhtar Donetsk - Sporting
 - 04.11 10:30 beIN SPORTS 2: Bodrum FK - Ümraniyespor
 - 04.11 10:30 beIN SPORTS 4: Reims - Sochaux
 - 04.11 10:32 beIN SPORTS 3: Man City - Brighton
@@ -82,17 +74,25 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 143 program
 - 04.11 21:45 beIN SPORTS 1: Beşiktaş - Gençlerbirliği
 - 04.11 22:00 beIN SPORTS 1: Göztepe - Başakşehir
 - 04.11 23:00 beIN SPORTS 2: Sivasspor - Boluspor
-- 05.11 08:45 beIN SPORTS 3: Liverpool - Arsenal
 - 05.11 08:45 beIN SPORTS 4: Marseille - Toulouse
+- 05.11 09:15 beIN SPORTS 1: Amedspor - Eyüpspor
 - 05.11 09:55 tabii spor: Vilarreal - Psg
-- 05.11 10:15 beIN SPORTS 1: Amedspor - Eyüpspor
+- 05.11 10:30 beIN SPORTS 4: Lorient - Brest
+- 05.11 11:00 beIN SPORTS 1: Başakşehir FK - Samsunspor
+- 05.11 11:30 beIN SPORTS 2: Igdır FK - Antalyaspor
+- 05.11 12:15 beIN SPORTS 4: Le Havre - PSG
 - 05.11 12:50 tabii spor: Feyenoord - Inter
+- 05.11 13:15 beIN SPORTS 2: İstanbulspor - Mardin 1969
 - 05.11 13:20 TRT SPOR YILDIZ: Türkiye Baja Şampiyonası - Denizli
-- 05.11 14:30 beIN SPORTS 1: Başakşehir FK - Samsunspor
+- 05.11 14:00 beIN SPORTS 1: Gençlerbirliği - C. Alanyaspor
+- 05.11 14:00 beIN SPORTS 4: Nice - Rennes
 - 05.11 15:00 tabii spor: Manchester United - Roma
-- 05.11 16:15 beIN SPORTS 1: Fenerbahçe - Göztepe
+- 05.11 16:00 beIN SPORTS 1: Fenerbahçe - Göztepe
+- 05.11 17:30 beIN SPORTS 3: Liverpool - Arsenal
 - 05.11 18:55 TRT SPOR YILDIZ: İlbank - Nilüfer B.
-- 05.11 20:30 beIN SPORTS 1: Samsunspor - Konyaspor
+- 05.11 19:15 beIN SPORTS 3: Newcastle - Everton
+- 06.11 07:00 beIN SPORTS 3: Chelsea - Man Utd
+- 06.11 12:00 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıcomo – Manchester Unıted
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 04.11 20:45 AEK Athens - Real Madrid → tabii spor
@@ -154,6 +154,8 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 143 program
 - 05.11 05:30 San Antonio Spurs - Dallas Mavericks → S SPORT
 - 05.11 06:00 Sacramento Kings - Los Angeles Lakers → —
 - 05.11 06:30 LA Clippers - Miami Heat → —
+- 06.11 05:00 Phoenix Suns - Orlando Magic → S SPORT
+- 06.11 06:00 Golden State Warriors - Miami Heat → —
 - 05.11 22:30 Milan - Valencia → S SPORT 2
 - 05.11 22:00 ASVEL - Bayern → —
 - 05.11 21:45 Hapoel - Barca → —

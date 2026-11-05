@@ -1,6 +1,6 @@
-# Rapor 2026-11-05 03:27 UTC
+# Rapor 2026-11-05 12:11 UTC
 
-ESPN maç: 180 · EPG program: 621 · eşleşen maç: 86
+ESPN maç: 180 · EPG program: 449 · eşleşen maç: 86
 
 ## Çekim
 ```
@@ -16,85 +16,60 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 7, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 424 program
+ch_tvplus deneme 1: 9/9 kanal, 380 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 15 sayfa ok, 1 hata, 200 program
+beIN: 4 kanal, 15 sayfa ok, 1 hata, 74 program
 ```
 
 ## Kanal başına program
-- S SPORT: 56
+- S SPORT: 54
 - S SPORT 2: 57
 - SPORTS TV: 36
-- TRT 1: 38
-- TRT SPOR: 55
-- TRT SPOR YILDIZ: 91
-- TV8: 33
-- TV8,5: 25
-- beIN SPORTS 1: 56
-- beIN SPORTS 2: 53
+- TRT 1: 36
+- TRT SPOR: 43
+- TRT SPOR YILDIZ: 74
+- TV8: 32
+- TV8,5: 20
 - beIN SPORTS 3: 46
-- beIN SPORTS 4: 45
-- tabii spor: 30
+- beIN SPORTS 4: 28
+- tabii spor: 23
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 05.11 05:15 beIN SPORTS 4: Le Havre - PSG
-- 05.11 07:00 beIN SPORTS 3: Hull City - Ipswich
-- 05.11 07:00 beIN SPORTS 4: Nice - Rennes
-- 05.11 07:15 TRT SPOR YILDIZ: Türk Telekom - S. Frankfurt
-- 05.11 08:00 beIN SPORTS 2: Manisa FK - Batman P.
-- 05.11 08:45 beIN SPORTS 3: Brentford - Nott'm Forest
-- 05.11 08:45 beIN SPORTS 4: Lille - Lens
-- 05.11 09:15 beIN SPORTS 1: Amedspor - Eyüpspor
-- 05.11 09:45 beIN SPORTS 2: Sivasspor - Boluspor
-- 05.11 09:55 tabii spor: Vilarreal - Psg
-- 05.11 10:30 beIN SPORTS 3: Bournemouth - Leeds
-- 05.11 10:30 beIN SPORTS 4: Troyes - Le Mans
-- 05.11 11:00 beIN SPORTS 1: Başakşehir FK - Samsunspor
-- 05.11 11:15 TRT SPOR YILDIZ: L. Warszawa - Galatasaray M.
-- 05.11 11:30 beIN SPORTS 2: Igdır FK - Antalyaspor
 - 05.11 12:15 beIN SPORTS 3: Coventry - Sunderland
 - 05.11 12:15 beIN SPORTS 4: Casa Pia - Sporting CP
-- 05.11 12:50 tabii spor: Feyenoord - Inter
-- 05.11 13:15 beIN SPORTS 2: İstanbulspor - Mardin 1969
-- 05.11 13:20 TRT SPOR YILDIZ: Türkiye Baja Şampiyonası - Denizli
-- 05.11 14:00 beIN SPORTS 1: Gençlerbirliği - C. Alanyaspor
 - 05.11 14:00 beIN SPORTS 3: Tottenham - C. Palace
 - 05.11 14:00 beIN SPORTS 4: Strasbourg - Auxerre
 - 05.11 15:00 tabii spor: Manchester United - Roma
-- 05.11 15:00 beIN SPORTS 2: Bodrum FK - Ümraniyespor
 - 05.11 15:45 beIN SPORTS 3: Aston Villa - Fulham
 - 05.11 15:45 beIN SPORTS 4: Paris FC - Monaco
-- 05.11 16:00 beIN SPORTS 1: Fenerbahçe - Göztepe
-- 05.11 16:45 beIN SPORTS 2: Kayserispor - Muğlaspor
 - 05.11 16:55 tabii spor: Galatasaray - Stuttgart
 - 05.11 17:30 beIN SPORTS 3: Liverpool - Arsenal
 - 05.11 17:30 beIN SPORTS 4: Lyon - Angers
-- 05.11 18:30 beIN SPORTS 2: E. Erokspor - A. Keçiörengücü
+- 05.11 18:25 TRT SPOR YILDIZ: Türkiye Baja Şampiyonası - Denizli
 - 05.11 18:55 TRT SPOR YILDIZ: İlbank - Nilüfer B.
 - 05.11 19:00 tabii spor: Fenerbahçe - Liverpool
 - 05.11 19:15 beIN SPORTS 3: Newcastle - Everton
 - 05.11 19:15 beIN SPORTS 4: Marseille - Toulouse
-- 05.11 20:15 beIN SPORTS 2: Vanspor FK - Sarıyer
 - 05.11 21:00 beIN SPORTS 4: Lorient - Brest
 - 05.11 21:01 beIN SPORTS 3: Man City - Brighton
-- 05.11 22:00 beIN SPORTS 1: Alanyaspor - Trabzonspor
-- 05.11 22:00 beIN SPORTS 2: F. Karagümrük - Pendikspor
+- 06.11 00:15 TRT SPOR YILDIZ: Türk Telekom - S. Frankfurt
+- 06.11 02:25 TRT SPOR YILDIZ: L. Warszawa - Galatasaray M.
 - 06.11 12:00 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıcomo – Manchester Unıted
 - 06.11 13:40 tabii spor: Şampiyonlar Ligi Futbol Karşılaşmasıbayern Munıh – Arsenal
-- 06.11 15:00 beIN SPORTS 1: Kasımpaşa - Beşiktaş
 - 06.11 15:45 tabii spor: Fenerbahçe - Slavia Prag , Uefa Şampiyonlar Ligi Grup Maçları
-- 06.11 16:45 beIN SPORTS 1: Trabzonspor - Gaziantep FK
 - 06.11 17:25 tabii spor: Lille - Galatasaray , Uefa Şampiyonlar Ligi Grup Maçları
 - 06.11 19:05 tabii spor: Trabzonspor - Hearts , Uefa Avrupa Konferans Ligi Grup Maçları
 - 06.11 20:00 TRT SPOR: Antalyaspor - Bursaspor
-- 06.11 20:00 beIN SPORTS 2: Antalyaspor - Bursaspor
 - 06.11 21:10 tabii spor: Beşiktaş - Cyrstal Palace , Uefa Avrupa Ligi Grup Maçları
-- 06.11 22:00 beIN SPORTS 2: Alanyaspor - Trabzonspor
 - 06.11 22:15 S SPORT 2: Olympiacos - Kızılyıldız
 - 07.11 01:00 S SPORT 2: Venezia - Udinese
 - 07.11 01:00 S SPORT: Sevilla - Alaves
+- 07.11 09:45 beIN SPORTS 3: Hull City - Ipswich
+- 07.11 11:15 beIN SPORTS 4: Montpellier - Metz
+- 07.11 11:30 beIN SPORTS 3: Brentford - Nott'm Forest
+- 07.11 13:05 beIN SPORTS 4: Toulouse - Strasbourg
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 05.11 20:45 AC Milan - Ferencvaros → tabii
@@ -140,18 +115,7 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 200 program
 - 06.11 22:45 Toulouse - Strasbourg → beIN SPORTS 2
 - 06.11 23:45 FC Famalicao - Arouca → —
 - 06.11 22:00 Willem II - PEC Zwolle → —
-- 05.11 03:30 Boston Celtics - Milwaukee Bucks → —
-- 05.11 03:30 Brooklyn Nets - Charlotte Hornets → —
-- 05.11 03:30 New York Knicks - Chicago Bulls → —
-- 05.11 04:00 Memphis Grizzlies - Indiana Pacers → —
-- 05.11 04:00 New Orleans Pelicans - Utah Jazz → —
-- 05.11 04:00 Oklahoma City Thunder - Cleveland Cavaliers → —
-- 05.11 04:30 Houston Rockets - Minnesota Timberwolves → —
-- 05.11 05:00 Denver Nuggets - Toronto Raptors → —
-- 05.11 05:00 Phoenix Suns - Portland Trail Blazers → —
-- 05.11 05:30 San Antonio Spurs - Dallas Mavericks → S SPORT
-- 05.11 06:00 Sacramento Kings - Los Angeles Lakers → —
-- 05.11 06:30 LA Clippers - Miami Heat → —
+- 07.11 13:30 Eyupspor - Kocaelispor → beIN SPORTS 1
 - 06.11 05:00 Phoenix Suns - Orlando Magic → S SPORT
 - 06.11 06:00 Golden State Warriors - Miami Heat → —
 - 07.11 03:00 Atlanta Hawks - Washington Wizards → —

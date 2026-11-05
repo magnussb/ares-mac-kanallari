@@ -1,8 +1,11 @@
 {
- "guncellendi": "2026-11-05T12:11:48Z",
+ "guncellendi": "2026-11-05T20:37:53Z",
  "kaynak": "ESPN fikstür + beIN SPORTS / TV+ / D-Smart yayın akışı",
  "maclar": {
   "401874803": [
+   "S SPORT 2"
+  ],
+  "401874808": [
    "S SPORT 2"
   ],
   "401874810": [
@@ -14,9 +17,15 @@
   "401874974": [
    "S SPORT 2"
   ],
+  "401875003": [
+   "S SPORT 2"
+  ],
+  "401875018": [
+   "S SPORT 2"
+  ],
   "401876404": [
-   "beIN SPORTS 3",
-   "beIN SPORTS 2"
+   "beIN SPORTS 2",
+   "beIN SPORTS 3"
   ],
   "401876405": [
    "beIN SPORTS 2"
@@ -56,6 +65,12 @@
    "S SPORT"
   ],
   "401882813": [
+   "S SPORT"
+  ],
+  "401882814": [
+   "S SPORT"
+  ],
+  "401882816": [
    "S SPORT"
   ],
   "401885395": [
@@ -235,9 +250,6 @@
   "401915831": [
    "tabii"
   ],
-  "E2026_91": [
-   "S SPORT"
-  ],
   "E2026_92": [
    "S SPORT"
   ],
@@ -252,6 +264,12 @@
   ],
   "E2026_99": [
    "S SPORT"
+  ],
+  "f1:401839128": [
+   "beIN SPORTS 4"
+  ],
+  "f1:401839129": [
+   "beIN SPORTS 4"
   ],
   "f1:401839130": [
    "beIN SPORTS 4"

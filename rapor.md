@@ -1,6 +1,6 @@
-# Rapor 2026-11-06 01:30 UTC
+# Rapor 2026-11-06 09:17 UTC
 
-ESPN maç: 153 · EPG program: 600 · eşleşen maç: 81
+ESPN maç: 153 · EPG program: 594 · eşleşen maç: 81
 
 ## Çekim
 ```
@@ -16,7 +16,7 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 8, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 392 program
+ch_tvplus deneme 1: 9/9 kanal, 388 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
@@ -24,31 +24,21 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 212 program
 ```
 
 ## Kanal başına program
-- S SPORT: 52
-- S SPORT 2: 53
+- S SPORT: 48
+- S SPORT 2: 51
 - SPORTS TV: 36
 - TRT 1: 39
-- TRT SPOR: 29
-- TRT SPOR YILDIZ: 91
-- TV8: 30
+- TRT SPOR: 35
+- TRT SPOR YILDIZ: 72
+- TV8: 31
 - TV8,5: 43
 - beIN SPORTS 1: 50
 - beIN SPORTS 2: 57
 - beIN SPORTS 3: 58
 - beIN SPORTS 4: 47
-- tabii spor: 15
+- tabii spor: 27
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 06.11 05:15 beIN SPORTS 4: Lorient - Brest
-- 06.11 07:00 beIN SPORTS 2: Manisa FK - Batman P.
-- 06.11 07:00 beIN SPORTS 3: Chelsea - Man Utd
-- 06.11 07:00 beIN SPORTS 4: Le Havre - PSG
-- 06.11 07:15 TRT SPOR YILDIZ: İlbank - Nilüfer B.
-- 06.11 08:45 beIN SPORTS 2: Sivasspor - Boluspor
-- 06.11 08:45 beIN SPORTS 4: Nice - Rennes
-- 06.11 08:47 beIN SPORTS 3: Man City - Brighton
-- 06.11 09:00 beIN SPORTS 1: Başakşehir FK - Samsunspor
-- 06.11 09:55 tabii spor: Bodo Glimt - Lille
 - 06.11 10:30 beIN SPORTS 2: Igdır FK - Antalyaspor
 - 06.11 10:30 beIN SPORTS 3: Hull City - Ipswich
 - 06.11 10:30 beIN SPORTS 4: Lille - Lens
@@ -83,16 +73,25 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 212 program
 - 06.11 22:15 S SPORT 2: Olympiacos - Kızılyıldız
 - 07.11 01:00 S SPORT 2: Venezia - Udinese
 - 07.11 01:00 S SPORT: Sevilla - Alaves
-- 07.11 07:15 TRT SPOR YILDIZ: 2026 - 2027 Sezonu Vodafone Sultanlar Ligi İlbank - Nilüfer Bld.spor Eker
+- 07.11 01:20 TRT SPOR YILDIZ: İlbank - Nilüfer B.
 - 07.11 07:45 beIN SPORTS 2: F. Karagümrük - Pendikspor
+- 07.11 08:00 beIN SPORTS 3: Man City - Brighton
 - 07.11 09:30 beIN SPORTS 1: T. Konyaspor - Galatasaray
 - 07.11 09:30 beIN SPORTS 2: Sarıyer - Igdır FK
 - 07.11 11:15 beIN SPORTS 4: Montpellier - Metz
 - 07.11 12:45 beIN SPORTS 1: Samsunspor - Konyaspor
+- 07.11 12:55 tabii spor: Leipzig - Manchester City
 - 07.11 13:30 beIN SPORTS 2: A. Keçiörengücü - Manisa FK
-- 07.11 16:25 TRT SPOR YILDIZ: 2026 - 2027 Sezonu Sms Grup Efeler Ligi Sungurlu Bld. Spor - Halkbank
+- 07.11 16:25 TRT SPOR YILDIZ: Sungurlu B. - Halkbank
 - 07.11 18:15 beIN SPORTS 2: Samsunspor - Konyaspor
-- 07.11 18:55 TRT SPOR YILDIZ: 2026 - 2027 Sezonu Sms Grup Efeler Ligi Fenerbahçe Medıcana - Gebze Bld. Spor
+- 07.11 18:35 tabii spor: Slavia Prag - Arsenal
+- 07.11 18:55 TRT SPOR YILDIZ: Fenerbahçe M. - Gebze B.
+- 07.11 19:00 TRT SPOR: Pendikspor - İstanbulspor
+- 08.11 01:15 TRT SPOR YILDIZ: 2026 - 2027 Sezonu Vodafone Sultanlar Ligi İlbank - Nilüfer Bld.spor Eker
+- 08.11 07:45 beIN SPORTS 2: Pendikspor - İstanbulspor
+- 08.11 09:00 beIN SPORTS 1: Galatasaray - Amedspor
+- 08.11 11:15 beIN SPORTS 2: Vanspor FK - Sivasspor
+- 08.11 12:00 beIN SPORTS 3: Fulham - Newcastle
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 06.11 20:00 Gaziantep FK - Kasimpasa → beIN SPORTS 1
@@ -132,8 +131,6 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 212 program
 - 07.11 18:30 Fortuna Sittard - Telstar → —
 - 07.11 20:45 ADO Den Haag - Sparta Rotterdam → —
 - 07.11 23:00 Excelsior - Go Ahead Eagles → —
-- 06.11 05:00 Phoenix Suns - Orlando Magic → S SPORT
-- 06.11 06:00 Golden State Warriors - Miami Heat → —
 - 07.11 03:00 Atlanta Hawks - Washington Wizards → —
 - 07.11 03:00 Charlotte Hornets - Boston Celtics → —
 - 07.11 03:30 Cleveland Cavaliers - Philadelphia 76ers → —
@@ -148,6 +145,8 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 212 program
 - 08.11 04:00 Cleveland Cavaliers - New York Knicks → —
 - 08.11 04:00 Oklahoma City Thunder - Washington Wizards → —
 - 08.11 04:30 Golden State Warriors - Orlando Magic → S SPORT
+- 08.11 05:00 Phoenix Suns - Houston Rockets → —
+- 08.11 06:00 Portland Trail Blazers - San Antonio Spurs → —
 - 06.11 22:45 Partizan - Maccabi → S SPORT
 - 06.11 22:30 Virtus - Dubai → —
 - 06.11 22:15 Olympiacos - Crvena → —

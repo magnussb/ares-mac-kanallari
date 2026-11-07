@@ -1,6 +1,6 @@
-# Rapor 2026-11-06 23:01 UTC
+# Rapor 2026-11-07 02:43 UTC
 
-ESPN maç: 124 · EPG program: 648 · eşleşen maç: 42
+ESPN maç: 124 · EPG program: 665 · eşleşen maç: 43
 
 ## Çekim
 ```
@@ -8,42 +8,40 @@ ch_dsmart deneme 1: 0/2 kanal, 0 program
 ch_dsmart deneme 2: 0/2 kanal, 0 program
 ch_dsmart deneme 3: 0/2 kanal, 0 program
 --- ch_dsmart son log:
-[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Nov 8, 2026 (0 programs)
+[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Nov 9, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 6, 2026 (0 programs)
+[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 7, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 7, 2026 (0 programs)
+[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 8, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 8, 2026 (0 programs)
+[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 9, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 459 program
+ch_tvplus deneme 1: 9/9 kanal, 460 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 14 sayfa ok, 2 hata, 191 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 207 program
 ```
 
 ## Kanal başına program
 - S SPORT: 52
-- S SPORT 2: 49
+- S SPORT 2: 51
 - SPORTS TV: 36
 - TRT 1: 40
-- TRT SPOR: 46
-- TRT SPOR YILDIZ: 125
+- TRT SPOR: 44
+- TRT SPOR YILDIZ: 126
 - TV8: 35
 - TV8,5: 42
 - beIN SPORTS 1: 55
 - beIN SPORTS 2: 54
-- beIN SPORTS 3: 45
-- beIN SPORTS 4: 37
+- beIN SPORTS 3: 55
+- beIN SPORTS 4: 43
 - tabii spor: 32
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 07.11 01:00 S SPORT 2: Venezia - Udinese
-- 07.11 01:00 S SPORT: Sevilla - Alaves
-- 07.11 01:20 TRT SPOR YILDIZ: İlbank - Nilüfer B.
 - 07.11 04:40 TRT SPOR YILDIZ: Türk Telekom - S. Frankfurt
 - 07.11 07:00 TRT SPOR: Antalyaspor - Bursaspor
+- 07.11 07:15 TRT SPOR YILDIZ: İlbank - Nilüfer B.
 - 07.11 07:45 beIN SPORTS 2: F. Karagümrük - Pendikspor
 - 07.11 08:00 beIN SPORTS 3: Man City - Brighton
 - 07.11 09:30 beIN SPORTS 1: T. Konyaspor - Galatasaray
@@ -81,7 +79,6 @@ beIN: 4 kanal, 14 sayfa ok, 2 hata, 191 program
 - 08.11 19:00 beIN SPORTS 2: Mardin 1969 - Batman P.
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 06.11 23:45 FC Famalicao - Arouca → —
 - 07.11 13:30 Eyupspor - Kocaelispor → beIN SPORTS 1
 - 07.11 16:00 Samsunspor - Konyaspor → beIN SPORTS 1
 - 07.11 19:00 Galatasaray - Amed SFK → beIN SPORTS 1
@@ -167,3 +164,8 @@ beIN: 4 kanal, 14 sayfa ok, 2 hata, 191 program
 - 08.11 06:00 Portland Trail Blazers - San Antonio Spurs → —
 - 08.11 23:30 Chicago Bulls - Philadelphia 76ers → —
 - 09.11 02:00 Detroit Pistons - Los Angeles Lakers → —
+- 09.11 03:00 Minnesota Timberwolves - Utah Jazz → —
+- 09.11 03:30 Dallas Mavericks - Brooklyn Nets → —
+- 09.11 04:00 Milwaukee Bucks - Boston Celtics → —
+- 09.11 05:00 LA Clippers - New Orleans Pelicans → —
+- 09.11 05:00 Sacramento Kings - Miami Heat → —

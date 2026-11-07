@@ -1,6 +1,6 @@
-# Rapor 2026-11-07 16:20 UTC
+# Rapor 2026-11-07 20:50 UTC
 
-ESPN maç: 125 · EPG program: 613 · eşleşen maç: 44
+ESPN maç: 129 · EPG program: 609 · eşleşen maç: 42
 
 ## Çekim
 ```
@@ -16,41 +16,36 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 9, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 402 program
-https://www.digiturk.com.tr/ -> 200
+ch_tvplus deneme 1: 9/9 kanal, 381 program
+https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 15 sayfa ok, 1 hata, 214 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 231 program
 ```
 
 ## Kanal başına program
-- S SPORT: 42
-- S SPORT 2: 42
+- S SPORT: 38
+- S SPORT 2: 38
 - SPORTS TV: 42
-- TRT 1: 41
-- TRT SPOR: 28
-- TRT SPOR YILDIZ: 106
+- TRT 1: 42
+- TRT SPOR: 26
+- TRT SPOR YILDIZ: 98
 - TV8: 35
-- TV8,5: 42
+- TV8,5: 41
 - beIN SPORTS 1: 55
-- beIN SPORTS 2: 40
+- beIN SPORTS 2: 57
 - beIN SPORTS 3: 56
 - beIN SPORTS 4: 63
-- tabii spor: 21
+- tabii spor: 18
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 07.11 18:35 tabii spor: Slavia Prag - Arsenal
-- 07.11 18:55 TRT SPOR YILDIZ: Fenerbahçe M. - Gebze B.
-- 07.11 19:00 TRT SPOR: Pendikspor - İstanbulspor
-- 07.11 20:15 tabii spor: Fenerbahçe - Liverpool
-- 07.11 21:55 tabii spor: Trabzonspor - Freiburg
+- 07.11 21:30 beIN SPORTS 2: Alanyaspor - Trabzonspor
 - 08.11 01:15 TRT SPOR YILDIZ: İlbank - Nilüfer B.
 - 08.11 06:15 beIN SPORTS 4: Montpellier - Metz
 - 08.11 08:00 beIN SPORTS 2: Pendikspor - İstanbulspor
 - 08.11 09:00 beIN SPORTS 1: Galatasaray - Amedspor
 - 08.11 09:45 beIN SPORTS 2: A. Keçiörengücü - Manisa FK
 - 08.11 09:45 beIN SPORTS 4: Auxerre - Paris FC
-- 08.11 11:30 beIN SPORTS 4: PSG - Troyes
 - 08.11 12:00 beIN SPORTS 3: Fulham - Newcastle
 - 08.11 12:35 tabii spor: Borussia Dortmund - Real Betis
 - 08.11 13:55 TRT SPOR YILDIZ: Galatasaray - Beşiktaş
@@ -63,33 +58,16 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 214 program
 - 08.11 18:30 tabii spor: Galatasaray - Stuttgart
 - 08.11 18:55 TRT SPOR YILDIZ: THY - Fenerbahçe M.
 - 08.11 19:00 beIN SPORTS 2: Mardin 1969 - Batman P.
+- 08.11 21:55 tabii spor: Fenerbahçe - Liverpool
 - 09.11 14:30 TRT SPOR YILDIZ: L. Warszawa - Galatasaray M.
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 07.11 19:00 Galatasaray - Amed SFK → beIN SPORTS 1
-- 07.11 19:00 Goztepe - Istanbul Basaksehir → beIN SPORTS 2
-- 07.11 18:00 Arsenal - Hull City → beIN SPORTS 3
-- 07.11 18:00 Fulham - Newcastle United → —
-- 07.11 20:30 Nottingham Forest - Manchester City → beIN SPORTS 3
-- 07.11 18:15 Espanyol - Deportivo → S SPORT
-- 07.11 20:30 Osasuna - Athletic Club → S SPORT
 - 07.11 23:00 Valencia - Real Madrid → S SPORT
-- 07.11 17:00 Cagliari - Frosinone → —
-- 07.11 17:00 Torino - Lecce → S SPORT 2
-- 07.11 20:00 Parma - Bologna → S SPORT 2
 - 07.11 22:45 AS Roma - Sassuolo → S SPORT 2
-- 07.11 17:30 Borussia Dortmund - SV Elversberg → —
-- 07.11 17:30 Mainz - Bayern Munich → —
-- 07.11 17:30 RB Leipzig - FC Augsburg → —
-- 07.11 17:30 SC Paderborn 07 - Eintracht Frankfurt → —
-- 07.11 20:30 VfB Stuttgart - Werder Bremen → —
 - 07.11 21:00 AJ Auxerre - Paris FC → —
 - 07.11 23:05 Paris Saint-Germain - Troyes → beIN SPORTS 2
-- 07.11 18:30 C.D. Nacional - Académico de Viseu → —
 - 07.11 21:00 Alverca - Casa Pia → —
 - 07.11 23:30 Sporting CP - Moreirense → beIN SPORTS 3
-- 07.11 18:30 Fortuna Sittard - Telstar → —
-- 07.11 20:45 ADO Den Haag - Sparta Rotterdam → —
 - 07.11 23:00 Excelsior - Go Ahead Eagles → —
 - 08.11 13:30 Caykur Rizespor - Erzurum BB → beIN SPORTS 2
 - 08.11 16:00 Çorum FK - Fenerbahce → beIN SPORTS 1

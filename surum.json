@@ -1,12 +1,18 @@
 {
   "android": {
-    "build": 29,
-    "name": "1.3.24",
-    "url": "https://github.com/magnussb/ares-mac-kanallari/releases/download/v1.3.24/Ares.apk",
-    "size": 73883978,
-    "notes": "• TV: sol menü gizlendi; Geri tuşuyla ya da en solda Sol ile açılıyor, içerik tüm ekranı kullanıyor\n• TV: buket ve kanal listeleri genişledi, uzun adlar odaktayken kayarak okunuyor\n• TV oynatıcı: kanal adı, çözünürlük, FPS ve bitrate alttaki bilgi alanında; kanal değişince de orada görünüyor\n• TV: kanal geçişinde siyahtan sonra eski kanalın görüntüsünün gelmesi için düzeltme\n• TV: oynatıcı bilgi alanı ve kanal paneli daha az şeffaf; film ve dizide Rehber kalktı\n• TV: İzle / Tam ekran düğmesinden Sol, kanal az olsa da kanal listesine gidiyor\n• Yeni renkler: antrasit siyah ve kırık beyaz\n• Liste silme düzeltildi: TV'de Sil'e kumandayla ulaşılıyor, liste güncellenirken de siliniyor\n• Yeni: Tüm listeleri güncelle düğmesi (Hesap Yönetimi ve Ayarlar > Listeler)"
+    "build": 30,
+    "name": "1.3.25",
+    "url": "https://github.com/magnussb/ares-mac-kanallari/releases/download/v1.3.25/Ares.apk",
+    "size": 73998766,
+    "notes": "• Donma düzeltildi: liste ya da rehber arka planda güncellenirken kanal açınca görüntünün donması (ses sürerken) ve uygulamanın yanıt vermemesi giderildi\n• Menüdeki takılmalar azaltıldı (arka planda liste güncellenirken)\n• Kanal geçişinde her kanal yeni çözücüyle açılıyor (RAW kanallarda geçişte görüntü bozulmasına karşı)\n• Yeni: renk teması seçimi (Ayarlar > Görünüm > Tema): Antrasit, Gece, Lacivert, Zümrüt, Bordo\n• Kapanma kayıtları: uygulama güncellemesi artık \"beklenmedik kapandı\" diye yazılmıyor"
   },
   "history": [
+    {
+      "name": "1.3.25",
+      "build": 30,
+      "date": "2026-11-08",
+      "notes": "• Donma düzeltildi: liste ya da rehber arka planda güncellenirken kanal açınca görüntünün donması (ses sürerken) ve uygulamanın yanıt vermemesi giderildi\n• Menüdeki takılmalar azaltıldı (arka planda liste güncellenirken)\n• Kanal geçişinde her kanal yeni çözücüyle açılıyor (RAW kanallarda geçişte görüntü bozulmasına karşı)\n• Yeni: renk teması seçimi (Ayarlar > Görünüm > Tema): Antrasit, Gece, Lacivert, Zümrüt, Bordo\n• Kapanma kayıtları: uygulama güncellemesi artık \"beklenmedik kapandı\" diye yazılmıyor"
+    },
     {
       "name": "1.3.24",
       "build": 29,

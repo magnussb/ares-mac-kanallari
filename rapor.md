@@ -1,6 +1,6 @@
-# Rapor 2026-11-08 00:26 UTC
+# Rapor 2026-11-08 07:13 UTC
 
-ESPN maç: 123 · EPG program: 567 · eşleşen maç: 39
+ESPN maç: 123 · EPG program: 520 · eşleşen maç: 39
 
 ## Çekim
 ```
@@ -16,35 +16,32 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 10, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 367 program
+ch_tvplus deneme 1: 9/9 kanal, 342 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 15 sayfa ok, 1 hata, 204 program
+beIN: 4 kanal, 14 sayfa ok, 2 hata, 185 program
 ```
 
 ## Kanal başına program
-- S SPORT: 36
-- S SPORT 2: 35
-- SPORTS TV: 42
-- TRT 1: 42
-- TRT SPOR: 24
-- TRT SPOR YILDIZ: 92
-- TV8: 34
-- TV8,5: 42
-- beIN SPORTS 1: 58
-- beIN SPORTS 2: 52
-- beIN SPORTS 3: 38
+- S SPORT: 32
+- S SPORT 2: 32
+- SPORTS TV: 44
+- TRT 1: 41
+- TRT SPOR: 17
+- TRT SPOR YILDIZ: 80
+- TV8: 32
+- TV8,5: 43
+- beIN SPORTS 1: 46
+- beIN SPORTS 2: 34
+- beIN SPORTS 3: 49
 - beIN SPORTS 4: 56
-- tabii spor: 16
+- tabii spor: 14
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 08.11 06:15 beIN SPORTS 4: Montpellier - Metz
-- 08.11 08:00 beIN SPORTS 2: Pendikspor - İstanbulspor
 - 08.11 08:00 beIN SPORTS 4: Sporting CP - Moreirense
 - 08.11 08:30 beIN SPORTS 3: Leeds - Tottenham
 - 08.11 09:00 beIN SPORTS 1: Galatasaray - Amedspor
-- 08.11 09:45 beIN SPORTS 2: A. Keçiörengücü - Manisa FK
 - 08.11 09:45 beIN SPORTS 4: Auxerre - Paris FC
 - 08.11 10:15 beIN SPORTS 3: Arsenal - Hull City
 - 08.11 11:30 beIN SPORTS 4: PSG - Troyes
@@ -56,11 +53,9 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 204 program
 - 08.11 16:00 tabii spor: Lens - Como
 - 08.11 16:00 TRT SPOR: Ümraniyespor - Kayserispor
 - 08.11 16:00 TRT SPOR YILDIZ: Türkiye - Norveç
-- 08.11 16:00 beIN SPORTS 2: Ümraniyespor - Kayserispor
 - 08.11 18:15 TRT SPOR YILDIZ: Türkiye Baja Şampiyonası - Denizli
 - 08.11 18:30 tabii spor: Galatasaray - Stuttgart
 - 08.11 18:55 TRT SPOR YILDIZ: THY - Fenerbahçe M.
-- 08.11 19:00 beIN SPORTS 2: Mardin 1969 - Batman P.
 - 08.11 21:55 tabii spor: Fenerbahçe - Liverpool
 - 09.11 14:30 TRT SPOR YILDIZ: L. Warszawa - Galatasaray M.
 - 10.11 02:00 S SPORT: Moto GP - Moto 2
@@ -105,13 +100,6 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 204 program
 - 08.11 18:45 AZ Alkmaar - FC Groningen → —
 - 08.11 18:45 SC Cambuur - PSV Eindhoven → —
 - 08.11 22:00 FC Utrecht - NEC Nijmegen → —
-- 08.11 01:00 Indiana Pacers - Denver Nuggets → —
-- 08.11 03:30 Atlanta Hawks - Brooklyn Nets → —
-- 08.11 04:00 Cleveland Cavaliers - New York Knicks → —
-- 08.11 04:00 Oklahoma City Thunder - Washington Wizards → —
-- 08.11 04:30 Golden State Warriors - Orlando Magic → S SPORT
-- 08.11 05:00 Phoenix Suns - Houston Rockets → —
-- 08.11 06:00 Portland Trail Blazers - San Antonio Spurs → —
 - 08.11 23:30 Chicago Bulls - Philadelphia 76ers → —
 - 09.11 02:00 Detroit Pistons - Los Angeles Lakers → —
 - 09.11 03:00 Minnesota Timberwolves - Utah Jazz → —
@@ -122,3 +110,8 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 204 program
 - 10.11 03:00 Atlanta Hawks - Los Angeles Lakers → —
 - 10.11 03:00 Charlotte Hornets - Cleveland Cavaliers → —
 - 10.11 03:00 Detroit Pistons - Washington Wizards → —
+- 10.11 03:30 Toronto Raptors - Memphis Grizzlies → —
+- 10.11 04:00 Dallas Mavericks - Indiana Pacers → —
+- 10.11 04:30 Houston Rockets - Denver Nuggets → S SPORT
+- 10.11 05:00 Phoenix Suns - San Antonio Spurs → —
+- 10.11 06:00 Golden State Warriors - New Orleans Pelicans → —

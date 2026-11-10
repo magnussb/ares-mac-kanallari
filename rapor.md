@@ -1,6 +1,6 @@
-# Rapor 2026-11-10 08:19 UTC
+# Rapor 2026-11-10 16:59 UTC
 
-ESPN maç: 97 · EPG program: 797 · eşleşen maç: 12
+ESPN maç: 98 · EPG program: 905 · eşleşen maç: 13
 
 ## Çekim
 ```
@@ -16,53 +16,30 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 12, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 400 program
+ch_tvplus deneme 1: 9/9 kanal, 369 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 16 sayfa ok, 0 hata, 404 program
+beIN: 4 kanal, 13 sayfa ok, 3 hata, 544 program
 ```
 
 ## Kanal başına program
-- S SPORT: 45
-- S SPORT 2: 11
+- S SPORT: 40
+- S SPORT 2: 22
 - SPORTS TV: 56
 - TRT 1: 41
-- TRT SPOR: 43
-- TRT SPOR YILDIZ: 85
+- TRT SPOR: 35
+- TRT SPOR YILDIZ: 64
 - TV8: 39
 - TV8,5: 42
-- beIN SPORTS 1: 46
+- beIN SPORTS 1: 33
 - beIN SPORTS 2: 42
-- beIN SPORTS 3: 43
-- beIN SPORTS 4: 273
-- tabii spor: 31
+- beIN SPORTS 3: 33
+- beIN SPORTS 4: 436
+- tabii spor: 22
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 10.11 09:06 beIN SPORTS 1: Gaziantep FK - Kasımpaşa
-- 10.11 09:07 beIN SPORTS 3: Sunderland - Chelsea
-- 10.11 09:07 beIN SPORTS 4: Auxerre - Paris FC
-- 10.11 09:30 beIN SPORTS 2: Pendikspor - İstanbulspor
-- 10.11 10:47 beIN SPORTS 1: Eyüpspor - Kocaelispor
-- 10.11 10:48 beIN SPORTS 4: PSG - Troyes
-- 10.11 11:00 beIN SPORTS 3: C. Palace - Liverpool
-- 10.11 11:15 beIN SPORTS 2: Bandırmaspor - F. Karagümrük
-- 10.11 12:30 beIN SPORTS 1: Galatasaray - Amedspor
-- 10.11 12:30 beIN SPORTS 4: Sporting CP - Moreirense
-- 10.11 12:45 beIN SPORTS 3: Brighton - Brentford
-- 10.11 12:55 tabii spor: Crystal Palace - Hoffenheim
-- 10.11 13:00 beIN SPORTS 2: Ümraniyespor - Kayserispor
-- 10.11 14:15 beIN SPORTS 1: A. Çorum FK - Fenerbahçe
-- 10.11 14:15 beIN SPORTS 4: Rennes - Lille
-- 10.11 14:30 beIN SPORTS 3: Ipswich - Bournemouth
-- 10.11 14:46 beIN SPORTS 2: Boluspor - Bodrum FK
-- 10.11 15:00 tabii spor: B.Leverkusen - Marsilya
-- 10.11 16:00 beIN SPORTS 4: Le Mans - Monaco
-- 10.11 16:16 beIN SPORTS 3: Man Utd - Aston Villa
-- 10.11 16:25 TRT SPOR YILDIZ: Ziraat B. - Alanya Bld.
-- 10.11 16:31 beIN SPORTS 2: Mardin 1969 - Batman P.
 - 10.11 17:46 beIN SPORTS 4: Angers - Nice
-- 10.11 17:50 tabii spor: Milan - Ferencvaros
 - 10.11 18:03 beIN SPORTS 3: Everton - Coventry
 - 10.11 18:15 beIN SPORTS 2: Antalyaspor - Bursaspor
 - 10.11 18:55 TRT SPOR YILDIZ: Sabah BC - Trabzonspor
@@ -76,32 +53,53 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 404 program
 - 10.11 22:00 tabii spor: Celtic - Beşiktaş
 - 10.11 22:01 beIN SPORTS 1: C. Alanyaspor - Trabzonspor
 - 11.11 02:15 TRT SPOR YILDIZ: THY - Fenerbahçe M.
+- 11.11 03:00 S SPORT 2: Michigan State - Duke
+- 11.11 05:15 beIN SPORTS 4: Sporting CP - Moreirense
+- 11.11 05:30 S SPORT 2: Kansas - Kentucky
+- 11.11 07:00 beIN SPORTS 2: Ümraniyespor - Kayserispor
+- 11.11 07:00 beIN SPORTS 3: Sunderland - Chelsea
 - 11.11 07:00 beIN SPORTS 4: Toulouse - Strasbourg
-- 11.11 09:55 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıshakhtar Donetsk - Sportıng
-- 11.11 12:00 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıferencvaros – Torreense
+- 11.11 08:45 beIN SPORTS 2: Boluspor - Bodrum FK
+- 11.11 08:45 beIN SPORTS 3: C. Palace - Liverpool
+- 11.11 08:45 beIN SPORTS 4: Auxerre - Paris FC
+- 11.11 09:55 tabii spor: Real Sociedad - Lyon
+- 11.11 10:30 beIN SPORTS 2: Mardin 1969 - Batman P.
+- 11.11 10:30 beIN SPORTS 3: Brighton - Brentford
+- 11.11 10:30 beIN SPORTS 4: PSG - Troyes
+- 11.11 12:00 tabii spor: Az Alkmaar - Juventus
+- 11.11 12:15 beIN SPORTS 3: Ipswich - Bournemouth
+- 11.11 12:15 beIN SPORTS 4: Rennes - Lille
+- 11.11 14:00 beIN SPORTS 3: Man Utd - Aston Villa
 - 11.11 14:00 beIN SPORTS 4: Brest - Lyon
-- 11.11 14:35 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıbarcelona - Aston Vılla
-- 11.11 16:00 beIN SPORTS 1: Beşiktaş - Gençlerbirliği
+- 11.11 15:45 beIN SPORTS 4: Le Mans - Monaco
 - 11.11 16:25 TRT SPOR YILDIZ: Halkbank - Fenerbahçe M.
-- 11.11 16:45 tabii spor: Galatasaray - Stuttgart , Uefa Şampiyonlar Ligi Grup Maçları
+- 11.11 17:15 tabii spor: Sparta Prag - Bournemouth
 - 11.11 17:30 beIN SPORTS 2: Vanspor FK - Sivasspor
-- 11.11 18:30 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasırennes - Olympıakos
 - 11.11 18:55 TRT SPOR YILDIZ: Türkiye - Karadağ
 - 11.11 19:15 beIN SPORTS 2: Muğlaspor - E. Erokspor
 - 11.11 20:00 TRT SPOR: Fenerbahçe - Real Sociedad
-- 11.11 20:45 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıaek Atına - Real Madrıd
+- 11.11 20:40 tabii spor: Sunderland - Dinamo Zagreb
+- 11.11 21:00 beIN SPORTS 2: Pendikspor - İstanbulspor
 - 11.11 21:00 beIN SPORTS 3: Fulham - Newcastle
 - 11.11 21:15 beIN SPORTS 4: Lens - Marseille
-- 11.11 23:00 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıleıpzıg - Manchester Cıty
-- 12.11 05:15 beIN SPORTS 4: Guimaraes - Porto
+- 11.11 22:20 tabii spor: Galatasaray - Stuttgart
+- 11.11 22:45 beIN SPORTS 2: Bandırmaspor - F. Karagümrük
 - 12.11 07:30 beIN SPORTS 2: Manisa FK - Batman P.
 - 12.11 09:15 beIN SPORTS 2: Sivasspor - Boluspor
 - 12.11 10:15 beIN SPORTS 1: T. Konyaspor - Galatasaray
 - 12.11 11:00 beIN SPORTS 2: Igdır FK - Antalyaspor
+- 12.11 12:45 beIN SPORTS 2: İstanbulspor - Mardin 1969
+- 12.11 14:30 beIN SPORTS 1: Fenerbahçe - Göztepe
+- 12.11 14:30 beIN SPORTS 2: Bodrum FK - Ümraniyespor
+- 12.11 16:15 beIN SPORTS 1: Kasımpaşa - Beşiktaş
+- 12.11 16:15 beIN SPORTS 2: Kayserispor - Muğlaspor
+- 12.11 18:00 beIN SPORTS 2: E. Erokspor - A. Keçiörengücü
+- 12.11 19:45 beIN SPORTS 2: Vanspor FK - Sarıyer
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 11.11 15:00 Vietnam - Chinese Taipei → —
-- 12.11 09:00 New Zealand - India → —
+- 12.11 09:10 New Zealand - India → —
+- 12.11 18:00 Uzbekistan - Russia → —
 - 11.11 03:30 New York Knicks - Milwaukee Bucks → —
 - 11.11 04:00 Philadelphia 76ers - Boston Celtics → S SPORT
 - 11.11 05:00 Phoenix Suns - LA Clippers → —
@@ -118,7 +116,7 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 404 program
 - 12.11 05:00 Utah Jazz - Orlando Magic → —
 - 12.11 05:30 Houston Rockets - Golden State Warriors → S SPORT
 - 12.11 06:00 Portland Trail Blazers - Oklahoma City Thunder → —
-- 11.11 22:45 Partizan - Baskonia → —
+- 11.11 22:45 Partizan - Baskonia → S SPORT 2
 - 11.11 22:45 Paris - Fenerbahce → S SPORT
 - 11.11 22:00 Roma - Ulm → —
 - 11.11 22:00 Le Mans Sarthe - Burgos → —

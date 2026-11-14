@@ -1,6 +1,6 @@
-# Rapor 2026-11-14 03:05 UTC
+# Rapor 2026-11-14 10:11 UTC
 
-ESPN maç: 135 · EPG program: 714 · eşleşen maç: 6
+ESPN maç: 135 · EPG program: 683 · eşleşen maç: 6
 
 ## Çekim
 ```
@@ -16,7 +16,7 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 16, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 502 program
+ch_tvplus deneme 1: 9/9 kanal, 471 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
@@ -24,30 +24,21 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 213 program
 ```
 
 ## Kanal başına program
-- S SPORT: 52
-- S SPORT 2: 53
-- SPORTS TV: 36
-- TRT 1: 40
-- TRT SPOR: 72
-- TRT SPOR YILDIZ: 126
-- TV8: 32
-- TV8,5: 42
+- S SPORT: 48
+- S SPORT 2: 49
+- SPORTS TV: 42
+- TRT 1: 39
+- TRT SPOR: 64
+- TRT SPOR YILDIZ: 112
+- TV8: 33
+- TV8,5: 41
 - beIN SPORTS 1: 41
 - beIN SPORTS 2: 54
 - beIN SPORTS 3: 58
 - beIN SPORTS 4: 60
-- tabii spor: 48
+- tabii spor: 42
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 14.11 05:05 beIN SPORTS 4: Troyes - Lens
-- 14.11 06:50 beIN SPORTS 4: Angers - Marseille
-- 14.11 07:00 beIN SPORTS 2: Vanspor FK - Ümraniyespor
-- 14.11 07:07 beIN SPORTS 3: Newcastle - Aston Villa
-- 14.11 07:15 TRT SPOR YILDIZ: Vakıfbank - Nilüfer B.
-- 14.11 08:30 beIN SPORTS 4: Lorient - Monaco
-- 14.11 08:45 beIN SPORTS 2: İstanbulspor - Antalyaspor
-- 14.11 08:49 beIN SPORTS 3: Leeds - Man Utd
-- 14.11 10:10 beIN SPORTS 4: Paris FC - Rennes
 - 14.11 10:20 beIN SPORTS 1: A. Çorum FK - Ç. Rizespor
 - 14.11 10:29 beIN SPORTS 3: Brighton - C. Palace
 - 14.11 10:30 beIN SPORTS 2: F.Karagümrük - Keçiörengücü
@@ -88,7 +79,16 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 213 program
 - 14.11 22:44 beIN SPORTS 2: Kayserispor - Batman P.
 - 14.11 22:45 beIN SPORTS 3: Brentford - Liverpool
 - 14.11 23:00 S SPORT: Real Oviedo - Girona
+- 14.11 23:15 beIN SPORTS 3: Newcastle - Aston Villa
+- 15.11 01:50 TRT SPOR YILDIZ: Vakıfbank - Nilüfer B.
+- 15.11 05:05 beIN SPORTS 4: Troyes - Lens
+- 15.11 06:50 beIN SPORTS 4: Angers - Marseille
+- 15.11 07:30 beIN SPORTS 2: Vanspor FK - Ümraniyespor
+- 15.11 08:30 beIN SPORTS 4: Lorient - Monaco
+- 15.11 08:49 beIN SPORTS 3: Leeds - Man Utd
+- 15.11 09:15 beIN SPORTS 2: İstanbulspor - Antalyaspor
 - 15.11 09:20 TRT SPOR YILDIZ: 2026 - 2027 Sea To Sky Belgeseli
+- 15.11 10:10 beIN SPORTS 4: Paris FC - Rennes
 - 15.11 10:30 beIN SPORTS 1: C. Alanyaspor - Erzurumspor FK
 - 15.11 12:15 beIN SPORTS 1: T. Konyaspor - Başakşehir FK
 - 15.11 12:35 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıborussıa Dortmund - Real Betıs
@@ -108,9 +108,10 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 213 program
 - 15.11 22:15 beIN SPORTS 1: Samsunspor - Trabzonspor
 - 15.11 22:20 tabii spor: Fenerbahçe - Liverpool , Uefa Şampiyonlar Ligi Grup Maçları
 - 15.11 23:00 S SPORT 2: Baylor - Texas
+- 16.11 11:20 tabii spor: 2026 - 2027 Sea To Sky Belgeseli
+- 16.11 11:35 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıpsv - Club Brugge
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 14.11 04:00 Peru - Bolivia → —
 - 14.11 17:00 Kosovo - Israel → —
 - 14.11 20:00 Georgia - Hungary → —
 - 14.11 20:00 Norway - Wales → —
@@ -119,13 +120,11 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 213 program
 - 14.11 22:45 Portugal - Denmark → —
 - 14.11 22:45 Romania - Poland → —
 - 14.11 22:45 Sweden - Bosnia-Herzegovina → —
-- 14.11 08:30 Tahiti - Cook Islands → —
-- 14.11 09:00 Bahrain - Yemen → —
 - 14.11 13:15 Japan - Brazil → —
 - 14.11 15:00 China - Malaysia → —
 - 14.11 15:00 Chinese Taipei - Kyrgyz Republic → —
 - 14.11 18:00 Palestine - Iran → —
-- 15.11 06:00 New Zealand - India → —
+- 15.11 06:10 New Zealand - India → —
 - 15.11 17:00 Cyprus - Montenegro → —
 - 15.11 17:00 Latvia - Armenia → —
 - 15.11 20:00 Belarus - Albania → —
@@ -135,13 +134,6 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 213 program
 - 15.11 22:45 France - Türkiye → —
 - 15.11 22:45 Spain - England → —
 - 15.11 20:00 Suriname - Eswatini → —
-- 14.11 04:00 Miami Heat - Cleveland Cavaliers → —
-- 14.11 04:00 Chicago Bulls - Atlanta Hawks → —
-- 14.11 04:00 New Orleans Pelicans - Memphis Grizzlies → —
-- 14.11 04:30 Houston Rockets - Utah Jazz → —
-- 14.11 05:30 San Antonio Spurs - Golden State Warriors → —
-- 14.11 06:00 Sacramento Kings - Portland Trail Blazers → —
-- 14.11 06:30 LA Clippers - Oklahoma City Thunder → —
 - 15.11 03:00 New Orleans Pelicans - Denver Nuggets → —
 - 15.11 03:30 Cleveland Cavaliers - Dallas Mavericks → S SPORT
 - 15.11 04:00 Miami Heat - Detroit Pistons → —

@@ -1,6 +1,6 @@
-# Rapor 2026-11-14 17:00 UTC
+# Rapor 2026-11-14 21:22 UTC
 
-ESPN maç: 138 · EPG program: 658 · eşleşen maç: 6
+ESPN maç: 126 · EPG program: 646 · eşleşen maç: 4
 
 ## Çekim
 ```
@@ -16,53 +16,33 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 16, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 446 program
+ch_tvplus deneme 1: 9/9 kanal, 427 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 16 sayfa ok, 0 hata, 213 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 220 program
 ```
 
 ## Kanal başına program
-- S SPORT: 45
-- S SPORT 2: 44
-- SPORTS TV: 41
+- S SPORT: 41
+- S SPORT 2: 42
+- SPORTS TV: 42
 - TRT 1: 41
-- TRT SPOR: 59
-- TRT SPOR YILDIZ: 102
+- TRT SPOR: 56
+- TRT SPOR YILDIZ: 96
 - TV8: 34
-- TV8,5: 42
-- beIN SPORTS 1: 41
-- beIN SPORTS 2: 54
-- beIN SPORTS 3: 58
-- beIN SPORTS 4: 60
-- tabii spor: 37
+- TV8,5: 41
+- beIN SPORTS 1: 46
+- beIN SPORTS 2: 55
+- beIN SPORTS 3: 57
+- beIN SPORTS 4: 62
+- tabii spor: 33
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 14.11 17:05 beIN SPORTS 4: Porto - Benfica
-- 14.11 17:16 beIN SPORTS 1: Gençlerbirliği - Galatasaray
-- 14.11 17:26 beIN SPORTS 3: Everton - Chelsea
-- 14.11 17:30 beIN SPORTS 2: Sivasspor - Sarıyer
-- 14.11 18:45 tabii spor: Slavia Prag - Arsenal
-- 14.11 18:50 beIN SPORTS 4: Le Mans - Toulouse
-- 14.11 19:00 beIN SPORTS 1: Trabzonspor - Beşiktaş
-- 14.11 19:09 beIN SPORTS 3: Man City - Ipswich
-- 14.11 19:15 beIN SPORTS 2: Bodrum FK - Bandırmaspor
-- 14.11 20:25 tabii spor: Fenerbahçe - Liverpool
-- 14.11 20:32 beIN SPORTS 4: Strasbourg - PSG
-- 14.11 20:35 TRT SPOR YILDIZ: İsrail - Türkiye
-- 14.11 20:45 beIN SPORTS 1: Fenerbahçe - C. Alanyaspor
-- 14.11 21:00 beIN SPORTS 2: Igdır FK - Boluspor
-- 14.11 21:00 beIN SPORTS 3: Fulham - Hull City
-- 14.11 22:05 tabii spor: Trabzonspor - Freiburg
-- 14.11 22:15 beIN SPORTS 4: Lille - Brest
-- 14.11 22:44 beIN SPORTS 2: Kayserispor - Batman P.
-- 14.11 22:45 beIN SPORTS 3: Brentford - Liverpool
-- 14.11 23:00 S SPORT: Real Oviedo - Girona
-- 14.11 23:15 beIN SPORTS 3: Newcastle - Aston Villa
 - 15.11 01:50 TRT SPOR YILDIZ: Vakıfbank - Nilüfer B.
 - 15.11 05:04 beIN SPORTS 4: Troyes - Lens
 - 15.11 06:50 beIN SPORTS 4: Angers - Marseille
+- 15.11 07:07 beIN SPORTS 3: Newcastle - Aston Villa
 - 15.11 07:15 TRT SPOR YILDIZ: Bursa Bşb. - Üsküdar B.
 - 15.11 07:30 beIN SPORTS 2: Vanspor FK - Ümraniyespor
 - 15.11 08:30 beIN SPORTS 4: Lorient - Monaco
@@ -92,27 +72,36 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 213 program
 - 15.11 16:15 beIN SPORTS 2: E. Erokspor - Mardin 1969
 - 15.11 16:55 TRT SPOR YILDIZ: Kuzeyboru - İlbank
 - 15.11 17:00 beIN SPORTS 1: Beşiktaş - Kocaelispor
+- 15.11 17:05 beIN SPORTS 4: Porto - Benfica
+- 15.11 17:26 beIN SPORTS 3: Everton - Chelsea
+- 15.11 17:55 beIN SPORTS 2: Sivasspor - Sarıyer
 - 15.11 18:15 S SPORT: Granada - Las Palmas
 - 15.11 18:45 beIN SPORTS 1: Ç. Rizespor - Fenerbahçe
 - 15.11 18:55 tabii spor: Galatasaray - Stuttgart , Uefa Şampiyonlar Ligi Grup Maçları
 - 15.11 19:00 beIN SPORTS 4: Aix - Paris Saint Germain
+- 15.11 19:09 beIN SPORTS 3: Man City - Ipswich
+- 15.11 19:40 beIN SPORTS 2: Bodrum FK - Bandırmaspor
 - 15.11 20:30 beIN SPORTS 1: Galatasaray - Kasımpaşa
+- 15.11 20:32 beIN SPORTS 4: Strasbourg - PSG
+- 15.11 21:00 beIN SPORTS 3: Fulham - Hull City
+- 15.11 21:24 beIN SPORTS 2: Igdır FK - Boluspor
+- 15.11 22:15 beIN SPORTS 4: Lille - Brest
 - 15.11 22:17 beIN SPORTS 1: Samsunspor - Trabzonspor
 - 15.11 22:20 tabii spor: Fenerbahçe - Liverpool , Uefa Şampiyonlar Ligi Grup Maçları
+- 15.11 22:45 beIN SPORTS 3: Brentford - Liverpool
 - 15.11 23:00 S SPORT 2: Baylor - Texas
+- 15.11 23:04 beIN SPORTS 2: Kayserispor - Batman P.
 - 16.11 11:20 tabii spor: 2026 - 2027 Sea To Sky Belgeseli
 - 16.11 11:35 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıpsv - Club Brugge
 - 16.11 14:05 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıvıkıng - Sabah
+- 16.11 22:15 tabii spor: Trabzonspor - Freiburg , Uefa Konferans Ligi Grup Maçları
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 14.11 20:00 Georgia - Hungary → —
-- 14.11 20:00 Norway - Wales → —
 - 14.11 22:45 Austria - Republic of Ireland → —
 - 14.11 22:45 Northern Ireland - Ukraine → —
 - 14.11 22:45 Portugal - Denmark → —
 - 14.11 22:45 Romania - Poland → —
 - 14.11 22:45 Sweden - Bosnia-Herzegovina → —
-- 14.11 18:00 Palestine - Iran → —
 - 15.11 06:10 New Zealand - India → —
 - 15.11 17:00 Cyprus - Montenegro → —
 - 15.11 17:00 Latvia - Armenia → —
@@ -128,6 +117,12 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 213 program
 - 16.11 20:00 Estonia - Bulgaria → —
 - 16.11 20:00 Iceland - Luxembourg → —
 - 16.11 20:00 Lithuania - Liechtenstein → —
+- 16.11 22:45 Germany - Netherlands → —
+- 16.11 22:45 Gibraltar - Malta → —
+- 16.11 22:45 Greece - Serbia → —
+- 16.11 22:45 North Macedonia - Slovenia → —
+- 16.11 22:45 Switzerland - Scotland → —
+- 16.11 21:00 Andorra - Azerbaijan → —
 - 15.11 03:00 New Orleans Pelicans - Denver Nuggets → —
 - 15.11 03:30 Cleveland Cavaliers - Dallas Mavericks → S SPORT
 - 15.11 04:00 Miami Heat - Detroit Pistons → —

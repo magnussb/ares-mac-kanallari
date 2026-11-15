@@ -1,6 +1,6 @@
-# Rapor 2026-11-15 01:47 UTC
+# Rapor 2026-11-15 09:13 UTC
 
-ESPN maç: 126 · EPG program: 645 · eşleşen maç: 4
+ESPN maç: 126 · EPG program: 616 · eşleşen maç: 4
 
 ## Çekim
 ```
@@ -16,7 +16,7 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 17, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 426 program
+ch_tvplus deneme 1: 9/9 kanal, 400 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
@@ -24,30 +24,22 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 220 program
 ```
 
 ## Kanal başına program
-- S SPORT: 37
-- S SPORT 2: 38
-- SPORTS TV: 42
-- TRT 1: 40
-- TRT SPOR: 53
-- TRT SPOR YILDIZ: 90
-- TV8: 34
-- TV8,5: 42
+- S SPORT: 33
+- S SPORT 2: 34
+- SPORTS TV: 48
+- TRT 1: 39
+- TRT SPOR: 43
+- TRT SPOR YILDIZ: 75
+- TV8: 35
+- TV8,5: 43
 - beIN SPORTS 1: 46
 - beIN SPORTS 2: 55
 - beIN SPORTS 3: 57
 - beIN SPORTS 4: 62
-- tabii spor: 49
+- tabii spor: 46
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 15.11 05:04 beIN SPORTS 4: Troyes - Lens
-- 15.11 06:50 beIN SPORTS 4: Angers - Marseille
-- 15.11 07:07 beIN SPORTS 3: Newcastle - Aston Villa
-- 15.11 07:15 TRT SPOR YILDIZ: Bursa Bşb. - Üsküdar B.
-- 15.11 07:30 beIN SPORTS 2: Vanspor FK - Ümraniyespor
-- 15.11 08:30 beIN SPORTS 4: Lorient - Monaco
-- 15.11 08:49 beIN SPORTS 3: Leeds - Man Utd
 - 15.11 09:15 beIN SPORTS 2: İstanbulspor - Antalyaspor
-- 15.11 09:20 TRT SPOR YILDIZ: 2026 - 2027 Sea To Sky Belgeseli
 - 15.11 10:10 beIN SPORTS 4: Paris FC - Rennes
 - 15.11 10:29 beIN SPORTS 3: Brighton - C. Palace
 - 15.11 10:30 beIN SPORTS 1: C. Alanyaspor - Erzurumspor FK
@@ -68,6 +60,7 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 220 program
 - 15.11 15:40 beIN SPORTS 3: Tottenham - Coventry
 - 15.11 16:00 tabii spor: lens - Como
 - 15.11 16:00 TRT SPOR: Göztepe Yuppo - Galatasaray
+- 15.11 16:00 TRT SPOR YILDIZ: 2026 - 2027 Sea To Sky Belgeseli
 - 15.11 16:15 beIN SPORTS 2: E. Erokspor - Mardin 1969
 - 15.11 16:55 TRT SPOR YILDIZ: Kuzeyboru - İlbank
 - 15.11 17:00 beIN SPORTS 1: Beşiktaş - Kocaelispor
@@ -88,15 +81,16 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 220 program
 - 15.11 22:17 beIN SPORTS 1: Samsunspor - Trabzonspor
 - 15.11 22:20 tabii spor: Fenerbahçe - Liverpool , Uefa Şampiyonlar Ligi Grup Maçları
 - 15.11 22:45 beIN SPORTS 3: Brentford - Liverpool
+- 15.11 22:50 TRT SPOR YILDIZ: Bursa Bşb. - Üsküdar B.
 - 15.11 23:00 S SPORT 2: Baylor - Texas
 - 15.11 23:04 beIN SPORTS 2: Kayserispor - Batman P.
+- 15.11 23:15 beIN SPORTS 3: Newcastle - Aston Villa
 - 16.11 11:20 tabii spor: 2026 - 2027 Sea To Sky Belgeseli
 - 16.11 11:35 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıpsv - Club Brugge
 - 16.11 14:05 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıvıkıng - Sabah
 - 16.11 22:15 tabii spor: Trabzonspor - Freiburg , Uefa Konferans Ligi Grup Maçları
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 15.11 06:10 New Zealand - India → —
 - 15.11 17:00 Cyprus - Montenegro → —
 - 15.11 17:00 Latvia - Armenia → —
 - 15.11 20:00 Belarus - Albania → —
@@ -117,11 +111,8 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 220 program
 - 16.11 22:45 North Macedonia - Slovenia → —
 - 16.11 22:45 Switzerland - Scotland → —
 - 16.11 21:00 Andorra - Azerbaijan → —
-- 15.11 03:00 New Orleans Pelicans - Denver Nuggets → —
-- 15.11 03:30 Cleveland Cavaliers - Dallas Mavericks → S SPORT
-- 15.11 04:00 Miami Heat - Detroit Pistons → —
-- 15.11 04:00 Memphis Grizzlies - Brooklyn Nets → —
-- 15.11 04:00 Minnesota Timberwolves - Chicago Bulls → —
+- 17.11 08:30 Tahiti - Cook Islands → —
+- 17.11 09:00 Malaysia - Yemen → —
 - 15.11 21:00 Philadelphia 76ers - Indiana Pacers → S SPORT
 - 16.11 00:00 Phoenix Suns - Los Angeles Lakers → S SPORT
 - 16.11 00:30 LA Clippers - Charlotte Hornets → —
@@ -138,3 +129,4 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 220 program
 - 17.11 03:30 Miami Heat - Houston Rockets → S SPORT
 - 17.11 04:00 Minnesota Timberwolves - Portland Trail Blazers → —
 - 17.11 04:00 New Orleans Pelicans - Golden State Warriors → —
+- 17.11 05:00 Denver Nuggets - Phoenix Suns → —

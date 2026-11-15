@@ -1,6 +1,6 @@
-# Rapor 2026-11-15 16:59 UTC
+# Rapor 2026-11-15 21:41 UTC
 
-ESPN maç: 126 · EPG program: 558 · eşleşen maç: 4
+ESPN maç: 116 · EPG program: 565 · eşleşen maç: 3
 
 ## Çekim
 ```
@@ -16,42 +16,31 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 17, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 367 program
+ch_tvplus deneme 1: 9/9 kanal, 343 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 14 sayfa ok, 2 hata, 196 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 227 program
 ```
 
 ## Kanal başına program
-- S SPORT: 28
-- S SPORT 2: 28
+- S SPORT: 24
+- S SPORT 2: 26
 - SPORTS TV: 49
 - TRT 1: 40
-- TRT SPOR: 37
-- TRT SPOR YILDIZ: 61
+- TRT SPOR: 33
+- TRT SPOR YILDIZ: 53
 - TV8: 37
-- TV8,5: 42
-- beIN SPORTS 1: 46
-- beIN SPORTS 2: 55
-- beIN SPORTS 3: 45
-- beIN SPORTS 4: 50
-- tabii spor: 40
+- TV8,5: 41
+- beIN SPORTS 1: 51
+- beIN SPORTS 2: 56
+- beIN SPORTS 3: 57
+- beIN SPORTS 4: 63
+- tabii spor: 35
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 15.11 17:00 beIN SPORTS 1: Beşiktaş - Kocaelispor
-- 15.11 17:55 beIN SPORTS 2: Sivasspor - Sarıyer
-- 15.11 18:15 S SPORT: Granada - Las Palmas
-- 15.11 18:45 beIN SPORTS 1: Ç. Rizespor - Fenerbahçe
-- 15.11 18:55 tabii spor: Galatasaray - Stuttgart
-- 15.11 19:40 beIN SPORTS 2: Bodrum FK - Bandırmaspor
-- 15.11 20:30 beIN SPORTS 1: Galatasaray - Kasımpaşa
-- 15.11 21:24 beIN SPORTS 2: Igdır FK - Boluspor
-- 15.11 22:17 beIN SPORTS 1: Samsunspor - Trabzonspor
-- 15.11 22:20 tabii spor: Fenerbahçe - Liverpool
-- 15.11 22:50 TRT SPOR YILDIZ: Bursa Bşb. - Üsküdar B.
 - 15.11 23:00 S SPORT 2: Baylor - Texas
-- 15.11 23:03 beIN SPORTS 2: Kayserispor - Batman P.
+- 16.11 09:30 TRT SPOR YILDIZ: Bursa Bşb. - Üsküdar B.
 - 16.11 11:20 tabii spor: 2026 - 2027 Sea To Sky Belgeseli
 - 16.11 11:35 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıpsv - Club Brugge
 - 16.11 11:35 TRT SPOR YILDIZ: 2026 - 2027 Sea To Sky Belgeseli
@@ -64,17 +53,13 @@ beIN: 4 kanal, 14 sayfa ok, 2 hata, 196 program
 - 17.11 15:00 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıb.leverkusen - Marsilya
 - 17.11 17:50 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasımılan - Ferencvaros
 - 17.11 19:55 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıbenfıca - Lech Poznan
+- 17.11 22:00 tabii spor: Celtic - Beşiktaş , Uefa Avrupa Ligi Grup Maçları
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 15.11 17:00 Cyprus - Montenegro → —
-- 15.11 17:00 Latvia - Armenia → —
-- 15.11 20:00 Belarus - Albania → —
-- 15.11 20:00 Finland - San Marino → —
 - 15.11 22:45 Belgium - Italy → —
 - 15.11 22:45 Croatia - Czechia → —
 - 15.11 22:45 France - Türkiye → —
 - 15.11 22:45 Spain - England → —
-- 15.11 20:00 Suriname - Eswatini → —
 - 16.11 18:00 Faroe Islands - Moldova → —
 - 16.11 18:00 Kazakhstan - Slovakia → —
 - 16.11 20:00 Estonia - Bulgaria → —
@@ -86,6 +71,14 @@ beIN: 4 kanal, 14 sayfa ok, 2 hata, 196 program
 - 16.11 22:45 North Macedonia - Slovenia → —
 - 16.11 22:45 Switzerland - Scotland → —
 - 16.11 21:00 Andorra - Azerbaijan → —
+- 17.11 22:45 Bosnia-Herzegovina - Romania → —
+- 17.11 22:45 Denmark - Norway → —
+- 17.11 22:45 Hungary - Northern Ireland → —
+- 17.11 22:45 Israel - Austria → —
+- 17.11 22:45 Poland - Sweden → —
+- 17.11 22:45 Republic of Ireland - Kosovo → —
+- 17.11 22:45 Ukraine - Georgia → —
+- 17.11 22:45 Wales - Portugal → —
 - 17.11 08:30 Tahiti - Cook Islands → —
 - 17.11 09:00 Malaysia - Yemen → —
 - 17.11 13:00 Singapore - Brazil → —
@@ -100,7 +93,6 @@ beIN: 4 kanal, 14 sayfa ok, 2 hata, 196 program
 - 17.11 19:00 Russia - Venezuela → —
 - 17.11 19:15 Iraq - Iran → —
 - 17.11 19:30 Kuwait - Honduras → —
-- 15.11 21:00 Philadelphia 76ers - Indiana Pacers → S SPORT
 - 16.11 00:00 Phoenix Suns - Los Angeles Lakers → S SPORT
 - 16.11 00:30 LA Clippers - Charlotte Hornets → —
 - 16.11 01:00 Utah Jazz - San Antonio Spurs → —
@@ -117,5 +109,17 @@ beIN: 4 kanal, 14 sayfa ok, 2 hata, 196 program
 - 17.11 04:00 Minnesota Timberwolves - Portland Trail Blazers → —
 - 17.11 04:00 New Orleans Pelicans - Golden State Warriors → —
 - 17.11 05:00 Denver Nuggets - Phoenix Suns → —
+- 17.11 23:00 Virtus - Panathinaikos → —
+- 17.11 22:45 Partizan - Valencia → —
+- 17.11 22:30 Barca - Paris → —
+- 17.11 22:30 Milan - Crvena → —
+- 17.11 22:30 Baskonia - Hapoel → —
+- 17.11 21:00 Fenerbahce - ASVEL → —
+- 17.11 21:00 Zalgiris - Bayern → —
+- 17.11 20:00 Maccabi - Olympiacos → —
 - 17.11 19:00 Dubai - Efes → —
+- 17.11 22:30 London - Siauliai  → —
+- 17.11 22:00 Roma - Bahcesehir → —
+- 17.11 22:00  Rostock - Jerusalem → —
+- 17.11 20:00 Balkan - Ulm → —
 - 17.11 19:30 Turk Telekom - La Laguna Tenerife → —

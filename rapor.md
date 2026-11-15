@@ -1,6 +1,6 @@
-# Rapor 2026-11-14 21:22 UTC
+# Rapor 2026-11-15 01:47 UTC
 
-ESPN maç: 126 · EPG program: 646 · eşleşen maç: 4
+ESPN maç: 126 · EPG program: 645 · eşleşen maç: 4
 
 ## Çekim
 ```
@@ -8,15 +8,15 @@ ch_dsmart deneme 1: 0/2 kanal, 0 program
 ch_dsmart deneme 2: 0/2 kanal, 0 program
 ch_dsmart deneme 3: 0/2 kanal, 0 program
 --- ch_dsmart son log:
-[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Nov 16, 2026 (0 programs)
+[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Nov 17, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 14, 2026 (0 programs)
+[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 15, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 15, 2026 (0 programs)
+[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 16, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 16, 2026 (0 programs)
+[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 17, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 427 program
+ch_tvplus deneme 1: 9/9 kanal, 426 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
@@ -24,22 +24,21 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 220 program
 ```
 
 ## Kanal başına program
-- S SPORT: 41
-- S SPORT 2: 42
+- S SPORT: 37
+- S SPORT 2: 38
 - SPORTS TV: 42
-- TRT 1: 41
-- TRT SPOR: 56
-- TRT SPOR YILDIZ: 96
+- TRT 1: 40
+- TRT SPOR: 53
+- TRT SPOR YILDIZ: 90
 - TV8: 34
-- TV8,5: 41
+- TV8,5: 42
 - beIN SPORTS 1: 46
 - beIN SPORTS 2: 55
 - beIN SPORTS 3: 57
 - beIN SPORTS 4: 62
-- tabii spor: 33
+- tabii spor: 49
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 15.11 01:50 TRT SPOR YILDIZ: Vakıfbank - Nilüfer B.
 - 15.11 05:04 beIN SPORTS 4: Troyes - Lens
 - 15.11 06:50 beIN SPORTS 4: Angers - Marseille
 - 15.11 07:07 beIN SPORTS 3: Newcastle - Aston Villa
@@ -56,18 +55,18 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 220 program
 - 15.11 12:00 beIN SPORTS 4: Le Havre - Auxerre
 - 15.11 12:08 beIN SPORTS 3: Bournemouth - Sunderland
 - 15.11 12:15 beIN SPORTS 1: T. Konyaspor - Başakşehir FK
-- 15.11 12:35 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıborussıa Dortmund - Real Betıs
+- 15.11 12:35 tabii spor: borussıa Dortmund - Real Betıs
 - 15.11 12:45 beIN SPORTS 2: Manisa FK - Muğlaspor
 - 15.11 13:00 TRT SPOR: Fenerbahçe M. - Nilüfer B.
 - 15.11 13:40 beIN SPORTS 4: Sporting CP - Arouca
 - 15.11 13:55 TRT SPOR YILDIZ: Zeren Spor - Eczacıbaşı P.
 - 15.11 13:57 beIN SPORTS 3: Nott'm Forest - Arsenal
 - 15.11 14:00 beIN SPORTS 1: Gaziantep FK - A. Çorum FK
-- 15.11 14:15 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıporto - Napolı
+- 15.11 14:15 tabii spor: porto - Napolı
 - 15.11 14:31 beIN SPORTS 2: Bursaspor - Pendikspor
 - 15.11 15:25 beIN SPORTS 4: Santa Clara - Braga
 - 15.11 15:40 beIN SPORTS 3: Tottenham - Coventry
-- 15.11 16:00 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasılens - Como
+- 15.11 16:00 tabii spor: lens - Como
 - 15.11 16:00 TRT SPOR: Göztepe Yuppo - Galatasaray
 - 15.11 16:15 beIN SPORTS 2: E. Erokspor - Mardin 1969
 - 15.11 16:55 TRT SPOR YILDIZ: Kuzeyboru - İlbank
@@ -97,11 +96,6 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 220 program
 - 16.11 22:15 tabii spor: Trabzonspor - Freiburg , Uefa Konferans Ligi Grup Maçları
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 14.11 22:45 Austria - Republic of Ireland → —
-- 14.11 22:45 Northern Ireland - Ukraine → —
-- 14.11 22:45 Portugal - Denmark → —
-- 14.11 22:45 Romania - Poland → —
-- 14.11 22:45 Sweden - Bosnia-Herzegovina → —
 - 15.11 06:10 New Zealand - India → —
 - 15.11 17:00 Cyprus - Montenegro → —
 - 15.11 17:00 Latvia - Armenia → —
@@ -137,3 +131,10 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 220 program
 - 16.11 03:00 Washington Wizards - Houston Rockets → —
 - 16.11 04:00 Milwaukee Bucks - Atlanta Hawks → —
 - 16.11 05:00 Sacramento Kings - Oklahoma City Thunder → —
+- 17.11 03:00 Boston Celtics - Orlando Magic → —
+- 17.11 03:00 Cleveland Cavaliers - Chicago Bulls → —
+- 17.11 03:00 Washington Wizards - Memphis Grizzlies → —
+- 17.11 03:30 Brooklyn Nets - Philadelphia 76ers → —
+- 17.11 03:30 Miami Heat - Houston Rockets → S SPORT
+- 17.11 04:00 Minnesota Timberwolves - Portland Trail Blazers → —
+- 17.11 04:00 New Orleans Pelicans - Golden State Warriors → —

@@ -1,6 +1,6 @@
-# Rapor 2026-11-15 21:41 UTC
+# Rapor 2026-11-16 01:53 UTC
 
-ESPN maç: 116 · EPG program: 565 · eşleşen maç: 3
+ESPN maç: 100 · EPG program: 443 · eşleşen maç: 3
 
 ## Çekim
 ```
@@ -8,58 +8,108 @@ ch_dsmart deneme 1: 0/2 kanal, 0 program
 ch_dsmart deneme 2: 0/2 kanal, 0 program
 ch_dsmart deneme 3: 0/2 kanal, 0 program
 --- ch_dsmart son log:
-[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Nov 17, 2026 (0 programs)
+[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Nov 18, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 15, 2026 (0 programs)
+[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 16, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 16, 2026 (0 programs)
+[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 17, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 17, 2026 (0 programs)
+[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 18, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 343 program
+ch_tvplus deneme 1: 9/9 kanal, 328 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 16 sayfa ok, 0 hata, 227 program
+beIN: 4 kanal, 14 sayfa ok, 2 hata, 121 program
 ```
 
 ## Kanal başına program
-- S SPORT: 24
-- S SPORT 2: 26
+- S SPORT: 22
+- S SPORT 2: 21
 - SPORTS TV: 49
-- TRT 1: 40
-- TRT SPOR: 33
-- TRT SPOR YILDIZ: 53
-- TV8: 37
-- TV8,5: 41
-- beIN SPORTS 1: 51
-- beIN SPORTS 2: 56
-- beIN SPORTS 3: 57
-- beIN SPORTS 4: 63
-- tabii spor: 35
+- TRT 1: 41
+- TRT SPOR: 28
+- TRT SPOR YILDIZ: 47
+- TV8: 38
+- TV8,5: 42
+- beIN SPORTS 1: 8
+- beIN SPORTS 2: 21
+- beIN SPORTS 3: 44
+- beIN SPORTS 4: 48
+- tabii spor: 34
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 15.11 23:00 S SPORT 2: Baylor - Texas
+- 16.11 05:15 beIN SPORTS 4: Monaco - Toulouse
+- 16.11 07:00 beIN SPORTS 4: Lorient - Paris FC
+- 16.11 07:16 beIN SPORTS 3: Everton - Ipswich
+- 16.11 08:45 beIN SPORTS 4: Brest - Angers
+- 16.11 09:00 beIN SPORTS 3: Nott'm Forest - Coventry
 - 16.11 09:30 TRT SPOR YILDIZ: Bursa Bşb. - Üsküdar B.
+- 16.11 10:30 beIN SPORTS 1: Kasımpaşa - T. Konyaspor
+- 16.11 10:30 beIN SPORTS 4: Nice - Strasbourg
+- 16.11 10:45 beIN SPORTS 3: Man City - Sunderland
 - 16.11 11:20 tabii spor: 2026 - 2027 Sea To Sky Belgeseli
-- 16.11 11:35 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıpsv - Club Brugge
+- 16.11 11:35 tabii spor: Psv - Club Brugge
 - 16.11 11:35 TRT SPOR YILDIZ: 2026 - 2027 Sea To Sky Belgeseli
 - 16.11 12:15 TRT SPOR YILDIZ: Zeren Spor - Eczacıbaşı P.
-- 16.11 14:05 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıvıkıng - Sabah
+- 16.11 12:15 beIN SPORTS 1: Kocaelispor - Gaziantep FK
+- 16.11 12:15 beIN SPORTS 4: Rennes - Auxerre
+- 16.11 12:30 beIN SPORTS 3: Bournemouth - Liverpool
+- 16.11 14:00 beIN SPORTS 1: A. Çorum FK - C. Alanyaspor
+- 16.11 14:00 beIN SPORTS 4: Troyes - Marseille
+- 16.11 14:05 tabii spor: Viking - Sabah
+- 16.11 14:15 beIN SPORTS 3: Leeds - C. Palace
+- 16.11 15:45 beIN SPORTS 1: Başakşehir FK - Gençlerbirliği
+- 16.11 15:45 beIN SPORTS 4: Casa Pia - Porto
+- 16.11 16:00 beIN SPORTS 3: Fulham - Man Utd
 - 16.11 16:15 TRT SPOR YILDIZ: Kuzeyboru - İlbank
-- 16.11 20:15 tabii spor: Galatasaray - Stuttgart , Uefa Şampiyonlar Ligi Grup Maçları
-- 16.11 22:15 tabii spor: Trabzonspor - Freiburg , Uefa Konferans Ligi Grup Maçları
+- 16.11 17:30 beIN SPORTS 4: Benfica - Gil Vicente
+- 16.11 17:45 beIN SPORTS 3: Brentford - Chelsea
+- 16.11 18:30 beIN SPORTS 1: Amedspor - Beşiktaş
+- 16.11 19:15 beIN SPORTS 4: Famalicao - Sporting CP
+- 16.11 19:30 beIN SPORTS 3: Tottenham - Aston Villa
+- 16.11 20:15 tabii spor: Galatasaray - Stuttgart
+- 16.11 20:30 beIN SPORTS 1: Fenerbahçe - Eyüpspor
+- 16.11 21:00 beIN SPORTS 4: Lens - Lyon
+- 16.11 21:30 beIN SPORTS 3: Brighton - Arsenal
+- 16.11 22:15 tabii spor: Trabzonspor - Freiburg
+- 16.11 22:15 beIN SPORTS 1: Trabzonspor - Galatasaray
+- 16.11 22:45 beIN SPORTS 4: Lille - Le Havre
+- 17.11 05:15 beIN SPORTS 4: Auxerre - Nice
+- 17.11 07:00 beIN SPORTS 2: Vanspor FK - Batman P.
+- 17.11 07:00 beIN SPORTS 3: Tottenham - Everton
+- 17.11 07:00 beIN SPORTS 4: Lorient - Toulouse
+- 17.11 08:45 beIN SPORTS 2: F. Karagümrük - Kayserispor
+- 17.11 08:45 beIN SPORTS 3: Sunderland - Arsenal
+- 17.11 08:45 beIN SPORTS 4: Le Havre - Angers
+- 17.11 10:30 beIN SPORTS 2: Sivasspor - Mardin 1969
+- 17.11 10:30 beIN SPORTS 3: Coventry - Brighton
+- 17.11 10:30 beIN SPORTS 4: Lille - Troyes
+- 17.11 12:15 beIN SPORTS 2: Igdır FK - Manisa FK
+- 17.11 12:15 beIN SPORTS 3: Man Utd - Man City
+- 17.11 12:15 beIN SPORTS 4: Le Mans - Lens
 - 17.11 12:55 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıcrystal Palace - Hoffenheım
+- 17.11 14:00 beIN SPORTS 2: Bursaspor - İstanbulspor
+- 17.11 14:00 beIN SPORTS 3: Leeds - Newcastle
+- 17.11 14:00 beIN SPORTS 4: Brest - PSG
 - 17.11 15:00 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıb.leverkusen - Marsilya
+- 17.11 15:45 beIN SPORTS 2: Bodrum FK - E. Erokspor
+- 17.11 15:45 beIN SPORTS 3: Chelsea - Hull City
+- 17.11 15:45 beIN SPORTS 4: Rennes - Marseille
+- 17.11 17:30 beIN SPORTS 2: Bandırmaspor - Antalyaspor
+- 17.11 17:30 beIN SPORTS 3: Liverpool - Fulham
+- 17.11 17:30 beIN SPORTS 4: Strasbourg - Monaco
 - 17.11 17:50 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasımılan - Ferencvaros
+- 17.11 19:15 beIN SPORTS 2: Ümraniyespor - Muğlaspor
+- 17.11 19:15 beIN SPORTS 3: C. Palace - Ipswich
+- 17.11 19:15 beIN SPORTS 4: Paris FC - Lyon
 - 17.11 19:55 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıbenfıca - Lech Poznan
+- 17.11 21:00 beIN SPORTS 2: Sarıyer - Pendikspor
+- 17.11 21:00 beIN SPORTS 3: Bournemouth - Brentford
 - 17.11 22:00 tabii spor: Celtic - Beşiktaş , Uefa Avrupa Ligi Grup Maçları
+- 17.11 22:45 beIN SPORTS 2: Boluspor - A. Keçiörengücü
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 15.11 22:45 Belgium - Italy → —
-- 15.11 22:45 Croatia - Czechia → —
-- 15.11 22:45 France - Türkiye → —
-- 15.11 22:45 Spain - England → —
 - 16.11 18:00 Faroe Islands - Moldova → —
 - 16.11 18:00 Kazakhstan - Slovakia → —
 - 16.11 20:00 Estonia - Bulgaria → —
@@ -93,9 +143,10 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 227 program
 - 17.11 19:00 Russia - Venezuela → —
 - 17.11 19:15 Iraq - Iran → —
 - 17.11 19:30 Kuwait - Honduras → —
-- 16.11 00:00 Phoenix Suns - Los Angeles Lakers → S SPORT
-- 16.11 00:30 LA Clippers - Charlotte Hornets → —
-- 16.11 01:00 Utah Jazz - San Antonio Spurs → —
+- 18.11 02:00 Argentina - Costa Rica → —
+- 18.11 02:00 Chile - Colombia → —
+- 18.11 02:30 Ecuador - Bolivia → —
+- 18.11 02:30 Uruguay - Dominican Republic → —
 - 16.11 02:00 Boston Celtics - Dallas Mavericks → —
 - 16.11 02:00 Toronto Raptors - New York Knicks → —
 - 16.11 03:00 Washington Wizards - Houston Rockets → —
@@ -109,15 +160,9 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 227 program
 - 17.11 04:00 Minnesota Timberwolves - Portland Trail Blazers → —
 - 17.11 04:00 New Orleans Pelicans - Golden State Warriors → —
 - 17.11 05:00 Denver Nuggets - Phoenix Suns → —
-- 17.11 23:00 Virtus - Panathinaikos → —
-- 17.11 22:45 Partizan - Valencia → —
-- 17.11 22:30 Barca - Paris → —
-- 17.11 22:30 Milan - Crvena → —
-- 17.11 22:30 Baskonia - Hapoel → —
-- 17.11 21:00 Fenerbahce - ASVEL → —
-- 17.11 21:00 Zalgiris - Bayern → —
-- 17.11 20:00 Maccabi - Olympiacos → —
-- 17.11 19:00 Dubai - Efes → —
+- 18.11 03:30 Toronto Raptors - New York Knicks → —
+- 18.11 04:00 Minnesota Timberwolves - Portland Trail Blazers → —
+- 18.11 04:00 San Antonio Spurs - Detroit Pistons → —
 - 17.11 22:30 London - Siauliai  → —
 - 17.11 22:00 Roma - Bahcesehir → —
 - 17.11 22:00  Rostock - Jerusalem → —

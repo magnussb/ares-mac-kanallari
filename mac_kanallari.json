@@ -1,11 +1,20 @@
 {
- "guncellendi": "2026-11-19T12:51:53Z",
+ "guncellendi": "2026-11-19T21:25:10Z",
  "kaynak": "ESPN fikstür + beIN SPORTS / TV+ / D-Smart yayın akışı",
  "maclar": {
   "401874967": [
    "S SPORT 2"
   ],
   "401874981": [
+   "S SPORT 2"
+  ],
+  "401874989": [
+   "S SPORT 2"
+  ],
+  "401875001": [
+   "S SPORT 2"
+  ],
+  "401875047": [
    "S SPORT 2"
   ],
   "401875067": [
@@ -31,6 +40,7 @@
    "beIN SPORTS 4"
   ],
   "401876402": [
+   "beIN SPORTS 2",
    "beIN SPORTS 3"
   ],
   "401878755": [
@@ -54,19 +64,34 @@
   "401882798": [
    "S SPORT"
   ],
+  "401882800": [
+   "S SPORT"
+  ],
+  "401882801": [
+   "S SPORT"
+  ],
+  "401882803": [
+   "S SPORT"
+  ],
+  "401882804": [
+   "S SPORT"
+  ],
   "401882806": [
    "S SPORT"
   ],
-  "401910008": [
-   "S SPORT"
+  "401888244": [
+   "beIN SPORTS 1"
   ],
-  "401910015": [
-   "S SPORT"
+  "401888245": [
+   "beIN SPORTS 1"
+  ],
+  "401888247": [
+   "beIN SPORTS 2"
+  ],
+  "401888369": [
+   "beIN SPORTS 2"
   ],
   "401910022": [
-   "S SPORT"
-  ],
-  "E2026_120": [
    "S SPORT"
   ],
   "E2026_121": [
@@ -83,9 +108,6 @@
   ],
   "E2026_129": [
    "S SPORT 2"
-  ],
-  "U2026_123": [
-   "TRT SPOR YILDIZ"
   ],
   "f1:401839134": [
    "beIN SPORTS 4"

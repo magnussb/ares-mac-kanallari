@@ -1,6 +1,6 @@
-# Rapor 2026-11-18 21:22 UTC
+# Rapor 2026-11-19 03:13 UTC
 
-ESPN maç: 122 · EPG program: 479 · eşleşen maç: 25
+ESPN maç: 122 · EPG program: 588 · eşleşen maç: 31
 
 ## Çekim
 ```
@@ -8,15 +8,15 @@ ch_dsmart deneme 1: 0/2 kanal, 0 program
 ch_dsmart deneme 2: 0/2 kanal, 0 program
 ch_dsmart deneme 3: 0/2 kanal, 0 program
 --- ch_dsmart son log:
-[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Nov 20, 2026 (0 programs)
+[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Nov 21, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 18, 2026 (0 programs)
+[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 19, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 19, 2026 (0 programs)
+[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 20, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 20, 2026 (0 programs)
+[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 21, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 324 program
+ch_tvplus deneme 1: 9/9 kanal, 426 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
@@ -24,23 +24,21 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 165 program
 ```
 
 ## Kanal başına program
-- S SPORT: 42
-- S SPORT 2: 36
+- S SPORT: 59
+- S SPORT 2: 55
 - SPORTS TV: 36
-- TRT 1: 40
-- TRT SPOR: 26
-- TRT SPOR YILDIZ: 48
+- TRT 1: 42
+- TRT SPOR: 54
+- TRT SPOR YILDIZ: 93
 - TV8: 37
-- TV8,5: 34
+- TV8,5: 31
 - beIN SPORTS 1: 23
 - beIN SPORTS 2: 25
 - beIN SPORTS 3: 53
 - beIN SPORTS 4: 64
-- tabii spor: 15
+- tabii spor: 16
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 18.11 23:30 TRT SPOR YILDIZ: Kapı Kulenin Anahtarı - Naim Süleymanoğlu
-- 19.11 01:45 TRT SPOR YILDIZ: Polonya - Türkiye
 - 19.11 05:45 beIN SPORTS 4: Auxerre - Angers
 - 19.11 07:00 beIN SPORTS 2: Antalyaspor - Pendikspor
 - 19.11 07:00 beIN SPORTS 3: Tottenham - Newcastle
@@ -122,15 +120,13 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 165 program
 - 20.11 22:15 beIN SPORTS 2: Kocaelispor - Fenerbahçe
 - 20.11 22:30 S SPORT: Barcelona - Kızılyıldız
 - 20.11 22:30 beIN SPORTS 2: Trabzonspor - Eyüpspor
+- 21.11 01:00 S SPORT: Athletic Bilbao - Espanyol
+- 21.11 01:30 S SPORT 2: Dayton - Utah
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 20.11 23:00 Athletic Club - Espanyol → —
 - 20.11 22:30 Bayern Munich - FC Cologne → —
 - 20.11 22:45 Troyes - Le Havre AC → beIN SPORTS 2, beIN SPORTS 3
-- 19.11 03:00 Cleveland Cavaliers - Memphis Grizzlies → —
-- 19.11 03:00 Indiana Pacers - Houston Rockets → S SPORT
-- 19.11 03:00 Miami Heat - Milwaukee Bucks → —
-- 19.11 03:00 Orlando Magic - Philadelphia 76ers → —
 - 19.11 03:30 Brooklyn Nets - Chicago Bulls → —
 - 19.11 03:30 Toronto Raptors - Washington Wizards → —
 - 19.11 04:00 New Orleans Pelicans - Detroit Pistons → —
@@ -143,6 +139,15 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 165 program
 - 20.11 04:00 Milwaukee Bucks - Portland Trail Blazers → —
 - 20.11 04:00 Minnesota Timberwolves - New York Knicks → —
 - 20.11 04:00 San Antonio Spurs - LA Clippers → S SPORT
+- 21.11 03:00 Atlanta Hawks - Charlotte Hornets → —
+- 21.11 03:30 Brooklyn Nets - Orlando Magic → —
+- 21.11 03:30 Cleveland Cavaliers - Indiana Pacers → —
+- 21.11 03:30 Detroit Pistons - Toronto Raptors → —
+- 21.11 04:00 Chicago Bulls - Washington Wizards → —
+- 21.11 04:00 Oklahoma City Thunder - New Orleans Pelicans → —
+- 21.11 05:30 Utah Jazz - Phoenix Suns → —
+- 21.11 06:00 Denver Nuggets - Houston Rockets → —
+- 21.11 06:00 Los Angeles Lakers - Sacramento Kings → —
 - 20.11 22:45 Partizan - Besiktas → S SPORT 2
 - 20.11 22:30 Barca - Crvena → —
 - 20.11 22:15 Olympiacos - Real → —
@@ -153,8 +158,3 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 165 program
 - 19.11 22:00 Bayern - Baskonia → —
 - 19.11 21:00 Zalgiris - Panathinaikos → S SPORT 2
 - 19.11 20:15 Maccabi - Dubai → —
-- 18.11 22:30 Manresa - PAOK → —
-- 18.11 22:00 Trento - Neptunas → —
-- 18.11 21:30 BOSNA - Lietkabelis → —
-- 18.11 21:30 Bourg - Napoli → —
-- 18.11 21:30 Skyliners - Reyer Venice → —

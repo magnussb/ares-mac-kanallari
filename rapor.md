@@ -1,6 +1,6 @@
-# Rapor 2026-11-20 11:22 UTC
+# Rapor 2026-11-20 20:00 UTC
 
-ESPN maç: 112 · EPG program: 651 · eşleşen maç: 40
+ESPN maç: 112 · EPG program: 620 · eşleşen maç: 39
 
 ## Çekim
 ```
@@ -16,65 +16,48 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 22, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 469 program
+ch_tvplus deneme 1: 9/9 kanal, 453 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 14 sayfa ok, 2 hata, 184 program
+beIN: 4 kanal, 15 sayfa ok, 1 hata, 169 program
 ```
 
 ## Kanal başına program
-- S SPORT: 49
-- S SPORT 2: 52
-- SPORTS TV: 36
+- S SPORT: 54
+- S SPORT 2: 57
+- SPORTS TV: 37
 - TRT 1: 40
-- TRT SPOR: 57
-- TRT SPOR YILDIZ: 133
-- TV8: 32
-- TV8,5: 43
-- beIN SPORTS 1: 19
+- TRT SPOR: 49
+- TRT SPOR YILDIZ: 120
+- TV8: 33
+- TV8,5: 42
+- beIN SPORTS 1: 27
 - beIN SPORTS 2: 40
-- beIN SPORTS 3: 55
-- beIN SPORTS 4: 70
-- tabii spor: 25
+- beIN SPORTS 3: 52
+- beIN SPORTS 4: 50
+- tabii spor: 19
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 20.11 12:15 beIN SPORTS 3: Brighton - Brentford
-- 20.11 12:45 beIN SPORTS 2: Boluspor - Bodrum FK
-- 20.11 12:45 beIN SPORTS 4: Brest - Lyon
-- 20.11 12:55 TRT SPOR YILDIZ: Zeren Spor - Galatasaray
-- 20.11 13:00 beIN SPORTS 1: A. Çorum FK - Fenerbahçe
-- 20.11 13:40 tabii spor: AEK Atina - Real Madrid
-- 20.11 14:00 beIN SPORTS 3: Ipswich - Bournemouth
-- 20.11 14:30 beIN SPORTS 2: Ümraniyespor - Kayserispor
-- 20.11 14:30 beIN SPORTS 4: Le Mans - Monaco
-- 20.11 14:45 beIN SPORTS 1: C. Alanyaspor - Trabzonspor
-- 20.11 15:30 TRT SPOR YILDIZ: Fenerbahçe M. - THY
-- 20.11 15:45 tabii spor: Trabzonspor - Freiburg
-- 20.11 15:47 beIN SPORTS 3: Man Utd - Aston Villa
-- 20.11 16:15 beIN SPORTS 2: Mardin 1969 - Batman P.
-- 20.11 16:15 beIN SPORTS 4: Angers - Nice
-- 20.11 16:30 beIN SPORTS 1: Beşiktaş - Gençlerbirliği
-- 20.11 17:25 tabii spor: Galatasaray - Stuttgart
-- 20.11 17:34 beIN SPORTS 3: Everton - Coventry
-- 20.11 17:58 beIN SPORTS 2: Antalyaspor - Bursaspor
-- 20.11 18:00 beIN SPORTS 4: Le Havre - Lorient
-- 20.11 18:15 beIN SPORTS 1: Gaziantep FK - Kasımpaşa
-- 20.11 18:45 TRT SPOR YILDIZ: 2026 - 2027 Sea To Sky Belgeseli
-- 20.11 19:05 tabii spor: Fenerbahçe - Liverpool
-- 20.11 19:16 beIN SPORTS 3: Leeds - Tottenham
-- 20.11 20:00 beIN SPORTS 1: Eyüpspor - Kocaelispor
-- 20.11 20:02 beIN SPORTS 2: Igdır FK - Ümraniyespor
-- 20.11 20:45 tabii spor: Celtic - Beşiktaş
 - 20.11 21:02 beIN SPORTS 3: Arsenal - Hull City
-- 20.11 21:30 beIN SPORTS 3: Fulham - Newcastle
 - 20.11 21:45 beIN SPORTS 1: Samsunspor - T. Konyaspor
 - 20.11 22:30 S SPORT: Barcelona - Kızılyıldız
-- 20.11 22:35 beIN SPORTS 2: Trabzonspor - Eyüpspor
+- 20.11 22:30 beIN SPORTS 2: Trabzonspor - Eyüpspor
+- 20.11 22:40 TRT SPOR YILDIZ: Zeren Spor - Galatasaray
+- 20.11 22:45 beIN SPORTS 3: Fulham - Newcastle
+- 21.11 00:45 TRT SPOR YILDIZ: 2026 - 2027 Sea To Sky Belgeseli
 - 21.11 01:00 S SPORT: Athletic Bilbao - Espanyol
+- 21.11 01:15 TRT SPOR YILDIZ: Fenerbahçe M. - THY
 - 21.11 01:30 S SPORT 2: Dayton - Utah
+- 21.11 07:30 beIN SPORTS 3: Ipswich - Bournemouth
 - 21.11 07:45 beIN SPORTS 2: Pendikspor - İstanbulspor
+- 21.11 09:15 beIN SPORTS 3: Man Utd - Aston Villa
 - 21.11 09:30 beIN SPORTS 2: Bandırmaspor - F. Karagümrük
+- 21.11 10:30 beIN SPORTS 1: Gaziantep FK - Kasımpaşa
+- 21.11 11:02 beIN SPORTS 3: Everton - Coventry
+- 21.11 11:15 beIN SPORTS 2: Igdır FK - Ümraniyespor
+- 21.11 12:15 beIN SPORTS 1: Eyüpspor - Kocaelispor
+- 21.11 12:45 beIN SPORTS 3: Leeds - Tottenham
 - 21.11 13:55 TRT SPOR YILDIZ: Beykoz B. - Giresunspor
 - 21.11 15:00 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıleıpzıg - Manchester Cıty
 - 21.11 15:55 TRT SPOR YILDIZ: Ziraat B. - Galatasaray M.
@@ -93,6 +76,10 @@ beIN: 4 kanal, 14 sayfa ok, 2 hata, 184 program
 - 22.11 13:00 beIN SPORTS 3: Tottenham - Ipswich
 - 22.11 13:15 TRT SPOR YILDIZ: Türkiye Extreme Kupası - İstanbul
 - 22.11 13:55 TRT SPOR YILDIZ: Beşiktaş - Spor Toto
+- 22.11 14:45 beIN SPORTS 3: Aston Villa - Sunderland
+- 22.11 15:55 TRT SPOR YILDIZ: İlbank - Vakıfbank
+- 22.11 16:00 TRT SPOR: Esenler E. - Antalyaspor
+- 22.11 19:00 TRT SPOR: Bursaspor - Sivasspor
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 20.11 23:00 Athletic Club - Espanyol → —
@@ -134,7 +121,29 @@ beIN: 4 kanal, 14 sayfa ok, 2 hata, 184 program
 - 21.11 23:00 FC Groningen - Heerenveen → —
 - 21.11 23:00 Telstar - PEC Zwolle → —
 - 22.11 13:30 Erzurum BB - Goztepe → —
+- 22.11 16:00 Kasimpasa - Alanyaspor → —
+- 22.11 16:00 Konyaspor - Besiktas → —
+- 22.11 19:00 Trabzonspor - Eyupspor → —
+- 22.11 17:00 Hull City - Brighton & Hove Albion → beIN SPORTS 3
+- 22.11 19:30 Liverpool - Manchester United → beIN SPORTS 3
+- 22.11 16:00 Barcelona - Villarreal → S SPORT
+- 22.11 18:15 Racing Santander - Real Sociedad → S SPORT
+- 22.11 20:30 Osasuna - Málaga → S SPORT
+- 22.11 23:00 Getafe - Atlético Madrid → S SPORT
+- 22.11 14:30 Juventus - Venezia → —
+- 22.11 17:00 Bologna - Udinese → S SPORT 2
+- 22.11 17:00 Sassuolo - Genoa → —
+- 22.11 20:00 AC Milan - Frosinone → S SPORT 2
+- 22.11 22:45 Atalanta - Internazionale → S SPORT 2
+- 22.11 17:30 FC Augsburg - Mainz → —
+- 22.11 19:30 Werder Bremen - Hamburg SV → —
+- 22.11 17:00 Paris FC - Angers → beIN SPORTS 4
+- 22.11 19:15 Lorient - Stade Rennais → beIN SPORTS 4
+- 22.11 22:45 Marseille - Le Mans → beIN SPORTS 3
 - 22.11 14:15 FC Twente - Willem II → —
+- 22.11 16:30 Ajax Amsterdam - ADO Den Haag → —
+- 22.11 16:30 Sparta Rotterdam - AZ Alkmaar → —
+- 22.11 18:45 Go Ahead Eagles - Fortuna Sittard → —
 - 21.11 03:00 Atlanta Hawks - Charlotte Hornets → —
 - 21.11 03:30 Brooklyn Nets - Orlando Magic → —
 - 21.11 03:30 Cleveland Cavaliers - Indiana Pacers → —

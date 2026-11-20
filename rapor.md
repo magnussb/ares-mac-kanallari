@@ -1,6 +1,6 @@
-# Rapor 2026-11-19 21:25 UTC
+# Rapor 2026-11-20 03:01 UTC
 
-ESPN maç: 112 · EPG program: 551 · eşleşen maç: 38
+ESPN maç: 112 · EPG program: 681 · eşleşen maç: 39
 
 ## Çekim
 ```
@@ -8,15 +8,15 @@ ch_dsmart deneme 1: 0/2 kanal, 0 program
 ch_dsmart deneme 2: 0/2 kanal, 0 program
 ch_dsmart deneme 3: 0/2 kanal, 0 program
 --- ch_dsmart son log:
-[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Nov 21, 2026 (0 programs)
+[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Nov 22, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 19, 2026 (0 programs)
+[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 20, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 20, 2026 (0 programs)
+[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 21, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 21, 2026 (0 programs)
+[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 22, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 366 program
+ch_tvplus deneme 1: 9/9 kanal, 493 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
@@ -24,24 +24,21 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 190 program
 ```
 
 ## Kanal başına program
-- S SPORT: 57
-- S SPORT 2: 56
+- S SPORT: 56
+- S SPORT 2: 57
 - SPORTS TV: 36
-- TRT 1: 40
-- TRT SPOR: 34
-- TRT SPOR YILDIZ: 54
-- TV8: 34
-- TV8,5: 21
+- TRT 1: 39
+- TRT SPOR: 68
+- TRT SPOR YILDIZ: 128
+- TV8: 33
+- TV8,5: 44
 - beIN SPORTS 1: 27
 - beIN SPORTS 2: 41
 - beIN SPORTS 3: 55
 - beIN SPORTS 4: 67
-- tabii spor: 29
+- tabii spor: 30
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 19.11 23:00 TRT SPOR: Arsenal - Lyon
-- 20.11 00:45 TRT SPOR YILDIZ: Fenerbahçe M. - THY
-- 20.11 01:00 S SPORT: Paris Basket - Hapoel Tel Aviv
 - 20.11 06:45 TRT SPOR YILDIZ: 2026 - 2027 Sea To Sky Belgeseli
 - 20.11 07:00 beIN SPORTS 3: Nott'm Forest - Man City
 - 20.11 07:30 beIN SPORTS 2: Muğlaspor - E. Erokspor
@@ -65,6 +62,7 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 190 program
 - 20.11 14:30 beIN SPORTS 2: Ümraniyespor - Kayserispor
 - 20.11 14:30 beIN SPORTS 4: Le Mans - Monaco
 - 20.11 14:45 beIN SPORTS 1: C. Alanyaspor - Trabzonspor
+- 20.11 15:30 TRT SPOR YILDIZ: Fenerbahçe M. - THY
 - 20.11 15:45 tabii spor: Trabzonspor - Freiburg
 - 20.11 15:45 beIN SPORTS 3: Man Utd - Aston Villa
 - 20.11 16:15 beIN SPORTS 2: Mardin 1969 - Batman P.
@@ -87,14 +85,21 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 190 program
 - 20.11 22:30 beIN SPORTS 2: Trabzonspor - Eyüpspor
 - 21.11 01:00 S SPORT: Athletic Bilbao - Espanyol
 - 21.11 01:30 S SPORT 2: Dayton - Utah
+- 21.11 13:55 TRT SPOR YILDIZ: Beykoz B. - Giresunspor
 - 21.11 15:00 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıleıpzıg - Manchester Cıty
+- 21.11 15:55 TRT SPOR YILDIZ: Ziraat B. - Galatasaray M.
 - 21.11 16:00 beIN SPORTS 4: Laval - Montpellier
 - 21.11 16:40 tabii spor: Galatasaray - Stuttgart , Uefa Şampiyonlar Ligi Grup Maçları
 - 21.11 18:45 tabii spor: Şampiyonlar Ligi Futbol Karşılaşması Slavia Prag - Arsenal
+- 21.11 18:55 TRT SPOR YILDIZ: Fenerbahçe M. - Spor Toto
+- 21.11 19:00 TRT SPOR: Fatih Karagümrük - Boluspor
 - 21.11 19:00 beIN SPORTS 2: F. Karagümrük - Boluspor
 - 21.11 20:25 tabii spor: Fenerbahçe - Liverpool , Uefa Şampiyonlar Ligi Grup Maçları
 - 21.11 21:44 beIN SPORTS 2: Kasımpaşa - Alanyaspor
 - 21.11 22:05 tabii spor: Trabzonspor - Freiburg , Uefa Konferans Ligi Grup Maçları
+- 22.11 01:00 S SPORT: Milwaukee Bucks - Philadelphia 76ers
+- 22.11 03:00 S SPORT: Rayo Vallecano - Valencia
+- 22.11 03:55 TRT SPOR YILDIZ: Kapı Kulenin Anahtarı - Naim Süleymanoğlu
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 20.11 23:00 Athletic Club - Espanyol → —
@@ -149,11 +154,12 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 190 program
 - 21.11 06:00 Denver Nuggets - Houston Rockets → —
 - 21.11 06:00 Los Angeles Lakers - Sacramento Kings → —
 - 21.11 21:00 Philadelphia 76ers - Milwaukee Bucks → —
+- 22.11 03:30 New York Knicks - Portland Trail Blazers → —
+- 22.11 04:00 Dallas Mavericks - LA Clippers → —
+- 22.11 04:00 Minnesota Timberwolves - Memphis Grizzlies → —
+- 22.11 04:00 San Antonio Spurs - New Orleans Pelicans → —
+- 22.11 06:00 Sacramento Kings - Boston Celtics → —
 - 20.11 22:45 Partizan - Besiktas → S SPORT 2
 - 20.11 22:30 Barca - Crvena → —
 - 20.11 22:15 Olympiacos - Real → —
 - 20.11 20:30 Efes - ASVEL → S SPORT
-- 19.11 23:00 Valencia - Virtus → S SPORT 2
-- 19.11 22:45 Paris - Hapoel → —
-- 19.11 22:30 Milan - Fenerbahce → S SPORT
-- 19.11 22:00 Bayern - Baskonia → —

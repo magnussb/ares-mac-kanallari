@@ -1,6 +1,6 @@
-# Rapor 2026-11-21 01:24 UTC
+# Rapor 2026-11-21 09:39 UTC
 
-ESPN maç: 120 · EPG program: 651 · eşleşen maç: 47
+ESPN maç: 120 · EPG program: 634 · eşleşen maç: 48
 
 ## Çekim
 ```
@@ -16,36 +16,30 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 23, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 487 program
+ch_tvplus deneme 1: 9/9 kanal, 459 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 15 sayfa ok, 1 hata, 165 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 177 program
 ```
 
 ## Kanal başına program
-- S SPORT: 54
-- S SPORT 2: 56
-- SPORTS TV: 36
-- TRT 1: 41
-- TRT SPOR: 45
-- TRT SPOR YILDIZ: 127
-- TV8: 37
+- S SPORT: 51
+- S SPORT 2: 52
+- SPORTS TV: 42
+- TRT 1: 40
+- TRT SPOR: 37
+- TRT SPOR YILDIZ: 114
+- TV8: 36
 - TV8,5: 42
 - beIN SPORTS 1: 26
 - beIN SPORTS 2: 36
 - beIN SPORTS 3: 53
-- beIN SPORTS 4: 50
-- tabii spor: 48
+- beIN SPORTS 4: 62
+- tabii spor: 43
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 21.11 07:15 TRT SPOR YILDIZ: Zeren Spor - Galatasaray
-- 21.11 07:30 beIN SPORTS 3: Ipswich - Bournemouth
-- 21.11 07:45 beIN SPORTS 2: Pendikspor - İstanbulspor
-- 21.11 09:15 beIN SPORTS 3: Man Utd - Aston Villa
-- 21.11 09:30 beIN SPORTS 2: Bandırmaspor - F. Karagümrük
 - 21.11 10:30 beIN SPORTS 1: Gaziantep FK - Kasımpaşa
-- 21.11 10:40 TRT SPOR YILDIZ: 2026 - 2027 Sea To Sky Belgeseli
 - 21.11 11:02 beIN SPORTS 3: Everton - Coventry
 - 21.11 11:15 beIN SPORTS 2: Igdır FK - Ümraniyespor
 - 21.11 12:15 beIN SPORTS 1: Eyüpspor - Kocaelispor
@@ -60,10 +54,12 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 165 program
 - 21.11 19:00 TRT SPOR: Fatih Karagümrük - Boluspor
 - 21.11 19:00 beIN SPORTS 2: F. Karagümrük - Boluspor
 - 21.11 20:25 tabii spor: Fenerbahçe - Liverpool
+- 21.11 21:00 TRT SPOR YILDIZ: 2026 - 2027 Sea To Sky Belgeseli
 - 21.11 21:30 beIN SPORTS 2: Konyaspor - Beşiktaş
 - 21.11 22:00 beIN SPORTS 2: Kasımpaşa - Alanyaspor
 - 21.11 22:05 tabii spor: Trabzonspor - Freiburg
 - 22.11 01:00 S SPORT: Milwaukee Bucks - Philadelphia 76ers
+- 22.11 01:50 TRT SPOR YILDIZ: Zeren Spor - Galatasaray
 - 22.11 03:00 S SPORT: Rayo Vallecano - Valencia
 - 22.11 03:55 TRT SPOR YILDIZ: Kapı Kulenin Anahtarı - Naim Süleymanoğlu
 - 22.11 12:35 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıborussıa Dortmund - Real Betıs
@@ -79,6 +75,9 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 165 program
 - 22.11 19:00 TRT SPOR: Bursaspor - Sivasspor
 - 22.11 22:20 tabii spor: Fenerbahçe - Liverpool , Uefa Şampiyonlar Ligi Grup Maçları
 - 23.11 01:00 S SPORT 2: Juventus - Venezia
+- 23.11 04:30 S SPORT: Detroit Pistons - Atlanta Hawks
+- 23.11 11:20 tabii spor: 2026 - 2027 Sea To Sky Belgeseli
+- 23.11 11:35 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıpsv - Club Brugge
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 21.11 13:30 Genclerbirligi - Gaziantep FK → beIN SPORTS 2
@@ -140,15 +139,6 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 165 program
 - 22.11 16:30 Ajax Amsterdam - ADO Den Haag → —
 - 22.11 16:30 Sparta Rotterdam - AZ Alkmaar → —
 - 22.11 18:45 Go Ahead Eagles - Fortuna Sittard → —
-- 21.11 03:00 Atlanta Hawks - Charlotte Hornets → —
-- 21.11 03:30 Brooklyn Nets - Orlando Magic → —
-- 21.11 03:30 Cleveland Cavaliers - Indiana Pacers → —
-- 21.11 03:30 Detroit Pistons - Toronto Raptors → —
-- 21.11 04:00 Chicago Bulls - Washington Wizards → —
-- 21.11 04:00 Oklahoma City Thunder - New Orleans Pelicans → —
-- 21.11 05:30 Utah Jazz - Phoenix Suns → —
-- 21.11 06:00 Denver Nuggets - Houston Rockets → —
-- 21.11 06:00 Los Angeles Lakers - Sacramento Kings → —
 - 21.11 21:00 Philadelphia 76ers - Milwaukee Bucks → —
 - 22.11 03:30 New York Knicks - Portland Trail Blazers → —
 - 22.11 04:00 Dallas Mavericks - LA Clippers → —
@@ -161,3 +151,4 @@ beIN: 4 kanal, 15 sayfa ok, 1 hata, 165 program
 - 23.11 03:00 Chicago Bulls - Denver Nuggets → —
 - 23.11 03:00 Utah Jazz - Dallas Mavericks → —
 - 23.11 04:00 New York Knicks - Indiana Pacers → —
+- 23.11 04:30 Golden State Warriors - Boston Celtics → —

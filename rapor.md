@@ -1,6 +1,6 @@
-# Rapor 2026-11-21 23:05 UTC
+# Rapor 2026-11-22 03:01 UTC
 
-ESPN maç: 126 · EPG program: 611 · eşleşen maç: 59
+ESPN maç: 126 · EPG program: 598 · eşleşen maç: 59
 
 ## Çekim
 ```
@@ -8,15 +8,15 @@ ch_dsmart deneme 1: 0/2 kanal, 0 program
 ch_dsmart deneme 2: 0/2 kanal, 0 program
 ch_dsmart deneme 3: 0/2 kanal, 0 program
 --- ch_dsmart son log:
-[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Nov 23, 2026 (0 programs)
+[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Nov 24, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 21, 2026 (0 programs)
+[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 22, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 22, 2026 (0 programs)
+[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 23, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 23, 2026 (0 programs)
+[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 24, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 430 program
+ch_tvplus deneme 1: 9/9 kanal, 418 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
@@ -24,13 +24,13 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 182 program
 ```
 
 ## Kanal başına program
-- S SPORT: 38
-- S SPORT 2: 40
+- S SPORT: 36
+- S SPORT 2: 38
 - SPORTS TV: 42
 - TRT 1: 42
-- TRT SPOR: 52
-- TRT SPOR YILDIZ: 89
-- TV8: 37
+- TRT SPOR: 49
+- TRT SPOR YILDIZ: 84
+- TV8: 36
 - TV8,5: 42
 - beIN SPORTS 1: 41
 - beIN SPORTS 2: 45
@@ -39,10 +39,6 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 182 program
 - tabii spor: 47
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 22.11 01:00 S SPORT: Milwaukee Bucks - Philadelphia 76ers
-- 22.11 01:50 TRT SPOR YILDIZ: Zeren Spor - Galatasaray
-- 22.11 03:00 S SPORT: Rayo Vallecano - Valencia
-- 22.11 03:55 TRT SPOR YILDIZ: Kapı Kulenin Anahtarı - Naim Süleymanoğlu
 - 22.11 07:15 TRT SPOR YILDIZ: 2026 - 2027 Sea To Sky Belgeseli
 - 22.11 07:45 beIN SPORTS 2: Kayserispor - Sarıyer
 - 22.11 07:45 beIN SPORTS 3: Newcastle - Arsenal
@@ -122,3 +118,13 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 182 program
 - 23.11 03:00 Utah Jazz - Dallas Mavericks → —
 - 23.11 04:00 New York Knicks - Indiana Pacers → —
 - 23.11 04:30 Golden State Warriors - Boston Celtics → —
+- 24.11 03:00 Charlotte Hornets - Memphis Grizzlies → —
+- 24.11 03:00 Philadelphia 76ers - Portland Trail Blazers → —
+- 24.11 03:30 Indiana Pacers - Oklahoma City Thunder → —
+- 24.11 03:30 Toronto Raptors - Milwaukee Bucks → —
+- 24.11 03:30 Minnesota Timberwolves - Brooklyn Nets → —
+- 24.11 04:00 Chicago Bulls - Cleveland Cavaliers → —
+- 24.11 04:00 New Orleans Pelicans - Phoenix Suns → —
+- 24.11 04:30 Houston Rockets - LA Clippers → S SPORT
+- 24.11 06:00 Los Angeles Lakers - Utah Jazz → —
+- 24.11 06:00 Sacramento Kings - San Antonio Spurs → —

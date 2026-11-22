@@ -1,6 +1,6 @@
-# Rapor 2026-11-22 11:06 UTC
+# Rapor 2026-11-22 18:29 UTC
 
-ESPN maç: 126 · EPG program: 566 · eşleşen maç: 59
+ESPN maç: 126 · EPG program: 521 · eşleşen maç: 59
 
 ## Çekim
 ```
@@ -16,50 +16,35 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 24, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 388 program
+ch_tvplus deneme 1: 9/9 kanal, 355 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 16 sayfa ok, 0 hata, 183 program
+beIN: 4 kanal, 15 sayfa ok, 1 hata, 171 program
 ```
 
 ## Kanal başına program
-- S SPORT: 31
-- S SPORT 2: 33
+- S SPORT: 26
+- S SPORT 2: 27
 - SPORTS TV: 49
-- TRT 1: 43
-- TRT SPOR: 39
-- TRT SPOR YILDIZ: 65
+- TRT 1: 42
+- TRT SPOR: 34
+- TRT SPOR YILDIZ: 56
 - TV8: 37
-- TV8,5: 43
-- beIN SPORTS 1: 41
+- TV8,5: 42
+- beIN SPORTS 1: 29
 - beIN SPORTS 2: 45
 - beIN SPORTS 3: 49
 - beIN SPORTS 4: 48
-- tabii spor: 43
+- tabii spor: 37
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 22.11 11:15 beIN SPORTS 2: Mardin 1969 - Bandırmaspor
-- 22.11 11:15 beIN SPORTS 3: Chelsea - Leeds
-- 22.11 12:35 tabii spor: Borussia Dortmund - Real Betis
-- 22.11 12:43 beIN SPORTS 4: Monaco - Auxerre
-- 22.11 13:00 beIN SPORTS 3: Tottenham - Ipswich
-- 22.11 13:55 TRT SPOR YILDIZ: Beşiktaş - Spor Toto
-- 22.11 14:15 tabii spor: Porto - Napoli
-- 22.11 14:30 beIN SPORTS 1: Konyaspor - Beşiktaş
-- 22.11 14:31 beIN SPORTS 4: Lens - Toulouse
-- 22.11 14:45 beIN SPORTS 3: Aston Villa - Sunderland
-- 22.11 15:55 TRT SPOR YILDIZ: İlbank - Vakıfbank
-- 22.11 16:00 tabii spor: Lens - Como
-- 22.11 16:00 TRT SPOR: Esenler E. - Antalyaspor
-- 22.11 18:15 TRT SPOR YILDIZ: 2026 - 2027 Sea To Sky Belgeseli
-- 22.11 18:55 tabii spor: Galatasaray - Stuttgart
-- 22.11 19:00 TRT SPOR: Bursaspor - Sivasspor
 - 22.11 19:00 beIN SPORTS 2: Bursaspor - Sivasspor
 - 22.11 21:30 beIN SPORTS 2: Batman P. - Muğlaspor
 - 22.11 21:40 TRT SPOR YILDIZ: Türkiye Extreme Kupası - İstanbul
 - 22.11 22:20 tabii spor: Fenerbahçe - Liverpool
 - 23.11 01:00 S SPORT 2: Juventus - Venezia
+- 23.11 02:00 TRT SPOR: Bursaspor - Sivasspor
 - 23.11 03:55 TRT SPOR YILDIZ: Ziraat B. - Galatasaray M.
 - 23.11 04:30 S SPORT: Detroit Pistons - Atlanta Hawks
 - 23.11 11:20 tabii spor: 2026 - 2027 Sea To Sky Belgeseli
@@ -71,36 +56,26 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 183 program
 - 24.11 01:00 S SPORT 2: Washington - BYU
 - 24.11 01:00 S SPORT: Moto GP - Moto 3
 - 24.11 12:55 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıcrystal Palace - Hoffenheım
+- 24.11 15:00 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasıb.leverkusen - Marsilya
+- 24.11 17:50 tabii spor: Uefa Avrupa Ligi Futbol Karşılaşmasımılan - Ferencvaros
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 22.11 13:30 Erzurum BB - Goztepe → beIN SPORTS 2
-- 22.11 16:00 Kasimpasa - Alanyaspor → beIN SPORTS 2
-- 22.11 16:00 Konyaspor - Besiktas → beIN SPORTS 1
 - 22.11 19:00 Trabzonspor - Eyupspor → beIN SPORTS 1
-- 22.11 17:00 Hull City - Brighton & Hove Albion → beIN SPORTS 3
 - 22.11 19:30 Liverpool - Manchester United → beIN SPORTS 3
-- 22.11 16:00 Barcelona - Villarreal → S SPORT
-- 22.11 18:15 Racing Santander - Real Sociedad → S SPORT
 - 22.11 20:30 Osasuna - Málaga → S SPORT
 - 22.11 23:00 Getafe - Atlético Madrid → S SPORT
-- 22.11 14:30 Juventus - Venezia → —
-- 22.11 17:00 Bologna - Udinese → S SPORT 2
-- 22.11 17:00 Sassuolo - Genoa → —
 - 22.11 20:00 AC Milan - Frosinone → S SPORT 2
 - 22.11 22:45 Atalanta - Internazionale → S SPORT 2
-- 22.11 17:30 FC Augsburg - Mainz → —
 - 22.11 19:30 Werder Bremen - Hamburg SV → —
-- 22.11 17:00 Paris FC - Angers → beIN SPORTS 4
 - 22.11 19:15 Lorient - Stade Rennais → beIN SPORTS 4
 - 22.11 22:45 Marseille - Le Mans → beIN SPORTS 3
-- 22.11 14:15 FC Twente - Willem II → —
-- 22.11 16:30 Ajax Amsterdam - ADO Den Haag → —
-- 22.11 16:30 Sparta Rotterdam - AZ Alkmaar → —
 - 22.11 18:45 Go Ahead Eagles - Fortuna Sittard → —
 - 23.11 20:00 Istanbul Basaksehir - Çorum FK → —
 - 23.11 23:00 Brentford - Everton → —
 - 23.11 23:00 Levante - Elche → S SPORT
 - 23.11 22:45 Monza - Fiorentina → S SPORT 2
+- 24.11 20:45 Bodo/Glimt - LASK Linz → tabii spor
+- 24.11 20:45 Galatasaray - Aston Villa → TRT 1
 - 22.11 23:30 Atlanta Hawks - Detroit Pistons → —
 - 23.11 02:00 Miami Heat - Oklahoma City Thunder → S SPORT
 - 23.11 03:00 Washington Wizards - Orlando Magic → —
@@ -118,3 +93,5 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 183 program
 - 24.11 04:30 Houston Rockets - LA Clippers → S SPORT
 - 24.11 06:00 Los Angeles Lakers - Utah Jazz → —
 - 24.11 06:00 Sacramento Kings - San Antonio Spurs → —
+- 24.11 21:00 Crvena - Virtus → —
+- 24.11 20:00 Besiktas - Paris → —

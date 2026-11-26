@@ -1,6 +1,6 @@
-# Rapor 2026-11-25 22:26 UTC
+# Rapor 2026-11-26 04:57 UTC
 
-ESPN maç: 152 · EPG program: 658 · eşleşen maç: 82
+ESPN maç: 152 · EPG program: 621 · eşleşen maç: 83
 
 ## Çekim
 ```
@@ -8,40 +8,37 @@ ch_dsmart deneme 1: 0/2 kanal, 0 program
 ch_dsmart deneme 2: 0/2 kanal, 0 program
 ch_dsmart deneme 3: 0/2 kanal, 0 program
 --- ch_dsmart son log:
-[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Nov 27, 2026 (0 programs)
+[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Nov 28, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 25, 2026 (0 programs)
+[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 26, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 26, 2026 (0 programs)
+[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 27, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 27, 2026 (0 programs)
+[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 28, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 434 program
+ch_tvplus deneme 1: 9/9 kanal, 413 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 16 sayfa ok, 0 hata, 225 program
+beIN: 4 kanal, 15 sayfa ok, 1 hata, 211 program
 ```
 
 ## Kanal başına program
-- S SPORT: 57
-- S SPORT 2: 56
+- S SPORT: 59
+- S SPORT 2: 55
 - SPORTS TV: 36
-- TRT 1: 38
-- TRT SPOR: 54
-- TRT SPOR YILDIZ: 97
-- TV8: 35
-- TV8,5: 32
+- TRT 1: 37
+- TRT SPOR: 48
+- TRT SPOR YILDIZ: 86
+- TV8: 33
+- TV8,5: 29
 - beIN SPORTS 1: 57
 - beIN SPORTS 2: 48
 - beIN SPORTS 3: 51
-- beIN SPORTS 4: 69
-- tabii spor: 28
+- beIN SPORTS 4: 55
+- tabii spor: 27
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 26.11 00:45 S SPORT 2: Real Madrid - Zalgiris Kaunas
-- 26.11 02:05 TRT SPOR YILDIZ: Eczacıbaşı P. - Tent O.
-- 26.11 02:30 TRT SPOR: Shakhtar Donetsk - Fenerbahçe
 - 26.11 05:18 beIN SPORTS 4: Lille - Lyon
 - 26.11 07:00 beIN SPORTS 3: Bournemouth - Nott'm Forest
 - 26.11 07:01 beIN SPORTS 4: Monaco - Auxerre
@@ -106,15 +103,10 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 225 program
 - 27.11 20:30 S SPORT: Letonya - Almanya
 - 27.11 20:45 tabii spor: Celtic - Beşiktaş , Uefa Avrupa Ligi Grup Maçları
 - 28.11 01:00 S SPORT: Estonya - Fransa
+- 28.11 02:00 TRT SPOR: Sarıyer - İstanbulspor
+- 28.11 06:15 TRT SPOR YILDIZ: Türkiye Extreme Kupası - İstanbul
 
 ## ESPN maçları (önümüzdeki 48 saat)
-- 25.11 23:00 Atlético Madrid - Viking FK → tabii
-- 25.11 23:00 Club Brugge - Liverpool → tabii
-- 25.11 23:00 Internazionale - VfB Stuttgart → tabii
-- 25.11 23:00 Lille - Bayern Munich → tabii
-- 25.11 23:00 Paris Saint-Germain - AS Roma → tabii spor
-- 25.11 23:00 Shakhtar Donetsk - Fenerbahce → TRT 1
-- 25.11 23:00 Sporting CP - Manchester United → tabii
 - 26.11 20:45 Besiktas - Hapoel Be'er → TRT 1
 - 26.11 20:45 Celta Vigo - AFC Bournemouth → tabii
 - 26.11 20:45 Dinamo Zagreb - Bayer Leverkusen → tabii
@@ -160,14 +152,16 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 225 program
 - 27.11 22:45 Brest - Paris FC → beIN SPORTS 2
 - 27.11 23:15 Maritimo - C.D. Nacional → —
 - 27.11 22:00 FC Groningen - Willem II → —
-- 26.11 01:00 Philadelphia 76ers - Miami Heat → S SPORT
-- 26.11 03:00 Charlotte Hornets - Chicago Bulls → —
-- 26.11 03:30 New York Knicks - Cleveland Cavaliers → —
-- 26.11 03:30 Oklahoma City Thunder - Minnesota Timberwolves → S SPORT
-- 26.11 04:00 Memphis Grizzlies - LA Clippers → —
-- 26.11 04:00 Milwaukee Bucks - Brooklyn Nets → —
-- 26.11 04:30 Houston Rockets - Phoenix Suns → —
 - 26.11 06:00 Golden State Warriors - Sacramento Kings → —
 - 26.11 06:00 Portland Trail Blazers - San Antonio Spurs → —
-- 25.11 22:45 Real - Zalgiris → —
-- 25.11 22:30 Baskonia - Efes → S SPORT
+- 28.11 03:00 New York Knicks - Miami Heat → —
+- 28.11 03:30 Detroit Pistons - Milwaukee Bucks → —
+- 28.11 03:30 Indiana Pacers - Philadelphia 76ers → —
+- 28.11 03:30 Toronto Raptors - Brooklyn Nets → —
+- 28.11 04:00 Boston Celtics - Atlanta Hawks → —
+- 28.11 04:30 Minnesota Timberwolves - Memphis Grizzlies → —
+- 28.11 05:00 Phoenix Suns - Dallas Mavericks → —
+- 28.11 05:30 San Antonio Spurs - Los Angeles Lakers → —
+- 28.11 05:30 Utah Jazz - Denver Nuggets → —
+- 28.11 05:30 LA Clippers - New Orleans Pelicans → —
+- 28.11 05:30 Portland Trail Blazers - Golden State Warriors → —

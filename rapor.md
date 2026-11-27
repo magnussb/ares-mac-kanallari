@@ -1,6 +1,6 @@
-# Rapor 2026-11-26 23:45 UTC
+# Rapor 2026-11-27 08:09 UTC
 
-ESPN maç: 144 · EPG program: 689 · eşleşen maç: 76
+ESPN maç: 144 · EPG program: 672 · eşleşen maç: 76
 
 ## Çekim
 ```
@@ -8,45 +8,37 @@ ch_dsmart deneme 1: 0/2 kanal, 0 program
 ch_dsmart deneme 2: 0/2 kanal, 0 program
 ch_dsmart deneme 3: 0/2 kanal, 0 program
 --- ch_dsmart son log:
-[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Nov 28, 2026 (0 programs)
+[info]   [3/6] dsmart.com.tr (tr) - SporSmart.tr - Nov 29, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 26, 2026 (0 programs)
+[info]   [4/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 27, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 27, 2026 (0 programs)
+[info]   [5/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 28, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 28, 2026 (0 programs)
+[info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 29, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 466 program
+ch_tvplus deneme 1: 9/9 kanal, 444 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 16 sayfa ok, 0 hata, 226 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 231 program
 ```
 
 ## Kanal başına program
-- S SPORT: 56
-- S SPORT 2: 54
+- S SPORT: 51
+- S SPORT 2: 48
 - SPORTS TV: 36
-- TRT 1: 34
-- TRT SPOR: 63
-- TRT SPOR YILDIZ: 131
+- TRT 1: 33
+- TRT SPOR: 58
+- TRT SPOR YILDIZ: 132
 - TV8: 32
-- TV8,5: 28
-- beIN SPORTS 1: 55
-- beIN SPORTS 2: 50
-- beIN SPORTS 3: 51
-- beIN SPORTS 4: 70
-- tabii spor: 29
+- TV8,5: 23
+- beIN SPORTS 1: 51
+- beIN SPORTS 2: 57
+- beIN SPORTS 3: 52
+- beIN SPORTS 4: 71
+- tabii spor: 28
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 27.11 01:10 TRT SPOR YILDIZ: Budowlani Lodz - Galatasaray
-- 27.11 02:00 TRT SPOR: Beşiktaş - Hapoel Beer Sheva
-- 27.11 03:45 TRT SPOR: CSKA Sofya - Trabzonspor
-- 27.11 05:15 beIN SPORTS 4: Paris FC - Angers
-- 27.11 07:00 beIN SPORTS 2: F. Karagümrük - Boluspor
-- 27.11 07:00 beIN SPORTS 3: Hull City - Brighton
-- 27.11 07:00 beIN SPORTS 4: Lorient - Rennes
-- 27.11 07:15 TRT SPOR YILDIZ: ÇBK Mersin - Baxi Ferrol
 - 27.11 08:45 beIN SPORTS 2: Batman P. - Muğlaspor
 - 27.11 08:45 beIN SPORTS 3: Liverpool - Man Utd
 - 27.11 08:45 beIN SPORTS 4: Marseille - Le Mans
@@ -73,26 +65,28 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 226 program
 - 27.11 18:30 beIN SPORTS 1: Rizespor - Kasımpaşa
 - 27.11 19:15 beIN SPORTS 3: Bournemouth - Nott'm Forest
 - 27.11 19:55 tabii spor: Beşiktaş - Hapoel Beerşeba
+- 27.11 19:55 TRT SPOR YILDIZ: ÇBK Mersin - Baxi Ferrol
 - 27.11 20:00 S SPORT 2: Estonya - Fransa
 - 27.11 20:00 TRT SPOR: Ümraniyespor - Manisa
 - 27.11 20:30 S SPORT: Letonya - Almanya
 - 27.11 21:35 tabii spor: Çska Sofya - Trabzonspor
 - 28.11 01:00 S SPORT: Estonya - Fransa
 - 28.11 02:00 TRT SPOR: Sarıyer - İstanbulspor
-- 28.11 05:00 beIN SPORTS 4: Nice - PSG
 - 28.11 06:15 TRT SPOR YILDIZ: Türkiye Extreme Kupası - İstanbul
-- 28.11 07:00 beIN SPORTS 4: Lille - Lyon
+- 28.11 06:30 beIN SPORTS 4: Monaco - Auxerre
 - 28.11 07:15 TRT SPOR YILDIZ: Kapı Kulenin Anahtarı - Naim Süleymanoğlu
-- 28.11 08:45 beIN SPORTS 4: Monaco - Auxerre
+- 28.11 08:00 beIN SPORTS 3: Hull City - Brighton
+- 28.11 08:15 beIN SPORTS 4: Lens - Toulouse
+- 28.11 09:00 beIN SPORTS 1: Kocaelispor - Fenerbahçe
 - 28.11 09:30 beIN SPORTS 2: Sarıyer - İstanbulspor
-- 28.11 09:45 beIN SPORTS 1: Beşiktaş - Galatasaray
-- 28.11 10:45 beIN SPORTS 1: C. Alanyaspor - T. Konyaspor
-- 28.11 10:45 beIN SPORTS 4: Lens - Toulouse
+- 28.11 10:00 beIN SPORTS 4: Lorient - Rennes
+- 28.11 10:45 beIN SPORTS 1: Ç. Rizespor - Kasımpaşa
 - 28.11 11:15 beIN SPORTS 2: Ümraniyespor - Manisa FK
-- 28.11 12:30 beIN SPORTS 1: Ç. Rizespor - Kasımpaşa
+- 28.11 12:30 beIN SPORTS 1: C. Alanyaspor - T. Konyaspor
 - 28.11 13:30 TRT SPOR: Bandırma Spor - Batman P.
 - 28.11 13:30 beIN SPORTS 2: Bandırmaspor - Batman P.
 - 28.11 13:55 TRT SPOR YILDIZ: Halkbank - Fenerbahçe M.
+- 28.11 15:45 beIN SPORTS 2: Göztepe - Trabzonspor
 - 28.11 16:00 TRT SPOR: Van Spor - Bursaspor
 - 28.11 16:05 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıslavıa Prag - Vıllerreal
 - 28.11 18:10 tabii spor: Galatasaray - Aston Villa , Uefa Şampiyonlar Ligi Grup Maçları
@@ -101,6 +95,10 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 226 program
 - 28.11 19:00 beIN SPORTS 2: Muğlaspor - Mardin 1969
 - 28.11 20:15 tabii spor: Çska Sofya - Trabzonspor , Uefa Konferans Ligi Grup Maçları
 - 28.11 21:55 tabii spor: Beşiktaş - Hapoel Beerşeba , Uefa Avrupa Ligi Grup Maçları
+- 29.11 05:30 beIN SPORTS 4: Le Havre - Strasbourg
+- 29.11 07:45 beIN SPORTS 3: Leeds - Coventry
+- 29.11 09:00 beIN SPORTS 4: Nice - Troyes
+- 29.11 09:30 beIN SPORTS 2: Sivasspor - Bodrum FK
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 27.11 20:00 Alanyaspor - Konyaspor → beIN SPORTS 2
@@ -154,3 +152,6 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 226 program
 - 28.11 05:30 Portland Trail Blazers - Golden State Warriors → —
 - 29.11 01:00 Washington Wizards - Orlando Magic → —
 - 29.11 02:00 Charlotte Hornets - Brooklyn Nets → —
+- 29.11 04:00 Chicago Bulls - Indiana Pacers → —
+- 29.11 04:00 Milwaukee Bucks - Oklahoma City Thunder → —
+- 29.11 04:30 Houston Rockets - Philadelphia 76ers → S SPORT

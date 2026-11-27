@@ -1,6 +1,6 @@
-# Rapor 2026-11-27 08:09 UTC
+# Rapor 2026-11-27 18:10 UTC
 
-ESPN maç: 144 · EPG program: 672 · eşleşen maç: 76
+ESPN maç: 144 · EPG program: 650 · eşleşen maç: 77
 
 ## Çekim
 ```
@@ -16,53 +16,30 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 29, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 444 program
+ch_tvplus deneme 1: 9/9 kanal, 423 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 16 sayfa ok, 0 hata, 231 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 233 program
 ```
 
 ## Kanal başına program
 - S SPORT: 51
-- S SPORT 2: 48
-- SPORTS TV: 36
-- TRT 1: 33
-- TRT SPOR: 58
-- TRT SPOR YILDIZ: 132
+- S SPORT 2: 50
+- SPORTS TV: 35
+- TRT 1: 36
+- TRT SPOR: 48
+- TRT SPOR YILDIZ: 129
 - TV8: 32
-- TV8,5: 23
-- beIN SPORTS 1: 51
+- TV8,5: 16
+- beIN SPORTS 1: 52
 - beIN SPORTS 2: 57
-- beIN SPORTS 3: 52
+- beIN SPORTS 3: 53
 - beIN SPORTS 4: 71
-- tabii spor: 28
+- tabii spor: 20
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 27.11 08:45 beIN SPORTS 2: Batman P. - Muğlaspor
-- 27.11 08:45 beIN SPORTS 3: Liverpool - Man Utd
-- 27.11 08:45 beIN SPORTS 4: Marseille - Le Mans
-- 27.11 09:00 beIN SPORTS 1: Erzurumspor FK - Göztepe
-- 27.11 10:30 beIN SPORTS 2: E. Erokspor - Antalyaspor
-- 27.11 10:30 beIN SPORTS 3: Brentford - Everton
-- 27.11 10:45 beIN SPORTS 1: Amedspor - Ç. Rizespor
-- 27.11 11:05 TRT SPOR YILDIZ: İtalya - Türkiye
-- 27.11 12:05 tabii spor: Leipzig - Lens
-- 27.11 12:15 beIN SPORTS 2: Manisa FK - Pendikspor
-- 27.11 12:20 beIN SPORTS 3: Man City - Fulham
-- 27.11 14:00 beIN SPORTS 2: Bursaspor - Sivasspor
-- 27.11 14:01 beIN SPORTS 3: Chelsea - Leeds
-- 27.11 14:05 tabii spor: S. Bratislava - Real Betis
-- 27.11 15:00 beIN SPORTS 1: Gençlerbirliği - Gaziantep FK
-- 27.11 15:45 tabii spor: Sabah - Barcelona
-- 27.11 15:45 beIN SPORTS 2: Bodrum FK - Vanspor FK
-- 27.11 15:47 beIN SPORTS 3: Tottenham - Ipswich
-- 27.11 16:55 TRT SPOR YILDIZ: Beşiktaş - Raimond Sassari
-- 27.11 17:30 beIN SPORTS 2: Igdır FK - Ümraniyespor
-- 27.11 17:30 beIN SPORTS 3: Aston Villa - Sunderland
-- 27.11 18:00 beIN SPORTS 1: Alanyaspor - Konyaspor
-- 27.11 18:15 tabii spor: Shaktar Donetsk - Fenerbahçe
-- 27.11 18:30 beIN SPORTS 1: Rizespor - Kasımpaşa
+- 27.11 18:32 beIN SPORTS 1: Rizespor - Kasımpaşa
 - 27.11 19:15 beIN SPORTS 3: Bournemouth - Nott'm Forest
 - 27.11 19:55 tabii spor: Beşiktaş - Hapoel Beerşeba
 - 27.11 19:55 TRT SPOR YILDIZ: ÇBK Mersin - Baxi Ferrol
@@ -70,18 +47,23 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 231 program
 - 27.11 20:00 TRT SPOR: Ümraniyespor - Manisa
 - 27.11 20:30 S SPORT: Letonya - Almanya
 - 27.11 21:35 tabii spor: Çska Sofya - Trabzonspor
+- 27.11 23:40 TRT SPOR YILDIZ: İtalya - Türkiye
 - 28.11 01:00 S SPORT: Estonya - Fransa
 - 28.11 02:00 TRT SPOR: Sarıyer - İstanbulspor
 - 28.11 06:15 TRT SPOR YILDIZ: Türkiye Extreme Kupası - İstanbul
-- 28.11 06:30 beIN SPORTS 4: Monaco - Auxerre
+- 28.11 06:31 beIN SPORTS 4: Monaco - Auxerre
 - 28.11 07:15 TRT SPOR YILDIZ: Kapı Kulenin Anahtarı - Naim Süleymanoğlu
+- 28.11 07:45 beIN SPORTS 2: Batman P. - Muğlaspor
 - 28.11 08:00 beIN SPORTS 3: Hull City - Brighton
-- 28.11 08:15 beIN SPORTS 4: Lens - Toulouse
+- 28.11 08:19 beIN SPORTS 4: Lens - Toulouse
 - 28.11 09:00 beIN SPORTS 1: Kocaelispor - Fenerbahçe
 - 28.11 09:30 beIN SPORTS 2: Sarıyer - İstanbulspor
+- 28.11 09:45 TRT SPOR YILDIZ: Beşiktaş - Raimond Sassari
+- 28.11 09:45 beIN SPORTS 3: Liverpool - Man Utd
 - 28.11 10:00 beIN SPORTS 4: Lorient - Rennes
 - 28.11 10:45 beIN SPORTS 1: Ç. Rizespor - Kasımpaşa
 - 28.11 11:15 beIN SPORTS 2: Ümraniyespor - Manisa FK
+- 28.11 11:30 beIN SPORTS 3: Brentford - Everton
 - 28.11 12:30 beIN SPORTS 1: C. Alanyaspor - T. Konyaspor
 - 28.11 13:30 TRT SPOR: Bandırma Spor - Batman P.
 - 28.11 13:30 beIN SPORTS 2: Bandırmaspor - Batman P.
@@ -99,6 +81,15 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 231 program
 - 29.11 07:45 beIN SPORTS 3: Leeds - Coventry
 - 29.11 09:00 beIN SPORTS 4: Nice - Troyes
 - 29.11 09:30 beIN SPORTS 2: Sivasspor - Bodrum FK
+- 29.11 11:15 beIN SPORTS 2: Vanspor FK - Bursaspor
+- 29.11 13:30 TRT SPOR: Pendikspor - A.H. Iğdır
+- 29.11 13:30 beIN SPORTS 2: Pendikspor - Igdır FK
+- 29.11 13:55 TRT SPOR YILDIZ: Zeren Spor - Afyon B. Yüntaş
+- 29.11 16:00 beIN SPORTS 2: Antalyaspor - F. Karagümrük
+- 29.11 17:55 TRT SPOR YILDIZ: Eczacıbaşı - Galatasaray
+- 29.11 19:00 S SPORT 2: Türkiye - İzlanda
+- 29.11 19:00 TRT SPOR: Bursaspor - Sivasspor
+- 29.11 19:00 beIN SPORTS 2: A. Keçiörengücü - Kayserispor
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 27.11 20:00 Alanyaspor - Konyaspor → beIN SPORTS 2
@@ -139,6 +130,30 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 231 program
 - 28.11 18:30 Excelsior - Telstar → —
 - 28.11 20:45 PSV Eindhoven - Go Ahead Eagles → —
 - 28.11 23:00 SC Cambuur - Sparta Rotterdam → —
+- 29.11 13:30 Çorum FK - Kocaelispor → beIN SPORTS 1
+- 29.11 16:00 Eyupspor - Istanbul Basaksehir → beIN SPORTS 1
+- 29.11 19:00 Fenerbahce - Erzurum BB → beIN SPORTS 1
+- 29.11 15:00 Everton - Liverpool → beIN SPORTS 3
+- 29.11 17:05 Brighton & Hove Albion - Newcastle United → —
+- 29.11 17:05 Crystal Palace - Hull City → —
+- 29.11 17:05 Fulham - AFC Bournemouth → —
+- 29.11 17:05 Sunderland - Tottenham Hotspur → beIN SPORTS 3
+- 29.11 19:30 Arsenal - Manchester City → beIN SPORTS 3
+- 29.11 16:00 Valencia - Osasuna → S SPORT
+- 29.11 18:15 Deportivo - Barcelona → S SPORT
+- 29.11 20:30 Celta Vigo - Villarreal → S SPORT
+- 29.11 14:30 Udinese - Fiorentina → S SPORT 2
+- 29.11 17:00 Sassuolo - Napoli → S SPORT 2
+- 29.11 20:00 AS Roma - Monza → —
+- 29.11 17:30 SC Freiburg - RB Leipzig → —
+- 29.11 19:30 TSG Hoffenheim - FC Augsburg → —
+- 29.11 17:00 AJ Auxerre - Marseille → —
+- 29.11 19:15 Toulouse - Stade Rennais → —
+- 29.11 21:00 Gil Vicente - Estoril → —
+- 29.11 14:15 ADO Den Haag - FC Utrecht → —
+- 29.11 16:30 Feyenoord Rotterdam - Ajax Amsterdam → —
+- 29.11 16:30 Fortuna Sittard - Heerenveen → —
+- 29.11 18:45 PEC Zwolle - AZ Alkmaar → —
 - 28.11 03:00 New York Knicks - Miami Heat → —
 - 28.11 03:30 Detroit Pistons - Milwaukee Bucks → —
 - 28.11 03:30 Indiana Pacers - Philadelphia 76ers → —

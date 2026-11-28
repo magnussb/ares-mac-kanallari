@@ -1,6 +1,6 @@
-# Rapor 2026-11-28 01:54 UTC
+# Rapor 2026-11-28 10:13 UTC
 
-ESPN maç: 117 · EPG program: 677 · eşleşen maç: 43
+ESPN maç: 117 · EPG program: 650 · eşleşen maç: 43
 
 ## Çekim
 ```
@@ -16,41 +16,29 @@ ch_dsmart deneme 3: 0/2 kanal, 0 program
 [info]     ERR: Request failed with status code 403
 [info]   [6/6] dsmart.com.tr (tr) - SporSmart2.tr - Nov 30, 2026 (0 programs)
 [info]     ERR: Request failed with status code 403
-ch_tvplus deneme 1: 9/9 kanal, 462 program
+ch_tvplus deneme 1: 9/9 kanal, 429 program
 https://www.digiturk.com.tr/ -> 403
 https://izmaottvsc14.tvplus.com.tr:33207/EPG/JSON/Authenticate -> 404
 https://www.dsmart.com.tr/ -> 403
-beIN: 4 kanal, 16 sayfa ok, 0 hata, 217 program
+beIN: 4 kanal, 16 sayfa ok, 0 hata, 224 program
 ```
 
 ## Kanal başına program
-- S SPORT: 54
-- S SPORT 2: 49
-- SPORTS TV: 36
-- TRT 1: 41
-- TRT SPOR: 43
-- TRT SPOR YILDIZ: 125
-- TV8: 40
-- TV8,5: 42
+- S SPORT: 47
+- S SPORT 2: 45
+- SPORTS TV: 42
+- TRT 1: 40
+- TRT SPOR: 36
+- TRT SPOR YILDIZ: 111
+- TV8: 39
+- TV8,5: 41
 - beIN SPORTS 1: 51
-- beIN SPORTS 2: 54
+- beIN SPORTS 2: 58
 - beIN SPORTS 3: 50
-- beIN SPORTS 4: 62
-- tabii spor: 30
+- beIN SPORTS 4: 65
+- tabii spor: 25
 
 ## Eşleşmeyen, maç gibi görünen yayınlar (önümüzdeki 48 saat)
-- 28.11 03:45 TRT SPOR: Ümraniyespor - Manisa
-- 28.11 05:03 beIN SPORTS 4: Lille - Lyon
-- 28.11 06:15 TRT SPOR YILDIZ: Türkiye Extreme Kupası - İstanbul
-- 28.11 06:46 beIN SPORTS 4: Monaco - Auxerre
-- 28.11 07:15 TRT SPOR YILDIZ: Kapı Kulenin Anahtarı - Naim Süleymanoğlu
-- 28.11 07:45 beIN SPORTS 2: Batman P. - Muğlaspor
-- 28.11 08:00 beIN SPORTS 3: Hull City - Brighton
-- 28.11 08:34 beIN SPORTS 4: Lens - Toulouse
-- 28.11 09:00 beIN SPORTS 1: Kocaelispor - Fenerbahçe
-- 28.11 09:30 beIN SPORTS 2: Sarıyer - İstanbulspor
-- 28.11 09:45 TRT SPOR YILDIZ: Beşiktaş - Raimond Sassari
-- 28.11 09:45 beIN SPORTS 3: Liverpool - Man Utd
 - 28.11 10:15 beIN SPORTS 4: Lorient - Rennes
 - 28.11 10:45 beIN SPORTS 1: Ç. Rizespor - Kasımpaşa
 - 28.11 11:15 beIN SPORTS 2: Ümraniyespor - Manisa FK
@@ -64,6 +52,7 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 217 program
 - 28.11 15:45 beIN SPORTS 2: Göztepe - Trabzonspor
 - 28.11 16:00 TRT SPOR: Van Spor - Bursaspor
 - 28.11 16:05 tabii spor: Slavia Prag - Villerreal
+- 28.11 16:55 TRT SPOR YILDIZ: Beşiktaş - Raimond Sassari
 - 28.11 18:10 tabii spor: Galatasaray - Aston Villa
 - 28.11 18:55 TRT SPOR YILDIZ: Spor Toto - Ziraat Bankkart
 - 28.11 19:00 TRT SPOR: Muğlaspor - Mardin 1969 S:
@@ -71,10 +60,11 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 217 program
 - 28.11 20:15 tabii spor: Çska Sofya - Trabzonspor
 - 28.11 21:55 tabii spor: Beşiktaş - Hapoel Beerşeba
 - 28.11 22:30 TRT SPOR YILDIZ: ÇBK Mersin - Baxi Ferrol
-- 29.11 05:30 beIN SPORTS 4: Le Havre - Strasbourg
+- 29.11 02:15 TRT SPOR YILDIZ: Kapı Kulenin Anahtarı - Naim Süleymanoğlu
 - 29.11 07:45 beIN SPORTS 3: Leeds - Coventry
-- 29.11 09:00 beIN SPORTS 4: Nice - Troyes
+- 29.11 08:00 beIN SPORTS 4: Nice - Troyes
 - 29.11 09:30 beIN SPORTS 2: Sivasspor - Bodrum FK
+- 29.11 09:45 beIN SPORTS 4: Le Havre - Strasbourg
 - 29.11 11:15 beIN SPORTS 2: Vanspor FK - Bursaspor
 - 29.11 12:30 tabii spor: Uefa Şampiyonlar Ligi Futbol Karşılaşmasıınter - Stuttgart
 - 29.11 13:30 TRT SPOR: Pendikspor - A.H. Iğdır
@@ -93,6 +83,7 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 217 program
 - 29.11 22:20 tabii spor: Galatasaray - Aston Villa , Uefa Şampiyonlar Ligi Grup Maçları
 - 30.11 01:55 TRT SPOR YILDIZ: Raimond Sassari - Beşiktaş
 - 30.11 02:00 TRT SPOR: Keçiörengücü - Kayserispor
+- 30.11 09:45 TRT SPOR YILDIZ: Türkiye - İzlanda
 
 ## ESPN maçları (önümüzdeki 48 saat)
 - 28.11 16:00 Samsunspor - Genclerbirligi → beIN SPORTS 1
@@ -154,17 +145,6 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 217 program
 - 29.11 16:30 Fortuna Sittard - Heerenveen → —
 - 29.11 18:45 PEC Zwolle - AZ Alkmaar → —
 - 29.11 22:00 NEC Nijmegen - FC Twente → —
-- 28.11 03:00 New York Knicks - Miami Heat → —
-- 28.11 03:30 Detroit Pistons - Milwaukee Bucks → —
-- 28.11 03:30 Indiana Pacers - Philadelphia 76ers → —
-- 28.11 03:30 Toronto Raptors - Brooklyn Nets → —
-- 28.11 04:00 Boston Celtics - Atlanta Hawks → —
-- 28.11 04:30 Minnesota Timberwolves - Memphis Grizzlies → —
-- 28.11 05:00 Phoenix Suns - Dallas Mavericks → —
-- 28.11 05:30 San Antonio Spurs - Los Angeles Lakers → —
-- 28.11 05:30 Utah Jazz - Denver Nuggets → —
-- 28.11 05:30 LA Clippers - New Orleans Pelicans → —
-- 28.11 05:30 Portland Trail Blazers - Golden State Warriors → —
 - 29.11 01:00 Washington Wizards - Orlando Magic → —
 - 29.11 02:00 Charlotte Hornets - Brooklyn Nets → —
 - 29.11 04:00 Chicago Bulls - Indiana Pacers → —
@@ -179,3 +159,4 @@ beIN: 4 kanal, 16 sayfa ok, 0 hata, 217 program
 - 30.11 02:00 Toronto Raptors - Denver Nuggets → —
 - 30.11 02:00 Portland Trail Blazers - New Orleans Pelicans → —
 - 30.11 04:30 Golden State Warriors - LA Clippers → —
+- 30.11 05:00 Sacramento Kings - Minnesota Timberwolves → —
